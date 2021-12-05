@@ -1,0 +1,28 @@
+language: node_js
+node_js: "14"
+
+
+python: "3.8"      
+
+os: 
+  - windows  
+
+cache:
+  npm: true
+  yarn: true
+  pip: true
+  dart: true
+  flutter: true
+  directories:
+    - $HOME/.pub-cache
+    - node_modules
+    - flutter  
+
+notifications:
+  email:
+  - amarildo_51@msn.com  
+
+before_install:
+
+
+scrits:
