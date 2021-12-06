@@ -1,16 +1,13 @@
 FROM gitpod/workspace-full:latest
 
+USER root
+# Install custom tools, runtime, etc.
+RUN apt-get update && apt-get install -y \       
+    && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
+
 USER gitpod
+# Apply user-specific settings
+ENV 
 
-# Install .NET SDK (Current channel)
-# Source: https://docs.microsoft.com/dotnet/core/install/linux-scripted-manual#scripted-install
-RUN mkdir -p /home/gitpod/dotnet && curl -fsSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel Current --install-dir /home/gitpod/dotnet
-RUN sudo apt update -y
-RUN sudo apt install wine32 -y
-
-
-
-
-ENV DOTNET_ROOT=/home/gitpod/dotnet
-ENV PATH=$PATH:/home/gitpod/dotnet
-
+# Give back control
+USER root
