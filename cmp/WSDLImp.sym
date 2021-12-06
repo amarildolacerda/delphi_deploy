@@ -1,0 +1,10 @@
+[Pascal:Reserved]
+Application=Application_
+System=System_
+
+[C++:Reserved]
+IN=In
+DELETE=DELETE_
+
+[NoRename]
+ID

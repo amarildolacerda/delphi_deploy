@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="">
+  <PropertyGroup>
+    <Profile_platform>Linux64</Profile_platform>
+    <Profile_host>localhost</Profile_host>
+    <Profile_port>64211</Profile_port>
+    <Profile_sysroot>$(BDSPLATFORMSDKSDIR)\rhel7.2.sdk</Profile_sysroot>    
+    <Profile_startupobj>crt1.o;crti.o;crtbegin.o</Profile_startupobj>
+    <Profile_endcodeobj>crtend.o;crtn.o</Profile_endcodeobj>
+    <Profile_startupobjS>crti.o;crtbeginS.o</Profile_startupobjS>
+    <Profile_endcodeobjS>crtendS.o;crtn.o</Profile_endcodeobjS>
+    <Profile_password>AB1401D23AF8F3C66832CE6040E1FA2D</Profile_password>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProfileInclude Include="$(SDKROOT)/usr/include">
+      <FileMask>*</FileMask>
+      <SubDirs>True</SubDirs>
+    </ProfileInclude>
+    <ProfileInclude Include="$(SDKROOT)/usr/include/c++/$(GCCVERSION)">
+      <FileMask>*</FileMask>
+      <SubDirs>True</SubDirs>
+    </ProfileInclude>
+    <ProfileInclude Include="$(SDKROOT)/usr/include/c++/$(GCCVERSION)/x86_64-redhat-linux">
+      <FileMask>*</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileInclude>
+    <ProfileInclude Include="$(SDKROOT)/usr/lib/gcc/x86_64-redhat-linux/$(GCCVERSION)/Include">
+      <FileMask>*</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileInclude>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/gcc/x86_64-redhat-linux/$(GCCVERSION)">
+      <FileMask>*</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib64">
+      <FileMask>*</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/lib64">
+      <FileMask>*</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+
+  </ItemGroup>
+</Project>

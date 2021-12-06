@@ -1,0 +1,86 @@
+<SettingData>		
+		
+	<Product Name='Delphi 7' 		Version='7.0'  RegKey='Software\Borland\Delphi\7.0'/> 	
+	<Product Name='Delphi 8' 		Version='8.0'  RegKey='Software\Borland\Delphi\8.0'/> 	
+	<Product Name='Delphi 2005' 	Version='9.0'  RegKey='Software\Borland\Delphi\9.0'/> 	
+	<Product Name='BDS 2006' 		Version='10.0' RegKey='Software\Borland\BDS\10.0'/> 		
+	<Product Name='RAD Studio 2007' Version='11.0' RegKey='Software\Borland\BDS\5.0'/> 		
+	<Product Name='RAD Studio 2009' Version='12.0' RegKey='Software\Borland\DBD\7.0'/> 		
+	<Product Name='RAD Studio 2010' Version='14.0' RegKey='Software\CodeGear\BDS\7.0'/>	
+	<Product Name='RAD Studio XE'   Version='15.0' RegKey='Software\Embarcadero\BDS\8.0'/>	
+	<Product Name='RAD Studio XE2'  Version='16.0' RegKey='Software\Embarcadero\BDS\9.0'/>	
+	<Product Name='RAD Studio XE3'  Version='17.0' RegKey='Software\Embarcadero\BDS\10.0'/> 	
+	<Product Name='RAD Studio XE4'  Version='18.0' RegKey='Software\Embarcadero\BDS\11.0'/>	
+	<Product Name='RAD Studio XE5'  Version='19.0' RegKey='Software\Embarcadero\BDS\12.0'/>	
+	<Product Name='RAD Studio XE6'  Version='20.0' RegKey='Software\Embarcadero\BDS\14.0'/>	
+	<Product Name='RAD Studio XE7'  Version='21.0' RegKey='Software\Embarcadero\BDS\15.0'/>	
+	<Product Name='RAD Studio XE8'  Version='22.0' RegKey='Software\Embarcadero\BDS\16.0'/>	
+	<Product Name='RAD Studio 10 Seattle'  Version='23.0' RegKey='Software\Embarcadero\BDS\17.0'/>
+    <Product Name='RAD Studio 10.1 Berlin' Version='24.0' RegKey='Software\Embarcadero\BDS\18.0'/>
+	<Product Name='RAD Studio 10.2' Version='25.0' RegKey='Software\Embarcadero\BDS\19.0'/>
+	<!-- 
+	We use The <Description> tag to relate a description and a friendly name with a setting. 
+		- Name: The key name in the registry.
+		- FriendlyName: The friendly name to be shown in the selection settings page in the Migration Tool. 
+		- Value: The description to be shown in the bottom in the selection settings page in the Migration Tool when the setting has been selected.
+	Example: 
+		<Description Name="Auto Save" FriendlyName="Auto Save options" Value="Manages the Autosave for the editor files and the project desktop"/>	
+	-->	
+	
+	<!-- Group Rules -->	
+	<GroupRule KeyName="DBExpress" DescriptionRef="">				
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>				
+	</GroupRule>
+	<GroupRule KeyName="Personalities" DescriptionRef="">				
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>				
+	</GroupRule>	
+	<GroupRule KeyName="ToolForm\Mapping" DescriptionRef="">				
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>				
+	</GroupRule>	
+	<GroupRule KeyName="Palette" DescriptionRef="">				
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>				
+	</GroupRule>	
+	<GroupRule KeyName="Debugging\Embarcadero Debuggers\Evaluators" DescriptionRef="">				
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>				
+	</GroupRule>	
+	<GroupRule KeyName="Known Appmethod Packages" DescriptionRef="">				
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>				
+	</GroupRule>	
+	<GroupRule KeyName="Known IDE Packages" DescriptionRef="">				
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>				
+	</GroupRule>	
+	<GroupRule KeyName="Known Packages" DescriptionRef="">				
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>				
+	</GroupRule>	
+	<GroupRule KeyName="Package Cache" DescriptionRef="">				
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>				
+	</GroupRule>	
+	<GroupRule KeyName="Library" DescriptionRef="">				
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="False" ActionType="path"/>				
+	</GroupRule>	
+	<GroupRule KeyName="CatalogRepository" DescriptionRef="">				
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>				
+	</GroupRule>	
+	
+	<!-- Setting Rules -->
+	<SettingRule KeyName="AutoRun\UpdateCheck" Name="ProgramToRun">    
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>
+	</SettingRule> 		
+	<SettingRule KeyName="Editor\Source Options\Borland.EditOptions.Pascal" Name="File Extensions">    
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>
+	</SettingRule>
+	<SettingRule KeyName="Globals" Name="InstalledDemosDir">    
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>
+	</SettingRule>	
+	<SettingRule KeyName="Transfer" Name="Title0">    
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>
+	</SettingRule>
+	<SettingRule KeyName="Transfer" Name="Path0">    
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>
+	</SettingRule>
+	<SettingRule KeyName="Transfer" Name="WorkingDir0">    
+		<Rule FromVersion="" ToVersion="" Value="" Excluded="True"/>
+	</SettingRule>
+	
+	
+</SettingData>

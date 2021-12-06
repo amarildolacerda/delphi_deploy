@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="">
+  <PropertyGroup>
+    <Profile_platform>iOSDevice</Profile_platform>
+    <Profile_host>localhost</Profile_host>
+    <Profile_port>64211</Profile_port>
+    <Profile_sysroot>$(BDSPLATFORMSDKSDIR)\iOSDevice\8.0</Profile_sysroot>
+    <Profile_password>AB1401D23AF8F3C66832CE6040E1FA2D</Profile_password>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProfileInclude Include="$(SDKROOT)/usr/include">
+      <FileMask>*</FileMask>
+      <SubDirs>True</SubDirs>
+    </ProfileInclude>
+    <ProfileInclude Include="$(SDKROOT)/../../../../../Toolchains/XcodeDefault.xctoolchain/usr/include/c++">
+      <FileMask>*</FileMask>
+      <SubDirs>True</SubDirs>
+      <DestDir>/usr/include/c++</DestDir>
+    </ProfileInclude>
+    <ProfileInclude Include="$(SDKROOT)/../../../../../Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.0">
+      <FileMask>*</FileMask>
+      <SubDirs>True</SubDirs>
+      <DestDir>/usr/lib/clang</DestDir>
+    </ProfileInclude>
+    <ProfileInclude Include="$(SDKROOT)/../../../../../Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0">
+      <FileMask>*</FileMask>
+      <SubDirs>True</SubDirs>
+      <DestDir>/usr/lib/clang</DestDir>
+    </ProfileInclude>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib">
+      <FileMask>crt1.3.1.o</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib">
+      <FileMask>libc++abi.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib">
+      <FileMask>libc++.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib">
+      <FileMask>libstdc++.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib">
+      <FileMask>libiconv.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib">
+      <FileMask>libextension.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib">
+      <FileMask>libobjc.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib">
+      <FileMask>libobjc.A.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>    
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib">
+      <FileMask>libsqlite3.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib">
+      <FileMask>libSystem.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib">
+      <FileMask>libSystem.B.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>    
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib">
+      <FileMask>libz.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libcache.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libcommonCrypto.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libcompiler_rt.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libcopyfile.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libcorecrypto.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libdispatch.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libdyld.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libkeymgr.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>liblaunch.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libmacho.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>            
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libremovefile.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_asl.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_blocks.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_c.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_configuration.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_coreservices.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_coretls.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_dnssd.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_info.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_kernel.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_m.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_malloc.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_network.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_networkextension.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_notify.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_platform.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_pthread.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_sandbox.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>    
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_stats.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_trace.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libunwind.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libxpc.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileLibrary Include="$(SDKROOT)/usr/lib/system">
+      <FileMask>libsystem_m.dylib</FileMask>
+      <SubDirs>False</SubDirs>
+    </ProfileLibrary>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>Accelerate</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>AssetsLibrary</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>AVFoundation</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>CFNetwork</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>CoreFoundation</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>CoreGraphics</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>CoreImage</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>CoreLocation</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>CoreMedia</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>CoreText</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>CoreVideo</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>Foundation</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>GLKit</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+	<ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>iAd</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+	<ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>MapKit</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>MediaPlayer</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>OpenGLES</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>QuartzCore</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>Security</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>StoreKit</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/PrivateFrameworks">
+      <Name>UIFoundation</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+    <ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>UIKit</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+	<ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>MobileCoreServices</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>
+	<ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>AddressBook</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>	
+	<ProfileFramework Include="$(SDKROOT)/System/Library/Frameworks">
+      <Name>AddressBookUI</Name>
+      <AllFiles>False</AllFiles>
+    </ProfileFramework>	    	
+  </ItemGroup>
+</Project>
