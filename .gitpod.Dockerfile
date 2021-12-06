@@ -1,3 +1,2 @@
-FROM mcr.microsoft.com/windows/servercore:ltsc2022
-
+FROM mcr.microsoft.com/windows/nanoserver
 USER gitpod
