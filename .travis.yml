@@ -23,5 +23,5 @@ notifications:
 before_install:
  
 scrits:
-   - cd example
+   - cd exemple
    - ../cmp/dcc32 project1
