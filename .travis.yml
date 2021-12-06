@@ -1,6 +1,5 @@
 language: node-js
 node-js: "14"
-   
 
 os: 
   - windows
