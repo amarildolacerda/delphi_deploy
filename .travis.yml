@@ -1,11 +1,9 @@
-language: phyton
-python: "3.8"
-
-
-python: "3.8"      
+language: node-js
+node-js: "14"
+   
 
 os: 
-  - linux
+  - windows
 
 cache:
   npm: true
@@ -23,7 +21,7 @@ notifications:
   - amarildo_51@msn.com  
 
 before_install:
-  - sudo apt update -y
-  - sudo apt install wine32 -y
-
+ 
 scrits:
+   - cd example
+   - ../cmp/dcc32 project1
