@@ -4,7 +4,7 @@ USER root
 # Install custom tools, runtime, etc.
 RUN dpkg --add-architecture i386 
 RUN apt-get update --fix-missing 
-RUN apt-get list --upgradable
+#RUN apt-get list --upgradable
 RUN apt-get install -y  
 RUN apt-get install wine32
 
