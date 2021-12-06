@@ -1,11 +1,11 @@
-language: node-js
-node-js: "14"
+language: phyton
+python: "3.8"
 
 
 python: "3.8"      
 
 os: 
-  - windows  
+  - linux
 
 cache:
   npm: true
