@@ -1,5 +1,5 @@
-language: node_js
-node_js: "14"
+language: python
+python: "3.8"
 
 
 python: "3.8"      
@@ -23,6 +23,7 @@ notifications:
   - amarildo_51@msn.com  
 
 before_install:
-
+  - sudo apt update -y
+  - sudo apt install wine32 -y
 
 scrits:
