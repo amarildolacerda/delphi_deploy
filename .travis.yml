@@ -25,6 +25,4 @@ before_install:
 scrits:
    - cd exemple
    - dir
-   - set path=%path%;%home%\cmp
-   - echo %path%
-   - ..\\cmp\\dcc32 project1
+   - call compilar
