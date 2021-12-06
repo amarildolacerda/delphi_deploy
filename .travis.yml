@@ -24,4 +24,4 @@ before_install:
  
 scrits:
    - cd exemple
-   - ..\cmp\dcc32 project1
+   - ..\\cmp\\dcc32 project1
