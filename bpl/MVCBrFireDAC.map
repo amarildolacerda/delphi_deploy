@@ -1,0 +1,3326 @@
+
+ Start         Length     Name                   Class
+ 0001:00401000 000234ECH .text                   CODE
+ 0002:00425000 000004B8H .itext                  ICODE
+ 0003:00426000 000003E8H .data                   DATA
+ 0004:00427000 000001ECH .bss                    BSS
+ 0005:00000000 00000000H .tls                    TLS
+ 0006:00400000 00000000H .pdata                  PDATA
+
+
+Detailed map of segments
+
+ 0001:00000000 00000340 C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:00000340 00000CF0 C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:00001030 00000074 C=CODE     S=.text    G=(none)   M=Winapi.Windows ACBP=A9
+ 0001:000010A4 00000024 C=CODE     S=.text    G=(none)   M=Winapi.PsAPI ACBP=A9
+ 0001:000010C8 00000008 C=CODE     S=.text    G=(none)   M=System.Character ACBP=A9
+ 0001:000010D0 00000008 C=CODE     S=.text    G=(none)   M=System.Internal.ExcUtils ACBP=A9
+ 0001:000010D8 00000110 C=CODE     S=.text    G=(none)   M=System.SysUtils ACBP=A9
+ 0001:000011E8 00000008 C=CODE     S=.text    G=(none)   M=System.VarUtils ACBP=A9
+ 0001:000011F0 00000150 C=CODE     S=.text    G=(none)   M=System.Variants ACBP=A9
+ 0001:00001340 000000F4 C=CODE     S=.text    G=(none)   M=Winapi.ActiveX ACBP=A9
+ 0001:00001434 00000020 C=CODE     S=.text    G=(none)   M=System.Rtti ACBP=A9
+ 0001:00001454 00000008 C=CODE     S=.text    G=(none)   M=System.TypInfo ACBP=A9
+ 0001:0000145C 00000008 C=CODE     S=.text    G=(none)   M=System.Math ACBP=A9
+ 0001:00001464 00000010 C=CODE     S=.text    G=(none)   M=System.Generics.Defaults ACBP=A9
+ 0001:00001474 00000128 C=CODE     S=.text    G=(none)   M=System.Classes ACBP=A9
+ 0001:0000159C 00000008 C=CODE     S=.text    G=(none)   M=System.TimeSpan ACBP=A9
+ 0001:000015A4 00000010 C=CODE     S=.text    G=(none)   M=System.DateUtils ACBP=A9
+ 0001:000015B4 00000008 C=CODE     S=.text    G=(none)   M=Data.SqlTimSt ACBP=A9
+ 0001:000015BC 00000008 C=CODE     S=.text    G=(none)   M=Data.FmtBcd ACBP=A9
+ 0001:000015C4 00000310 C=CODE     S=.text    G=(none)   M=Data.DB  ACBP=A9
+ 0001:000018D4 00000098 C=CODE     S=.text    G=(none)   M=System.JSON ACBP=A9
+ 0001:0000196C 00000008 C=CODE     S=.text    G=(none)   M=System.Actions ACBP=A9
+ 0001:00001974 00000008 C=CODE     S=.text    G=(none)   M=System.IOUtils ACBP=A9
+ 0001:0000197C 00000008 C=CODE     S=.text    G=(none)   M=System.Win.Registry ACBP=A9
+ 0001:00001984 00000010 C=CODE     S=.text    G=(none)   M=Vcl.Graphics ACBP=A9
+ 0001:00001994 00000020 C=CODE     S=.text    G=(none)   M=System.SyncObjs ACBP=A9
+ 0001:000019B4 00000008 C=CODE     S=.text    G=(none)   M=Winapi.UxTheme ACBP=A9
+ 0001:000019BC 00000008 C=CODE     S=.text    G=(none)   M=Vcl.ActnList ACBP=A9
+ 0001:000019C4 00000008 C=CODE     S=.text    G=(none)   M=System.AnsiStrings ACBP=A9
+ 0001:000019CC 00000018 C=CODE     S=.text    G=(none)   M=System.Win.ComObj ACBP=A9
+ 0001:000019E4 00000068 C=CODE     S=.text    G=(none)   M=Winapi.MsCTF ACBP=A9
+ 0001:00001A4C 00000008 C=CODE     S=.text    G=(none)   M=Vcl.GraphUtil ACBP=A9
+ 0001:00001A54 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Controls ACBP=A9
+ 0001:00001A5C 00000090 C=CODE     S=.text    G=(none)   M=Vcl.StdCtrls ACBP=A9
+ 0001:00001AEC 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Printers ACBP=A9
+ 0001:00001AF4 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Clipbrd ACBP=A9
+ 0001:00001AFC 000000C8 C=CODE     S=.text    G=(none)   M=Vcl.ComCtrls ACBP=A9
+ 0001:00001BC4 00000008 C=CODE     S=.text    G=(none)   M=System.HelpIntfs ACBP=A9
+ 0001:00001BCC 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Dialogs ACBP=A9
+ 0001:00001BD4 00000028 C=CODE     S=.text    G=(none)   M=Vcl.ExtCtrls ACBP=A9
+ 0001:00001BFC 00000010 C=CODE     S=.text    G=(none)   M=Vcl.Themes ACBP=A9
+ 0001:00001C0C 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Menus ACBP=A9
+ 0001:00001C14 00000008 C=CODE     S=.text    G=(none)   M=Winapi.FlatSB ACBP=A9
+ 0001:00001C1C 00000020 C=CODE     S=.text    G=(none)   M=Vcl.Forms ACBP=A9
+ 0001:00001C3C 00000038 C=CODE     S=.text    G=(none)   M=MVCBr.Factory ACBP=A9
+ 0001:00001C74 00000010 C=CODE     S=.text    G=(none)   M=MVCBr.ApplicationController ACBP=A9
+ 0001:00001C84 00000010 C=CODE     S=.text    G=(none)   M=MVCBr.IoC ACBP=A9
+ 0001:00001C94 00000008 C=CODE     S=.text    G=(none)   M=MVCBr.Observable ACBP=A9
+ 0001:00001C9C 00000058 C=CODE     S=.text    G=(none)   M=MVCBr.Interf ACBP=A9
+ 0001:00001CF4 00000088 C=CODE     S=.text    G=(none)   M=MVCBr.Model ACBP=A9
+ 0001:00001D7C 00000ED8 C=CODE     S=.text    G=(none)   M=simpleSock ACBP=A9
+ 0001:00002C54 00006FE4 C=CODE     S=.text    G=(none)   M=jsonDoc  ACBP=A9
+ 0001:00009C38 000048C8 C=CODE     S=.text    G=(none)   M=bsonDoc  ACBP=A9
+ 0001:0000E500 000040B0 C=CODE     S=.text    G=(none)   M=bsonTools ACBP=A9
+ 0001:000125B0 00000008 C=CODE     S=.text    G=(none)   M=Winapi.WinSock ACBP=A9
+ 0001:000125B8 00003C10 C=CODE     S=.text    G=(none)   M=mongoWire ACBP=A9
+ 0001:000161C8 00001F64 C=CODE     S=.text    G=(none)   M=mongoAuth3 ACBP=A9
+ 0001:0001812C 0000287C C=CODE     S=.text    G=(none)   M=bsonUtils ACBP=A9
+ 0001:0001A9A8 00000030 C=CODE     S=.text    G=(none)   M=System.Threading ACBP=A9
+ 0001:0001A9D8 00000008 C=CODE     S=.text    G=(none)   M=System.Json.Helper ACBP=A9
+ 0001:0001A9E0 00000008 C=CODE     S=.text    G=(none)   M=System.NetEncoding ACBP=A9
+ 0001:0001A9E8 00000010 C=CODE     S=.text    G=(none)   M=Data.DB.Helper ACBP=A9
+ 0001:0001A9F8 00005854 C=CODE     S=.text    G=(none)   M=MVCBr.MongoModel ACBP=A9
+ 0001:0002024C 00000008 C=CODE     S=.text    G=(none)   M=FireDAC.Stan.Error ACBP=A9
+ 0001:00020254 00000008 C=CODE     S=.text    G=(none)   M=FireDAC.Stan.Util ACBP=A9
+ 0001:0002025C 00000008 C=CODE     S=.text    G=(none)   M=FireDAC.Stan.Intf ACBP=A9
+ 0001:00020264 00000008 C=CODE     S=.text    G=(none)   M=FireDAC.Stan.SQLTimeInt ACBP=A9
+ 0001:0002026C 00000008 C=CODE     S=.text    G=(none)   M=FireDAC.Stan.Param ACBP=A9
+ 0001:00020274 00000008 C=CODE     S=.text    G=(none)   M=FireDAC.UI.Intf ACBP=A9
+ 0001:0002027C 00000008 C=CODE     S=.text    G=(none)   M=FireDAC.Stan.Factory ACBP=A9
+ 0001:00020284 00000008 C=CODE     S=.text    G=(none)   M=FireDAC.Stan.Option ACBP=A9
+ 0001:0002028C 00000008 C=CODE     S=.text    G=(none)   M=FireDAC.DatS ACBP=A9
+ 0001:00020294 00000428 C=CODE     S=.text    G=(none)   M=FireDAC.Comp.DataSet ACBP=A9
+ 0001:000206BC 00000008 C=CODE     S=.text    G=(none)   M=FireDAC.Stan.Expr ACBP=A9
+ 0001:000206C4 000001E8 C=CODE     S=.text    G=(none)   M=FireDAC.Comp.Client ACBP=A9
+ 0001:000208AC 00002300 C=CODE     S=.text    G=(none)   M=MVCBr.FDMongoDB ACBP=A9
+ 0001:00022BAC 00000940 C=CODE     S=.text    G=(none)   M=.MVCBrFireDAC ACBP=A9
+ 0002:00000000 00000008 C=ICODE    S=.itext   G=(none)   M=System   ACBP=A9
+ 0002:00000008 00000008 C=ICODE    S=.itext   G=(none)   M=SysInit  ACBP=A9
+ 0002:00000010 00000018 C=ICODE    S=.itext   G=(none)   M=Winapi.Windows ACBP=A9
+ 0002:00000028 00000008 C=ICODE    S=.itext   G=(none)   M=Winapi.PsAPI ACBP=A9
+ 0002:00000030 00000008 C=ICODE    S=.itext   G=(none)   M=System.Character ACBP=A9
+ 0002:00000038 00000008 C=ICODE    S=.itext   G=(none)   M=System.Internal.ExcUtils ACBP=A9
+ 0002:00000040 00000028 C=ICODE    S=.itext   G=(none)   M=System.SysUtils ACBP=A9
+ 0002:00000068 00000008 C=ICODE    S=.itext   G=(none)   M=System.VarUtils ACBP=A9
+ 0002:00000070 00000008 C=ICODE    S=.itext   G=(none)   M=System.Variants ACBP=A9
+ 0002:00000078 00000010 C=ICODE    S=.itext   G=(none)   M=System.Rtti ACBP=A9
+ 0002:00000088 00000008 C=ICODE    S=.itext   G=(none)   M=System.TypInfo ACBP=A9
+ 0002:00000090 00000008 C=ICODE    S=.itext   G=(none)   M=System.Math ACBP=A9
+ 0002:00000098 00000010 C=ICODE    S=.itext   G=(none)   M=System.Generics.Defaults ACBP=A9
+ 0002:000000A8 00000038 C=ICODE    S=.itext   G=(none)   M=System.Classes ACBP=A9
+ 0002:000000E0 00000008 C=ICODE    S=.itext   G=(none)   M=System.TimeSpan ACBP=A9
+ 0002:000000E8 00000010 C=ICODE    S=.itext   G=(none)   M=System.DateUtils ACBP=A9
+ 0002:000000F8 00000008 C=ICODE    S=.itext   G=(none)   M=Data.SqlTimSt ACBP=A9
+ 0002:00000100 00000008 C=ICODE    S=.itext   G=(none)   M=Data.FmtBcd ACBP=A9
+ 0002:00000108 00000008 C=ICODE    S=.itext   G=(none)   M=Data.DB  ACBP=A9
+ 0002:00000110 00000008 C=ICODE    S=.itext   G=(none)   M=System.JSON ACBP=A9
+ 0002:00000118 00000008 C=ICODE    S=.itext   G=(none)   M=System.Actions ACBP=A9
+ 0002:00000120 00000008 C=ICODE    S=.itext   G=(none)   M=System.IOUtils ACBP=A9
+ 0002:00000128 00000008 C=ICODE    S=.itext   G=(none)   M=System.Win.Registry ACBP=A9
+ 0002:00000130 00000010 C=ICODE    S=.itext   G=(none)   M=Vcl.Graphics ACBP=A9
+ 0002:00000140 00000008 C=ICODE    S=.itext   G=(none)   M=System.SyncObjs ACBP=A9
+ 0002:00000148 00000008 C=ICODE    S=.itext   G=(none)   M=Winapi.UxTheme ACBP=A9
+ 0002:00000150 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.ActnList ACBP=A9
+ 0002:00000158 00000008 C=ICODE    S=.itext   G=(none)   M=System.AnsiStrings ACBP=A9
+ 0002:00000160 00000010 C=ICODE    S=.itext   G=(none)   M=System.Win.ComObj ACBP=A9
+ 0002:00000170 00000010 C=ICODE    S=.itext   G=(none)   M=Winapi.MsCTF ACBP=A9
+ 0002:00000180 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.GraphUtil ACBP=A9
+ 0002:00000188 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Controls ACBP=A9
+ 0002:00000190 00000090 C=ICODE    S=.itext   G=(none)   M=Vcl.StdCtrls ACBP=A9
+ 0002:00000220 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Printers ACBP=A9
+ 0002:00000228 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Clipbrd ACBP=A9
+ 0002:00000230 000000C8 C=ICODE    S=.itext   G=(none)   M=Vcl.ComCtrls ACBP=A9
+ 0002:000002F8 00000008 C=ICODE    S=.itext   G=(none)   M=System.HelpIntfs ACBP=A9
+ 0002:00000300 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Dialogs ACBP=A9
+ 0002:00000308 00000028 C=ICODE    S=.itext   G=(none)   M=Vcl.ExtCtrls ACBP=A9
+ 0002:00000330 00000010 C=ICODE    S=.itext   G=(none)   M=Vcl.Themes ACBP=A9
+ 0002:00000340 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Menus ACBP=A9
+ 0002:00000348 00000008 C=ICODE    S=.itext   G=(none)   M=Winapi.FlatSB ACBP=A9
+ 0002:00000350 00000020 C=ICODE    S=.itext   G=(none)   M=Vcl.Forms ACBP=A9
+ 0002:00000370 00000010 C=ICODE    S=.itext   G=(none)   M=MVCBr.ApplicationController ACBP=A9
+ 0002:00000380 00000010 C=ICODE    S=.itext   G=(none)   M=MVCBr.IoC ACBP=A9
+ 0002:00000390 00000008 C=ICODE    S=.itext   G=(none)   M=MVCBr.Observable ACBP=A9
+ 0002:00000398 0000001C C=ICODE    S=.itext   G=(none)   M=simpleSock ACBP=A9
+ 0002:000003B4 00000014 C=ICODE    S=.itext   G=(none)   M=jsonDoc  ACBP=A9
+ 0002:000003C8 00000014 C=ICODE    S=.itext   G=(none)   M=bsonDoc  ACBP=A9
+ 0002:000003DC 00000014 C=ICODE    S=.itext   G=(none)   M=bsonTools ACBP=A9
+ 0002:000003F0 00000008 C=ICODE    S=.itext   G=(none)   M=mongoWire ACBP=A9
+ 0002:000003F8 00000008 C=ICODE    S=.itext   G=(none)   M=mongoAuth3 ACBP=A9
+ 0002:00000400 00000008 C=ICODE    S=.itext   G=(none)   M=bsonUtils ACBP=A9
+ 0002:00000408 00000030 C=ICODE    S=.itext   G=(none)   M=System.Threading ACBP=A9
+ 0002:00000438 00000008 C=ICODE    S=.itext   G=(none)   M=System.Json.Helper ACBP=A9
+ 0002:00000440 00000008 C=ICODE    S=.itext   G=(none)   M=System.NetEncoding ACBP=A9
+ 0002:00000448 00000008 C=ICODE    S=.itext   G=(none)   M=MVCBr.MongoModel ACBP=A9
+ 0002:00000450 00000008 C=ICODE    S=.itext   G=(none)   M=FireDAC.Stan.Error ACBP=A9
+ 0002:00000458 00000008 C=ICODE    S=.itext   G=(none)   M=FireDAC.Stan.Util ACBP=A9
+ 0002:00000460 00000008 C=ICODE    S=.itext   G=(none)   M=FireDAC.Stan.Intf ACBP=A9
+ 0002:00000468 00000008 C=ICODE    S=.itext   G=(none)   M=FireDAC.Stan.SQLTimeInt ACBP=A9
+ 0002:00000470 00000008 C=ICODE    S=.itext   G=(none)   M=FireDAC.Stan.Param ACBP=A9
+ 0002:00000478 00000008 C=ICODE    S=.itext   G=(none)   M=FireDAC.UI.Intf ACBP=A9
+ 0002:00000480 00000008 C=ICODE    S=.itext   G=(none)   M=FireDAC.Stan.Factory ACBP=A9
+ 0002:00000488 00000008 C=ICODE    S=.itext   G=(none)   M=FireDAC.Stan.Option ACBP=A9
+ 0002:00000490 00000008 C=ICODE    S=.itext   G=(none)   M=FireDAC.DatS ACBP=A9
+ 0002:00000498 00000008 C=ICODE    S=.itext   G=(none)   M=FireDAC.Stan.Expr ACBP=A9
+ 0002:000004A0 00000008 C=ICODE    S=.itext   G=(none)   M=FireDAC.Comp.Client ACBP=A9
+ 0002:000004A8 00000008 C=ICODE    S=.itext   G=(none)   M=MVCBr.FDMongoDB ACBP=A9
+ 0002:000004B0 00000008 C=ICODE    S=.itext   G=(none)   M=.MVCBrFireDAC ACBP=A9
+ 0003:00000000 00000088 C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0003:00000088 0000000C C=DATA     S=.data    G=DGROUP   M=Winapi.Windows ACBP=A9
+ 0003:00000094 00000004 C=DATA     S=.data    G=DGROUP   M=Winapi.MsCTF ACBP=A9
+ 0003:00000098 00000090 C=DATA     S=.data    G=DGROUP   M=jsonDoc  ACBP=A9
+ 0003:00000128 00000080 C=DATA     S=.data    G=DGROUP   M=bsonDoc  ACBP=A9
+ 0003:000001A8 00000060 C=DATA     S=.data    G=DGROUP   M=bsonTools ACBP=A9
+ 0003:00000208 00000190 C=DATA     S=.data    G=DGROUP   M=mongoAuth3 ACBP=A9
+ 0003:00000398 00000020 C=DATA     S=.data    G=DGROUP   M=bsonUtils ACBP=A9
+ 0004:00000000 00000020 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0004:00000020 00000008 C=BSS      S=.bss     G=DGROUP   M=Winapi.Windows ACBP=A9
+ 0004:00000028 00000008 C=BSS      S=.bss     G=DGROUP   M=Winapi.PsAPI ACBP=A9
+ 0004:00000030 00000004 C=BSS      S=.bss     G=DGROUP   M=Winapi.MsCTF ACBP=A9
+ 0004:00000034 00000194 C=BSS      S=.bss     G=DGROUP   M=simpleSock ACBP=A9
+ 0004:000001C8 00000008 C=BSS      S=.bss     G=DGROUP   M=jsonDoc  ACBP=A9
+ 0004:000001D0 00000004 C=BSS      S=.bss     G=DGROUP   M=bsonDoc  ACBP=A9
+ 0004:000001D4 00000004 C=BSS      S=.bss     G=DGROUP   M=bsonTools ACBP=A9
+ 0004:000001D8 00000004 C=BSS      S=.bss     G=DGROUP   M=mongoWire ACBP=A9
+ 0004:000001DC 00000004 C=BSS      S=.bss     G=DGROUP   M=mongoAuth3 ACBP=A9
+ 0004:000001E0 00000004 C=BSS      S=.bss     G=DGROUP   M=bsonUtils ACBP=A9
+ 0004:000001E4 00000004 C=BSS      S=.bss     G=DGROUP   M=MVCBr.MongoModel ACBP=A9
+ 0004:000001E8 00000004 C=BSS      S=.bss     G=DGROUP   M=MVCBr.FDMongoDB ACBP=A9
+
+
+  Address             Publics by Name
+
+ 0002:000004B0       .MVCBrFireDAC..MVCBrFireDAC
+ 0001:000234CC       .MVCBrFireDAC.@GetPackageInfoTable
+ 0001:000234D4       .MVCBrFireDAC.@PackageLoad
+ 0001:000234E0       .MVCBrFireDAC.@PackageUnload
+ 0004:000001D0       bsonDoc..4
+ 0001:0000A174       bsonDoc..EBSONException
+ 0001:00009EB8       bsonDoc..TBSONDocument
+ 0001:0000A340       bsonDoc..TBSONDocumentEnumerator
+ 0001:0000DCC8       bsonDoc.BSON
+ 0001:0000E054       bsonDoc.BSON
+ 0001:0000DC68       bsonDoc.BSON
+ 0002:000003C8       bsonDoc.bsonDoc
+ 0001:0000E3C4       bsonDoc.BSONEnum
+ 0001:0000E3A0       bsonDoc.BSONEnum
+ 0003:00000128       bsonDoc.bsonJavaScriptCodePrefix
+ 0003:00000130       bsonDoc.bsonObjectIDPrefix
+ 0003:00000134       bsonDoc.bsonObjectIDSuffix
+ 0003:0000012C       bsonDoc.bsonRegExPrefix
+ 0003:00000148       bsonDoc.CLASS_BSONDocument
+ 0001:0000E4C4       bsonDoc.Finalization
+ 0003:00000168       bsonDoc.hex
+ 0003:00000138       bsonDoc.IID_IBSONDocument
+ 0003:00000158       bsonDoc.IID_IBSONDocumentEnumerator
+ 0003:00000198       bsonDoc.IID_IPersistStream
+ 0003:00000188       bsonDoc.IID_IStream
+ 0001:0000CC60       bsonDoc.StartsWith
+ 0001:0000AAC4       bsonDoc.stmRead
+ 0001:0000AFD4       bsonDoc.stmReadBSONDocArray
+ 0001:0000ADE4       bsonDoc.stmReadBSONDocument
+ 0001:0000ABB8       bsonDoc.stmReadCString
+ 0001:0000AC8C       bsonDoc.stmReadString
+ 0001:0000C538       bsonDoc.stmWrite
+ 0001:0000C5CC       bsonDoc.stmWriteCString
+ 0001:0000C650       bsonDoc.stmWriteString
+ 0001:0000A5E0       bsonDoc.TBSONDocument.AfterConstruction
+ 0001:0000DA00       bsonDoc.TBSONDocument.Clear
+ 0001:0000A610       bsonDoc.TBSONDocument.Destroy
+ 0001:0000D9E4       bsonDoc.TBSONDocument.GetClassID
+ 0001:0000A6A8       bsonDoc.TBSONDocument.GetKeyIndex
+ 0001:0000A65C       bsonDoc.TBSONDocument.GetSizeMax
+ 0001:0000A7EC       bsonDoc.TBSONDocument.Get_Item
+ 0001:0000A98C       bsonDoc.TBSONDocument.IsDirty
+ 0001:0000B1F4       bsonDoc.TBSONDocument.Load
+ 0001:0000CCA8       bsonDoc.TBSONDocument.Save
+ 0001:0000A894       bsonDoc.TBSONDocument.Set_Item
+ 0001:0000DB18       bsonDoc.TBSONDocument.ToVarArray
+ 0001:0000E160       bsonDoc.TBSONDocumentEnumerator.Add
+ 0001:0000E0DC       bsonDoc.TBSONDocumentEnumerator.AfterConstruction
+ 0001:0000E100       bsonDoc.TBSONDocumentEnumerator.Destroy
+ 0001:0000E1AC       bsonDoc.TBSONDocumentEnumerator.GetCount
+ 0001:0000E1BC       bsonDoc.TBSONDocumentEnumerator.Next
+ 0001:0000E294       bsonDoc.TBSONDocumentEnumerator.Reset
+ 0001:0000E13C       bsonDoc.TBSONDocumentEnumerator.SetStream
+ 0001:0000E2CC       bsonDoc.TBSONDocumentEnumerator.Skip
+ 0001:0000C6EC       bsonDoc.TryWriteBSONDocument
+ 0001:0000C804       bsonDoc.TryWriteBSONDocumentEnumerator
+ 0001:0000CB00       bsonDoc.TryWritePersistStream
+ 0001:0000C8DC       bsonDoc.TryWriteStream
+ 0004:000001D4       bsonTools..3
+ 0001:0000E924       bsonTools..EBSONException
+ 0001:0000E7A8       bsonTools..TBSONDocArray
+ 0001:0000E9CC       bsonTools.BSONDocArray
+ 0003:000001A8       bsonTools.bsonJavaScriptCodePrefix
+ 0003:000001B0       bsonTools.bsonObjectIDPrefix
+ 0003:000001B4       bsonTools.bsonObjectIDSuffix
+ 0003:000001AC       bsonTools.bsonRegExPrefix
+ 0002:000003DC       bsonTools.bsonTools
+ 0001:0000EAA4       bsonTools.dRead
+ 0001:0000EB8C       bsonTools.dReadCString
+ 0001:0000EC60       bsonTools.dReadString
+ 0001:00010500       bsonTools.dWrite
+ 0001:00010588       bsonTools.dWriteCString
+ 0001:0001060C       bsonTools.dWriteString
+ 0001:00012574       bsonTools.Finalization
+ 0003:000001C8       bsonTools.hex
+ 0003:000001B8       bsonTools.IID_IBSONDocArray
+ 0003:000001F8       bsonTools.IID_IPersistStream
+ 0003:000001E8       bsonTools.IID_IStream
+ 0001:0000F054       bsonTools.LoadBSON
+ 0001:00011E94       bsonTools.lRead
+ 0001:000106A8       bsonTools.Push
+ 0001:0000EF88       bsonTools.Push
+ 0001:00010DE0       bsonTools.SaveBSON
+ 0001:0000EDB8       bsonTools.SetValue
+ 0001:00010D98       bsonTools.StartsWith
+ 0001:00011A24       bsonTools.TBSONDocArray.Add
+ 0001:00011A4C       bsonTools.TBSONDocArray.AddJson
+ 0001:000119C4       bsonTools.TBSONDocArray.AddRef
+ 0001:00011AC4       bsonTools.TBSONDocArray.Clear
+ 0001:00011AD8       bsonTools.TBSONDocArray.Count
+ 0001:0001194C       bsonTools.TBSONDocArray.Create
+ 0001:00011990       bsonTools.TBSONDocArray.Destroy
+ 0001:00011AE8       bsonTools.TBSONDocArray.Get_Item
+ 0001:00011CCC       bsonTools.TBSONDocArray.JSONToString
+ 0001:00011B9C       bsonTools.TBSONDocArray.LoadItem
+ 0001:00011F7C       bsonTools.TBSONDocArray.ReadAll
+ 0001:00011C10       bsonTools.TBSONDocArray.Set_Item
+ 0001:00011DD8       bsonTools.TBSONDocArray.v0
+ 0001:00012384       bsonTools.TBSONDocArray.WriteAll
+ 0001:00010868       bsonTools.TryWriteBSONDocArray
+ 0001:00010908       bsonTools.TryWriteJSONArray
+ 0001:000107E8       bsonTools.TryWriteJSONDocument
+ 0001:00010BD0       bsonTools.TryWritePersistStream
+ 0001:00010984       bsonTools.TryWriteStream
+ 0004:000001E0       bsonUtils..3
+ 0001:0001812C       bsonUtils..EJsonDecodeException
+ 0001:000181E0       bsonUtils..EJsonEncodeException
+ 0001:000186BC       bsonUtils.BsonToJson
+ 0002:00000400       bsonUtils.bsonUtils
+ 0001:00018318       bsonUtils.EncodeStr
+ 0001:00019590       bsonUtils.Expect
+ 0001:00018588       bsonUtils.ExTrace
+ 0001:00019308       bsonUtils.ExVicinity
+ 0001:0001A9A0       bsonUtils.Finalization
+ 0001:00019BB8       bsonUtils.GetArrayValue
+ 0001:00019654       bsonUtils.GetStringIndexes
+ 0001:000196A0       bsonUtils.GetStringValue
+ 0003:00000398       bsonUtils.hex
+ 0001:00019C98       bsonUtils.JsonIntoBson
+ 0001:00019118       bsonUtils.JsonIntoBson
+ 0001:000190FC       bsonUtils.JsonToBson
+ 0001:00019978       bsonUtils.SetValue
+ 0001:000192C4       bsonUtils.SkipWhiteSpace
+ 0002:00000108       Data.DB.Data.DB
+ 0001:000018CC       Data.DB.Finalization
+ 0001:00001774       Data.DB.TDataSet.ActivateBuffers
+ 0001:000017DC       Data.DB.TDataSet.Append
+ 0001:0000167C       Data.DB.TDataSet.BindFields
+ 0001:000017CC       Data.DB.TDataSet.BlockReadNext
+ 0001:000017B4       Data.DB.TDataSet.CalculateFields
+ 0001:000017AC       Data.DB.TDataSet.CalculateFields
+ 0001:000015F4       Data.DB.TDataSet.CheckActive
+ 0001:00001674       Data.DB.TDataSet.CheckFieldCompatibility
+ 0001:000015EC       Data.DB.TDataSet.CheckInactive
+ 0001:0000176C       Data.DB.TDataSet.ClearBuffers
+ 0001:000017BC       Data.DB.TDataSet.ClearCalcFields
+ 0001:00001664       Data.DB.TDataSet.CreateFields
+ 0001:000015DC       Data.DB.TDataSet.CreateNestedDataSet
+ 0001:000016EC       Data.DB.TDataSet.DataConvert
+ 0001:000016E4       Data.DB.TDataSet.DataConvert
+ 0001:0000166C       Data.DB.TDataSet.DestroyFields
+ 0001:00001734       Data.DB.TDataSet.DisableControls
+ 0001:00001864       Data.DB.TDataSet.DoAfterCancel
+ 0001:0000186C       Data.DB.TDataSet.DoAfterClose
+ 0001:00001874       Data.DB.TDataSet.DoAfterDelete
+ 0001:0000187C       Data.DB.TDataSet.DoAfterEdit
+ 0001:00001884       Data.DB.TDataSet.DoAfterInsert
+ 0001:0000188C       Data.DB.TDataSet.DoAfterPost
+ 0001:00001894       Data.DB.TDataSet.DoAfterScroll
+ 0001:0000189C       Data.DB.TDataSet.DoBeforeCancel
+ 0001:000018A4       Data.DB.TDataSet.DoBeforeClose
+ 0001:000018AC       Data.DB.TDataSet.DoBeforeOpen
+ 0001:000018B4       Data.DB.TDataSet.DoBeforePost
+ 0001:000018BC       Data.DB.TDataSet.DoBeforeRefresh
+ 0001:000018C4       Data.DB.TDataSet.DoOnCalcFields
+ 0001:0000173C       Data.DB.TDataSet.EnableControls
+ 0001:0000180C       Data.DB.TDataSet.FreeBookmark
+ 0001:00001684       Data.DB.TDataSet.FreeFieldBuffers
+ 0001:000015FC       Data.DB.TDataSet.GetActive
+ 0001:00001704       Data.DB.TDataSet.GetAggFieldsClass
+ 0001:0000185C       Data.DB.TDataSet.GetAggRecordCount
+ 0001:00001694       Data.DB.TDataSet.GetBlobFieldData
+ 0001:00001804       Data.DB.TDataSet.GetBookmark
+ 0001:0000182C       Data.DB.TDataSet.GetBookmarkData
+ 0001:00001824       Data.DB.TDataSet.GetBookmarkData
+ 0001:00001844       Data.DB.TDataSet.GetBookmarkFlag
+ 0001:00001814       Data.DB.TDataSet.GetBookmarkStr
+ 0001:0000179C       Data.DB.TDataSet.GetCalcFields
+ 0001:000017A4       Data.DB.TDataSet.GetCalcFields
+ 0001:00001654       Data.DB.TDataSet.GetCalcFieldTypes
+ 0001:0000172C       Data.DB.TDataSet.GetCheckConstraintsClass
+ 0001:0000177C       Data.DB.TDataSet.GetCurrentRecord
+ 0001:0000160C       Data.DB.TDataSet.GetDetailDataSets
+ 0001:00001604       Data.DB.TDataSet.GetDetailDataSets
+ 0001:00001614       Data.DB.TDataSet.GetDetailLinkFields
+ 0001:0000164C       Data.DB.TDataSet.GetFieldClass
+ 0001:0000168C       Data.DB.TDataSet.GetFieldCount
+ 0001:0000169C       Data.DB.TDataSet.GetFieldData
+ 0001:000016A4       Data.DB.TDataSet.GetFieldData
+ 0001:000016AC       Data.DB.TDataSet.GetFieldData
+ 0001:000016B4       Data.DB.TDataSet.GetFieldData
+ 0001:00001724       Data.DB.TDataSet.GetFieldDefListClass
+ 0001:00001714       Data.DB.TDataSet.GetFieldDefsClass
+ 0001:0000165C       Data.DB.TDataSet.GetFieldFullName
+ 0001:0000170C       Data.DB.TDataSet.GetFieldListClass
+ 0001:000016D4       Data.DB.TDataSet.GetFieldNames
+ 0001:000016FC       Data.DB.TDataSet.GetFieldsClass
+ 0001:0000171C       Data.DB.TDataSet.GetIndexDefsClass
+ 0001:0000161C       Data.DB.TDataSet.GetLookupListClass
+ 0001:00001754       Data.DB.TDataSet.GetNextRecord
+ 0001:00001784       Data.DB.TDataSet.GetNextRecords
+ 0001:000016F4       Data.DB.TDataSet.GetParamsClass
+ 0001:0000175C       Data.DB.TDataSet.GetPriorRecord
+ 0001:0000178C       Data.DB.TDataSet.GetPriorRecords
+ 0001:00001624       Data.DB.TDataSet.InitFieldDefs
+ 0001:00001794       Data.DB.TDataSet.InitRecord
+ 0001:000017FC       Data.DB.TDataSet.InternalAddRecord
+ 0001:000017F4       Data.DB.TDataSet.InternalAddRecord
+ 0001:000017EC       Data.DB.TDataSet.InternalInitRecord
+ 0001:00001854       Data.DB.TDataSet.InternalSetToRecord
+ 0001:000017C4       Data.DB.TDataSet.MoveBy
+ 0001:00001764       Data.DB.TDataSet.Resync
+ 0001:000017D4       Data.DB.TDataSet.SetBlockReadSize
+ 0001:00001834       Data.DB.TDataSet.SetBookmarkData
+ 0001:0000183C       Data.DB.TDataSet.SetBookmarkData
+ 0001:0000184C       Data.DB.TDataSet.SetBookmarkFlag
+ 0001:0000181C       Data.DB.TDataSet.SetBookmarkStr
+ 0001:00001744       Data.DB.TDataSet.SetBufListSize
+ 0001:0000174C       Data.DB.TDataSet.SetCurrentRecord
+ 0001:000015E4       Data.DB.TDataSet.SetDataSetField
+ 0001:000016CC       Data.DB.TDataSet.SetFieldData
+ 0001:000016C4       Data.DB.TDataSet.SetFieldData
+ 0001:000016BC       Data.DB.TDataSet.SetFieldData
+ 0001:00001644       Data.DB.TDataSet.SetFieldDefProps
+ 0001:0000162C       Data.DB.TDataSet.SetFieldDefs
+ 0001:00001634       Data.DB.TDataSet.SetFieldOptions
+ 0001:0000163C       Data.DB.TDataSet.SetFieldProps
+ 0001:000015D4       Data.DB.TDataSet.SetName
+ 0001:000016DC       Data.DB.TDataSet.SetStateFieldValue
+ 0001:000017E4       Data.DB.TDataSet.Translate
+ 0001:000015CC       Data.DB.TField.GetOldValue
+ 0001:000015C4       Data.DB.TFields.FieldByName
+ 0001:0001A9F0       Data.DB.Helper.TFieldsHelper.FillFromJson
+ 0001:0001A9E8       Data.DB.Helper.TFieldsHelper.ToJson
+ 0002:00000100       Data.FmtBcd.Data.FmtBcd
+ 0001:000015BC       Data.FmtBcd.Finalization
+ 0002:000000F8       Data.SqlTimSt.Data.SqlTimSt
+ 0001:000015B4       Data.SqlTimSt.Finalization
+ 0001:000208A4       FireDAC.Comp.Client.Finalization
+ 0002:000004A0       FireDAC.Comp.Client.FireDAC.Comp.Client
+ 0001:000206F4       FireDAC.Comp.Client.TFDAdaptedDataSet.AttachTable
+ 0001:000206DC       FireDAC.Comp.Client.TFDAdaptedDataSet.CheckOnline
+ 0001:0002070C       FireDAC.Comp.Client.TFDAdaptedDataSet.Disconnect
+ 0001:000207AC       FireDAC.Comp.Client.TFDAdaptedDataSet.DoApplyUpdates
+ 0001:0002079C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoClearBeforeRefetch
+ 0001:000206FC       FireDAC.Comp.Client.TFDAdaptedDataSet.DoCloneCursor
+ 0001:0002076C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoCloseSource
+ 0001:00020744       FireDAC.Comp.Client.TFDAdaptedDataSet.DoDefineDatSManager
+ 0001:000207A4       FireDAC.Comp.Client.TFDAdaptedDataSet.DoExecuteSource
+ 0001:00020794       FireDAC.Comp.Client.TFDAdaptedDataSet.DoFetch
+ 0001:0002078C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoFetch
+ 0001:0002077C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoGetDatSManager
+ 0001:00020784       FireDAC.Comp.Client.TFDAdaptedDataSet.DoGetTableName
+ 0001:0002075C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoIsSourceAsync
+ 0001:00020764       FireDAC.Comp.Client.TFDAdaptedDataSet.DoIsSourceOnline
+ 0001:00020754       FireDAC.Comp.Client.TFDAdaptedDataSet.DoIsSourceOpen
+ 0001:0002071C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoMasterDefined
+ 0001:0002072C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoMasterParamDependent
+ 0001:00020724       FireDAC.Comp.Client.TFDAdaptedDataSet.DoMasterParamSetValues
+ 0001:0002074C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoOpenSource
+ 0001:00020734       FireDAC.Comp.Client.TFDAdaptedDataSet.DoPrepareSource
+ 0001:000207B4       FireDAC.Comp.Client.TFDAdaptedDataSet.DoProcessUpdateRequest
+ 0001:00020774       FireDAC.Comp.Client.TFDAdaptedDataSet.DoResetDatSManager
+ 0001:000207C4       FireDAC.Comp.Client.TFDAdaptedDataSet.DoStoredActivation
+ 0001:0002073C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoUnprepareSource
+ 0001:0002085C       FireDAC.Comp.Client.TFDAdaptedDataSet.ExecuteCommand
+ 0001:00020854       FireDAC.Comp.Client.TFDAdaptedDataSet.GetCommandStates
+ 0001:000207CC       FireDAC.Comp.Client.TFDAdaptedDataSet.GetConn
+ 0001:000207D4       FireDAC.Comp.Client.TFDAdaptedDataSet.GetFeatures
+ 0001:000206CC       FireDAC.Comp.Client.TFDAdaptedDataSet.GetParams
+ 0001:00020704       FireDAC.Comp.Client.TFDAdaptedDataSet.InternalClose
+ 0001:000206C4       FireDAC.Comp.Client.TFDAdaptedDataSet.Notification
+ 0001:000207EC       FireDAC.Comp.Client.TFDAdaptedDataSet.PSEndTransaction
+ 0001:00020834       FireDAC.Comp.Client.TFDAdaptedDataSet.PSExecuteStatement
+ 0001:00020844       FireDAC.Comp.Client.TFDAdaptedDataSet.PSExecuteStatement
+ 0001:0002083C       FireDAC.Comp.Client.TFDAdaptedDataSet.PSExecuteStatement
+ 0001:0002084C       FireDAC.Comp.Client.TFDAdaptedDataSet.PSGetAttributes
+ 0001:0002081C       FireDAC.Comp.Client.TFDAdaptedDataSet.PSGetCommandText
+ 0001:00020824       FireDAC.Comp.Client.TFDAdaptedDataSet.PSGetCommandType
+ 0001:0002080C       FireDAC.Comp.Client.TFDAdaptedDataSet.PSGetParams
+ 0001:00020804       FireDAC.Comp.Client.TFDAdaptedDataSet.PSGetQuoteChar
+ 0001:000207DC       FireDAC.Comp.Client.TFDAdaptedDataSet.PSInTransaction
+ 0001:000207F4       FireDAC.Comp.Client.TFDAdaptedDataSet.PSIsSQLBased
+ 0001:000207FC       FireDAC.Comp.Client.TFDAdaptedDataSet.PSIsSQLSupported
+ 0001:0002082C       FireDAC.Comp.Client.TFDAdaptedDataSet.PSSetCommandText
+ 0001:00020814       FireDAC.Comp.Client.TFDAdaptedDataSet.PSSetParams
+ 0001:000207E4       FireDAC.Comp.Client.TFDAdaptedDataSet.PSStartTransaction
+ 0001:000206E4       FireDAC.Comp.Client.TFDAdaptedDataSet.ReleaseBase
+ 0001:00020714       FireDAC.Comp.Client.TFDAdaptedDataSet.ServerDeleteAll
+ 0001:000206EC       FireDAC.Comp.Client.TFDAdaptedDataSet.SetAdapter
+ 0001:000206D4       FireDAC.Comp.Client.TFDAdaptedDataSet.SetLocalSQL
+ 0001:000207BC       FireDAC.Comp.Client.TFDAdaptedDataSet.SetOptionsIntf
+ 0001:00020864       FireDAC.Comp.Client.TFDCustomMemTable.Create
+ 0001:00020884       FireDAC.Comp.Client.TFDCustomMemTable.DefChanged
+ 0001:00020874       FireDAC.Comp.Client.TFDCustomMemTable.DefineProperties
+ 0001:0002086C       FireDAC.Comp.Client.TFDCustomMemTable.Destroy
+ 0001:0002089C       FireDAC.Comp.Client.TFDCustomMemTable.GetExists
+ 0001:0002087C       FireDAC.Comp.Client.TFDCustomMemTable.GetOptionsIntf
+ 0001:0002088C       FireDAC.Comp.Client.TFDCustomMemTable.SaveToDFM
+ 0001:00020894       FireDAC.Comp.Client.TFDCustomMemTable.SetOptionalParam
+ 0001:000203AC       FireDAC.Comp.DataSet.TFDDataSet.AllocRecordBuffer
+ 0001:0002058C       FireDAC.Comp.DataSet.TFDDataSet.BookmarkValid
+ 0001:00020394       FireDAC.Comp.DataSet.TFDDataSet.CalcBookmarkSize
+ 0001:00020504       FireDAC.Comp.DataSet.TFDDataSet.Cancel
+ 0001:00020654       FireDAC.Comp.DataSet.TFDDataSet.CheckCachedUpdatesMode
+ 0001:0002031C       FireDAC.Comp.DataSet.TFDDataSet.CheckMasterRange
+ 0001:000203BC       FireDAC.Comp.DataSet.TFDDataSet.ClearCalcFields
+ 0001:0002062C       FireDAC.Comp.DataSet.TFDDataSet.CloneCursor
+ 0001:0002043C       FireDAC.Comp.DataSet.TFDDataSet.CloseBlob
+ 0001:0002035C       FireDAC.Comp.DataSet.TFDDataSet.CloseCursor
+ 0001:00020584       FireDAC.Comp.DataSet.TFDDataSet.CompareBookmarks
+ 0001:00020434       FireDAC.Comp.DataSet.TFDDataSet.CreateBlobStream
+ 0001:00020634       FireDAC.Comp.DataSet.TFDDataSet.CreateDataSet
+ 0001:0002032C       FireDAC.Comp.DataSet.TFDDataSet.CreateFilterView
+ 0001:0002029C       FireDAC.Comp.DataSet.TFDDataSet.DataEvent
+ 0001:0002044C       FireDAC.Comp.DataSet.TFDDataSet.DoAdjustSortFields
+ 0001:0002066C       FireDAC.Comp.DataSet.TFDDataSet.DoAfterApplyUpdate
+ 0001:0002034C       FireDAC.Comp.DataSet.TFDDataSet.DoAfterExecute
+ 0001:0002046C       FireDAC.Comp.DataSet.TFDDataSet.DoAfterGetRecords
+ 0001:0002036C       FireDAC.Comp.DataSet.TFDDataSet.DoAfterOpen
+ 0001:0002048C       FireDAC.Comp.DataSet.TFDDataSet.DoAfterRefresh
+ 0001:0002047C       FireDAC.Comp.DataSet.TFDDataSet.DoAfterRowRequest
+ 0001:00020664       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeApplyUpdate
+ 0001:000204D4       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeDelete
+ 0001:000204CC       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeEdit
+ 0001:00020344       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeExecute
+ 0001:00020464       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeGetRecords
+ 0001:000204C4       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeInsert
+ 0001:00020474       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeRowRequest
+ 0001:00020484       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeScroll
+ 0001:0002065C       FireDAC.Comp.DataSet.TFDDataSet.DoCachedUpdatesChanged
+ 0001:0002033C       FireDAC.Comp.DataSet.TFDDataSet.DoCreateFields
+ 0001:000205F4       FireDAC.Comp.DataSet.TFDDataSet.DoFilteringUpdated
+ 0001:0002061C       FireDAC.Comp.DataSet.TFDDataSet.DoFilterRow
+ 0001:00020304       FireDAC.Comp.DataSet.TFDDataSet.DoMasterParamChanged
+ 0001:0002030C       FireDAC.Comp.DataSet.TFDDataSet.DoMasterReset
+ 0001:00020524       FireDAC.Comp.DataSet.TFDDataSet.DoOnNewRecord
+ 0001:00020444       FireDAC.Comp.DataSet.TFDDataSet.DoPurge
+ 0001:00020544       FireDAC.Comp.DataSet.TFDDataSet.DoReconcileErrorHandler
+ 0001:0002045C       FireDAC.Comp.DataSet.TFDDataSet.DoSortOrderChanged
+ 0001:00020454       FireDAC.Comp.DataSet.TFDDataSet.DoSortOrderChanging
+ 0001:00020534       FireDAC.Comp.DataSet.TFDDataSet.DoUpdateErrorHandler
+ 0001:0002053C       FireDAC.Comp.DataSet.TFDDataSet.DoUpdateRecordHandler
+ 0001:0002052C       FireDAC.Comp.DataSet.TFDDataSet.EmptyDataSet
+ 0001:0002037C       FireDAC.Comp.DataSet.TFDDataSet.Execute
+ 0001:00020624       FireDAC.Comp.DataSet.TFDDataSet.FindRecord
+ 0001:000203B4       FireDAC.Comp.DataSet.TFDDataSet.FreeRecordBuffer
+ 0001:00020594       FireDAC.Comp.DataSet.TFDDataSet.GetAggregateValue
+ 0001:00020574       FireDAC.Comp.DataSet.TFDDataSet.GetBookmarkData
+ 0001:00020564       FireDAC.Comp.DataSet.TFDDataSet.GetBookmarkFlag
+ 0001:00020494       FireDAC.Comp.DataSet.TFDDataSet.GetCanModify
+ 0001:0002049C       FireDAC.Comp.DataSet.TFDDataSet.GetCanRefresh
+ 0001:000203E4       FireDAC.Comp.DataSet.TFDDataSet.GetCurrentRecord
+ 0001:000202E4       FireDAC.Comp.DataSet.TFDDataSet.GetDataSource
+ 0001:000202F4       FireDAC.Comp.DataSet.TFDDataSet.GetDetailLinkFields
+ 0001:0002038C       FireDAC.Comp.DataSet.TFDDataSet.GetFieldClass
+ 0001:00020414       FireDAC.Comp.DataSet.TFDDataSet.GetFieldData
+ 0001:0002041C       FireDAC.Comp.DataSet.TFDDataSet.GetFieldData
+ 0001:000202A4       FireDAC.Comp.DataSet.TFDDataSet.GetFormatOptions
+ 0001:000205A4       FireDAC.Comp.DataSet.TFDDataSet.GetIsIndexField
+ 0001:000202D4       FireDAC.Comp.DataSet.TFDDataSet.GetMasterFields
+ 0001:000203FC       FireDAC.Comp.DataSet.TFDDataSet.GetRecNo
+ 0001:000203D4       FireDAC.Comp.DataSet.TFDDataSet.GetRecord
+ 0001:000203DC       FireDAC.Comp.DataSet.TFDDataSet.GetRecord
+ 0001:000203EC       FireDAC.Comp.DataSet.TFDDataSet.GetRecordCount
+ 0001:000203A4       FireDAC.Comp.DataSet.TFDDataSet.GetRecordSize
+ 0001:00020424       FireDAC.Comp.DataSet.TFDDataSet.GetStateFieldValue
+ 0001:000202B4       FireDAC.Comp.DataSet.TFDDataSet.GetUpdateOptions
+ 0001:0002039C       FireDAC.Comp.DataSet.TFDDataSet.InitBufferPointers
+ 0001:0002051C       FireDAC.Comp.DataSet.TFDDataSet.InitRecord
+ 0001:0002050C       FireDAC.Comp.DataSet.TFDDataSet.InternalAddRecord
+ 0001:000204FC       FireDAC.Comp.DataSet.TFDDataSet.InternalCancel
+ 0001:000205AC       FireDAC.Comp.DataSet.TFDDataSet.InternalDefaultKeyFieldCount
+ 0001:000204EC       FireDAC.Comp.DataSet.TFDDataSet.InternalDelete
+ 0001:000204B4       FireDAC.Comp.DataSet.TFDDataSet.InternalEdit
+ 0001:000204A4       FireDAC.Comp.DataSet.TFDDataSet.InternalFirst
+ 0001:00020554       FireDAC.Comp.DataSet.TFDDataSet.InternalGotoBookmark
+ 0001:0002054C       FireDAC.Comp.DataSet.TFDDataSet.InternalGotoBookmark
+ 0001:000205B4       FireDAC.Comp.DataSet.TFDDataSet.InternalGotoKey
+ 0001:00020294       FireDAC.Comp.DataSet.TFDDataSet.InternalHandleException
+ 0001:00020384       FireDAC.Comp.DataSet.TFDDataSet.InternalInitFieldDefs
+ 0001:00020514       FireDAC.Comp.DataSet.TFDDataSet.InternalInitRecord
+ 0001:000204BC       FireDAC.Comp.DataSet.TFDDataSet.InternalInsert
+ 0001:000204AC       FireDAC.Comp.DataSet.TFDDataSet.InternalLast
+ 0001:00020364       FireDAC.Comp.DataSet.TFDDataSet.InternalOpen
+ 0001:000204DC       FireDAC.Comp.DataSet.TFDDataSet.InternalPost
+ 0001:000204F4       FireDAC.Comp.DataSet.TFDDataSet.InternalRefresh
+ 0001:000205BC       FireDAC.Comp.DataSet.TFDDataSet.InternalResetRange
+ 0001:00020404       FireDAC.Comp.DataSet.TFDDataSet.InternalSetRecNo
+ 0001:0002055C       FireDAC.Comp.DataSet.TFDDataSet.InternalSetToRecord
+ 0001:00020374       FireDAC.Comp.DataSet.TFDDataSet.IsCursorOpen
+ 0001:000202C4       FireDAC.Comp.DataSet.TFDDataSet.IsSequenced
+ 0001:0002064C       FireDAC.Comp.DataSet.TFDDataSet.Loaded
+ 0001:0002063C       FireDAC.Comp.DataSet.TFDDataSet.LoadFromStorage
+ 0001:000205C4       FireDAC.Comp.DataSet.TFDDataSet.Locate
+ 0001:000205CC       FireDAC.Comp.DataSet.TFDDataSet.LocateEx
+ 0001:000205D4       FireDAC.Comp.DataSet.TFDDataSet.LocateEx
+ 0001:000205DC       FireDAC.Comp.DataSet.TFDDataSet.Lookup
+ 0001:000205EC       FireDAC.Comp.DataSet.TFDDataSet.LookupEx
+ 0001:000205E4       FireDAC.Comp.DataSet.TFDDataSet.LookupEx
+ 0001:00020324       FireDAC.Comp.DataSet.TFDDataSet.MasterChanged
+ 0001:000202FC       FireDAC.Comp.DataSet.TFDDataSet.MasterDefined
+ 0001:00020314       FireDAC.Comp.DataSet.TFDDataSet.MasterDisabled
+ 0001:00020354       FireDAC.Comp.DataSet.TFDDataSet.OpenCursor
+ 0001:000204E4       FireDAC.Comp.DataSet.TFDDataSet.Post
+ 0001:0002067C       FireDAC.Comp.DataSet.TFDDataSet.PSExecute
+ 0001:0002068C       FireDAC.Comp.DataSet.TFDDataSet.PSGetDefaultOrder
+ 0001:00020694       FireDAC.Comp.DataSet.TFDDataSet.PSGetIndexDefs
+ 0001:0002069C       FireDAC.Comp.DataSet.TFDDataSet.PSGetKeyFields
+ 0001:000206A4       FireDAC.Comp.DataSet.TFDDataSet.PSGetTableName
+ 0001:000206AC       FireDAC.Comp.DataSet.TFDDataSet.PSGetUpdateException
+ 0001:00020684       FireDAC.Comp.DataSet.TFDDataSet.PSReset
+ 0001:000206B4       FireDAC.Comp.DataSet.TFDDataSet.PSUpdateRecord
+ 0001:000203CC       FireDAC.Comp.DataSet.TFDDataSet.RefreshInternalCalcFields
+ 0001:000203C4       FireDAC.Comp.DataSet.TFDDataSet.RefreshInternalCalcFields
+ 0001:0002059C       FireDAC.Comp.DataSet.TFDDataSet.ResetAggField
+ 0001:00020644       FireDAC.Comp.DataSet.TFDDataSet.SaveToStorage
+ 0001:000202CC       FireDAC.Comp.DataSet.TFDDataSet.SetActive
+ 0001:0002057C       FireDAC.Comp.DataSet.TFDDataSet.SetBookmarkData
+ 0001:0002056C       FireDAC.Comp.DataSet.TFDDataSet.SetBookmarkFlag
+ 0001:0002042C       FireDAC.Comp.DataSet.TFDDataSet.SetFieldData
+ 0001:0002060C       FireDAC.Comp.DataSet.TFDDataSet.SetFiltered
+ 0001:000205FC       FireDAC.Comp.DataSet.TFDDataSet.SetFilterOptions
+ 0001:00020604       FireDAC.Comp.DataSet.TFDDataSet.SetFilterText
+ 0001:000202AC       FireDAC.Comp.DataSet.TFDDataSet.SetFormatOptions
+ 0001:000202DC       FireDAC.Comp.DataSet.TFDDataSet.SetMasterFields
+ 0001:000202EC       FireDAC.Comp.DataSet.TFDDataSet.SetMasterSource
+ 0001:00020614       FireDAC.Comp.DataSet.TFDDataSet.SetOnFilterRecord
+ 0001:0002040C       FireDAC.Comp.DataSet.TFDDataSet.SetRecNo
+ 0001:000202BC       FireDAC.Comp.DataSet.TFDDataSet.SetUpdateOptions
+ 0001:00020334       FireDAC.Comp.DataSet.TFDDataSet.UpdateIndexDefs
+ 0001:000203F4       FireDAC.Comp.DataSet.TFDDataSet.UpdateRecordCount
+ 0001:00020674       FireDAC.Comp.DataSet.TFDDataSet.UpdateStatus
+ 0001:0002028C       FireDAC.DatS.Finalization
+ 0002:00000490       FireDAC.DatS.FireDAC.DatS
+ 0001:0002024C       FireDAC.Stan.Error.Finalization
+ 0002:00000450       FireDAC.Stan.Error.FireDAC.Stan.Error
+ 0001:000206BC       FireDAC.Stan.Expr.Finalization
+ 0002:00000498       FireDAC.Stan.Expr.FireDAC.Stan.Expr
+ 0001:0002027C       FireDAC.Stan.Factory.Finalization
+ 0002:00000480       FireDAC.Stan.Factory.FireDAC.Stan.Factory
+ 0001:0002025C       FireDAC.Stan.Intf.Finalization
+ 0002:00000460       FireDAC.Stan.Intf.FireDAC.Stan.Intf
+ 0001:00020284       FireDAC.Stan.Option.Finalization
+ 0002:00000488       FireDAC.Stan.Option.FireDAC.Stan.Option
+ 0001:0002026C       FireDAC.Stan.Param.Finalization
+ 0002:00000470       FireDAC.Stan.Param.FireDAC.Stan.Param
+ 0001:00020264       FireDAC.Stan.SQLTimeInt.Finalization
+ 0002:00000468       FireDAC.Stan.SQLTimeInt.FireDAC.Stan.SQLTimeInt
+ 0001:00020254       FireDAC.Stan.Util.Finalization
+ 0002:00000458       FireDAC.Stan.Util.FireDAC.Stan.Util
+ 0001:00020274       FireDAC.UI.Intf.Finalization
+ 0002:00000478       FireDAC.UI.Intf.FireDAC.UI.Intf
+ 0004:000001CC       jsonDoc..21
+ 0001:00004770       jsonDoc..EJSONDecodeException
+ 0001:00004820       jsonDoc..EJSONEncodeException
+ 0001:000046C8       jsonDoc..EJSONException
+ 0001:00003990       jsonDoc..TJSONArray
+ 0001:00003B30       jsonDoc..TJSONArrayEnumerator
+ 0001:00003F60       jsonDoc..TJSONDocArray
+ 0001:000031A4       jsonDoc..TJSONDocument
+ 0001:00003658       jsonDoc..TJSONEnumerator
+ 0001:00002DF4       jsonDoc..TJSONImplBaseObj
+ 0001:000041A4       jsonDoc..TVarArrayEnumerator
+ 0001:00004500       jsonDoc..TVarJSONArray
+ 0001:00005668       jsonDoc.CheckValue
+ 0003:000000A8       jsonDoc.CLASS_JSONDocument
+ 0001:0000506C       jsonDoc.Expect
+ 0001:00006D8C       jsonDoc.ExTrace
+ 0001:00004E0C       jsonDoc.ExVicinity
+ 0001:00009C30       jsonDoc.Finalization
+ 0001:00005134       jsonDoc.GetStringIndexes
+ 0001:0000517C       jsonDoc.GetStringValue
+ 0003:00000108       jsonDoc.hex
+ 0003:000000D8       jsonDoc.IID_IJSONArray
+ 0003:000000E8       jsonDoc.IID_IJSONDocArray
+ 0003:00000098       jsonDoc.IID_IJSONDocument
+ 0003:000000F8       jsonDoc.IID_IJSONDocWithReUse
+ 0003:000000C8       jsonDoc.IID_IJSONEnumerable
+ 0003:000000B8       jsonDoc.IID_IJSONEnumerator
+ 0001:00009AE8       jsonDoc.ja
+ 0001:00009A8C       jsonDoc.ja
+ 0001:00009168       jsonDoc.JSON
+ 0001:00009570       jsonDoc.JSON
+ 0001:00009934       jsonDoc.JSON
+ 0001:00009108       jsonDoc.JSON
+ 0002:000003B4       jsonDoc.jsonDoc
+ 0001:00009BEC       jsonDoc.JSONDocArray
+ 0001:00009BC8       jsonDoc.JSONDocArray
+ 0001:00006730       jsonDoc.JSONEncodeStr
+ 0001:000099B4       jsonDoc.JSONEnum
+ 0001:00009764       jsonDoc.JSONEnum
+ 0001:0000964C       jsonDoc.JSONEnum
+ 0001:0000694C       jsonDoc.JSONVarToStr1
+ 0004:000001C8       jsonDoc.JSON_UseIJSONArray
+ 0001:00006F8C       jsonDoc.Push
+ 0001:00005458       jsonDoc.SetValue
+ 0001:00004DC8       jsonDoc.SkipWhiteSpace
+ 0001:00008670       jsonDoc.TJSONArray.Count
+ 0001:00008620       jsonDoc.TJSONArray.Create
+ 0001:00008684       jsonDoc.TJSONArray.Get_Item
+ 0001:000087D8       jsonDoc.TJSONArray.JSONToString
+ 0001:000086F8       jsonDoc.TJSONArray.Set_Item
+ 0001:0000876C       jsonDoc.TJSONArray.v0
+ 0001:0000887C       jsonDoc.TJSONArrayEnumerator.Create
+ 0001:000088E0       jsonDoc.TJSONArrayEnumerator.Destroy
+ 0001:0000890C       jsonDoc.TJSONArrayEnumerator.EOF
+ 0001:00008924       jsonDoc.TJSONArrayEnumerator.Get_Key
+ 0001:00008974       jsonDoc.TJSONArrayEnumerator.Get_Value
+ 0001:00008994       jsonDoc.TJSONArrayEnumerator.Next
+ 0001:000089AC       jsonDoc.TJSONArrayEnumerator.Set_Value
+ 0001:000089C8       jsonDoc.TJSONArrayEnumerator.v0
+ 0001:00008E90       jsonDoc.TJSONDocArray.Add
+ 0001:00008F58       jsonDoc.TJSONDocArray.AddJson
+ 0001:00008E60       jsonDoc.TJSONDocArray.Clear
+ 0001:00008E50       jsonDoc.TJSONDocArray.Count
+ 0001:000089E0       jsonDoc.TJSONDocArray.Create
+ 0001:00008A24       jsonDoc.TJSONDocArray.Destroy
+ 0001:00008A58       jsonDoc.TJSONDocArray.Get_Item
+ 0001:00009084       jsonDoc.TJSONDocArray.JSONToString
+ 0001:00008FB4       jsonDoc.TJSONDocArray.LoadItem
+ 0001:00008C64       jsonDoc.TJSONDocArray.Set_Item
+ 0001:00008B4C       jsonDoc.TJSONDocArray.v0
+ 0001:00004984       jsonDoc.TJSONDocument.AfterConstruction
+ 0001:000078BC       jsonDoc.TJSONDocument.Clear
+ 0001:000079D8       jsonDoc.TJSONDocument.Delete
+ 0001:000049B8       jsonDoc.TJSONDocument.Destroy
+ 0001:00004A04       jsonDoc.TJSONDocument.GetKeyIndex
+ 0001:00004B70       jsonDoc.TJSONDocument.Get_Item
+ 0001:00007058       jsonDoc.TJSONDocument.JSONToString
+ 0001:00007AF4       jsonDoc.TJSONDocument.NewEnumerator
+ 0001:000056FC       jsonDoc.TJSONDocument.Parse
+ 0001:00004BD0       jsonDoc.TJSONDocument.ReUse
+ 0001:00004C30       jsonDoc.TJSONDocument.Set_Item
+ 0001:00007784       jsonDoc.TJSONDocument.ToVarArray
+ 0001:00007B20       jsonDoc.TJSONEnumerator.Create
+ 0001:00007B64       jsonDoc.TJSONEnumerator.Destroy
+ 0001:00007B90       jsonDoc.TJSONEnumerator.EOF
+ 0001:00007C20       jsonDoc.TJSONEnumerator.Get_Key
+ 0001:00007C9C       jsonDoc.TJSONEnumerator.Get_Value
+ 0001:00007BD8       jsonDoc.TJSONEnumerator.Next
+ 0001:00007D18       jsonDoc.TJSONEnumerator.Set_Value
+ 0001:00007D94       jsonDoc.TJSONEnumerator.v0
+ 0001:000048F0       jsonDoc.TJSONImplBaseObj.AfterConstruction
+ 0001:00004900       jsonDoc.TJSONImplBaseObj.BeforeDestruction
+ 0001:0000491C       jsonDoc.TJSONImplBaseObj.NewInstance
+ 0001:0000492C       jsonDoc.TJSONImplBaseObj.QueryInterface
+ 0001:00004954       jsonDoc.TJSONImplBaseObj._AddRef
+ 0001:00004964       jsonDoc.TJSONImplBaseObj._Release
+ 0001:00007E04       jsonDoc.TVarArrayEnumerator.Create
+ 0001:00007F0C       jsonDoc.TVarArrayEnumerator.Destroy
+ 0001:00007F40       jsonDoc.TVarArrayEnumerator.EOF
+ 0001:00007F58       jsonDoc.TVarArrayEnumerator.Get_Key
+ 0001:00007FA8       jsonDoc.TVarArrayEnumerator.Get_Value
+ 0001:00007FCC       jsonDoc.TVarArrayEnumerator.Next
+ 0001:00007FE4       jsonDoc.TVarArrayEnumerator.Set_Value
+ 0001:00008004       jsonDoc.TVarArrayEnumerator.v0
+ 0001:000083AC       jsonDoc.TVarJSONArray.Count
+ 0001:00008078       jsonDoc.TVarJSONArray.Create
+ 0001:000081F8       jsonDoc.TVarJSONArray.CreateNoCopy
+ 0001:00008378       jsonDoc.TVarJSONArray.Destroy
+ 0001:000083C0       jsonDoc.TVarJSONArray.Get_Item
+ 0001:00008568       jsonDoc.TVarJSONArray.JSONToString
+ 0001:00008434       jsonDoc.TVarJSONArray.Set_Item
+ 0001:000084A4       jsonDoc.TVarJSONArray.v0
+ 0001:000048D0       jsonDoc.VarMove
+ 0001:00006F28       jsonDoc.w
+ 0004:000001DC       mongoAuth3..2
+ 0001:000161C8       mongoAuth3..EMongoAuthenticationFailed
+ 0003:00000248       mongoAuth3.base1
+ 0003:00000288       mongoAuth3.base2
+ 0003:000002C8       mongoAuth3.base3
+ 0003:00000308       mongoAuth3.base4
+ 0003:00000358       mongoAuth3.Base64Codes
+ 0001:0001704C       mongoAuth3.Base64Decode
+ 0001:00016E80       mongoAuth3.Base64Encode
+ 0001:000171A0       mongoAuth3.BuildNonce
+ 0001:00018124       mongoAuth3.Finalization
+ 0003:00000348       mongoAuth3.HexCodes
+ 0001:00016E0C       mongoAuth3.HexEncode
+ 0001:00016AF8       mongoAuth3.HMAC_SHA1
+ 0001:000162B8       mongoAuth3.MD5Hash
+ 0002:000003F8       mongoAuth3.mongoAuth3
+ 0001:000171F0       mongoAuth3.MongoWireAuthenticate
+ 0001:00017F98       mongoAuth3.MongoWireLogout
+ 0001:00016C3C       mongoAuth3.PBKDF2_HMAC_SHA1
+ 0003:00000208       mongoAuth3.roll1
+ 0003:00000218       mongoAuth3.roll2
+ 0003:00000228       mongoAuth3.roll3
+ 0003:00000238       mongoAuth3.roll4
+ 0001:00016764       mongoAuth3.SHA1Hash
+ 0001:0001670C       mongoAuth3.SwapEndian32
+ 0004:000001D8       mongoWire..9
+ 0001:000133EC       mongoWire..EMongoCommandError
+ 0001:00013128       mongoWire..EMongoConnectFailed
+ 0001:0001307C       mongoWire..EMongoException
+ 0001:000131DC       mongoWire..EMongoNotConnected
+ 0001:00013340       mongoWire..EMongoQueryError
+ 0001:0001328C       mongoWire..EMongoTransferError
+ 0001:00012638       mongoWire..TMongoWire
+ 0001:00012D58       mongoWire..TMongoWireQuery
+ 0001:000161C0       mongoWire.Finalization
+ 0002:000003F0       mongoWire.mongoWire
+ 0001:000136DC       mongoWire.TMongoWire.Close
+ 0001:0001385C       mongoWire.TMongoWire.CloseMsg
+ 0001:000157D8       mongoWire.TMongoWire.Count
+ 0001:0001349C       mongoWire.TMongoWire.Create
+ 0001:000136E8       mongoWire.TMongoWire.DataCString
+ 0001:00014990       mongoWire.TMongoWire.Delete
+ 0001:00013540       mongoWire.TMongoWire.Destroy
+ 0001:000158D0       mongoWire.TMongoWire.Distinct
+ 0001:00014DFC       mongoWire.TMongoWire.EnsureIndex
+ 0001:00015A60       mongoWire.TMongoWire.Eval
+ 0001:00013CF8       mongoWire.TMongoWire.Get
+ 0001:00014364       mongoWire.TMongoWire.Insert
+ 0001:000145B8       mongoWire.TMongoWire.Insert
+ 0001:000147B4       mongoWire.TMongoWire.Insert
+ 0001:0001358C       mongoWire.TMongoWire.Open
+ 0001:00013770       mongoWire.TMongoWire.OpenMsg
+ 0001:00014C68       mongoWire.TMongoWire.Ping
+ 0001:00013900       mongoWire.TMongoWire.ReadMsg
+ 0001:000154A0       mongoWire.TMongoWire.RunCommand
+ 0001:00013FC0       mongoWire.TMongoWire.Update
+ 0001:00015BF0       mongoWire.TMongoWireQuery.Create
+ 0001:00015C70       mongoWire.TMongoWireQuery.Destroy
+ 0001:00015CA8       mongoWire.TMongoWireQuery.KillCursor
+ 0001:00015EB0       mongoWire.TMongoWireQuery.Next
+ 0001:00015D74       mongoWire.TMongoWireQuery.Query
+ 0001:00016038       mongoWire.TMongoWireQuery.ReadResponse
+ 0001:00001C7C       MVCBr.ApplicationController.Finalization
+ 0002:00000378       MVCBr.ApplicationController.MVCBr.ApplicationController
+ 0002:00000370       MVCBr.ApplicationController.TApplicationController.Create@
+ 0001:00001C74       MVCBr.ApplicationController.TApplicationController.Destroy@
+ 0001:00001C44       MVCBr.Factory.TMVCBrFactory.Create
+ 0001:00001C3C       MVCBr.Factory.TMVCBrFactory.Create
+ 0001:00001C4C       MVCBr.Factory.TMVCBrFactory.Lock
+ 0001:00001C54       MVCBr.Factory.TMVCBrFactory.SetSafeted
+ 0001:00001C5C       MVCBr.Factory.TMVCBrFactory.SetUnsafe
+ 0001:00001C64       MVCBr.Factory.TMVCBrFactory.This
+ 0001:00001C6C       MVCBr.Factory.TMVCBrFactory.UnLock
+ 0004:000001E8       MVCBr.FDMongoDB..3
+ 0001:000208AC       MVCBr.FDMongoDB..TMVCBrMongoConnection
+ 0001:00020C58       MVCBr.FDMongoDB..TMVCBrMongoDataset
+ 0001:00022944       MVCBr.FDMongoDB.Finalization
+ 0002:000004A8       MVCBr.FDMongoDB.MVCBr.FDMongoDB
+ 0001:00021708       MVCBr.FDMongoDB.Register
+ 0001:000229E4       MVCBr.FDMongoDB.TJSONValue.Cast<System.JSON.TJSONArray>
+ 0001:0002294C       MVCBr.FDMongoDB.TJSONValue.GetValue<System.JSON.TJSONArray>
+ 0001:000224B8       MVCBr.FDMongoDB.TMVCBrMongoConnection.Create
+ 0001:0002254C       MVCBr.FDMongoDB.TMVCBrMongoConnection.Default
+ 0001:000225B4       MVCBr.FDMongoDB.TMVCBrMongoConnection.Destroy
+ 0001:000225E0       MVCBr.FDMongoDB.TMVCBrMongoConnection.GetActive
+ 0001:000225F8       MVCBr.FDMongoDB.TMVCBrMongoConnection.RunCommand
+ 0001:00022654       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetActive
+ 0001:00022674       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetDatabase
+ 0001:000226D0       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetHost
+ 0001:0002272C       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetParams
+ 0001:00022838       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetPassword
+ 0001:00022894       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetPort
+ 0001:000228E8       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetUserName
+ 0001:00021748       MVCBr.FDMongoDB.TMVCBrMongoDataset.checkNil
+ 0001:0002181C       MVCBr.FDMongoDB.TMVCBrMongoDataset.Create
+ 0001:00021864       MVCBr.FDMongoDB.TMVCBrMongoDataset.Delete
+ 0001:00021870       MVCBr.FDMongoDB.TMVCBrMongoDataset.DoUpdateRecord
+ 0001:00021A34       MVCBr.FDMongoDB.TMVCBrMongoDataset.GetKeyFieldsDoc
+ 0001:00021C34       MVCBr.FDMongoDB.TMVCBrMongoDataset.Insert
+ 0001:00021CE8       MVCBr.FDMongoDB.TMVCBrMongoDataset.Notification
+ 0001:00021D28       MVCBr.FDMongoDB.TMVCBrMongoDataset.Open
+ 0001:00022144       MVCBr.FDMongoDB.TMVCBrMongoDataset.Open
+ 0001:00021D38       MVCBr.FDMongoDB.TMVCBrMongoDataset.OpenWithCommand
+ 0001:0002227C       MVCBr.FDMongoDB.TMVCBrMongoDataset.Post
+ 0001:000222A0       MVCBr.FDMongoDB.TMVCBrMongoDataset.SetActive
+ 0001:000223A8       MVCBr.FDMongoDB.TMVCBrMongoDataset.SetCollectionName
+ 0001:000223C0       MVCBr.FDMongoDB.TMVCBrMongoDataset.SetConnection
+ 0001:000223C8       MVCBr.FDMongoDB.TMVCBrMongoDataset.SetKeyFields
+ 0001:000223E0       MVCBr.FDMongoDB.TMVCBrMongoDataset.SetLoading
+ 0001:000223E8       MVCBr.FDMongoDB.TMVCBrMongoDataset.Update
+ 0001:00022AC0       MVCBr.FDMongoDB.TValue.AsType<System.JSON.TJSONArray>
+ 0001:00022B78       MVCBr.FDMongoDB.TValue.Get<System.JSON.TJSONArray>
+ 0001:00022AF4       MVCBr.FDMongoDB.TValue.TryAsType<System.JSON.TJSONArray>
+ 0001:00001CAC       MVCBr.Interf.TMVCFactoryAbstract.ApplicationControllerInternal
+ 0001:00001C9C       MVCBr.Interf.TMVCFactoryAbstract.GetGuid
+ 0001:00001CA4       MVCBr.Interf.TMVCFactoryAbstract.Lock
+ 0001:00001CB4       MVCBr.Interf.TMVCFactoryAbstract.RegisterObserver
+ 0001:00001CBC       MVCBr.Interf.TMVCFactoryAbstract.RegisterObserver
+ 0001:00001CE4       MVCBr.Interf.TMVCFactoryAbstract.RegisterObserver
+ 0001:00001CD4       MVCBr.Interf.TMVCFactoryAbstract.UnRegisterObserver
+ 0001:00001CCC       MVCBr.Interf.TMVCFactoryAbstract.UnRegisterObserver
+ 0001:00001CC4       MVCBr.Interf.TMVCFactoryAbstract.UnRegisterObserver
+ 0001:00001CDC       MVCBr.Interf.TMVCFactoryAbstract.UpdateObserver
+ 0001:00001CEC       MVCBr.Interf.TMVCOwnedInterfacedObject.GetOwner
+ 0001:00001C8C       MVCBr.IoC.Finalization
+ 0002:00000388       MVCBr.IoC.MVCBr.IoC
+ 0002:00000380       MVCBr.IoC.TClassActivator.Create@
+ 0001:00001C84       MVCBr.IoC.TClassActivator.Destroy@
+ 0001:00001D34       MVCBr.Model.TModelFactory.AfterConstruction
+ 0001:00001D3C       MVCBr.Model.TModelFactory.AfterInit
+ 0001:00001D44       MVCBr.Model.TModelFactory.Controller
+ 0001:00001CF4       MVCBr.Model.TModelFactory.Create
+ 0001:00001CFC       MVCBr.Model.TModelFactory.Destroy
+ 0001:00001D04       MVCBr.Model.TModelFactory.GetController
+ 0001:00001D0C       MVCBr.Model.TModelFactory.GetID
+ 0001:00001D14       MVCBr.Model.TModelFactory.ID
+ 0001:00001D1C       MVCBr.Model.TModelFactory.Release
+ 0001:00001D24       MVCBr.Model.TModelFactory.SetController
+ 0001:00001D2C       MVCBr.Model.TModelFactory.SetID
+ 0001:00001D4C       MVCBr.Model.TModelFactory.This
+ 0001:00001D74       MVCBr.Model.TModelFactory.Update
+ 0001:00001D54       MVCBr.Model.TModelFactory.Update
+ 0001:00001D6C       MVCBr.Model.TModelFactory.ViewEvent
+ 0001:00001D64       MVCBr.Model.TModelFactory.ViewEvent
+ 0001:00001D5C       MVCBr.Model.TModelFactory.ViewEvent
+ 0004:000001E4       MVCBr.MongoModel..4
+ 0001:0001ADA4       MVCBr.MongoModel..TJSONDocArray
+ 0001:0001AAF4       MVCBr.MongoModel..TJSONDocument
+ 0001:0001B460       MVCBr.MongoModel..TMongoModelFactory
+ 0001:0001CDDC       MVCBr.MongoModel..TMongoModelFactory.Default$9$ActRec
+ 0001:0001DBFC       MVCBr.MongoModel..TMongoModelFactory.NewQuery$33$ActRec
+ 0001:0001FF74       MVCBr.MongoModel..{MVCBr.Patterns.Adapter}@TMVCBrAdapter`1.Create$3$ActRec<mongoWire.TMongoWire>
+ 0001:00020144       MVCBr.MongoModel..{MVCBr.Patterns.Adapter}@TMVCBrAdapter`1.Create$3$ActRec<mongoWire.TMongoWireQuery>
+ 0001:0001C694       MVCBr.MongoModel..{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>
+ 0001:0001D7D4       MVCBr.MongoModel..{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>
+ 0001:0001FA70       MVCBr.MongoModel.Finalization
+ 0001:0001CB20       MVCBr.MongoModel.MongoJSON
+ 0001:0001CA54       MVCBr.MongoModel.MongoJSON
+ 0001:0001CAB4       MVCBr.MongoModel.MongoJSON
+ 0002:00000448       MVCBr.MongoModel.MVCBr.MongoModel
+ 0001:0001E3E4       MVCBr.MongoModel.TJSONDocArray.New
+ 0001:0001E29C       MVCBr.MongoModel.TJSONDocument.AsArray
+ 0001:0001E2F4       MVCBr.MongoModel.TJSONDocument.BsonToJson
+ 0001:0001E340       MVCBr.MongoModel.TJSONDocument.JSON
+ 0001:0001E354       MVCBr.MongoModel.TJSONDocument.New
+ 0001:0001E278       MVCBr.MongoModel.TJSONDocument.New
+ 0001:0001E370       MVCBr.MongoModel.TJSONDocument.NewDocArray
+ 0001:0001E37C       MVCBr.MongoModel.TJSONDocument.ToDocArray
+ 0001:0001E3D0       MVCBr.MongoModel.TJSONDocument.ToJson
+ 0001:0001ECFC       MVCBr.MongoModel.TMongoExpression.between
+ 0001:0001EE8C       MVCBr.MongoModel.TMongoExpression.contains
+ 0001:0001F098       MVCBr.MongoModel.TMongoExpression.eq
+ 0001:0001F1B0       MVCBr.MongoModel.TMongoExpression.gt
+ 0001:0001F2C8       MVCBr.MongoModel.TMongoExpression.gte
+ 0001:0001F860       MVCBr.MongoModel.TMongoExpression.like
+ 0001:0001F3E4       MVCBr.MongoModel.TMongoExpression.lt
+ 0001:0001F4FC       MVCBr.MongoModel.TMongoExpression.lte
+ 0001:0001F618       MVCBr.MongoModel.TMongoExpression.ne
+ 0001:0001F730       MVCBr.MongoModel.TMongoExpression.search
+ 0001:0001CB84       MVCBr.MongoModel.TMongoModelFactory.AsArray
+ 0001:0001CBDC       MVCBr.MongoModel.TMongoModelFactory.Close
+ 0001:0001CC14       MVCBr.MongoModel.TMongoModelFactory.Count
+ 0001:0001CC30       MVCBr.MongoModel.TMongoModelFactory.Create
+ 0001:0001CCC4       MVCBr.MongoModel.TMongoModelFactory.Database
+ 0001:0001CF1C       MVCBr.MongoModel.TMongoModelFactory.Default
+ 0001:0001CEC4       MVCBr.MongoModel.TMongoModelFactory.Default$9$ActRec.$0$Body
+ 0001:0001CFFC       MVCBr.MongoModel.TMongoModelFactory.Delete
+ 0001:0001D028       MVCBr.MongoModel.TMongoModelFactory.Destroy
+ 0001:0001D060       MVCBr.MongoModel.TMongoModelFactory.Distinct
+ 0001:0001D090       MVCBr.MongoModel.TMongoModelFactory.EnsureIndex
+ 0001:0001D0BC       MVCBr.MongoModel.TMongoModelFactory.Eval
+ 0001:0001D0F4       MVCBr.MongoModel.TMongoModelFactory.FillDastaset
+ 0001:0001D254       MVCBr.MongoModel.TMongoModelFactory.Get
+ 0001:0001D2E8       MVCBr.MongoModel.TMongoModelFactory.Get
+ 0001:0001D3A0       MVCBr.MongoModel.TMongoModelFactory.GetActive
+ 0001:0001D3A8       MVCBr.MongoModel.TMongoModelFactory.GetDatabase
+ 0001:0001D3BC       MVCBr.MongoModel.TMongoModelFactory.GetDataset
+ 0001:0001D4A4       MVCBr.MongoModel.TMongoModelFactory.GetDataset
+ 0001:0001D54C       MVCBr.MongoModel.TMongoModelFactory.GetHost
+ 0001:0001D560       MVCBr.MongoModel.TMongoModelFactory.GetPassword
+ 0001:0001D574       MVCBr.MongoModel.TMongoModelFactory.GetPort
+ 0001:0001E678       MVCBr.MongoModel.TMongoModelFactory.GetSequence
+ 0001:0001D578       MVCBr.MongoModel.TMongoModelFactory.GetUserName
+ 0001:0001D58C       MVCBr.MongoModel.TMongoModelFactory.Host
+ 0001:0001D5F0       MVCBr.MongoModel.TMongoModelFactory.Insert
+ 0001:0001D63C       MVCBr.MongoModel.TMongoModelFactory.Insert
+ 0001:0001D61C       MVCBr.MongoModel.TMongoModelFactory.Insert
+ 0001:0001D65C       MVCBr.MongoModel.TMongoModelFactory.MongoConnection
+ 0001:0001D670       MVCBr.MongoModel.TMongoModelFactory.New
+ 0001:0001DDE0       MVCBr.MongoModel.TMongoModelFactory.New
+ 0001:0001DD08       MVCBr.MongoModel.TMongoModelFactory.NewQuery
+ 0001:0001DCE8       MVCBr.MongoModel.TMongoModelFactory.NewQuery$33$ActRec.$0$Body
+ 0001:0001DDA4       MVCBr.MongoModel.TMongoModelFactory.Open
+ 0001:0001DDB4       MVCBr.MongoModel.TMongoModelFactory.OpenIfNeed
+ 0001:0001DE84       MVCBr.MongoModel.TMongoModelFactory.Password
+ 0001:0001DEE8       MVCBr.MongoModel.TMongoModelFactory.Ping
+ 0001:0001DEFC       MVCBr.MongoModel.TMongoModelFactory.Port
+ 0001:0001E408       MVCBr.MongoModel.TMongoModelFactory.Query
+ 0001:0001DF28       MVCBr.MongoModel.TMongoModelFactory.Query
+ 0001:0001E5D0       MVCBr.MongoModel.TMongoModelFactory.QueryRegEx
+ 0001:0001E02C       MVCBr.MongoModel.TMongoModelFactory.RunCommand
+ 0001:0001E04C       MVCBr.MongoModel.TMongoModelFactory.SetActive
+ 0001:0001CBE4       MVCBr.MongoModel.TMongoModelFactory.SetConnection
+ 0001:0001E14C       MVCBr.MongoModel.TMongoModelFactory.SetDatabase
+ 0001:0001E160       MVCBr.MongoModel.TMongoModelFactory.SetHost
+ 0001:0001E174       MVCBr.MongoModel.TMongoModelFactory.SetPassword
+ 0001:0001E188       MVCBr.MongoModel.TMongoModelFactory.SetPort
+ 0001:0001E18C       MVCBr.MongoModel.TMongoModelFactory.SetUserName
+ 0001:0001E1A0       MVCBr.MongoModel.TMongoModelFactory.This
+ 0001:0001E1A4       MVCBr.MongoModel.TMongoModelFactory.Update
+ 0001:0001E214       MVCBr.MongoModel.TMongoModelFactory.UserName
+ 0001:0001FE88       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}@TMVCBrAdapter`1.Create$3$ActRec<mongoWire.TMongoWire>.$0$Body
+ 0001:0001FE98       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}@TMVCBrAdapter`1.Create$3$ActRec<mongoWire.TMongoWireQuery>.$0$Body
+ 0001:0001FC64       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.AsInterface
+ 0001:0001FAD4       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.Create
+ 0001:0001FC10       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.DelegateTo
+ 0001:0001FB8C       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.Destroy
+ 0001:0001FAA0       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.GetFreeOnExit
+ 0001:0001FBE8       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.GetInstance
+ 0001:0001FA78       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.Invoke
+ 0001:0001FAA8       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.New
+ 0001:0001FBF0       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.Release
+ 0001:0001FA9C       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.SetFreeOnExit
+ 0001:0001FBB8       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.SetInstance
+ 0001:0001FC0C       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.This
+ 0001:0001FE6C       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.AsInterface
+ 0001:0001FCDC       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.Create
+ 0001:0001FE18       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.DelegateTo
+ 0001:0001FD94       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.Destroy
+ 0001:0001FCA8       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.GetFreeOnExit
+ 0001:0001FDF0       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.GetInstance
+ 0001:0001FC80       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.Invoke
+ 0001:0001FCB0       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.New
+ 0001:0001FDF8       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.Release
+ 0001:0001FCA4       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.SetFreeOnExit
+ 0001:0001FDC0       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.SetInstance
+ 0001:0001FE14       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.This
+ 0001:00001C94       MVCBr.Observable.Finalization
+ 0002:00000390       MVCBr.Observable.MVCBr.Observable
+ 0004:00000034       simpleSock..4
+ 0001:000024B0       simpleSock..ETcpSocketError
+ 0001:00002274       simpleSock..TTcpServer
+ 0001:00001F40       simpleSock..TTcpSocket
+ 0001:00002C0C       simpleSock.accept
+ 0001:00002C04       simpleSock.bind
+ 0001:00002C3C       simpleSock.closesocket
+ 0001:00002C14       simpleSock.connect
+ 0001:00002C44       simpleSock.Finalization
+ 0001:00002BDC       simpleSock.gethostbyaddr
+ 0001:00002BE4       simpleSock.gethostbyname
+ 0001:00002BC4       simpleSock.htons
+ 0001:00002BCC       simpleSock.inet_addr
+ 0001:00002BD4       simpleSock.inet_ntoa
+ 0001:00002BFC       simpleSock.listen
+ 0001:000025B4       simpleSock.PrepareSockAddr
+ 0001:0000255C       simpleSock.RaiseLastWSAError
+ 0001:00002C1C       simpleSock.recv
+ 0001:00002C24       simpleSock.select
+ 0001:00002C2C       simpleSock.send
+ 0001:00002BF4       simpleSock.setsockopt
+ 0001:00002C34       simpleSock.shutdown
+ 0002:00000398       simpleSock.simpleSock
+ 0001:00002BEC       simpleSock.socket
+ 0001:00002B58       simpleSock.TTcpServer.Accept
+ 0001:000029E4       simpleSock.TTcpServer.Bind
+ 0001:0000295C       simpleSock.TTcpServer.Create
+ 0001:000029B4       simpleSock.TTcpServer.Destroy
+ 0001:00002A2C       simpleSock.TTcpServer.Listen
+ 0001:00002A44       simpleSock.TTcpServer.WaitForConnection
+ 0001:0000263C       simpleSock.TTcpSocket.Connect
+ 0001:0000266C       simpleSock.TTcpSocket.Create
+ 0001:000026E4       simpleSock.TTcpSocket.Create
+ 0001:00002760       simpleSock.TTcpSocket.Destroy
+ 0001:00002790       simpleSock.TTcpSocket.Disconnect
+ 0001:000027B0       simpleSock.TTcpSocket.GetAddress
+ 0001:000027D0       simpleSock.TTcpSocket.GetHostName
+ 0001:000027A8       simpleSock.TTcpSocket.GetPort
+ 0001:00002904       simpleSock.TTcpSocket.ReceiveBuf
+ 0001:00002930       simpleSock.TTcpSocket.SendBuf
+ 0001:00002BB4       simpleSock.WSACleanup
+ 0004:00000038       simpleSock.WSAData
+ 0001:00002BBC       simpleSock.WSAGetLastError
+ 0001:00002BAC       simpleSock.WSAStartup
+ 0001:00000F08       SysInit...
+ 0003:00000034       SysInit...
+ 0001:00001010       SysInit...
+ 0001:00001000       SysInit...
+ 0001:00000F18       SysInit...
+ 0001:00000FDC       SysInit...
+ 0001:00000F28       SysInit...
+ 0001:00000FB4       SysInit...
+ 0001:00000F38       SysInit...
+ 0001:00000F48       SysInit...
+ 0001:00000F58       SysInit...
+ 0001:00000F6C       SysInit...
+ 0001:00000F9C       SysInit...
+ 0004:00000018       SysInit..1
+ 0001:000009DC       SysInit.@InitPkg
+ 0001:00000A40       SysInit.@PackageLoad
+ 0001:00000A4C       SysInit.@PackageUnload
+ 0001:000004BC       SysInit.@_dbkDummyProc
+ 0001:000004C0       SysInit.@_dbkFCallArgs
+ 0001:000008B0       SysInit.@_dbk_fcall_wrapper
+ 0001:00000A58       SysInit.@_delayLoadHelper2
+ 0001:00000D38       SysInit.@_FUnloadDelayLoadedDLL2
+ 0001:00000E48       SysInit.@_HrLoadAllImportsForDll
+ 0004:00000014       SysInit.@_pfnDliFailureHook2
+ 0004:00000010       SysInit.@_pfnDliNotifyHook2
+ 0001:000003AC       SysInit.AllocTlsBuffer
+ 0004:0000000C       SysInit.dbkFCallWrapperAddr
+ 0001:00000468       SysInit.ExitProcessTLS
+ 0001:00000430       SysInit.ExitThreadTLS
+ 0001:00001020       SysInit.Finalization
+ 0001:00000354       SysInit.FreeLibrary
+ 0001:0000038C       SysInit.GetLastError
+ 0001:000003A4       SysInit.GetProcAddress
+ 0001:000003B8       SysInit.GetTlsSize
+ 0004:00000004       SysInit.HInstance
+ 0001:0000048C       SysInit.InitializeModule
+ 0001:00000404       SysInit.InitProcessTLS
+ 0001:000003C0       SysInit.InitThreadTLS
+ 0001:00000340       SysInit.InterlockedExchange
+ 0001:00000394       SysInit.LoadLibraryA
+ 0001:0000035C       SysInit.LocalAlloc
+ 0001:00000364       SysInit.LocalFree
+ 0003:00000008       SysInit.Module
+ 0004:00000000       SysInit.ModuleIsLib
+ 0004:00000001       SysInit.ModuleIsPackage
+ 0003:00000004       SysInit.PtrToNil
+ 0001:0000039C       SysInit.RaiseException
+ 0001:00000F00       SysInit.ShutdownDelayHelp2
+ 0002:00000008       SysInit.SysInit
+ 0001:0000036C       SysInit.TlsAlloc
+ 0004:0000001C       SysInit.tlsBuffer
+ 0001:00000374       SysInit.TlsFree
+ 0001:0000037C       SysInit.TlsGetValue
+ 0003:00000000       SysInit.TlsIndex
+ 0005:00000000       SysInit.TlsLast
+ 0003:00000024       SysInit.TlsProc
+ 0001:00000384       SysInit.TlsSetValue
+ 0001:00000498       SysInit.UninitializeModule
+ 0004:FFFD9000       SysInit.__ImageBase
+ 0001:00000288       System.@AddRefArray
+ 0001:000000B8       System.@AfterConstruction
+ 0001:00000070       System.@AsClass
+ 0001:00000128       System.@Assert
+ 0001:000000C0       System.@BeforeDestruction
+ 0001:00000310       System.@CheckAutoResult
+ 0001:000000A8       System.@ClassCreate
+ 0001:000000B0       System.@ClassDestroy
+ 0001:000000F8       System.@DoneExcept
+ 0001:000002A8       System.@DynArrayClear
+ 0001:00000298       System.@DynArrayLength
+ 0001:000002A0       System.@DynArraySetLength
+ 0001:00000018       System.@FillChar
+ 0001:00000280       System.@FinalizeArray
+ 0001:00000278       System.@FinalizeRecord
+ 0001:00000118       System.@FinalizeWideStrings
+ 0001:000000C8       System.@HandleAnyException
+ 0001:000000E0       System.@HandleAutoException
+ 0001:000000D8       System.@HandleFinally
+ 0001:000000D0       System.@HandleOnException
+ 0001:00000270       System.@InitializeRecord
+ 0001:00000110       System.@InitWideStrings
+ 0001:000002D8       System.@IntfAddRef
+ 0001:000002D0       System.@IntfCast
+ 0001:000002C0       System.@IntfClear
+ 0001:000002C8       System.@IntfCopy
+ 0001:00000168       System.@LStrAddRef
+ 0001:00000150       System.@LStrArrayClr
+ 0001:000001C0       System.@LStrCat3
+ 0001:000001C8       System.@LStrCatN
+ 0001:00000138       System.@LStrClr
+ 0001:000001E0       System.@LStrCopy
+ 0001:000001D0       System.@LStrEqual
+ 0001:000001B8       System.@LStrFromChar
+ 0001:000001F0       System.@LStrFromUStr
+ 0001:00000190       System.@LStrLAsg
+ 0001:000001A8       System.@LStrLen
+ 0001:000001E8       System.@LStrSetLength
+ 0001:000001D8       System.@LStrToPChar
+ 0001:00000100       System.@PackageLoad
+ 0001:00000108       System.@PackageUnload
+ 0001:000000F0       System.@RaiseAgain
+ 0001:000000E8       System.@RaiseExcept
+ 0001:00000010       System.@ROUND
+ 0001:00000120       System.@RunError
+ 0001:000001B0       System.@UniqueStringA
+ 0001:00000160       System.@UStrAddRef
+ 0001:00000148       System.@UStrArrayClr
+ 0001:00000170       System.@UStrAsg
+ 0001:00000250       System.@UStrCat
+ 0001:00000258       System.@UStrCat3
+ 0001:00000260       System.@UStrCatN
+ 0001:00000130       System.@UStrClr
+ 0001:00000268       System.@UStrEqual
+ 0001:00000238       System.@UStrFromPChar
+ 0001:00000230       System.@UStrFromWChar
+ 0001:00000240       System.@UStrFromWStr
+ 0001:00000178       System.@UStrLAsg
+ 0001:00000198       System.@UStrLen
+ 0001:00000158       System.@WStrArrayClr
+ 0001:00000180       System.@WStrAsg
+ 0001:00000200       System.@WStrCat
+ 0001:00000208       System.@WStrCat3
+ 0001:00000210       System.@WStrCatN
+ 0001:00000140       System.@WStrClr
+ 0001:00000220       System.@WStrCopy
+ 0001:00000218       System.@WStrEqual
+ 0001:00000248       System.@WStrFromUStr
+ 0001:00000188       System.@WStrLAsg
+ 0001:000001A0       System.@WStrLen
+ 0001:00000228       System.@WStrSetLength
+ 0001:000001F8       System.@WStrToPWChar
+ 0001:00000290       System.@_llmul
+ 0001:00000000       System.Error
+ 0001:00000338       System.Finalization
+ 0001:00000330       System.LoadResString
+ 0001:00000008       System.Move
+ 0001:000002B0       System.RegisterModule
+ 0002:00000000       System.System
+ 0001:000002E0       System.TInterfacedObject.AfterConstruction
+ 0001:000002E8       System.TInterfacedObject.BeforeDestruction
+ 0001:000002F0       System.TInterfacedObject.NewInstance
+ 0001:000002F8       System.TInterfacedObject.QueryInterface
+ 0001:00000300       System.TInterfacedObject._AddRef
+ 0001:00000308       System.TInterfacedObject._Release
+ 0001:00000090       System.TObject.AfterConstruction
+ 0001:00000098       System.TObject.BeforeDestruction
+ 0001:00000020       System.TObject.ClassName
+ 0001:00000038       System.TObject.Create
+ 0001:00000088       System.TObject.DefaultHandler
+ 0001:00000040       System.TObject.Destroy
+ 0001:000000A0       System.TObject.Dispatch
+ 0001:00000050       System.TObject.DisposeOf
+ 0001:00000058       System.TObject.Equals
+ 0001:00000048       System.TObject.Free
+ 0001:00000030       System.TObject.FreeInstance
+ 0001:00000060       System.TObject.GetHashCode
+ 0001:00000068       System.TObject.GetInterface
+ 0001:00000028       System.TObject.NewInstance
+ 0001:00000078       System.TObject.SafeCallException
+ 0001:00000080       System.TObject.ToString
+ 0001:000002B8       System.UnregisterModule
+ 0001:00000318       System.UTF8Encode
+ 0001:00000320       System.UTF8Encode
+ 0001:00000328       System.UTF8ToWideString
+ 0001:0000196C       System.Actions.Finalization
+ 0002:00000118       System.Actions.System.Actions
+ 0001:000019C4       System.AnsiStrings.Finalization
+ 0002:00000158       System.AnsiStrings.System.AnsiStrings
+ 0001:000010C8       System.Character.Finalization
+ 0002:00000030       System.Character.System.Character
+ 0001:00001594       System.Classes.Finalization
+ 0001:0000147C       System.Classes.RegisterComponents
+ 0002:000000D8       System.Classes.System.Classes
+ 0002:000000D0       System.Classes.TBaseAsyncResult.Create@
+ 0001:0000158C       System.Classes.TBaseAsyncResult.Destroy@
+ 0002:000000B0       System.Classes.TBinaryWriter.Create@
+ 0001:00001574       System.Classes.TBinaryWriter.Destroy@
+ 0001:000014EC       System.Classes.TComponent.AsyncSchedule
+ 0001:000014F4       System.Classes.TComponent.BeforeDestruction
+ 0001:00001544       System.Classes.TComponent.CanObserve
+ 0001:000014DC       System.Classes.TComponent.Create
+ 0002:000000C0       System.Classes.TComponent.Create@
+ 0001:00001504       System.Classes.TComponent.DefineProperties
+ 0001:000014E4       System.Classes.TComponent.Destroy
+ 0001:00001474       System.Classes.TComponent.Destroy@
+ 0001:00001534       System.Classes.TComponent.GetObservers
+ 0001:0000150C       System.Classes.TComponent.Loaded
+ 0001:000014FC       System.Classes.TComponent.Notification
+ 0001:0000154C       System.Classes.TComponent.ObserverAdded
+ 0001:00001564       System.Classes.TComponent.QueryInterface
+ 0001:00001514       System.Classes.TComponent.ReadState
+ 0001:00001554       System.Classes.TComponent.SafeCallException
+ 0001:0000152C       System.Classes.TComponent.SetName
+ 0001:0000153C       System.Classes.TComponent.UpdateAction
+ 0001:0000155C       System.Classes.TComponent.UpdateRegistry
+ 0001:00001524       System.Classes.TComponent.ValidateRename
+ 0001:0000151C       System.Classes.TComponent.WriteState
+ 0002:000000C8       System.Classes.TLoginCredentialService.Create@
+ 0001:0000157C       System.Classes.TLoginCredentialService.Destroy@
+ 0002:000000A8       System.Classes.TObserverMapping.Create@
+ 0001:00001584       System.Classes.TObserverMapping.Destroy@
+ 0001:00001484       System.Classes.TPersistent.Assign
+ 0001:0000148C       System.Classes.TPersistent.AssignTo
+ 0001:000014BC       System.Classes.TStream.GetPosition
+ 0001:000014C4       System.Classes.TStream.SetPosition
+ 0001:000014CC       System.Classes.TStream.SetSize64
+ 0001:0000156C       System.Classes.TStreamAdapter.Create
+ 0001:000014B4       System.Classes.TStringList.Create
+ 0001:000014A4       System.Classes.TStrings.GetEnumerator
+ 0001:000014AC       System.Classes.TStrings.SetDelimitedText
+ 0001:00001494       System.Classes.TStringsEnumerator.GetCurrent
+ 0001:0000149C       System.Classes.TStringsEnumerator.MoveNext
+ 0002:000000B8       System.Classes.TThread.Create@
+ 0001:000014D4       System.Classes.TThread.Destroy@
+ 0001:000015AC       System.DateUtils.Finalization
+ 0002:000000F0       System.DateUtils.System.DateUtils
+ 0002:000000E8       System.DateUtils.TTimeZone.Create@
+ 0001:000015A4       System.DateUtils.TTimeZone.Destroy@
+ 0002:000000A0       System.Generics.Defaults.TIStringComparer.Create@
+ 0001:0000146C       System.Generics.Defaults.TIStringComparer.Destroy@
+ 0002:00000098       System.Generics.Defaults.TStringComparer.Create@
+ 0001:00001464       System.Generics.Defaults.TStringComparer.Destroy@
+ 0001:00001BC4       System.HelpIntfs.Finalization
+ 0002:000002F8       System.HelpIntfs.System.HelpIntfs
+ 0001:000010D0       System.Internal.ExcUtils.Finalization
+ 0002:00000038       System.Internal.ExcUtils.System.Internal.ExcUtils
+ 0002:00000120       System.IOUtils.TPath.Create@
+ 0001:00001974       System.IOUtils.TPath.Destroy@
+ 0001:000018DC       System.JSON.EJSONException.Create
+ 0001:00001964       System.JSON.Finalization
+ 0002:00000110       System.JSON.System.JSON
+ 0001:000018D4       System.JSON.TJSONAncestor.ToJSON
+ 0001:0000193C       System.JSON.TJSONArray.GetEnumerator
+ 0001:00001954       System.JSON.TJSONArrayEnumerator.GetCurrent
+ 0001:0000195C       System.JSON.TJSONArrayEnumerator.MoveNext
+ 0001:0000192C       System.JSON.TJSONObject.AddPair
+ 0001:00001934       System.JSON.TJSONObject.AddPair
+ 0001:00001924       System.JSON.TJSONObject.AddPair
+ 0001:0000190C       System.JSON.TJSONObject.Create
+ 0001:0000191C       System.JSON.TJSONObject.GetEnumerator
+ 0001:00001914       System.JSON.TJSONObject.GetValue
+ 0001:00001904       System.JSON.TJSONObject.ParseJSONValue
+ 0001:000018E4       System.JSON.TJSONPair.Create
+ 0001:000018EC       System.JSON.TJSONPair.GetJsonString
+ 0001:000018F4       System.JSON.TJSONPair.GetJsonValue
+ 0001:00001944       System.JSON.TJSONPairEnumerator.GetCurrent
+ 0001:0000194C       System.JSON.TJSONPairEnumerator.MoveNext
+ 0001:000018FC       System.JSON.TJSONString.Create
+ 0001:0001A9D8       System.Json.Helper.Finalization
+ 0002:00000438       System.Json.Helper.System.Json.Helper
+ 0001:0000145C       System.Math.Finalization
+ 0002:00000090       System.Math.System.Math
+ 0002:00000440       System.NetEncoding.TNetEncoding.Create@
+ 0001:0001A9E0       System.NetEncoding.TNetEncoding.Destroy@
+ 0001:0000144C       System.Rtti.Finalization
+ 0002:00000080       System.Rtti.System.Rtti
+ 0002:00000078       System.Rtti.TRttiContext.Create@
+ 0001:00001434       System.Rtti.TRttiContext.Destroy@
+ 0001:0000143C       System.Rtti.TValue.ExtractRawData
+ 0001:00001444       System.Rtti.TValue.TryCast
+ 0001:000019AC       System.SyncObjs.Finalization
+ 0002:00000140       System.SyncObjs.System.SyncObjs
+ 0001:00001994       System.SyncObjs.TCriticalSection.Create
+ 0001:0000199C       System.SyncObjs.TCriticalSection.Enter
+ 0001:000019A4       System.SyncObjs.TCriticalSection.Leave
+ 0001:00001108       System.SysUtils.AnsiLowerCase
+ 0001:000010F8       System.SysUtils.CharInSet
+ 0001:00001100       System.SysUtils.CompareStr
+ 0001:000010E0       System.SysUtils.CreateGUID
+ 0001:00001160       System.SysUtils.Exception.Create
+ 0002:00000050       System.SysUtils.Exception.Create@
+ 0001:00001168       System.SysUtils.Exception.CreateFmt
+ 0001:00001170       System.SysUtils.Exception.CreateRes
+ 0001:00001178       System.SysUtils.Exception.Destroy
+ 0001:00001198       System.SysUtils.Exception.Destroy@
+ 0001:00001180       System.SysUtils.Exception.GetBaseException
+ 0001:00001188       System.SysUtils.Exception.RaisingException
+ 0001:00001190       System.SysUtils.Exception.ToString
+ 0001:000011E0       System.SysUtils.Finalization
+ 0001:00001140       System.SysUtils.FloatToStr
+ 0001:00001138       System.SysUtils.Format
+ 0001:00001150       System.SysUtils.FormatDateTime
+ 0001:000010F0       System.SysUtils.GUIDToString
+ 0001:00001118       System.SysUtils.IntToHex
+ 0001:00001120       System.SysUtils.IntToHex
+ 0001:00001110       System.SysUtils.IntToStr
+ 0001:000011A8       System.SysUtils.RaiseLastOSError
+ 0001:000011B8       System.SysUtils.SafeLoadLibrary
+ 0001:000011A0       System.SysUtils.StringReplace
+ 0001:000010E8       System.SysUtils.StringToGUID
+ 0001:00001148       System.SysUtils.StrToFloat
+ 0001:00001128       System.SysUtils.StrToInt
+ 0001:00001130       System.SysUtils.StrToInt64
+ 0001:00001158       System.SysUtils.SysErrorMessage
+ 0002:00000060       System.SysUtils.System.SysUtils
+ 0002:00000048       System.SysUtils.TEncoding.Create@
+ 0001:000011D8       System.SysUtils.TEncoding.Destroy@
+ 0002:00000040       System.SysUtils.TLanguages.Create@
+ 0001:000011B0       System.SysUtils.TLanguages.Destroy@
+ 0002:00000058       System.SysUtils.TOSVersion.Create@
+ 0001:000010D8       System.SysUtils.TOSVersion.Destroy@
+ 0001:000011C0       System.SysUtils.TStringBuilder.Append
+ 0001:000011C8       System.SysUtils.TStringBuilder.Clear
+ 0001:000011D0       System.SysUtils.TStringBuilder.Create
+ 0002:00000428       System.Threading.TParallel.TJoinTask.Create@
+ 0001:0001A9C0       System.Threading.TParallel.TJoinTask.Destroy@
+ 0002:00000410       System.Threading.TParallel.TReplicableTask.Create@
+ 0001:0001A9B0       System.Threading.TParallel.TReplicableTask.Destroy@
+ 0002:00000430       System.Threading.TParallel.TReplicaTask.Create@
+ 0001:0001A9B8       System.Threading.TParallel.TReplicaTask.Destroy@
+ 0002:00000408       System.Threading.TTask.Create@
+ 0001:0001A9C8       System.Threading.TTask.Destroy@
+ 0002:00000418       System.Threading.TThreadPool.Create@
+ 0001:0001A9D0       System.Threading.TThreadPool.Destroy@
+ 0002:00000420       System.Threading.TThreadPool.TWorkerData.Create@
+ 0001:0001A9A8       System.Threading.TThreadPool.TWorkerData.Destroy@
+ 0002:000000E0       System.TimeSpan.TTimeSpan.Create@
+ 0001:0000159C       System.TimeSpan.TTimeSpan.Destroy@
+ 0001:00001454       System.TypInfo.Finalization
+ 0002:00000088       System.TypInfo.System.TypInfo
+ 0001:00001240       System.Variants.@OleVarFromInt
+ 0001:00001248       System.Variants.@OleVarFromInt64
+ 0001:00001288       System.Variants.@OleVarFromUStr
+ 0001:00001290       System.Variants.@OleVarFromVar
+ 0001:00001298       System.Variants.@VarAddRef
+ 0001:00001308       System.Variants.@VarArrayGet
+ 0001:00001318       System.Variants.@VarArrayPut
+ 0001:000011F0       System.Variants.@VarClear
+ 0001:000011F8       System.Variants.@VarClr
+ 0001:00001328       System.Variants.@VarCmpEQ
+ 0001:00001330       System.Variants.@VarCmpNE
+ 0001:00001200       System.Variants.@VarCopy
+ 0001:00001258       System.Variants.@VarFromBool
+ 0001:00001238       System.Variants.@VarFromInt
+ 0001:00001250       System.Variants.@VarFromInt64
+ 0001:00001280       System.Variants.@VarFromIntf
+ 0001:00001260       System.Variants.@VarFromReal
+ 0001:00001270       System.Variants.@VarFromUStr
+ 0001:00001278       System.Variants.@VarFromWChar
+ 0001:00001268       System.Variants.@VarFromWStr
+ 0001:00001218       System.Variants.@VarToBool
+ 0001:00001210       System.Variants.@VarToInt64
+ 0001:00001208       System.Variants.@VarToInteger
+ 0001:00001230       System.Variants.@VarToIntf
+ 0001:00001220       System.Variants.@VarToReal
+ 0001:00001228       System.Variants.@VarToUStr
+ 0001:00001338       System.Variants.Finalization
+ 0001:00001320       System.Variants.Null
+ 0002:00000070       System.Variants.System.Variants
+ 0001:000012D0       System.Variants.VarArrayCreate
+ 0001:000012D8       System.Variants.VarArrayDimCount
+ 0001:00001310       System.Variants.VarArrayGet
+ 0001:000012E8       System.Variants.VarArrayHighBound
+ 0001:000012F0       System.Variants.VarArrayLock
+ 0001:000012E0       System.Variants.VarArrayLowBound
+ 0001:000012F8       System.Variants.VarArrayUnlock
+ 0001:000012C0       System.Variants.VarFromDateTime
+ 0001:000012A8       System.Variants.VarIsNull
+ 0001:000012C8       System.Variants.VarToDateTime
+ 0001:000012B0       System.Variants.VarToStr
+ 0001:000012B8       System.Variants.VarToWideStr
+ 0001:000012A0       System.Variants.VarType
+ 0001:00001300       System.Variants.VarTypeIsValidArrayType
+ 0001:000011E8       System.VarUtils.Finalization
+ 0002:00000068       System.VarUtils.System.VarUtils
+ 0001:000019DC       System.Win.ComObj.Finalization
+ 0001:000019D4       System.Win.ComObj.OleCheck
+ 0002:00000168       System.Win.ComObj.System.Win.ComObj
+ 0002:00000160       System.Win.ComObj.TComServerObject.Create@
+ 0001:000019CC       System.Win.ComObj.TComServerObject.Destroy@
+ 0002:00000128       System.Win.Registry.TRegistry.Create@
+ 0001:0000197C       System.Win.Registry.TRegistry.Destroy@
+ 0001:000019BC       Vcl.ActnList.Finalization
+ 0002:00000150       Vcl.ActnList.Vcl.ActnList
+ 0001:00001AF4       Vcl.Clipbrd.Finalization
+ 0002:00000228       Vcl.Clipbrd.Vcl.Clipbrd
+ 0001:00001BBC       Vcl.ComCtrls.Finalization
+ 0002:000002D8       Vcl.ComCtrls.TComboBoxEx.Create@
+ 0001:00001BA4       Vcl.ComCtrls.TComboBoxEx.Destroy@
+ 0002:000002B8       Vcl.ComCtrls.TCoolBar.Create@
+ 0001:00001B84       Vcl.ComCtrls.TCoolBar.Destroy@
+ 0002:000002D0       Vcl.ComCtrls.TCustomComboBoxEx.Create@
+ 0001:00001B9C       Vcl.ComCtrls.TCustomComboBoxEx.Destroy@
+ 0002:00000248       Vcl.ComCtrls.TCustomHeaderControl.Create@
+ 0001:00001B14       Vcl.ComCtrls.TCustomHeaderControl.Destroy@
+ 0002:00000290       Vcl.ComCtrls.TCustomHotKey.Create@
+ 0001:00001B5C       Vcl.ComCtrls.TCustomHotKey.Destroy@
+ 0002:000002A0       Vcl.ComCtrls.TCustomListView.Create@
+ 0001:00001B6C       Vcl.ComCtrls.TCustomListView.Destroy@
+ 0002:00000270       Vcl.ComCtrls.TCustomRichEdit.Create@
+ 0001:00001B3C       Vcl.ComCtrls.TCustomRichEdit.Destroy@
+ 0002:00000240       Vcl.ComCtrls.TCustomStatusBar.Create@
+ 0001:00001B0C       Vcl.ComCtrls.TCustomStatusBar.Destroy@
+ 0002:00000230       Vcl.ComCtrls.TCustomTabControl.Create@
+ 0001:00001AFC       Vcl.ComCtrls.TCustomTabControl.Destroy@
+ 0002:00000250       Vcl.ComCtrls.TCustomTreeView.Create@
+ 0001:00001B1C       Vcl.ComCtrls.TCustomTreeView.Destroy@
+ 0002:00000280       Vcl.ComCtrls.TCustomUpDown.Create@
+ 0001:00001B4C       Vcl.ComCtrls.TCustomUpDown.Destroy@
+ 0002:000002C0       Vcl.ComCtrls.TDateTimePicker.Create@
+ 0001:00001B8C       Vcl.ComCtrls.TDateTimePicker.Destroy@
+ 0002:000002E8       Vcl.ComCtrls.THeaderControl.Create@
+ 0001:00001BB4       Vcl.ComCtrls.THeaderControl.Destroy@
+ 0002:00000298       Vcl.ComCtrls.THotKey.Create@
+ 0001:00001B64       Vcl.ComCtrls.THotKey.Destroy@
+ 0002:000002A8       Vcl.ComCtrls.TListView.Create@
+ 0001:00001B74       Vcl.ComCtrls.TListView.Destroy@
+ 0002:000002C8       Vcl.ComCtrls.TPageScroller.Create@
+ 0001:00001B94       Vcl.ComCtrls.TPageScroller.Destroy@
+ 0002:00000268       Vcl.ComCtrls.TProgressBar.Create@
+ 0001:00001B34       Vcl.ComCtrls.TProgressBar.Destroy@
+ 0002:00000278       Vcl.ComCtrls.TRichEdit.Create@
+ 0001:00001B44       Vcl.ComCtrls.TRichEdit.Destroy@
+ 0002:000002E0       Vcl.ComCtrls.TStatusBar.Create@
+ 0001:00001BAC       Vcl.ComCtrls.TStatusBar.Destroy@
+ 0002:00000238       Vcl.ComCtrls.TTabControl.Create@
+ 0001:00001B04       Vcl.ComCtrls.TTabControl.Destroy@
+ 0002:000002B0       Vcl.ComCtrls.TToolBar.Create@
+ 0001:00001B7C       Vcl.ComCtrls.TToolBar.Destroy@
+ 0002:00000260       Vcl.ComCtrls.TTrackBar.Create@
+ 0001:00001B2C       Vcl.ComCtrls.TTrackBar.Destroy@
+ 0002:00000258       Vcl.ComCtrls.TTreeView.Create@
+ 0001:00001B24       Vcl.ComCtrls.TTreeView.Destroy@
+ 0002:00000288       Vcl.ComCtrls.TUpDown.Create@
+ 0001:00001B54       Vcl.ComCtrls.TUpDown.Destroy@
+ 0002:000002F0       Vcl.ComCtrls.Vcl.ComCtrls
+ 0001:00001A54       Vcl.Controls.Finalization
+ 0002:00000188       Vcl.Controls.Vcl.Controls
+ 0001:00001BCC       Vcl.Dialogs.Finalization
+ 0002:00000300       Vcl.Dialogs.Vcl.Dialogs
+ 0001:00001BF4       Vcl.ExtCtrls.Finalization
+ 0002:00000310       Vcl.ExtCtrls.TCategoryPanelGroup.Create@
+ 0001:00001BDC       Vcl.ExtCtrls.TCategoryPanelGroup.Destroy@
+ 0002:00000308       Vcl.ExtCtrls.TCustomCategoryPanelGroup.Create@
+ 0001:00001BD4       Vcl.ExtCtrls.TCustomCategoryPanelGroup.Destroy@
+ 0002:00000318       Vcl.ExtCtrls.TCustomLinkLabel.Create@
+ 0001:00001BE4       Vcl.ExtCtrls.TCustomLinkLabel.Destroy@
+ 0002:00000320       Vcl.ExtCtrls.TLinkLabel.Create@
+ 0001:00001BEC       Vcl.ExtCtrls.TLinkLabel.Destroy@
+ 0002:00000328       Vcl.ExtCtrls.Vcl.ExtCtrls
+ 0001:00001C34       Vcl.Forms.Finalization
+ 0002:00000358       Vcl.Forms.TCustomForm.Create@
+ 0001:00001C24       Vcl.Forms.TCustomForm.Destroy@
+ 0002:00000360       Vcl.Forms.TForm.Create@
+ 0001:00001C2C       Vcl.Forms.TForm.Destroy@
+ 0002:00000350       Vcl.Forms.TScrollBox.Create@
+ 0001:00001C1C       Vcl.Forms.TScrollBox.Destroy@
+ 0002:00000368       Vcl.Forms.Vcl.Forms
+ 0001:0000198C       Vcl.Graphics.Finalization
+ 0002:00000130       Vcl.Graphics.TWICImage.Create@
+ 0001:00001984       Vcl.Graphics.TWICImage.Destroy@
+ 0002:00000138       Vcl.Graphics.Vcl.Graphics
+ 0001:00001A4C       Vcl.GraphUtil.Finalization
+ 0002:00000180       Vcl.GraphUtil.Vcl.GraphUtil
+ 0001:00001C0C       Vcl.Menus.Finalization
+ 0002:00000340       Vcl.Menus.Vcl.Menus
+ 0001:00001AEC       Vcl.Printers.Finalization
+ 0002:00000220       Vcl.Printers.Vcl.Printers
+ 0002:00000200       Vcl.StdCtrls.TButton.Create@
+ 0001:00001ACC       Vcl.StdCtrls.TButton.Destroy@
+ 0002:00000208       Vcl.StdCtrls.TCheckBox.Create@
+ 0001:00001AD4       Vcl.StdCtrls.TCheckBox.Destroy@
+ 0002:000001F8       Vcl.StdCtrls.TComboBox.Create@
+ 0001:00001AC4       Vcl.StdCtrls.TComboBox.Destroy@
+ 0002:000001B0       Vcl.StdCtrls.TCustomButton.Create@
+ 0001:00001A7C       Vcl.StdCtrls.TCustomButton.Destroy@
+ 0002:000001B8       Vcl.StdCtrls.TCustomCheckBox.Create@
+ 0001:00001A84       Vcl.StdCtrls.TCustomCheckBox.Destroy@
+ 0002:000001A8       Vcl.StdCtrls.TCustomComboBox.Create@
+ 0001:00001A74       Vcl.StdCtrls.TCustomComboBox.Destroy@
+ 0002:00000198       Vcl.StdCtrls.TCustomEdit.Create@
+ 0001:00001A64       Vcl.StdCtrls.TCustomEdit.Destroy@
+ 0002:00000190       Vcl.StdCtrls.TCustomGroupBox.Create@
+ 0001:00001A5C       Vcl.StdCtrls.TCustomGroupBox.Destroy@
+ 0002:000001C8       Vcl.StdCtrls.TCustomListBox.Create@
+ 0001:00001A94       Vcl.StdCtrls.TCustomListBox.Destroy@
+ 0002:000001A0       Vcl.StdCtrls.TCustomMemo.Create@
+ 0001:00001A6C       Vcl.StdCtrls.TCustomMemo.Destroy@
+ 0002:000001D8       Vcl.StdCtrls.TCustomStaticText.Create@
+ 0001:00001AA4       Vcl.StdCtrls.TCustomStaticText.Destroy@
+ 0002:000001E8       Vcl.StdCtrls.TEdit.Create@
+ 0001:00001AB4       Vcl.StdCtrls.TEdit.Destroy@
+ 0002:000001E0       Vcl.StdCtrls.TGroupBox.Create@
+ 0001:00001AAC       Vcl.StdCtrls.TGroupBox.Destroy@
+ 0002:00000210       Vcl.StdCtrls.TListBox.Create@
+ 0001:00001ADC       Vcl.StdCtrls.TListBox.Destroy@
+ 0002:000001F0       Vcl.StdCtrls.TMemo.Create@
+ 0001:00001ABC       Vcl.StdCtrls.TMemo.Destroy@
+ 0002:000001C0       Vcl.StdCtrls.TRadioButton.Create@
+ 0001:00001A8C       Vcl.StdCtrls.TRadioButton.Destroy@
+ 0002:000001D0       Vcl.StdCtrls.TScrollBar.Create@
+ 0001:00001A9C       Vcl.StdCtrls.TScrollBar.Destroy@
+ 0002:00000218       Vcl.StdCtrls.TStaticText.Create@
+ 0001:00001AE4       Vcl.StdCtrls.TStaticText.Destroy@
+ 0002:00000338       Vcl.Themes.TCustomStyleEngine.Create@
+ 0001:00001C04       Vcl.Themes.TCustomStyleEngine.Destroy@
+ 0002:00000330       Vcl.Themes.TStyleManager.Create@
+ 0001:00001BFC       Vcl.Themes.TStyleManager.Destroy@
+ 0001:00001C14       Winapi.FlatSB.Finalization
+ 0002:00000348       Winapi.FlatSB.Winapi.FlatSB
+ 0004:00000030       Winapi.MsCTF..1
+ 0001:00001A24       Winapi.MsCTF.DoneMSCTF
+ 0001:00001A3C       Winapi.MsCTF.Finalization
+ 0001:000019E4       Winapi.MsCTF.InitMSCTF
+ 0003:00000094       Winapi.MsCTF.MsCTFHandle
+ 0002:00000170       Winapi.MsCTF.Winapi.MsCTF
+ 0004:00000028       Winapi.PsAPI..1
+ 0001:000010A4       Winapi.PsAPI.Finalization
+ 0004:0000002C       Winapi.PsAPI.hPSAPI
+ 0002:00000028       Winapi.PsAPI.Winapi.PsAPI
+ 0001:000019B4       Winapi.UxTheme.Finalization
+ 0002:00000148       Winapi.UxTheme.Winapi.UxTheme
+ 0004:00000020       Winapi.Windows..2
+ 0001:00001084       Winapi.Windows.Finalization
+ 0001:00001030       Winapi.Windows.FreeLibrary
+ 0001:00001038       Winapi.Windows.GetVersionEx
+ 0004:00000024       Winapi.Windows.HtmlHelpModule
+ 0001:00001048       Winapi.Windows.InitVersionInfo
+ 0003:00000088       Winapi.Windows.Win32MajorVersion
+ 0003:0000008C       Winapi.Windows.Win32MinorVersion
+ 0003:00000090       Winapi.Windows.Win32Platform
+ 0002:00000010       Winapi.Windows.Winapi.Windows
+ 0001:00001040       Winapi.Windows.ZeroMemory
+ 0001:000125B0       Winapi.WinSock.setsockopt
+
+
+  Address             Publics by Value
+
+ 0001:00000000       System.Error
+ 0001:00000008       System.Move
+ 0001:00000010       System.@ROUND
+ 0001:00000018       System.@FillChar
+ 0001:00000020       System.TObject.ClassName
+ 0001:00000028       System.TObject.NewInstance
+ 0001:00000030       System.TObject.FreeInstance
+ 0001:00000038       System.TObject.Create
+ 0001:00000040       System.TObject.Destroy
+ 0001:00000048       System.TObject.Free
+ 0001:00000050       System.TObject.DisposeOf
+ 0001:00000058       System.TObject.Equals
+ 0001:00000060       System.TObject.GetHashCode
+ 0001:00000068       System.TObject.GetInterface
+ 0001:00000070       System.@AsClass
+ 0001:00000078       System.TObject.SafeCallException
+ 0001:00000080       System.TObject.ToString
+ 0001:00000088       System.TObject.DefaultHandler
+ 0001:00000090       System.TObject.AfterConstruction
+ 0001:00000098       System.TObject.BeforeDestruction
+ 0001:000000A0       System.TObject.Dispatch
+ 0001:000000A8       System.@ClassCreate
+ 0001:000000B0       System.@ClassDestroy
+ 0001:000000B8       System.@AfterConstruction
+ 0001:000000C0       System.@BeforeDestruction
+ 0001:000000C8       System.@HandleAnyException
+ 0001:000000D0       System.@HandleOnException
+ 0001:000000D8       System.@HandleFinally
+ 0001:000000E0       System.@HandleAutoException
+ 0001:000000E8       System.@RaiseExcept
+ 0001:000000F0       System.@RaiseAgain
+ 0001:000000F8       System.@DoneExcept
+ 0001:00000100       System.@PackageLoad
+ 0001:00000108       System.@PackageUnload
+ 0001:00000110       System.@InitWideStrings
+ 0001:00000118       System.@FinalizeWideStrings
+ 0001:00000120       System.@RunError
+ 0001:00000128       System.@Assert
+ 0001:00000130       System.@UStrClr
+ 0001:00000138       System.@LStrClr
+ 0001:00000140       System.@WStrClr
+ 0001:00000148       System.@UStrArrayClr
+ 0001:00000150       System.@LStrArrayClr
+ 0001:00000158       System.@WStrArrayClr
+ 0001:00000160       System.@UStrAddRef
+ 0001:00000168       System.@LStrAddRef
+ 0001:00000170       System.@UStrAsg
+ 0001:00000178       System.@UStrLAsg
+ 0001:00000180       System.@WStrAsg
+ 0001:00000188       System.@WStrLAsg
+ 0001:00000190       System.@LStrLAsg
+ 0001:00000198       System.@UStrLen
+ 0001:000001A0       System.@WStrLen
+ 0001:000001A8       System.@LStrLen
+ 0001:000001B0       System.@UniqueStringA
+ 0001:000001B8       System.@LStrFromChar
+ 0001:000001C0       System.@LStrCat3
+ 0001:000001C8       System.@LStrCatN
+ 0001:000001D0       System.@LStrEqual
+ 0001:000001D8       System.@LStrToPChar
+ 0001:000001E0       System.@LStrCopy
+ 0001:000001E8       System.@LStrSetLength
+ 0001:000001F0       System.@LStrFromUStr
+ 0001:000001F8       System.@WStrToPWChar
+ 0001:00000200       System.@WStrCat
+ 0001:00000208       System.@WStrCat3
+ 0001:00000210       System.@WStrCatN
+ 0001:00000218       System.@WStrEqual
+ 0001:00000220       System.@WStrCopy
+ 0001:00000228       System.@WStrSetLength
+ 0001:00000230       System.@UStrFromWChar
+ 0001:00000238       System.@UStrFromPChar
+ 0001:00000240       System.@UStrFromWStr
+ 0001:00000248       System.@WStrFromUStr
+ 0001:00000250       System.@UStrCat
+ 0001:00000258       System.@UStrCat3
+ 0001:00000260       System.@UStrCatN
+ 0001:00000268       System.@UStrEqual
+ 0001:00000270       System.@InitializeRecord
+ 0001:00000278       System.@FinalizeRecord
+ 0001:00000280       System.@FinalizeArray
+ 0001:00000288       System.@AddRefArray
+ 0001:00000290       System.@_llmul
+ 0001:00000298       System.@DynArrayLength
+ 0001:000002A0       System.@DynArraySetLength
+ 0001:000002A8       System.@DynArrayClear
+ 0001:000002B0       System.RegisterModule
+ 0001:000002B8       System.UnregisterModule
+ 0001:000002C0       System.@IntfClear
+ 0001:000002C8       System.@IntfCopy
+ 0001:000002D0       System.@IntfCast
+ 0001:000002D8       System.@IntfAddRef
+ 0001:000002E0       System.TInterfacedObject.AfterConstruction
+ 0001:000002E8       System.TInterfacedObject.BeforeDestruction
+ 0001:000002F0       System.TInterfacedObject.NewInstance
+ 0001:000002F8       System.TInterfacedObject.QueryInterface
+ 0001:00000300       System.TInterfacedObject._AddRef
+ 0001:00000308       System.TInterfacedObject._Release
+ 0001:00000310       System.@CheckAutoResult
+ 0001:00000318       System.UTF8Encode
+ 0001:00000320       System.UTF8Encode
+ 0001:00000328       System.UTF8ToWideString
+ 0001:00000330       System.LoadResString
+ 0001:00000338       System.Finalization
+ 0001:00000340       SysInit.InterlockedExchange
+ 0001:00000354       SysInit.FreeLibrary
+ 0001:0000035C       SysInit.LocalAlloc
+ 0001:00000364       SysInit.LocalFree
+ 0001:0000036C       SysInit.TlsAlloc
+ 0001:00000374       SysInit.TlsFree
+ 0001:0000037C       SysInit.TlsGetValue
+ 0001:00000384       SysInit.TlsSetValue
+ 0001:0000038C       SysInit.GetLastError
+ 0001:00000394       SysInit.LoadLibraryA
+ 0001:0000039C       SysInit.RaiseException
+ 0001:000003A4       SysInit.GetProcAddress
+ 0001:000003AC       SysInit.AllocTlsBuffer
+ 0001:000003B8       SysInit.GetTlsSize
+ 0001:000003C0       SysInit.InitThreadTLS
+ 0001:00000404       SysInit.InitProcessTLS
+ 0001:00000430       SysInit.ExitThreadTLS
+ 0001:00000468       SysInit.ExitProcessTLS
+ 0001:0000048C       SysInit.InitializeModule
+ 0001:00000498       SysInit.UninitializeModule
+ 0001:000004BC       SysInit.@_dbkDummyProc
+ 0001:000004C0       SysInit.@_dbkFCallArgs
+ 0001:000008B0       SysInit.@_dbk_fcall_wrapper
+ 0001:000009DC       SysInit.@InitPkg
+ 0001:00000A40       SysInit.@PackageLoad
+ 0001:00000A4C       SysInit.@PackageUnload
+ 0001:00000A58       SysInit.@_delayLoadHelper2
+ 0001:00000D38       SysInit.@_FUnloadDelayLoadedDLL2
+ 0001:00000E48       SysInit.@_HrLoadAllImportsForDll
+ 0001:00000F00       SysInit.ShutdownDelayHelp2
+ 0001:00000F08       SysInit...
+ 0001:00000F18       SysInit...
+ 0001:00000F28       SysInit...
+ 0001:00000F38       SysInit...
+ 0001:00000F48       SysInit...
+ 0001:00000F58       SysInit...
+ 0001:00000F6C       SysInit...
+ 0001:00000F9C       SysInit...
+ 0001:00000FB4       SysInit...
+ 0001:00000FDC       SysInit...
+ 0001:00001000       SysInit...
+ 0001:00001010       SysInit...
+ 0001:00001020       SysInit.Finalization
+ 0001:00001030       Winapi.Windows.FreeLibrary
+ 0001:00001038       Winapi.Windows.GetVersionEx
+ 0001:00001040       Winapi.Windows.ZeroMemory
+ 0001:00001048       Winapi.Windows.InitVersionInfo
+ 0001:00001084       Winapi.Windows.Finalization
+ 0001:000010A4       Winapi.PsAPI.Finalization
+ 0001:000010C8       System.Character.Finalization
+ 0001:000010D0       System.Internal.ExcUtils.Finalization
+ 0001:000010D8       System.SysUtils.TOSVersion.Destroy@
+ 0001:000010E0       System.SysUtils.CreateGUID
+ 0001:000010E8       System.SysUtils.StringToGUID
+ 0001:000010F0       System.SysUtils.GUIDToString
+ 0001:000010F8       System.SysUtils.CharInSet
+ 0001:00001100       System.SysUtils.CompareStr
+ 0001:00001108       System.SysUtils.AnsiLowerCase
+ 0001:00001110       System.SysUtils.IntToStr
+ 0001:00001118       System.SysUtils.IntToHex
+ 0001:00001120       System.SysUtils.IntToHex
+ 0001:00001128       System.SysUtils.StrToInt
+ 0001:00001130       System.SysUtils.StrToInt64
+ 0001:00001138       System.SysUtils.Format
+ 0001:00001140       System.SysUtils.FloatToStr
+ 0001:00001148       System.SysUtils.StrToFloat
+ 0001:00001150       System.SysUtils.FormatDateTime
+ 0001:00001158       System.SysUtils.SysErrorMessage
+ 0001:00001160       System.SysUtils.Exception.Create
+ 0001:00001168       System.SysUtils.Exception.CreateFmt
+ 0001:00001170       System.SysUtils.Exception.CreateRes
+ 0001:00001178       System.SysUtils.Exception.Destroy
+ 0001:00001180       System.SysUtils.Exception.GetBaseException
+ 0001:00001188       System.SysUtils.Exception.RaisingException
+ 0001:00001190       System.SysUtils.Exception.ToString
+ 0001:00001198       System.SysUtils.Exception.Destroy@
+ 0001:000011A0       System.SysUtils.StringReplace
+ 0001:000011A8       System.SysUtils.RaiseLastOSError
+ 0001:000011B0       System.SysUtils.TLanguages.Destroy@
+ 0001:000011B8       System.SysUtils.SafeLoadLibrary
+ 0001:000011C0       System.SysUtils.TStringBuilder.Append
+ 0001:000011C8       System.SysUtils.TStringBuilder.Clear
+ 0001:000011D0       System.SysUtils.TStringBuilder.Create
+ 0001:000011D8       System.SysUtils.TEncoding.Destroy@
+ 0001:000011E0       System.SysUtils.Finalization
+ 0001:000011E8       System.VarUtils.Finalization
+ 0001:000011F0       System.Variants.@VarClear
+ 0001:000011F8       System.Variants.@VarClr
+ 0001:00001200       System.Variants.@VarCopy
+ 0001:00001208       System.Variants.@VarToInteger
+ 0001:00001210       System.Variants.@VarToInt64
+ 0001:00001218       System.Variants.@VarToBool
+ 0001:00001220       System.Variants.@VarToReal
+ 0001:00001228       System.Variants.@VarToUStr
+ 0001:00001230       System.Variants.@VarToIntf
+ 0001:00001238       System.Variants.@VarFromInt
+ 0001:00001240       System.Variants.@OleVarFromInt
+ 0001:00001248       System.Variants.@OleVarFromInt64
+ 0001:00001250       System.Variants.@VarFromInt64
+ 0001:00001258       System.Variants.@VarFromBool
+ 0001:00001260       System.Variants.@VarFromReal
+ 0001:00001268       System.Variants.@VarFromWStr
+ 0001:00001270       System.Variants.@VarFromUStr
+ 0001:00001278       System.Variants.@VarFromWChar
+ 0001:00001280       System.Variants.@VarFromIntf
+ 0001:00001288       System.Variants.@OleVarFromUStr
+ 0001:00001290       System.Variants.@OleVarFromVar
+ 0001:00001298       System.Variants.@VarAddRef
+ 0001:000012A0       System.Variants.VarType
+ 0001:000012A8       System.Variants.VarIsNull
+ 0001:000012B0       System.Variants.VarToStr
+ 0001:000012B8       System.Variants.VarToWideStr
+ 0001:000012C0       System.Variants.VarFromDateTime
+ 0001:000012C8       System.Variants.VarToDateTime
+ 0001:000012D0       System.Variants.VarArrayCreate
+ 0001:000012D8       System.Variants.VarArrayDimCount
+ 0001:000012E0       System.Variants.VarArrayLowBound
+ 0001:000012E8       System.Variants.VarArrayHighBound
+ 0001:000012F0       System.Variants.VarArrayLock
+ 0001:000012F8       System.Variants.VarArrayUnlock
+ 0001:00001300       System.Variants.VarTypeIsValidArrayType
+ 0001:00001308       System.Variants.@VarArrayGet
+ 0001:00001310       System.Variants.VarArrayGet
+ 0001:00001318       System.Variants.@VarArrayPut
+ 0001:00001320       System.Variants.Null
+ 0001:00001328       System.Variants.@VarCmpEQ
+ 0001:00001330       System.Variants.@VarCmpNE
+ 0001:00001338       System.Variants.Finalization
+ 0001:00001434       System.Rtti.TRttiContext.Destroy@
+ 0001:0000143C       System.Rtti.TValue.ExtractRawData
+ 0001:00001444       System.Rtti.TValue.TryCast
+ 0001:0000144C       System.Rtti.Finalization
+ 0001:00001454       System.TypInfo.Finalization
+ 0001:0000145C       System.Math.Finalization
+ 0001:00001464       System.Generics.Defaults.TStringComparer.Destroy@
+ 0001:0000146C       System.Generics.Defaults.TIStringComparer.Destroy@
+ 0001:00001474       System.Classes.TComponent.Destroy@
+ 0001:0000147C       System.Classes.RegisterComponents
+ 0001:00001484       System.Classes.TPersistent.Assign
+ 0001:0000148C       System.Classes.TPersistent.AssignTo
+ 0001:00001494       System.Classes.TStringsEnumerator.GetCurrent
+ 0001:0000149C       System.Classes.TStringsEnumerator.MoveNext
+ 0001:000014A4       System.Classes.TStrings.GetEnumerator
+ 0001:000014AC       System.Classes.TStrings.SetDelimitedText
+ 0001:000014B4       System.Classes.TStringList.Create
+ 0001:000014BC       System.Classes.TStream.GetPosition
+ 0001:000014C4       System.Classes.TStream.SetPosition
+ 0001:000014CC       System.Classes.TStream.SetSize64
+ 0001:000014D4       System.Classes.TThread.Destroy@
+ 0001:000014DC       System.Classes.TComponent.Create
+ 0001:000014E4       System.Classes.TComponent.Destroy
+ 0001:000014EC       System.Classes.TComponent.AsyncSchedule
+ 0001:000014F4       System.Classes.TComponent.BeforeDestruction
+ 0001:000014FC       System.Classes.TComponent.Notification
+ 0001:00001504       System.Classes.TComponent.DefineProperties
+ 0001:0000150C       System.Classes.TComponent.Loaded
+ 0001:00001514       System.Classes.TComponent.ReadState
+ 0001:0000151C       System.Classes.TComponent.WriteState
+ 0001:00001524       System.Classes.TComponent.ValidateRename
+ 0001:0000152C       System.Classes.TComponent.SetName
+ 0001:00001534       System.Classes.TComponent.GetObservers
+ 0001:0000153C       System.Classes.TComponent.UpdateAction
+ 0001:00001544       System.Classes.TComponent.CanObserve
+ 0001:0000154C       System.Classes.TComponent.ObserverAdded
+ 0001:00001554       System.Classes.TComponent.SafeCallException
+ 0001:0000155C       System.Classes.TComponent.UpdateRegistry
+ 0001:00001564       System.Classes.TComponent.QueryInterface
+ 0001:0000156C       System.Classes.TStreamAdapter.Create
+ 0001:00001574       System.Classes.TBinaryWriter.Destroy@
+ 0001:0000157C       System.Classes.TLoginCredentialService.Destroy@
+ 0001:00001584       System.Classes.TObserverMapping.Destroy@
+ 0001:0000158C       System.Classes.TBaseAsyncResult.Destroy@
+ 0001:00001594       System.Classes.Finalization
+ 0001:0000159C       System.TimeSpan.TTimeSpan.Destroy@
+ 0001:000015A4       System.DateUtils.TTimeZone.Destroy@
+ 0001:000015AC       System.DateUtils.Finalization
+ 0001:000015B4       Data.SqlTimSt.Finalization
+ 0001:000015BC       Data.FmtBcd.Finalization
+ 0001:000015C4       Data.DB.TFields.FieldByName
+ 0001:000015CC       Data.DB.TField.GetOldValue
+ 0001:000015D4       Data.DB.TDataSet.SetName
+ 0001:000015DC       Data.DB.TDataSet.CreateNestedDataSet
+ 0001:000015E4       Data.DB.TDataSet.SetDataSetField
+ 0001:000015EC       Data.DB.TDataSet.CheckInactive
+ 0001:000015F4       Data.DB.TDataSet.CheckActive
+ 0001:000015FC       Data.DB.TDataSet.GetActive
+ 0001:00001604       Data.DB.TDataSet.GetDetailDataSets
+ 0001:0000160C       Data.DB.TDataSet.GetDetailDataSets
+ 0001:00001614       Data.DB.TDataSet.GetDetailLinkFields
+ 0001:0000161C       Data.DB.TDataSet.GetLookupListClass
+ 0001:00001624       Data.DB.TDataSet.InitFieldDefs
+ 0001:0000162C       Data.DB.TDataSet.SetFieldDefs
+ 0001:00001634       Data.DB.TDataSet.SetFieldOptions
+ 0001:0000163C       Data.DB.TDataSet.SetFieldProps
+ 0001:00001644       Data.DB.TDataSet.SetFieldDefProps
+ 0001:0000164C       Data.DB.TDataSet.GetFieldClass
+ 0001:00001654       Data.DB.TDataSet.GetCalcFieldTypes
+ 0001:0000165C       Data.DB.TDataSet.GetFieldFullName
+ 0001:00001664       Data.DB.TDataSet.CreateFields
+ 0001:0000166C       Data.DB.TDataSet.DestroyFields
+ 0001:00001674       Data.DB.TDataSet.CheckFieldCompatibility
+ 0001:0000167C       Data.DB.TDataSet.BindFields
+ 0001:00001684       Data.DB.TDataSet.FreeFieldBuffers
+ 0001:0000168C       Data.DB.TDataSet.GetFieldCount
+ 0001:00001694       Data.DB.TDataSet.GetBlobFieldData
+ 0001:0000169C       Data.DB.TDataSet.GetFieldData
+ 0001:000016A4       Data.DB.TDataSet.GetFieldData
+ 0001:000016AC       Data.DB.TDataSet.GetFieldData
+ 0001:000016B4       Data.DB.TDataSet.GetFieldData
+ 0001:000016BC       Data.DB.TDataSet.SetFieldData
+ 0001:000016C4       Data.DB.TDataSet.SetFieldData
+ 0001:000016CC       Data.DB.TDataSet.SetFieldData
+ 0001:000016D4       Data.DB.TDataSet.GetFieldNames
+ 0001:000016DC       Data.DB.TDataSet.SetStateFieldValue
+ 0001:000016E4       Data.DB.TDataSet.DataConvert
+ 0001:000016EC       Data.DB.TDataSet.DataConvert
+ 0001:000016F4       Data.DB.TDataSet.GetParamsClass
+ 0001:000016FC       Data.DB.TDataSet.GetFieldsClass
+ 0001:00001704       Data.DB.TDataSet.GetAggFieldsClass
+ 0001:0000170C       Data.DB.TDataSet.GetFieldListClass
+ 0001:00001714       Data.DB.TDataSet.GetFieldDefsClass
+ 0001:0000171C       Data.DB.TDataSet.GetIndexDefsClass
+ 0001:00001724       Data.DB.TDataSet.GetFieldDefListClass
+ 0001:0000172C       Data.DB.TDataSet.GetCheckConstraintsClass
+ 0001:00001734       Data.DB.TDataSet.DisableControls
+ 0001:0000173C       Data.DB.TDataSet.EnableControls
+ 0001:00001744       Data.DB.TDataSet.SetBufListSize
+ 0001:0000174C       Data.DB.TDataSet.SetCurrentRecord
+ 0001:00001754       Data.DB.TDataSet.GetNextRecord
+ 0001:0000175C       Data.DB.TDataSet.GetPriorRecord
+ 0001:00001764       Data.DB.TDataSet.Resync
+ 0001:0000176C       Data.DB.TDataSet.ClearBuffers
+ 0001:00001774       Data.DB.TDataSet.ActivateBuffers
+ 0001:0000177C       Data.DB.TDataSet.GetCurrentRecord
+ 0001:00001784       Data.DB.TDataSet.GetNextRecords
+ 0001:0000178C       Data.DB.TDataSet.GetPriorRecords
+ 0001:00001794       Data.DB.TDataSet.InitRecord
+ 0001:0000179C       Data.DB.TDataSet.GetCalcFields
+ 0001:000017A4       Data.DB.TDataSet.GetCalcFields
+ 0001:000017AC       Data.DB.TDataSet.CalculateFields
+ 0001:000017B4       Data.DB.TDataSet.CalculateFields
+ 0001:000017BC       Data.DB.TDataSet.ClearCalcFields
+ 0001:000017C4       Data.DB.TDataSet.MoveBy
+ 0001:000017CC       Data.DB.TDataSet.BlockReadNext
+ 0001:000017D4       Data.DB.TDataSet.SetBlockReadSize
+ 0001:000017DC       Data.DB.TDataSet.Append
+ 0001:000017E4       Data.DB.TDataSet.Translate
+ 0001:000017EC       Data.DB.TDataSet.InternalInitRecord
+ 0001:000017F4       Data.DB.TDataSet.InternalAddRecord
+ 0001:000017FC       Data.DB.TDataSet.InternalAddRecord
+ 0001:00001804       Data.DB.TDataSet.GetBookmark
+ 0001:0000180C       Data.DB.TDataSet.FreeBookmark
+ 0001:00001814       Data.DB.TDataSet.GetBookmarkStr
+ 0001:0000181C       Data.DB.TDataSet.SetBookmarkStr
+ 0001:00001824       Data.DB.TDataSet.GetBookmarkData
+ 0001:0000182C       Data.DB.TDataSet.GetBookmarkData
+ 0001:00001834       Data.DB.TDataSet.SetBookmarkData
+ 0001:0000183C       Data.DB.TDataSet.SetBookmarkData
+ 0001:00001844       Data.DB.TDataSet.GetBookmarkFlag
+ 0001:0000184C       Data.DB.TDataSet.SetBookmarkFlag
+ 0001:00001854       Data.DB.TDataSet.InternalSetToRecord
+ 0001:0000185C       Data.DB.TDataSet.GetAggRecordCount
+ 0001:00001864       Data.DB.TDataSet.DoAfterCancel
+ 0001:0000186C       Data.DB.TDataSet.DoAfterClose
+ 0001:00001874       Data.DB.TDataSet.DoAfterDelete
+ 0001:0000187C       Data.DB.TDataSet.DoAfterEdit
+ 0001:00001884       Data.DB.TDataSet.DoAfterInsert
+ 0001:0000188C       Data.DB.TDataSet.DoAfterPost
+ 0001:00001894       Data.DB.TDataSet.DoAfterScroll
+ 0001:0000189C       Data.DB.TDataSet.DoBeforeCancel
+ 0001:000018A4       Data.DB.TDataSet.DoBeforeClose
+ 0001:000018AC       Data.DB.TDataSet.DoBeforeOpen
+ 0001:000018B4       Data.DB.TDataSet.DoBeforePost
+ 0001:000018BC       Data.DB.TDataSet.DoBeforeRefresh
+ 0001:000018C4       Data.DB.TDataSet.DoOnCalcFields
+ 0001:000018CC       Data.DB.Finalization
+ 0001:000018D4       System.JSON.TJSONAncestor.ToJSON
+ 0001:000018DC       System.JSON.EJSONException.Create
+ 0001:000018E4       System.JSON.TJSONPair.Create
+ 0001:000018EC       System.JSON.TJSONPair.GetJsonString
+ 0001:000018F4       System.JSON.TJSONPair.GetJsonValue
+ 0001:000018FC       System.JSON.TJSONString.Create
+ 0001:00001904       System.JSON.TJSONObject.ParseJSONValue
+ 0001:0000190C       System.JSON.TJSONObject.Create
+ 0001:00001914       System.JSON.TJSONObject.GetValue
+ 0001:0000191C       System.JSON.TJSONObject.GetEnumerator
+ 0001:00001924       System.JSON.TJSONObject.AddPair
+ 0001:0000192C       System.JSON.TJSONObject.AddPair
+ 0001:00001934       System.JSON.TJSONObject.AddPair
+ 0001:0000193C       System.JSON.TJSONArray.GetEnumerator
+ 0001:00001944       System.JSON.TJSONPairEnumerator.GetCurrent
+ 0001:0000194C       System.JSON.TJSONPairEnumerator.MoveNext
+ 0001:00001954       System.JSON.TJSONArrayEnumerator.GetCurrent
+ 0001:0000195C       System.JSON.TJSONArrayEnumerator.MoveNext
+ 0001:00001964       System.JSON.Finalization
+ 0001:0000196C       System.Actions.Finalization
+ 0001:00001974       System.IOUtils.TPath.Destroy@
+ 0001:0000197C       System.Win.Registry.TRegistry.Destroy@
+ 0001:00001984       Vcl.Graphics.TWICImage.Destroy@
+ 0001:0000198C       Vcl.Graphics.Finalization
+ 0001:00001994       System.SyncObjs.TCriticalSection.Create
+ 0001:0000199C       System.SyncObjs.TCriticalSection.Enter
+ 0001:000019A4       System.SyncObjs.TCriticalSection.Leave
+ 0001:000019AC       System.SyncObjs.Finalization
+ 0001:000019B4       Winapi.UxTheme.Finalization
+ 0001:000019BC       Vcl.ActnList.Finalization
+ 0001:000019C4       System.AnsiStrings.Finalization
+ 0001:000019CC       System.Win.ComObj.TComServerObject.Destroy@
+ 0001:000019D4       System.Win.ComObj.OleCheck
+ 0001:000019DC       System.Win.ComObj.Finalization
+ 0001:000019E4       Winapi.MsCTF.InitMSCTF
+ 0001:00001A24       Winapi.MsCTF.DoneMSCTF
+ 0001:00001A3C       Winapi.MsCTF.Finalization
+ 0001:00001A4C       Vcl.GraphUtil.Finalization
+ 0001:00001A54       Vcl.Controls.Finalization
+ 0001:00001A5C       Vcl.StdCtrls.TCustomGroupBox.Destroy@
+ 0001:00001A64       Vcl.StdCtrls.TCustomEdit.Destroy@
+ 0001:00001A6C       Vcl.StdCtrls.TCustomMemo.Destroy@
+ 0001:00001A74       Vcl.StdCtrls.TCustomComboBox.Destroy@
+ 0001:00001A7C       Vcl.StdCtrls.TCustomButton.Destroy@
+ 0001:00001A84       Vcl.StdCtrls.TCustomCheckBox.Destroy@
+ 0001:00001A8C       Vcl.StdCtrls.TRadioButton.Destroy@
+ 0001:00001A94       Vcl.StdCtrls.TCustomListBox.Destroy@
+ 0001:00001A9C       Vcl.StdCtrls.TScrollBar.Destroy@
+ 0001:00001AA4       Vcl.StdCtrls.TCustomStaticText.Destroy@
+ 0001:00001AAC       Vcl.StdCtrls.TGroupBox.Destroy@
+ 0001:00001AB4       Vcl.StdCtrls.TEdit.Destroy@
+ 0001:00001ABC       Vcl.StdCtrls.TMemo.Destroy@
+ 0001:00001AC4       Vcl.StdCtrls.TComboBox.Destroy@
+ 0001:00001ACC       Vcl.StdCtrls.TButton.Destroy@
+ 0001:00001AD4       Vcl.StdCtrls.TCheckBox.Destroy@
+ 0001:00001ADC       Vcl.StdCtrls.TListBox.Destroy@
+ 0001:00001AE4       Vcl.StdCtrls.TStaticText.Destroy@
+ 0001:00001AEC       Vcl.Printers.Finalization
+ 0001:00001AF4       Vcl.Clipbrd.Finalization
+ 0001:00001AFC       Vcl.ComCtrls.TCustomTabControl.Destroy@
+ 0001:00001B04       Vcl.ComCtrls.TTabControl.Destroy@
+ 0001:00001B0C       Vcl.ComCtrls.TCustomStatusBar.Destroy@
+ 0001:00001B14       Vcl.ComCtrls.TCustomHeaderControl.Destroy@
+ 0001:00001B1C       Vcl.ComCtrls.TCustomTreeView.Destroy@
+ 0001:00001B24       Vcl.ComCtrls.TTreeView.Destroy@
+ 0001:00001B2C       Vcl.ComCtrls.TTrackBar.Destroy@
+ 0001:00001B34       Vcl.ComCtrls.TProgressBar.Destroy@
+ 0001:00001B3C       Vcl.ComCtrls.TCustomRichEdit.Destroy@
+ 0001:00001B44       Vcl.ComCtrls.TRichEdit.Destroy@
+ 0001:00001B4C       Vcl.ComCtrls.TCustomUpDown.Destroy@
+ 0001:00001B54       Vcl.ComCtrls.TUpDown.Destroy@
+ 0001:00001B5C       Vcl.ComCtrls.TCustomHotKey.Destroy@
+ 0001:00001B64       Vcl.ComCtrls.THotKey.Destroy@
+ 0001:00001B6C       Vcl.ComCtrls.TCustomListView.Destroy@
+ 0001:00001B74       Vcl.ComCtrls.TListView.Destroy@
+ 0001:00001B7C       Vcl.ComCtrls.TToolBar.Destroy@
+ 0001:00001B84       Vcl.ComCtrls.TCoolBar.Destroy@
+ 0001:00001B8C       Vcl.ComCtrls.TDateTimePicker.Destroy@
+ 0001:00001B94       Vcl.ComCtrls.TPageScroller.Destroy@
+ 0001:00001B9C       Vcl.ComCtrls.TCustomComboBoxEx.Destroy@
+ 0001:00001BA4       Vcl.ComCtrls.TComboBoxEx.Destroy@
+ 0001:00001BAC       Vcl.ComCtrls.TStatusBar.Destroy@
+ 0001:00001BB4       Vcl.ComCtrls.THeaderControl.Destroy@
+ 0001:00001BBC       Vcl.ComCtrls.Finalization
+ 0001:00001BC4       System.HelpIntfs.Finalization
+ 0001:00001BCC       Vcl.Dialogs.Finalization
+ 0001:00001BD4       Vcl.ExtCtrls.TCustomCategoryPanelGroup.Destroy@
+ 0001:00001BDC       Vcl.ExtCtrls.TCategoryPanelGroup.Destroy@
+ 0001:00001BE4       Vcl.ExtCtrls.TCustomLinkLabel.Destroy@
+ 0001:00001BEC       Vcl.ExtCtrls.TLinkLabel.Destroy@
+ 0001:00001BF4       Vcl.ExtCtrls.Finalization
+ 0001:00001BFC       Vcl.Themes.TStyleManager.Destroy@
+ 0001:00001C04       Vcl.Themes.TCustomStyleEngine.Destroy@
+ 0001:00001C0C       Vcl.Menus.Finalization
+ 0001:00001C14       Winapi.FlatSB.Finalization
+ 0001:00001C1C       Vcl.Forms.TScrollBox.Destroy@
+ 0001:00001C24       Vcl.Forms.TCustomForm.Destroy@
+ 0001:00001C2C       Vcl.Forms.TForm.Destroy@
+ 0001:00001C34       Vcl.Forms.Finalization
+ 0001:00001C3C       MVCBr.Factory.TMVCBrFactory.Create
+ 0001:00001C44       MVCBr.Factory.TMVCBrFactory.Create
+ 0001:00001C4C       MVCBr.Factory.TMVCBrFactory.Lock
+ 0001:00001C54       MVCBr.Factory.TMVCBrFactory.SetSafeted
+ 0001:00001C5C       MVCBr.Factory.TMVCBrFactory.SetUnsafe
+ 0001:00001C64       MVCBr.Factory.TMVCBrFactory.This
+ 0001:00001C6C       MVCBr.Factory.TMVCBrFactory.UnLock
+ 0001:00001C74       MVCBr.ApplicationController.TApplicationController.Destroy@
+ 0001:00001C7C       MVCBr.ApplicationController.Finalization
+ 0001:00001C84       MVCBr.IoC.TClassActivator.Destroy@
+ 0001:00001C8C       MVCBr.IoC.Finalization
+ 0001:00001C94       MVCBr.Observable.Finalization
+ 0001:00001C9C       MVCBr.Interf.TMVCFactoryAbstract.GetGuid
+ 0001:00001CA4       MVCBr.Interf.TMVCFactoryAbstract.Lock
+ 0001:00001CAC       MVCBr.Interf.TMVCFactoryAbstract.ApplicationControllerInternal
+ 0001:00001CB4       MVCBr.Interf.TMVCFactoryAbstract.RegisterObserver
+ 0001:00001CBC       MVCBr.Interf.TMVCFactoryAbstract.RegisterObserver
+ 0001:00001CC4       MVCBr.Interf.TMVCFactoryAbstract.UnRegisterObserver
+ 0001:00001CCC       MVCBr.Interf.TMVCFactoryAbstract.UnRegisterObserver
+ 0001:00001CD4       MVCBr.Interf.TMVCFactoryAbstract.UnRegisterObserver
+ 0001:00001CDC       MVCBr.Interf.TMVCFactoryAbstract.UpdateObserver
+ 0001:00001CE4       MVCBr.Interf.TMVCFactoryAbstract.RegisterObserver
+ 0001:00001CEC       MVCBr.Interf.TMVCOwnedInterfacedObject.GetOwner
+ 0001:00001CF4       MVCBr.Model.TModelFactory.Create
+ 0001:00001CFC       MVCBr.Model.TModelFactory.Destroy
+ 0001:00001D04       MVCBr.Model.TModelFactory.GetController
+ 0001:00001D0C       MVCBr.Model.TModelFactory.GetID
+ 0001:00001D14       MVCBr.Model.TModelFactory.ID
+ 0001:00001D1C       MVCBr.Model.TModelFactory.Release
+ 0001:00001D24       MVCBr.Model.TModelFactory.SetController
+ 0001:00001D2C       MVCBr.Model.TModelFactory.SetID
+ 0001:00001D34       MVCBr.Model.TModelFactory.AfterConstruction
+ 0001:00001D3C       MVCBr.Model.TModelFactory.AfterInit
+ 0001:00001D44       MVCBr.Model.TModelFactory.Controller
+ 0001:00001D4C       MVCBr.Model.TModelFactory.This
+ 0001:00001D54       MVCBr.Model.TModelFactory.Update
+ 0001:00001D5C       MVCBr.Model.TModelFactory.ViewEvent
+ 0001:00001D64       MVCBr.Model.TModelFactory.ViewEvent
+ 0001:00001D6C       MVCBr.Model.TModelFactory.ViewEvent
+ 0001:00001D74       MVCBr.Model.TModelFactory.Update
+ 0001:00001F40       simpleSock..TTcpSocket
+ 0001:00002274       simpleSock..TTcpServer
+ 0001:000024B0       simpleSock..ETcpSocketError
+ 0001:0000255C       simpleSock.RaiseLastWSAError
+ 0001:000025B4       simpleSock.PrepareSockAddr
+ 0001:0000263C       simpleSock.TTcpSocket.Connect
+ 0001:0000266C       simpleSock.TTcpSocket.Create
+ 0001:000026E4       simpleSock.TTcpSocket.Create
+ 0001:00002760       simpleSock.TTcpSocket.Destroy
+ 0001:00002790       simpleSock.TTcpSocket.Disconnect
+ 0001:000027A8       simpleSock.TTcpSocket.GetPort
+ 0001:000027B0       simpleSock.TTcpSocket.GetAddress
+ 0001:000027D0       simpleSock.TTcpSocket.GetHostName
+ 0001:00002904       simpleSock.TTcpSocket.ReceiveBuf
+ 0001:00002930       simpleSock.TTcpSocket.SendBuf
+ 0001:0000295C       simpleSock.TTcpServer.Create
+ 0001:000029B4       simpleSock.TTcpServer.Destroy
+ 0001:000029E4       simpleSock.TTcpServer.Bind
+ 0001:00002A2C       simpleSock.TTcpServer.Listen
+ 0001:00002A44       simpleSock.TTcpServer.WaitForConnection
+ 0001:00002B58       simpleSock.TTcpServer.Accept
+ 0001:00002BAC       simpleSock.WSAStartup
+ 0001:00002BB4       simpleSock.WSACleanup
+ 0001:00002BBC       simpleSock.WSAGetLastError
+ 0001:00002BC4       simpleSock.htons
+ 0001:00002BCC       simpleSock.inet_addr
+ 0001:00002BD4       simpleSock.inet_ntoa
+ 0001:00002BDC       simpleSock.gethostbyaddr
+ 0001:00002BE4       simpleSock.gethostbyname
+ 0001:00002BEC       simpleSock.socket
+ 0001:00002BF4       simpleSock.setsockopt
+ 0001:00002BFC       simpleSock.listen
+ 0001:00002C04       simpleSock.bind
+ 0001:00002C0C       simpleSock.accept
+ 0001:00002C14       simpleSock.connect
+ 0001:00002C1C       simpleSock.recv
+ 0001:00002C24       simpleSock.select
+ 0001:00002C2C       simpleSock.send
+ 0001:00002C34       simpleSock.shutdown
+ 0001:00002C3C       simpleSock.closesocket
+ 0001:00002C44       simpleSock.Finalization
+ 0001:00002DF4       jsonDoc..TJSONImplBaseObj
+ 0001:000031A4       jsonDoc..TJSONDocument
+ 0001:00003658       jsonDoc..TJSONEnumerator
+ 0001:00003990       jsonDoc..TJSONArray
+ 0001:00003B30       jsonDoc..TJSONArrayEnumerator
+ 0001:00003F60       jsonDoc..TJSONDocArray
+ 0001:000041A4       jsonDoc..TVarArrayEnumerator
+ 0001:00004500       jsonDoc..TVarJSONArray
+ 0001:000046C8       jsonDoc..EJSONException
+ 0001:00004770       jsonDoc..EJSONDecodeException
+ 0001:00004820       jsonDoc..EJSONEncodeException
+ 0001:000048D0       jsonDoc.VarMove
+ 0001:000048F0       jsonDoc.TJSONImplBaseObj.AfterConstruction
+ 0001:00004900       jsonDoc.TJSONImplBaseObj.BeforeDestruction
+ 0001:0000491C       jsonDoc.TJSONImplBaseObj.NewInstance
+ 0001:0000492C       jsonDoc.TJSONImplBaseObj.QueryInterface
+ 0001:00004954       jsonDoc.TJSONImplBaseObj._AddRef
+ 0001:00004964       jsonDoc.TJSONImplBaseObj._Release
+ 0001:00004984       jsonDoc.TJSONDocument.AfterConstruction
+ 0001:000049B8       jsonDoc.TJSONDocument.Destroy
+ 0001:00004A04       jsonDoc.TJSONDocument.GetKeyIndex
+ 0001:00004B70       jsonDoc.TJSONDocument.Get_Item
+ 0001:00004BD0       jsonDoc.TJSONDocument.ReUse
+ 0001:00004C30       jsonDoc.TJSONDocument.Set_Item
+ 0001:00004DC8       jsonDoc.SkipWhiteSpace
+ 0001:00004E0C       jsonDoc.ExVicinity
+ 0001:0000506C       jsonDoc.Expect
+ 0001:00005134       jsonDoc.GetStringIndexes
+ 0001:0000517C       jsonDoc.GetStringValue
+ 0001:00005458       jsonDoc.SetValue
+ 0001:00005668       jsonDoc.CheckValue
+ 0001:000056FC       jsonDoc.TJSONDocument.Parse
+ 0001:00006730       jsonDoc.JSONEncodeStr
+ 0001:0000694C       jsonDoc.JSONVarToStr1
+ 0001:00006D8C       jsonDoc.ExTrace
+ 0001:00006F28       jsonDoc.w
+ 0001:00006F8C       jsonDoc.Push
+ 0001:00007058       jsonDoc.TJSONDocument.JSONToString
+ 0001:00007784       jsonDoc.TJSONDocument.ToVarArray
+ 0001:000078BC       jsonDoc.TJSONDocument.Clear
+ 0001:000079D8       jsonDoc.TJSONDocument.Delete
+ 0001:00007AF4       jsonDoc.TJSONDocument.NewEnumerator
+ 0001:00007B20       jsonDoc.TJSONEnumerator.Create
+ 0001:00007B64       jsonDoc.TJSONEnumerator.Destroy
+ 0001:00007B90       jsonDoc.TJSONEnumerator.EOF
+ 0001:00007BD8       jsonDoc.TJSONEnumerator.Next
+ 0001:00007C20       jsonDoc.TJSONEnumerator.Get_Key
+ 0001:00007C9C       jsonDoc.TJSONEnumerator.Get_Value
+ 0001:00007D18       jsonDoc.TJSONEnumerator.Set_Value
+ 0001:00007D94       jsonDoc.TJSONEnumerator.v0
+ 0001:00007E04       jsonDoc.TVarArrayEnumerator.Create
+ 0001:00007F0C       jsonDoc.TVarArrayEnumerator.Destroy
+ 0001:00007F40       jsonDoc.TVarArrayEnumerator.EOF
+ 0001:00007F58       jsonDoc.TVarArrayEnumerator.Get_Key
+ 0001:00007FA8       jsonDoc.TVarArrayEnumerator.Get_Value
+ 0001:00007FCC       jsonDoc.TVarArrayEnumerator.Next
+ 0001:00007FE4       jsonDoc.TVarArrayEnumerator.Set_Value
+ 0001:00008004       jsonDoc.TVarArrayEnumerator.v0
+ 0001:00008078       jsonDoc.TVarJSONArray.Create
+ 0001:000081F8       jsonDoc.TVarJSONArray.CreateNoCopy
+ 0001:00008378       jsonDoc.TVarJSONArray.Destroy
+ 0001:000083AC       jsonDoc.TVarJSONArray.Count
+ 0001:000083C0       jsonDoc.TVarJSONArray.Get_Item
+ 0001:00008434       jsonDoc.TVarJSONArray.Set_Item
+ 0001:000084A4       jsonDoc.TVarJSONArray.v0
+ 0001:00008568       jsonDoc.TVarJSONArray.JSONToString
+ 0001:00008620       jsonDoc.TJSONArray.Create
+ 0001:00008670       jsonDoc.TJSONArray.Count
+ 0001:00008684       jsonDoc.TJSONArray.Get_Item
+ 0001:000086F8       jsonDoc.TJSONArray.Set_Item
+ 0001:0000876C       jsonDoc.TJSONArray.v0
+ 0001:000087D8       jsonDoc.TJSONArray.JSONToString
+ 0001:0000887C       jsonDoc.TJSONArrayEnumerator.Create
+ 0001:000088E0       jsonDoc.TJSONArrayEnumerator.Destroy
+ 0001:0000890C       jsonDoc.TJSONArrayEnumerator.EOF
+ 0001:00008924       jsonDoc.TJSONArrayEnumerator.Get_Key
+ 0001:00008974       jsonDoc.TJSONArrayEnumerator.Get_Value
+ 0001:00008994       jsonDoc.TJSONArrayEnumerator.Next
+ 0001:000089AC       jsonDoc.TJSONArrayEnumerator.Set_Value
+ 0001:000089C8       jsonDoc.TJSONArrayEnumerator.v0
+ 0001:000089E0       jsonDoc.TJSONDocArray.Create
+ 0001:00008A24       jsonDoc.TJSONDocArray.Destroy
+ 0001:00008A58       jsonDoc.TJSONDocArray.Get_Item
+ 0001:00008B4C       jsonDoc.TJSONDocArray.v0
+ 0001:00008C64       jsonDoc.TJSONDocArray.Set_Item
+ 0001:00008E50       jsonDoc.TJSONDocArray.Count
+ 0001:00008E60       jsonDoc.TJSONDocArray.Clear
+ 0001:00008E90       jsonDoc.TJSONDocArray.Add
+ 0001:00008F58       jsonDoc.TJSONDocArray.AddJson
+ 0001:00008FB4       jsonDoc.TJSONDocArray.LoadItem
+ 0001:00009084       jsonDoc.TJSONDocArray.JSONToString
+ 0001:00009108       jsonDoc.JSON
+ 0001:00009168       jsonDoc.JSON
+ 0001:00009570       jsonDoc.JSON
+ 0001:0000964C       jsonDoc.JSONEnum
+ 0001:00009764       jsonDoc.JSONEnum
+ 0001:00009934       jsonDoc.JSON
+ 0001:000099B4       jsonDoc.JSONEnum
+ 0001:00009A8C       jsonDoc.ja
+ 0001:00009AE8       jsonDoc.ja
+ 0001:00009BC8       jsonDoc.JSONDocArray
+ 0001:00009BEC       jsonDoc.JSONDocArray
+ 0001:00009C30       jsonDoc.Finalization
+ 0001:00009EB8       bsonDoc..TBSONDocument
+ 0001:0000A174       bsonDoc..EBSONException
+ 0001:0000A340       bsonDoc..TBSONDocumentEnumerator
+ 0001:0000A5E0       bsonDoc.TBSONDocument.AfterConstruction
+ 0001:0000A610       bsonDoc.TBSONDocument.Destroy
+ 0001:0000A65C       bsonDoc.TBSONDocument.GetSizeMax
+ 0001:0000A6A8       bsonDoc.TBSONDocument.GetKeyIndex
+ 0001:0000A7EC       bsonDoc.TBSONDocument.Get_Item
+ 0001:0000A894       bsonDoc.TBSONDocument.Set_Item
+ 0001:0000A98C       bsonDoc.TBSONDocument.IsDirty
+ 0001:0000AAC4       bsonDoc.stmRead
+ 0001:0000ABB8       bsonDoc.stmReadCString
+ 0001:0000AC8C       bsonDoc.stmReadString
+ 0001:0000ADE4       bsonDoc.stmReadBSONDocument
+ 0001:0000AFD4       bsonDoc.stmReadBSONDocArray
+ 0001:0000B1F4       bsonDoc.TBSONDocument.Load
+ 0001:0000C538       bsonDoc.stmWrite
+ 0001:0000C5CC       bsonDoc.stmWriteCString
+ 0001:0000C650       bsonDoc.stmWriteString
+ 0001:0000C6EC       bsonDoc.TryWriteBSONDocument
+ 0001:0000C804       bsonDoc.TryWriteBSONDocumentEnumerator
+ 0001:0000C8DC       bsonDoc.TryWriteStream
+ 0001:0000CB00       bsonDoc.TryWritePersistStream
+ 0001:0000CC60       bsonDoc.StartsWith
+ 0001:0000CCA8       bsonDoc.TBSONDocument.Save
+ 0001:0000D9E4       bsonDoc.TBSONDocument.GetClassID
+ 0001:0000DA00       bsonDoc.TBSONDocument.Clear
+ 0001:0000DB18       bsonDoc.TBSONDocument.ToVarArray
+ 0001:0000DC68       bsonDoc.BSON
+ 0001:0000DCC8       bsonDoc.BSON
+ 0001:0000E054       bsonDoc.BSON
+ 0001:0000E0DC       bsonDoc.TBSONDocumentEnumerator.AfterConstruction
+ 0001:0000E100       bsonDoc.TBSONDocumentEnumerator.Destroy
+ 0001:0000E13C       bsonDoc.TBSONDocumentEnumerator.SetStream
+ 0001:0000E160       bsonDoc.TBSONDocumentEnumerator.Add
+ 0001:0000E1AC       bsonDoc.TBSONDocumentEnumerator.GetCount
+ 0001:0000E1BC       bsonDoc.TBSONDocumentEnumerator.Next
+ 0001:0000E294       bsonDoc.TBSONDocumentEnumerator.Reset
+ 0001:0000E2CC       bsonDoc.TBSONDocumentEnumerator.Skip
+ 0001:0000E3A0       bsonDoc.BSONEnum
+ 0001:0000E3C4       bsonDoc.BSONEnum
+ 0001:0000E4C4       bsonDoc.Finalization
+ 0001:0000E7A8       bsonTools..TBSONDocArray
+ 0001:0000E924       bsonTools..EBSONException
+ 0001:0000E9CC       bsonTools.BSONDocArray
+ 0001:0000EAA4       bsonTools.dRead
+ 0001:0000EB8C       bsonTools.dReadCString
+ 0001:0000EC60       bsonTools.dReadString
+ 0001:0000EDB8       bsonTools.SetValue
+ 0001:0000EF88       bsonTools.Push
+ 0001:0000F054       bsonTools.LoadBSON
+ 0001:00010500       bsonTools.dWrite
+ 0001:00010588       bsonTools.dWriteCString
+ 0001:0001060C       bsonTools.dWriteString
+ 0001:000106A8       bsonTools.Push
+ 0001:000107E8       bsonTools.TryWriteJSONDocument
+ 0001:00010868       bsonTools.TryWriteBSONDocArray
+ 0001:00010908       bsonTools.TryWriteJSONArray
+ 0001:00010984       bsonTools.TryWriteStream
+ 0001:00010BD0       bsonTools.TryWritePersistStream
+ 0001:00010D98       bsonTools.StartsWith
+ 0001:00010DE0       bsonTools.SaveBSON
+ 0001:0001194C       bsonTools.TBSONDocArray.Create
+ 0001:00011990       bsonTools.TBSONDocArray.Destroy
+ 0001:000119C4       bsonTools.TBSONDocArray.AddRef
+ 0001:00011A24       bsonTools.TBSONDocArray.Add
+ 0001:00011A4C       bsonTools.TBSONDocArray.AddJson
+ 0001:00011AC4       bsonTools.TBSONDocArray.Clear
+ 0001:00011AD8       bsonTools.TBSONDocArray.Count
+ 0001:00011AE8       bsonTools.TBSONDocArray.Get_Item
+ 0001:00011B9C       bsonTools.TBSONDocArray.LoadItem
+ 0001:00011C10       bsonTools.TBSONDocArray.Set_Item
+ 0001:00011CCC       bsonTools.TBSONDocArray.JSONToString
+ 0001:00011DD8       bsonTools.TBSONDocArray.v0
+ 0001:00011E94       bsonTools.lRead
+ 0001:00011F7C       bsonTools.TBSONDocArray.ReadAll
+ 0001:00012384       bsonTools.TBSONDocArray.WriteAll
+ 0001:00012574       bsonTools.Finalization
+ 0001:000125B0       Winapi.WinSock.setsockopt
+ 0001:00012638       mongoWire..TMongoWire
+ 0001:00012D58       mongoWire..TMongoWireQuery
+ 0001:0001307C       mongoWire..EMongoException
+ 0001:00013128       mongoWire..EMongoConnectFailed
+ 0001:000131DC       mongoWire..EMongoNotConnected
+ 0001:0001328C       mongoWire..EMongoTransferError
+ 0001:00013340       mongoWire..EMongoQueryError
+ 0001:000133EC       mongoWire..EMongoCommandError
+ 0001:0001349C       mongoWire.TMongoWire.Create
+ 0001:00013540       mongoWire.TMongoWire.Destroy
+ 0001:0001358C       mongoWire.TMongoWire.Open
+ 0001:000136DC       mongoWire.TMongoWire.Close
+ 0001:000136E8       mongoWire.TMongoWire.DataCString
+ 0001:00013770       mongoWire.TMongoWire.OpenMsg
+ 0001:0001385C       mongoWire.TMongoWire.CloseMsg
+ 0001:00013900       mongoWire.TMongoWire.ReadMsg
+ 0001:00013CF8       mongoWire.TMongoWire.Get
+ 0001:00013FC0       mongoWire.TMongoWire.Update
+ 0001:00014364       mongoWire.TMongoWire.Insert
+ 0001:000145B8       mongoWire.TMongoWire.Insert
+ 0001:000147B4       mongoWire.TMongoWire.Insert
+ 0001:00014990       mongoWire.TMongoWire.Delete
+ 0001:00014C68       mongoWire.TMongoWire.Ping
+ 0001:00014DFC       mongoWire.TMongoWire.EnsureIndex
+ 0001:000154A0       mongoWire.TMongoWire.RunCommand
+ 0001:000157D8       mongoWire.TMongoWire.Count
+ 0001:000158D0       mongoWire.TMongoWire.Distinct
+ 0001:00015A60       mongoWire.TMongoWire.Eval
+ 0001:00015BF0       mongoWire.TMongoWireQuery.Create
+ 0001:00015C70       mongoWire.TMongoWireQuery.Destroy
+ 0001:00015CA8       mongoWire.TMongoWireQuery.KillCursor
+ 0001:00015D74       mongoWire.TMongoWireQuery.Query
+ 0001:00015EB0       mongoWire.TMongoWireQuery.Next
+ 0001:00016038       mongoWire.TMongoWireQuery.ReadResponse
+ 0001:000161C0       mongoWire.Finalization
+ 0001:000161C8       mongoAuth3..EMongoAuthenticationFailed
+ 0001:000162B8       mongoAuth3.MD5Hash
+ 0001:0001670C       mongoAuth3.SwapEndian32
+ 0001:00016764       mongoAuth3.SHA1Hash
+ 0001:00016AF8       mongoAuth3.HMAC_SHA1
+ 0001:00016C3C       mongoAuth3.PBKDF2_HMAC_SHA1
+ 0001:00016E0C       mongoAuth3.HexEncode
+ 0001:00016E80       mongoAuth3.Base64Encode
+ 0001:0001704C       mongoAuth3.Base64Decode
+ 0001:000171A0       mongoAuth3.BuildNonce
+ 0001:000171F0       mongoAuth3.MongoWireAuthenticate
+ 0001:00017F98       mongoAuth3.MongoWireLogout
+ 0001:00018124       mongoAuth3.Finalization
+ 0001:0001812C       bsonUtils..EJsonDecodeException
+ 0001:000181E0       bsonUtils..EJsonEncodeException
+ 0001:00018318       bsonUtils.EncodeStr
+ 0001:00018588       bsonUtils.ExTrace
+ 0001:000186BC       bsonUtils.BsonToJson
+ 0001:000190FC       bsonUtils.JsonToBson
+ 0001:00019118       bsonUtils.JsonIntoBson
+ 0001:000192C4       bsonUtils.SkipWhiteSpace
+ 0001:00019308       bsonUtils.ExVicinity
+ 0001:00019590       bsonUtils.Expect
+ 0001:00019654       bsonUtils.GetStringIndexes
+ 0001:000196A0       bsonUtils.GetStringValue
+ 0001:00019978       bsonUtils.SetValue
+ 0001:00019BB8       bsonUtils.GetArrayValue
+ 0001:00019C98       bsonUtils.JsonIntoBson
+ 0001:0001A9A0       bsonUtils.Finalization
+ 0001:0001A9A8       System.Threading.TThreadPool.TWorkerData.Destroy@
+ 0001:0001A9B0       System.Threading.TParallel.TReplicableTask.Destroy@
+ 0001:0001A9B8       System.Threading.TParallel.TReplicaTask.Destroy@
+ 0001:0001A9C0       System.Threading.TParallel.TJoinTask.Destroy@
+ 0001:0001A9C8       System.Threading.TTask.Destroy@
+ 0001:0001A9D0       System.Threading.TThreadPool.Destroy@
+ 0001:0001A9D8       System.Json.Helper.Finalization
+ 0001:0001A9E0       System.NetEncoding.TNetEncoding.Destroy@
+ 0001:0001A9E8       Data.DB.Helper.TFieldsHelper.ToJson
+ 0001:0001A9F0       Data.DB.Helper.TFieldsHelper.FillFromJson
+ 0001:0001AAF4       MVCBr.MongoModel..TJSONDocument
+ 0001:0001ADA4       MVCBr.MongoModel..TJSONDocArray
+ 0001:0001B460       MVCBr.MongoModel..TMongoModelFactory
+ 0001:0001C694       MVCBr.MongoModel..{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>
+ 0001:0001CA54       MVCBr.MongoModel.MongoJSON
+ 0001:0001CAB4       MVCBr.MongoModel.MongoJSON
+ 0001:0001CB20       MVCBr.MongoModel.MongoJSON
+ 0001:0001CB84       MVCBr.MongoModel.TMongoModelFactory.AsArray
+ 0001:0001CBDC       MVCBr.MongoModel.TMongoModelFactory.Close
+ 0001:0001CBE4       MVCBr.MongoModel.TMongoModelFactory.SetConnection
+ 0001:0001CC14       MVCBr.MongoModel.TMongoModelFactory.Count
+ 0001:0001CC30       MVCBr.MongoModel.TMongoModelFactory.Create
+ 0001:0001CCC4       MVCBr.MongoModel.TMongoModelFactory.Database
+ 0001:0001CDDC       MVCBr.MongoModel..TMongoModelFactory.Default$9$ActRec
+ 0001:0001CEC4       MVCBr.MongoModel.TMongoModelFactory.Default$9$ActRec.$0$Body
+ 0001:0001CF1C       MVCBr.MongoModel.TMongoModelFactory.Default
+ 0001:0001CFFC       MVCBr.MongoModel.TMongoModelFactory.Delete
+ 0001:0001D028       MVCBr.MongoModel.TMongoModelFactory.Destroy
+ 0001:0001D060       MVCBr.MongoModel.TMongoModelFactory.Distinct
+ 0001:0001D090       MVCBr.MongoModel.TMongoModelFactory.EnsureIndex
+ 0001:0001D0BC       MVCBr.MongoModel.TMongoModelFactory.Eval
+ 0001:0001D0F4       MVCBr.MongoModel.TMongoModelFactory.FillDastaset
+ 0001:0001D254       MVCBr.MongoModel.TMongoModelFactory.Get
+ 0001:0001D2E8       MVCBr.MongoModel.TMongoModelFactory.Get
+ 0001:0001D3A0       MVCBr.MongoModel.TMongoModelFactory.GetActive
+ 0001:0001D3A8       MVCBr.MongoModel.TMongoModelFactory.GetDatabase
+ 0001:0001D3BC       MVCBr.MongoModel.TMongoModelFactory.GetDataset
+ 0001:0001D4A4       MVCBr.MongoModel.TMongoModelFactory.GetDataset
+ 0001:0001D54C       MVCBr.MongoModel.TMongoModelFactory.GetHost
+ 0001:0001D560       MVCBr.MongoModel.TMongoModelFactory.GetPassword
+ 0001:0001D574       MVCBr.MongoModel.TMongoModelFactory.GetPort
+ 0001:0001D578       MVCBr.MongoModel.TMongoModelFactory.GetUserName
+ 0001:0001D58C       MVCBr.MongoModel.TMongoModelFactory.Host
+ 0001:0001D5F0       MVCBr.MongoModel.TMongoModelFactory.Insert
+ 0001:0001D61C       MVCBr.MongoModel.TMongoModelFactory.Insert
+ 0001:0001D63C       MVCBr.MongoModel.TMongoModelFactory.Insert
+ 0001:0001D65C       MVCBr.MongoModel.TMongoModelFactory.MongoConnection
+ 0001:0001D670       MVCBr.MongoModel.TMongoModelFactory.New
+ 0001:0001D7D4       MVCBr.MongoModel..{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>
+ 0001:0001DBFC       MVCBr.MongoModel..TMongoModelFactory.NewQuery$33$ActRec
+ 0001:0001DCE8       MVCBr.MongoModel.TMongoModelFactory.NewQuery$33$ActRec.$0$Body
+ 0001:0001DD08       MVCBr.MongoModel.TMongoModelFactory.NewQuery
+ 0001:0001DDA4       MVCBr.MongoModel.TMongoModelFactory.Open
+ 0001:0001DDB4       MVCBr.MongoModel.TMongoModelFactory.OpenIfNeed
+ 0001:0001DDE0       MVCBr.MongoModel.TMongoModelFactory.New
+ 0001:0001DE84       MVCBr.MongoModel.TMongoModelFactory.Password
+ 0001:0001DEE8       MVCBr.MongoModel.TMongoModelFactory.Ping
+ 0001:0001DEFC       MVCBr.MongoModel.TMongoModelFactory.Port
+ 0001:0001DF28       MVCBr.MongoModel.TMongoModelFactory.Query
+ 0001:0001E02C       MVCBr.MongoModel.TMongoModelFactory.RunCommand
+ 0001:0001E04C       MVCBr.MongoModel.TMongoModelFactory.SetActive
+ 0001:0001E14C       MVCBr.MongoModel.TMongoModelFactory.SetDatabase
+ 0001:0001E160       MVCBr.MongoModel.TMongoModelFactory.SetHost
+ 0001:0001E174       MVCBr.MongoModel.TMongoModelFactory.SetPassword
+ 0001:0001E188       MVCBr.MongoModel.TMongoModelFactory.SetPort
+ 0001:0001E18C       MVCBr.MongoModel.TMongoModelFactory.SetUserName
+ 0001:0001E1A0       MVCBr.MongoModel.TMongoModelFactory.This
+ 0001:0001E1A4       MVCBr.MongoModel.TMongoModelFactory.Update
+ 0001:0001E214       MVCBr.MongoModel.TMongoModelFactory.UserName
+ 0001:0001E278       MVCBr.MongoModel.TJSONDocument.New
+ 0001:0001E29C       MVCBr.MongoModel.TJSONDocument.AsArray
+ 0001:0001E2F4       MVCBr.MongoModel.TJSONDocument.BsonToJson
+ 0001:0001E340       MVCBr.MongoModel.TJSONDocument.JSON
+ 0001:0001E354       MVCBr.MongoModel.TJSONDocument.New
+ 0001:0001E370       MVCBr.MongoModel.TJSONDocument.NewDocArray
+ 0001:0001E37C       MVCBr.MongoModel.TJSONDocument.ToDocArray
+ 0001:0001E3D0       MVCBr.MongoModel.TJSONDocument.ToJson
+ 0001:0001E3E4       MVCBr.MongoModel.TJSONDocArray.New
+ 0001:0001E408       MVCBr.MongoModel.TMongoModelFactory.Query
+ 0001:0001E5D0       MVCBr.MongoModel.TMongoModelFactory.QueryRegEx
+ 0001:0001E678       MVCBr.MongoModel.TMongoModelFactory.GetSequence
+ 0001:0001ECFC       MVCBr.MongoModel.TMongoExpression.between
+ 0001:0001EE8C       MVCBr.MongoModel.TMongoExpression.contains
+ 0001:0001F098       MVCBr.MongoModel.TMongoExpression.eq
+ 0001:0001F1B0       MVCBr.MongoModel.TMongoExpression.gt
+ 0001:0001F2C8       MVCBr.MongoModel.TMongoExpression.gte
+ 0001:0001F3E4       MVCBr.MongoModel.TMongoExpression.lt
+ 0001:0001F4FC       MVCBr.MongoModel.TMongoExpression.lte
+ 0001:0001F618       MVCBr.MongoModel.TMongoExpression.ne
+ 0001:0001F730       MVCBr.MongoModel.TMongoExpression.search
+ 0001:0001F860       MVCBr.MongoModel.TMongoExpression.like
+ 0001:0001FA70       MVCBr.MongoModel.Finalization
+ 0001:0001FA78       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.Invoke
+ 0001:0001FA9C       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.SetFreeOnExit
+ 0001:0001FAA0       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.GetFreeOnExit
+ 0001:0001FAA8       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.New
+ 0001:0001FAD4       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.Create
+ 0001:0001FB8C       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.Destroy
+ 0001:0001FBB8       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.SetInstance
+ 0001:0001FBE8       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.GetInstance
+ 0001:0001FBF0       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.Release
+ 0001:0001FC0C       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.This
+ 0001:0001FC10       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.DelegateTo
+ 0001:0001FC64       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWire>.AsInterface
+ 0001:0001FC80       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.Invoke
+ 0001:0001FCA4       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.SetFreeOnExit
+ 0001:0001FCA8       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.GetFreeOnExit
+ 0001:0001FCB0       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.New
+ 0001:0001FCDC       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.Create
+ 0001:0001FD94       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.Destroy
+ 0001:0001FDC0       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.SetInstance
+ 0001:0001FDF0       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.GetInstance
+ 0001:0001FDF8       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.Release
+ 0001:0001FE14       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.This
+ 0001:0001FE18       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.DelegateTo
+ 0001:0001FE6C       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}TMVCBrAdapter<mongoWire.TMongoWireQuery>.AsInterface
+ 0001:0001FE88       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}@TMVCBrAdapter`1.Create$3$ActRec<mongoWire.TMongoWire>.$0$Body
+ 0001:0001FE98       MVCBr.MongoModel.{MVCBr.Patterns.Adapter}@TMVCBrAdapter`1.Create$3$ActRec<mongoWire.TMongoWireQuery>.$0$Body
+ 0001:0001FF74       MVCBr.MongoModel..{MVCBr.Patterns.Adapter}@TMVCBrAdapter`1.Create$3$ActRec<mongoWire.TMongoWire>
+ 0001:00020144       MVCBr.MongoModel..{MVCBr.Patterns.Adapter}@TMVCBrAdapter`1.Create$3$ActRec<mongoWire.TMongoWireQuery>
+ 0001:0002024C       FireDAC.Stan.Error.Finalization
+ 0001:00020254       FireDAC.Stan.Util.Finalization
+ 0001:0002025C       FireDAC.Stan.Intf.Finalization
+ 0001:00020264       FireDAC.Stan.SQLTimeInt.Finalization
+ 0001:0002026C       FireDAC.Stan.Param.Finalization
+ 0001:00020274       FireDAC.UI.Intf.Finalization
+ 0001:0002027C       FireDAC.Stan.Factory.Finalization
+ 0001:00020284       FireDAC.Stan.Option.Finalization
+ 0001:0002028C       FireDAC.DatS.Finalization
+ 0001:00020294       FireDAC.Comp.DataSet.TFDDataSet.InternalHandleException
+ 0001:0002029C       FireDAC.Comp.DataSet.TFDDataSet.DataEvent
+ 0001:000202A4       FireDAC.Comp.DataSet.TFDDataSet.GetFormatOptions
+ 0001:000202AC       FireDAC.Comp.DataSet.TFDDataSet.SetFormatOptions
+ 0001:000202B4       FireDAC.Comp.DataSet.TFDDataSet.GetUpdateOptions
+ 0001:000202BC       FireDAC.Comp.DataSet.TFDDataSet.SetUpdateOptions
+ 0001:000202C4       FireDAC.Comp.DataSet.TFDDataSet.IsSequenced
+ 0001:000202CC       FireDAC.Comp.DataSet.TFDDataSet.SetActive
+ 0001:000202D4       FireDAC.Comp.DataSet.TFDDataSet.GetMasterFields
+ 0001:000202DC       FireDAC.Comp.DataSet.TFDDataSet.SetMasterFields
+ 0001:000202E4       FireDAC.Comp.DataSet.TFDDataSet.GetDataSource
+ 0001:000202EC       FireDAC.Comp.DataSet.TFDDataSet.SetMasterSource
+ 0001:000202F4       FireDAC.Comp.DataSet.TFDDataSet.GetDetailLinkFields
+ 0001:000202FC       FireDAC.Comp.DataSet.TFDDataSet.MasterDefined
+ 0001:00020304       FireDAC.Comp.DataSet.TFDDataSet.DoMasterParamChanged
+ 0001:0002030C       FireDAC.Comp.DataSet.TFDDataSet.DoMasterReset
+ 0001:00020314       FireDAC.Comp.DataSet.TFDDataSet.MasterDisabled
+ 0001:0002031C       FireDAC.Comp.DataSet.TFDDataSet.CheckMasterRange
+ 0001:00020324       FireDAC.Comp.DataSet.TFDDataSet.MasterChanged
+ 0001:0002032C       FireDAC.Comp.DataSet.TFDDataSet.CreateFilterView
+ 0001:00020334       FireDAC.Comp.DataSet.TFDDataSet.UpdateIndexDefs
+ 0001:0002033C       FireDAC.Comp.DataSet.TFDDataSet.DoCreateFields
+ 0001:00020344       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeExecute
+ 0001:0002034C       FireDAC.Comp.DataSet.TFDDataSet.DoAfterExecute
+ 0001:00020354       FireDAC.Comp.DataSet.TFDDataSet.OpenCursor
+ 0001:0002035C       FireDAC.Comp.DataSet.TFDDataSet.CloseCursor
+ 0001:00020364       FireDAC.Comp.DataSet.TFDDataSet.InternalOpen
+ 0001:0002036C       FireDAC.Comp.DataSet.TFDDataSet.DoAfterOpen
+ 0001:00020374       FireDAC.Comp.DataSet.TFDDataSet.IsCursorOpen
+ 0001:0002037C       FireDAC.Comp.DataSet.TFDDataSet.Execute
+ 0001:00020384       FireDAC.Comp.DataSet.TFDDataSet.InternalInitFieldDefs
+ 0001:0002038C       FireDAC.Comp.DataSet.TFDDataSet.GetFieldClass
+ 0001:00020394       FireDAC.Comp.DataSet.TFDDataSet.CalcBookmarkSize
+ 0001:0002039C       FireDAC.Comp.DataSet.TFDDataSet.InitBufferPointers
+ 0001:000203A4       FireDAC.Comp.DataSet.TFDDataSet.GetRecordSize
+ 0001:000203AC       FireDAC.Comp.DataSet.TFDDataSet.AllocRecordBuffer
+ 0001:000203B4       FireDAC.Comp.DataSet.TFDDataSet.FreeRecordBuffer
+ 0001:000203BC       FireDAC.Comp.DataSet.TFDDataSet.ClearCalcFields
+ 0001:000203C4       FireDAC.Comp.DataSet.TFDDataSet.RefreshInternalCalcFields
+ 0001:000203CC       FireDAC.Comp.DataSet.TFDDataSet.RefreshInternalCalcFields
+ 0001:000203D4       FireDAC.Comp.DataSet.TFDDataSet.GetRecord
+ 0001:000203DC       FireDAC.Comp.DataSet.TFDDataSet.GetRecord
+ 0001:000203E4       FireDAC.Comp.DataSet.TFDDataSet.GetCurrentRecord
+ 0001:000203EC       FireDAC.Comp.DataSet.TFDDataSet.GetRecordCount
+ 0001:000203F4       FireDAC.Comp.DataSet.TFDDataSet.UpdateRecordCount
+ 0001:000203FC       FireDAC.Comp.DataSet.TFDDataSet.GetRecNo
+ 0001:00020404       FireDAC.Comp.DataSet.TFDDataSet.InternalSetRecNo
+ 0001:0002040C       FireDAC.Comp.DataSet.TFDDataSet.SetRecNo
+ 0001:00020414       FireDAC.Comp.DataSet.TFDDataSet.GetFieldData
+ 0001:0002041C       FireDAC.Comp.DataSet.TFDDataSet.GetFieldData
+ 0001:00020424       FireDAC.Comp.DataSet.TFDDataSet.GetStateFieldValue
+ 0001:0002042C       FireDAC.Comp.DataSet.TFDDataSet.SetFieldData
+ 0001:00020434       FireDAC.Comp.DataSet.TFDDataSet.CreateBlobStream
+ 0001:0002043C       FireDAC.Comp.DataSet.TFDDataSet.CloseBlob
+ 0001:00020444       FireDAC.Comp.DataSet.TFDDataSet.DoPurge
+ 0001:0002044C       FireDAC.Comp.DataSet.TFDDataSet.DoAdjustSortFields
+ 0001:00020454       FireDAC.Comp.DataSet.TFDDataSet.DoSortOrderChanging
+ 0001:0002045C       FireDAC.Comp.DataSet.TFDDataSet.DoSortOrderChanged
+ 0001:00020464       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeGetRecords
+ 0001:0002046C       FireDAC.Comp.DataSet.TFDDataSet.DoAfterGetRecords
+ 0001:00020474       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeRowRequest
+ 0001:0002047C       FireDAC.Comp.DataSet.TFDDataSet.DoAfterRowRequest
+ 0001:00020484       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeScroll
+ 0001:0002048C       FireDAC.Comp.DataSet.TFDDataSet.DoAfterRefresh
+ 0001:00020494       FireDAC.Comp.DataSet.TFDDataSet.GetCanModify
+ 0001:0002049C       FireDAC.Comp.DataSet.TFDDataSet.GetCanRefresh
+ 0001:000204A4       FireDAC.Comp.DataSet.TFDDataSet.InternalFirst
+ 0001:000204AC       FireDAC.Comp.DataSet.TFDDataSet.InternalLast
+ 0001:000204B4       FireDAC.Comp.DataSet.TFDDataSet.InternalEdit
+ 0001:000204BC       FireDAC.Comp.DataSet.TFDDataSet.InternalInsert
+ 0001:000204C4       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeInsert
+ 0001:000204CC       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeEdit
+ 0001:000204D4       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeDelete
+ 0001:000204DC       FireDAC.Comp.DataSet.TFDDataSet.InternalPost
+ 0001:000204E4       FireDAC.Comp.DataSet.TFDDataSet.Post
+ 0001:000204EC       FireDAC.Comp.DataSet.TFDDataSet.InternalDelete
+ 0001:000204F4       FireDAC.Comp.DataSet.TFDDataSet.InternalRefresh
+ 0001:000204FC       FireDAC.Comp.DataSet.TFDDataSet.InternalCancel
+ 0001:00020504       FireDAC.Comp.DataSet.TFDDataSet.Cancel
+ 0001:0002050C       FireDAC.Comp.DataSet.TFDDataSet.InternalAddRecord
+ 0001:00020514       FireDAC.Comp.DataSet.TFDDataSet.InternalInitRecord
+ 0001:0002051C       FireDAC.Comp.DataSet.TFDDataSet.InitRecord
+ 0001:00020524       FireDAC.Comp.DataSet.TFDDataSet.DoOnNewRecord
+ 0001:0002052C       FireDAC.Comp.DataSet.TFDDataSet.EmptyDataSet
+ 0001:00020534       FireDAC.Comp.DataSet.TFDDataSet.DoUpdateErrorHandler
+ 0001:0002053C       FireDAC.Comp.DataSet.TFDDataSet.DoUpdateRecordHandler
+ 0001:00020544       FireDAC.Comp.DataSet.TFDDataSet.DoReconcileErrorHandler
+ 0001:0002054C       FireDAC.Comp.DataSet.TFDDataSet.InternalGotoBookmark
+ 0001:00020554       FireDAC.Comp.DataSet.TFDDataSet.InternalGotoBookmark
+ 0001:0002055C       FireDAC.Comp.DataSet.TFDDataSet.InternalSetToRecord
+ 0001:00020564       FireDAC.Comp.DataSet.TFDDataSet.GetBookmarkFlag
+ 0001:0002056C       FireDAC.Comp.DataSet.TFDDataSet.SetBookmarkFlag
+ 0001:00020574       FireDAC.Comp.DataSet.TFDDataSet.GetBookmarkData
+ 0001:0002057C       FireDAC.Comp.DataSet.TFDDataSet.SetBookmarkData
+ 0001:00020584       FireDAC.Comp.DataSet.TFDDataSet.CompareBookmarks
+ 0001:0002058C       FireDAC.Comp.DataSet.TFDDataSet.BookmarkValid
+ 0001:00020594       FireDAC.Comp.DataSet.TFDDataSet.GetAggregateValue
+ 0001:0002059C       FireDAC.Comp.DataSet.TFDDataSet.ResetAggField
+ 0001:000205A4       FireDAC.Comp.DataSet.TFDDataSet.GetIsIndexField
+ 0001:000205AC       FireDAC.Comp.DataSet.TFDDataSet.InternalDefaultKeyFieldCount
+ 0001:000205B4       FireDAC.Comp.DataSet.TFDDataSet.InternalGotoKey
+ 0001:000205BC       FireDAC.Comp.DataSet.TFDDataSet.InternalResetRange
+ 0001:000205C4       FireDAC.Comp.DataSet.TFDDataSet.Locate
+ 0001:000205CC       FireDAC.Comp.DataSet.TFDDataSet.LocateEx
+ 0001:000205D4       FireDAC.Comp.DataSet.TFDDataSet.LocateEx
+ 0001:000205DC       FireDAC.Comp.DataSet.TFDDataSet.Lookup
+ 0001:000205E4       FireDAC.Comp.DataSet.TFDDataSet.LookupEx
+ 0001:000205EC       FireDAC.Comp.DataSet.TFDDataSet.LookupEx
+ 0001:000205F4       FireDAC.Comp.DataSet.TFDDataSet.DoFilteringUpdated
+ 0001:000205FC       FireDAC.Comp.DataSet.TFDDataSet.SetFilterOptions
+ 0001:00020604       FireDAC.Comp.DataSet.TFDDataSet.SetFilterText
+ 0001:0002060C       FireDAC.Comp.DataSet.TFDDataSet.SetFiltered
+ 0001:00020614       FireDAC.Comp.DataSet.TFDDataSet.SetOnFilterRecord
+ 0001:0002061C       FireDAC.Comp.DataSet.TFDDataSet.DoFilterRow
+ 0001:00020624       FireDAC.Comp.DataSet.TFDDataSet.FindRecord
+ 0001:0002062C       FireDAC.Comp.DataSet.TFDDataSet.CloneCursor
+ 0001:00020634       FireDAC.Comp.DataSet.TFDDataSet.CreateDataSet
+ 0001:0002063C       FireDAC.Comp.DataSet.TFDDataSet.LoadFromStorage
+ 0001:00020644       FireDAC.Comp.DataSet.TFDDataSet.SaveToStorage
+ 0001:0002064C       FireDAC.Comp.DataSet.TFDDataSet.Loaded
+ 0001:00020654       FireDAC.Comp.DataSet.TFDDataSet.CheckCachedUpdatesMode
+ 0001:0002065C       FireDAC.Comp.DataSet.TFDDataSet.DoCachedUpdatesChanged
+ 0001:00020664       FireDAC.Comp.DataSet.TFDDataSet.DoBeforeApplyUpdate
+ 0001:0002066C       FireDAC.Comp.DataSet.TFDDataSet.DoAfterApplyUpdate
+ 0001:00020674       FireDAC.Comp.DataSet.TFDDataSet.UpdateStatus
+ 0001:0002067C       FireDAC.Comp.DataSet.TFDDataSet.PSExecute
+ 0001:00020684       FireDAC.Comp.DataSet.TFDDataSet.PSReset
+ 0001:0002068C       FireDAC.Comp.DataSet.TFDDataSet.PSGetDefaultOrder
+ 0001:00020694       FireDAC.Comp.DataSet.TFDDataSet.PSGetIndexDefs
+ 0001:0002069C       FireDAC.Comp.DataSet.TFDDataSet.PSGetKeyFields
+ 0001:000206A4       FireDAC.Comp.DataSet.TFDDataSet.PSGetTableName
+ 0001:000206AC       FireDAC.Comp.DataSet.TFDDataSet.PSGetUpdateException
+ 0001:000206B4       FireDAC.Comp.DataSet.TFDDataSet.PSUpdateRecord
+ 0001:000206BC       FireDAC.Stan.Expr.Finalization
+ 0001:000206C4       FireDAC.Comp.Client.TFDAdaptedDataSet.Notification
+ 0001:000206CC       FireDAC.Comp.Client.TFDAdaptedDataSet.GetParams
+ 0001:000206D4       FireDAC.Comp.Client.TFDAdaptedDataSet.SetLocalSQL
+ 0001:000206DC       FireDAC.Comp.Client.TFDAdaptedDataSet.CheckOnline
+ 0001:000206E4       FireDAC.Comp.Client.TFDAdaptedDataSet.ReleaseBase
+ 0001:000206EC       FireDAC.Comp.Client.TFDAdaptedDataSet.SetAdapter
+ 0001:000206F4       FireDAC.Comp.Client.TFDAdaptedDataSet.AttachTable
+ 0001:000206FC       FireDAC.Comp.Client.TFDAdaptedDataSet.DoCloneCursor
+ 0001:00020704       FireDAC.Comp.Client.TFDAdaptedDataSet.InternalClose
+ 0001:0002070C       FireDAC.Comp.Client.TFDAdaptedDataSet.Disconnect
+ 0001:00020714       FireDAC.Comp.Client.TFDAdaptedDataSet.ServerDeleteAll
+ 0001:0002071C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoMasterDefined
+ 0001:00020724       FireDAC.Comp.Client.TFDAdaptedDataSet.DoMasterParamSetValues
+ 0001:0002072C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoMasterParamDependent
+ 0001:00020734       FireDAC.Comp.Client.TFDAdaptedDataSet.DoPrepareSource
+ 0001:0002073C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoUnprepareSource
+ 0001:00020744       FireDAC.Comp.Client.TFDAdaptedDataSet.DoDefineDatSManager
+ 0001:0002074C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoOpenSource
+ 0001:00020754       FireDAC.Comp.Client.TFDAdaptedDataSet.DoIsSourceOpen
+ 0001:0002075C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoIsSourceAsync
+ 0001:00020764       FireDAC.Comp.Client.TFDAdaptedDataSet.DoIsSourceOnline
+ 0001:0002076C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoCloseSource
+ 0001:00020774       FireDAC.Comp.Client.TFDAdaptedDataSet.DoResetDatSManager
+ 0001:0002077C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoGetDatSManager
+ 0001:00020784       FireDAC.Comp.Client.TFDAdaptedDataSet.DoGetTableName
+ 0001:0002078C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoFetch
+ 0001:00020794       FireDAC.Comp.Client.TFDAdaptedDataSet.DoFetch
+ 0001:0002079C       FireDAC.Comp.Client.TFDAdaptedDataSet.DoClearBeforeRefetch
+ 0001:000207A4       FireDAC.Comp.Client.TFDAdaptedDataSet.DoExecuteSource
+ 0001:000207AC       FireDAC.Comp.Client.TFDAdaptedDataSet.DoApplyUpdates
+ 0001:000207B4       FireDAC.Comp.Client.TFDAdaptedDataSet.DoProcessUpdateRequest
+ 0001:000207BC       FireDAC.Comp.Client.TFDAdaptedDataSet.SetOptionsIntf
+ 0001:000207C4       FireDAC.Comp.Client.TFDAdaptedDataSet.DoStoredActivation
+ 0001:000207CC       FireDAC.Comp.Client.TFDAdaptedDataSet.GetConn
+ 0001:000207D4       FireDAC.Comp.Client.TFDAdaptedDataSet.GetFeatures
+ 0001:000207DC       FireDAC.Comp.Client.TFDAdaptedDataSet.PSInTransaction
+ 0001:000207E4       FireDAC.Comp.Client.TFDAdaptedDataSet.PSStartTransaction
+ 0001:000207EC       FireDAC.Comp.Client.TFDAdaptedDataSet.PSEndTransaction
+ 0001:000207F4       FireDAC.Comp.Client.TFDAdaptedDataSet.PSIsSQLBased
+ 0001:000207FC       FireDAC.Comp.Client.TFDAdaptedDataSet.PSIsSQLSupported
+ 0001:00020804       FireDAC.Comp.Client.TFDAdaptedDataSet.PSGetQuoteChar
+ 0001:0002080C       FireDAC.Comp.Client.TFDAdaptedDataSet.PSGetParams
+ 0001:00020814       FireDAC.Comp.Client.TFDAdaptedDataSet.PSSetParams
+ 0001:0002081C       FireDAC.Comp.Client.TFDAdaptedDataSet.PSGetCommandText
+ 0001:00020824       FireDAC.Comp.Client.TFDAdaptedDataSet.PSGetCommandType
+ 0001:0002082C       FireDAC.Comp.Client.TFDAdaptedDataSet.PSSetCommandText
+ 0001:00020834       FireDAC.Comp.Client.TFDAdaptedDataSet.PSExecuteStatement
+ 0001:0002083C       FireDAC.Comp.Client.TFDAdaptedDataSet.PSExecuteStatement
+ 0001:00020844       FireDAC.Comp.Client.TFDAdaptedDataSet.PSExecuteStatement
+ 0001:0002084C       FireDAC.Comp.Client.TFDAdaptedDataSet.PSGetAttributes
+ 0001:00020854       FireDAC.Comp.Client.TFDAdaptedDataSet.GetCommandStates
+ 0001:0002085C       FireDAC.Comp.Client.TFDAdaptedDataSet.ExecuteCommand
+ 0001:00020864       FireDAC.Comp.Client.TFDCustomMemTable.Create
+ 0001:0002086C       FireDAC.Comp.Client.TFDCustomMemTable.Destroy
+ 0001:00020874       FireDAC.Comp.Client.TFDCustomMemTable.DefineProperties
+ 0001:0002087C       FireDAC.Comp.Client.TFDCustomMemTable.GetOptionsIntf
+ 0001:00020884       FireDAC.Comp.Client.TFDCustomMemTable.DefChanged
+ 0001:0002088C       FireDAC.Comp.Client.TFDCustomMemTable.SaveToDFM
+ 0001:00020894       FireDAC.Comp.Client.TFDCustomMemTable.SetOptionalParam
+ 0001:0002089C       FireDAC.Comp.Client.TFDCustomMemTable.GetExists
+ 0001:000208A4       FireDAC.Comp.Client.Finalization
+ 0001:000208AC       MVCBr.FDMongoDB..TMVCBrMongoConnection
+ 0001:00020C58       MVCBr.FDMongoDB..TMVCBrMongoDataset
+ 0001:00021708       MVCBr.FDMongoDB.Register
+ 0001:00021748       MVCBr.FDMongoDB.TMVCBrMongoDataset.checkNil
+ 0001:0002181C       MVCBr.FDMongoDB.TMVCBrMongoDataset.Create
+ 0001:00021864       MVCBr.FDMongoDB.TMVCBrMongoDataset.Delete
+ 0001:00021870       MVCBr.FDMongoDB.TMVCBrMongoDataset.DoUpdateRecord
+ 0001:00021A34       MVCBr.FDMongoDB.TMVCBrMongoDataset.GetKeyFieldsDoc
+ 0001:00021C34       MVCBr.FDMongoDB.TMVCBrMongoDataset.Insert
+ 0001:00021CE8       MVCBr.FDMongoDB.TMVCBrMongoDataset.Notification
+ 0001:00021D28       MVCBr.FDMongoDB.TMVCBrMongoDataset.Open
+ 0001:00021D38       MVCBr.FDMongoDB.TMVCBrMongoDataset.OpenWithCommand
+ 0001:00022144       MVCBr.FDMongoDB.TMVCBrMongoDataset.Open
+ 0001:0002227C       MVCBr.FDMongoDB.TMVCBrMongoDataset.Post
+ 0001:000222A0       MVCBr.FDMongoDB.TMVCBrMongoDataset.SetActive
+ 0001:000223A8       MVCBr.FDMongoDB.TMVCBrMongoDataset.SetCollectionName
+ 0001:000223C0       MVCBr.FDMongoDB.TMVCBrMongoDataset.SetConnection
+ 0001:000223C8       MVCBr.FDMongoDB.TMVCBrMongoDataset.SetKeyFields
+ 0001:000223E0       MVCBr.FDMongoDB.TMVCBrMongoDataset.SetLoading
+ 0001:000223E8       MVCBr.FDMongoDB.TMVCBrMongoDataset.Update
+ 0001:000224B8       MVCBr.FDMongoDB.TMVCBrMongoConnection.Create
+ 0001:0002254C       MVCBr.FDMongoDB.TMVCBrMongoConnection.Default
+ 0001:000225B4       MVCBr.FDMongoDB.TMVCBrMongoConnection.Destroy
+ 0001:000225E0       MVCBr.FDMongoDB.TMVCBrMongoConnection.GetActive
+ 0001:000225F8       MVCBr.FDMongoDB.TMVCBrMongoConnection.RunCommand
+ 0001:00022654       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetActive
+ 0001:00022674       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetDatabase
+ 0001:000226D0       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetHost
+ 0001:0002272C       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetParams
+ 0001:00022838       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetPassword
+ 0001:00022894       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetPort
+ 0001:000228E8       MVCBr.FDMongoDB.TMVCBrMongoConnection.SetUserName
+ 0001:00022944       MVCBr.FDMongoDB.Finalization
+ 0001:0002294C       MVCBr.FDMongoDB.TJSONValue.GetValue<System.JSON.TJSONArray>
+ 0001:000229E4       MVCBr.FDMongoDB.TJSONValue.Cast<System.JSON.TJSONArray>
+ 0001:00022AC0       MVCBr.FDMongoDB.TValue.AsType<System.JSON.TJSONArray>
+ 0001:00022AF4       MVCBr.FDMongoDB.TValue.TryAsType<System.JSON.TJSONArray>
+ 0001:00022B78       MVCBr.FDMongoDB.TValue.Get<System.JSON.TJSONArray>
+ 0001:000234CC       .MVCBrFireDAC.@GetPackageInfoTable
+ 0001:000234D4       .MVCBrFireDAC.@PackageLoad
+ 0001:000234E0       .MVCBrFireDAC.@PackageUnload
+ 0002:00000000       System.System
+ 0002:00000008       SysInit.SysInit
+ 0002:00000010       Winapi.Windows.Winapi.Windows
+ 0002:00000028       Winapi.PsAPI.Winapi.PsAPI
+ 0002:00000030       System.Character.System.Character
+ 0002:00000038       System.Internal.ExcUtils.System.Internal.ExcUtils
+ 0002:00000040       System.SysUtils.TLanguages.Create@
+ 0002:00000048       System.SysUtils.TEncoding.Create@
+ 0002:00000050       System.SysUtils.Exception.Create@
+ 0002:00000058       System.SysUtils.TOSVersion.Create@
+ 0002:00000060       System.SysUtils.System.SysUtils
+ 0002:00000068       System.VarUtils.System.VarUtils
+ 0002:00000070       System.Variants.System.Variants
+ 0002:00000078       System.Rtti.TRttiContext.Create@
+ 0002:00000080       System.Rtti.System.Rtti
+ 0002:00000088       System.TypInfo.System.TypInfo
+ 0002:00000090       System.Math.System.Math
+ 0002:00000098       System.Generics.Defaults.TStringComparer.Create@
+ 0002:000000A0       System.Generics.Defaults.TIStringComparer.Create@
+ 0002:000000A8       System.Classes.TObserverMapping.Create@
+ 0002:000000B0       System.Classes.TBinaryWriter.Create@
+ 0002:000000B8       System.Classes.TThread.Create@
+ 0002:000000C0       System.Classes.TComponent.Create@
+ 0002:000000C8       System.Classes.TLoginCredentialService.Create@
+ 0002:000000D0       System.Classes.TBaseAsyncResult.Create@
+ 0002:000000D8       System.Classes.System.Classes
+ 0002:000000E0       System.TimeSpan.TTimeSpan.Create@
+ 0002:000000E8       System.DateUtils.TTimeZone.Create@
+ 0002:000000F0       System.DateUtils.System.DateUtils
+ 0002:000000F8       Data.SqlTimSt.Data.SqlTimSt
+ 0002:00000100       Data.FmtBcd.Data.FmtBcd
+ 0002:00000108       Data.DB.Data.DB
+ 0002:00000110       System.JSON.System.JSON
+ 0002:00000118       System.Actions.System.Actions
+ 0002:00000120       System.IOUtils.TPath.Create@
+ 0002:00000128       System.Win.Registry.TRegistry.Create@
+ 0002:00000130       Vcl.Graphics.TWICImage.Create@
+ 0002:00000138       Vcl.Graphics.Vcl.Graphics
+ 0002:00000140       System.SyncObjs.System.SyncObjs
+ 0002:00000148       Winapi.UxTheme.Winapi.UxTheme
+ 0002:00000150       Vcl.ActnList.Vcl.ActnList
+ 0002:00000158       System.AnsiStrings.System.AnsiStrings
+ 0002:00000160       System.Win.ComObj.TComServerObject.Create@
+ 0002:00000168       System.Win.ComObj.System.Win.ComObj
+ 0002:00000170       Winapi.MsCTF.Winapi.MsCTF
+ 0002:00000180       Vcl.GraphUtil.Vcl.GraphUtil
+ 0002:00000188       Vcl.Controls.Vcl.Controls
+ 0002:00000190       Vcl.StdCtrls.TCustomGroupBox.Create@
+ 0002:00000198       Vcl.StdCtrls.TCustomEdit.Create@
+ 0002:000001A0       Vcl.StdCtrls.TCustomMemo.Create@
+ 0002:000001A8       Vcl.StdCtrls.TCustomComboBox.Create@
+ 0002:000001B0       Vcl.StdCtrls.TCustomButton.Create@
+ 0002:000001B8       Vcl.StdCtrls.TCustomCheckBox.Create@
+ 0002:000001C0       Vcl.StdCtrls.TRadioButton.Create@
+ 0002:000001C8       Vcl.StdCtrls.TCustomListBox.Create@
+ 0002:000001D0       Vcl.StdCtrls.TScrollBar.Create@
+ 0002:000001D8       Vcl.StdCtrls.TCustomStaticText.Create@
+ 0002:000001E0       Vcl.StdCtrls.TGroupBox.Create@
+ 0002:000001E8       Vcl.StdCtrls.TEdit.Create@
+ 0002:000001F0       Vcl.StdCtrls.TMemo.Create@
+ 0002:000001F8       Vcl.StdCtrls.TComboBox.Create@
+ 0002:00000200       Vcl.StdCtrls.TButton.Create@
+ 0002:00000208       Vcl.StdCtrls.TCheckBox.Create@
+ 0002:00000210       Vcl.StdCtrls.TListBox.Create@
+ 0002:00000218       Vcl.StdCtrls.TStaticText.Create@
+ 0002:00000220       Vcl.Printers.Vcl.Printers
+ 0002:00000228       Vcl.Clipbrd.Vcl.Clipbrd
+ 0002:00000230       Vcl.ComCtrls.TCustomTabControl.Create@
+ 0002:00000238       Vcl.ComCtrls.TTabControl.Create@
+ 0002:00000240       Vcl.ComCtrls.TCustomStatusBar.Create@
+ 0002:00000248       Vcl.ComCtrls.TCustomHeaderControl.Create@
+ 0002:00000250       Vcl.ComCtrls.TCustomTreeView.Create@
+ 0002:00000258       Vcl.ComCtrls.TTreeView.Create@
+ 0002:00000260       Vcl.ComCtrls.TTrackBar.Create@
+ 0002:00000268       Vcl.ComCtrls.TProgressBar.Create@
+ 0002:00000270       Vcl.ComCtrls.TCustomRichEdit.Create@
+ 0002:00000278       Vcl.ComCtrls.TRichEdit.Create@
+ 0002:00000280       Vcl.ComCtrls.TCustomUpDown.Create@
+ 0002:00000288       Vcl.ComCtrls.TUpDown.Create@
+ 0002:00000290       Vcl.ComCtrls.TCustomHotKey.Create@
+ 0002:00000298       Vcl.ComCtrls.THotKey.Create@
+ 0002:000002A0       Vcl.ComCtrls.TCustomListView.Create@
+ 0002:000002A8       Vcl.ComCtrls.TListView.Create@
+ 0002:000002B0       Vcl.ComCtrls.TToolBar.Create@
+ 0002:000002B8       Vcl.ComCtrls.TCoolBar.Create@
+ 0002:000002C0       Vcl.ComCtrls.TDateTimePicker.Create@
+ 0002:000002C8       Vcl.ComCtrls.TPageScroller.Create@
+ 0002:000002D0       Vcl.ComCtrls.TCustomComboBoxEx.Create@
+ 0002:000002D8       Vcl.ComCtrls.TComboBoxEx.Create@
+ 0002:000002E0       Vcl.ComCtrls.TStatusBar.Create@
+ 0002:000002E8       Vcl.ComCtrls.THeaderControl.Create@
+ 0002:000002F0       Vcl.ComCtrls.Vcl.ComCtrls
+ 0002:000002F8       System.HelpIntfs.System.HelpIntfs
+ 0002:00000300       Vcl.Dialogs.Vcl.Dialogs
+ 0002:00000308       Vcl.ExtCtrls.TCustomCategoryPanelGroup.Create@
+ 0002:00000310       Vcl.ExtCtrls.TCategoryPanelGroup.Create@
+ 0002:00000318       Vcl.ExtCtrls.TCustomLinkLabel.Create@
+ 0002:00000320       Vcl.ExtCtrls.TLinkLabel.Create@
+ 0002:00000328       Vcl.ExtCtrls.Vcl.ExtCtrls
+ 0002:00000330       Vcl.Themes.TStyleManager.Create@
+ 0002:00000338       Vcl.Themes.TCustomStyleEngine.Create@
+ 0002:00000340       Vcl.Menus.Vcl.Menus
+ 0002:00000348       Winapi.FlatSB.Winapi.FlatSB
+ 0002:00000350       Vcl.Forms.TScrollBox.Create@
+ 0002:00000358       Vcl.Forms.TCustomForm.Create@
+ 0002:00000360       Vcl.Forms.TForm.Create@
+ 0002:00000368       Vcl.Forms.Vcl.Forms
+ 0002:00000370       MVCBr.ApplicationController.TApplicationController.Create@
+ 0002:00000378       MVCBr.ApplicationController.MVCBr.ApplicationController
+ 0002:00000380       MVCBr.IoC.TClassActivator.Create@
+ 0002:00000388       MVCBr.IoC.MVCBr.IoC
+ 0002:00000390       MVCBr.Observable.MVCBr.Observable
+ 0002:00000398       simpleSock.simpleSock
+ 0002:000003B4       jsonDoc.jsonDoc
+ 0002:000003C8       bsonDoc.bsonDoc
+ 0002:000003DC       bsonTools.bsonTools
+ 0002:000003F0       mongoWire.mongoWire
+ 0002:000003F8       mongoAuth3.mongoAuth3
+ 0002:00000400       bsonUtils.bsonUtils
+ 0002:00000408       System.Threading.TTask.Create@
+ 0002:00000410       System.Threading.TParallel.TReplicableTask.Create@
+ 0002:00000418       System.Threading.TThreadPool.Create@
+ 0002:00000420       System.Threading.TThreadPool.TWorkerData.Create@
+ 0002:00000428       System.Threading.TParallel.TJoinTask.Create@
+ 0002:00000430       System.Threading.TParallel.TReplicaTask.Create@
+ 0002:00000438       System.Json.Helper.System.Json.Helper
+ 0002:00000440       System.NetEncoding.TNetEncoding.Create@
+ 0002:00000448       MVCBr.MongoModel.MVCBr.MongoModel
+ 0002:00000450       FireDAC.Stan.Error.FireDAC.Stan.Error
+ 0002:00000458       FireDAC.Stan.Util.FireDAC.Stan.Util
+ 0002:00000460       FireDAC.Stan.Intf.FireDAC.Stan.Intf
+ 0002:00000468       FireDAC.Stan.SQLTimeInt.FireDAC.Stan.SQLTimeInt
+ 0002:00000470       FireDAC.Stan.Param.FireDAC.Stan.Param
+ 0002:00000478       FireDAC.UI.Intf.FireDAC.UI.Intf
+ 0002:00000480       FireDAC.Stan.Factory.FireDAC.Stan.Factory
+ 0002:00000488       FireDAC.Stan.Option.FireDAC.Stan.Option
+ 0002:00000490       FireDAC.DatS.FireDAC.DatS
+ 0002:00000498       FireDAC.Stan.Expr.FireDAC.Stan.Expr
+ 0002:000004A0       FireDAC.Comp.Client.FireDAC.Comp.Client
+ 0002:000004A8       MVCBr.FDMongoDB.MVCBr.FDMongoDB
+ 0002:000004B0       .MVCBrFireDAC..MVCBrFireDAC
+ 0003:00000000       SysInit.TlsIndex
+ 0003:00000004       SysInit.PtrToNil
+ 0003:00000008       SysInit.Module
+ 0003:00000024       SysInit.TlsProc
+ 0003:00000034       SysInit...
+ 0003:00000088       Winapi.Windows.Win32MajorVersion
+ 0003:0000008C       Winapi.Windows.Win32MinorVersion
+ 0003:00000090       Winapi.Windows.Win32Platform
+ 0003:00000094       Winapi.MsCTF.MsCTFHandle
+ 0003:00000098       jsonDoc.IID_IJSONDocument
+ 0003:000000A8       jsonDoc.CLASS_JSONDocument
+ 0003:000000B8       jsonDoc.IID_IJSONEnumerator
+ 0003:000000C8       jsonDoc.IID_IJSONEnumerable
+ 0003:000000D8       jsonDoc.IID_IJSONArray
+ 0003:000000E8       jsonDoc.IID_IJSONDocArray
+ 0003:000000F8       jsonDoc.IID_IJSONDocWithReUse
+ 0003:00000108       jsonDoc.hex
+ 0003:00000128       bsonDoc.bsonJavaScriptCodePrefix
+ 0003:0000012C       bsonDoc.bsonRegExPrefix
+ 0003:00000130       bsonDoc.bsonObjectIDPrefix
+ 0003:00000134       bsonDoc.bsonObjectIDSuffix
+ 0003:00000138       bsonDoc.IID_IBSONDocument
+ 0003:00000148       bsonDoc.CLASS_BSONDocument
+ 0003:00000158       bsonDoc.IID_IBSONDocumentEnumerator
+ 0003:00000168       bsonDoc.hex
+ 0003:00000188       bsonDoc.IID_IStream
+ 0003:00000198       bsonDoc.IID_IPersistStream
+ 0003:000001A8       bsonTools.bsonJavaScriptCodePrefix
+ 0003:000001AC       bsonTools.bsonRegExPrefix
+ 0003:000001B0       bsonTools.bsonObjectIDPrefix
+ 0003:000001B4       bsonTools.bsonObjectIDSuffix
+ 0003:000001B8       bsonTools.IID_IBSONDocArray
+ 0003:000001C8       bsonTools.hex
+ 0003:000001E8       bsonTools.IID_IStream
+ 0003:000001F8       bsonTools.IID_IPersistStream
+ 0003:00000208       mongoAuth3.roll1
+ 0003:00000218       mongoAuth3.roll2
+ 0003:00000228       mongoAuth3.roll3
+ 0003:00000238       mongoAuth3.roll4
+ 0003:00000248       mongoAuth3.base1
+ 0003:00000288       mongoAuth3.base2
+ 0003:000002C8       mongoAuth3.base3
+ 0003:00000308       mongoAuth3.base4
+ 0003:00000348       mongoAuth3.HexCodes
+ 0003:00000358       mongoAuth3.Base64Codes
+ 0003:00000398       bsonUtils.hex
+ 0004:FFFD9000       SysInit.__ImageBase
+ 0004:00000000       SysInit.ModuleIsLib
+ 0004:00000001       SysInit.ModuleIsPackage
+ 0004:00000004       SysInit.HInstance
+ 0004:0000000C       SysInit.dbkFCallWrapperAddr
+ 0004:00000010       SysInit.@_pfnDliNotifyHook2
+ 0004:00000014       SysInit.@_pfnDliFailureHook2
+ 0004:00000018       SysInit..1
+ 0004:0000001C       SysInit.tlsBuffer
+ 0004:00000020       Winapi.Windows..2
+ 0004:00000024       Winapi.Windows.HtmlHelpModule
+ 0004:00000028       Winapi.PsAPI..1
+ 0004:0000002C       Winapi.PsAPI.hPSAPI
+ 0004:00000030       Winapi.MsCTF..1
+ 0004:00000034       simpleSock..4
+ 0004:00000038       simpleSock.WSAData
+ 0004:000001C8       jsonDoc.JSON_UseIJSONArray
+ 0004:000001CC       jsonDoc..21
+ 0004:000001D0       bsonDoc..4
+ 0004:000001D4       bsonTools..3
+ 0004:000001D8       mongoWire..9
+ 0004:000001DC       mongoAuth3..2
+ 0004:000001E0       bsonUtils..3
+ 0004:000001E4       MVCBr.MongoModel..4
+ 0004:000001E8       MVCBr.FDMongoDB..3
+ 0005:00000000       SysInit.TlsLast
+
+
+Line numbers for bsonUtils(bsonUtils.pas) segment .text
+
+    41 0001:00018318    42 0001:00018348    43 0001:00018353    44 0001:0001835E
+    45 0001:00018369    46 0001:0001836E    47 0001:00018370    48 0001:00018376
+    50 0001:0001837F    51 0001:00018387    54 0001:000183A5    56 0001:000183AD
+    57 0001:000183C3    59 0001:000183CE    60 0001:000183CF    61 0001:000183DB
+    62 0001:000183DC    63 0001:00018409    64 0001:0001841A    65 0001:0001842B
+    66 0001:0001843C    67 0001:0001844D    68 0001:0001845E    71 0001:00018475
+    72 0001:00018481    74 0001:00018489    75 0001:0001849F    77 0001:000184AA
+    78 0001:000184C3    79 0001:000184DF    80 0001:000184FB    86 0001:00018517
+    88 0001:0001851C    89 0001:00018532    91 0001:0001853D    92 0001:0001853E
+    95 0001:00018548    48 0001:00018549    97 0001:00018552    98 0001:0001855C
+   111 0001:00018588   112 0001:000185A6   113 0001:000185AD   114 0001:000185B3
+   116 0001:000185BC   117 0001:000185CF   119 0001:0001861D   120 0001:00018646
+   114 0001:00018647   122 0001:00018650   130 0001:000186BC   132 0001:000186EC
+   133 0001:000186F3   134 0001:000186F7   135 0001:00018711   136 0001:0001873C
+   137 0001:0001874B   138 0001:0001876F   139 0001:0001877D   142 0001:00018784
+   147 0001:00018794   150 0001:000187A2   155 0001:000187B0   156 0001:000187B4
+   157 0001:000187C0   161 0001:000187CE   162 0001:000187E6   164 0001:000187F4
+   165 0001:00018844   168 0001:0001887C   169 0001:000188AA   170 0001:000188B7
+   171 0001:000188C3   172 0001:000188C9   173 0001:00018903   177 0001:0001890D
+   178 0001:00018964   181 0001:00018975   183 0001:00018995   186 0001:000189E1
+   189 0001:00018A56   191 0001:00018AA9   194 0001:00018AD7   195 0001:00018AE2
+   197 0001:00018AF9   200 0001:00018B17   201 0001:00018B19   203 0001:00018B20
+   204 0001:00018B24   206 0001:00018B3E   207 0001:00018B6F   208 0001:00018B7E
+   209 0001:00018BA2   210 0001:00018BB0   211 0001:00018BBC   212 0001:00018BC0
+   216 0001:00018BCD   219 0001:00018C0C   227 0001:00018C6A   228 0001:00018C75
+   231 0001:00018CAF   232 0001:00018CB1   234 0001:00018CB8   235 0001:00018CBC
+   237 0001:00018CD6   238 0001:00018CEA   239 0001:00018D04   240 0001:00018D1F
+   241 0001:00018D2D   242 0001:00018D39   159 0001:00018D3D   249 0001:00018D59
+   250 0001:00018D69   252 0001:00018D77   253 0001:00018D83   254 0001:00018D94
+   255 0001:00018D96   246 0001:00018D9A   157 0001:00018DBB   261 0001:00018DD1
+   267 0001:00018DE9   270 0001:000190FC   271 0001:00019102   272 0001:00019109
+   273 0001:00019112   278 0001:00019118   279 0001:00019146   281 0001:00019152
+   282 0001:0001915B   283 0001:0001916B   285 0001:0001919D   292 0001:000192C4
+   293 0001:000192CF   294 0001:000192EB   295 0001:00019306   299 0001:00019308
+   300 0001:00019328   301 0001:00019335   304 0001:000193E9   306 0001:0001949B
+   308 0001:00019590   309 0001:000195B3   310 0001:000195CF   311 0001:000195E8
+   312 0001:00019621   313 0001:00019623   315 0001:00019654   316 0001:00019665
+   317 0001:00019667   320 0001:0001966D   321 0001:0001967B   318 0001:0001967D
+   323 0001:00019693   324 0001:00019697   325 0001:00019699   329 0001:000196A0
+   332 0001:000196CC   333 0001:000196D8   335 0001:000196DD   338 0001:000196E6
+   340 0001:000196F8   341 0001:000196F9   342 0001:0001973B   343 0001:00019752
+   344 0001:00019760   345 0001:0001976E   346 0001:0001977C   347 0001:0001978A
+   350 0001:00019798   351 0001:0001979D   353 0001:000197A4   354 0001:000197A5
+   355 0001:000197B3   356 0001:000197D0   357 0001:000197E3   358 0001:000197F9
+   351 0001:00019835   362 0001:0001983E   364 0001:0001984B   369 0001:00019889
+   370 0001:0001989B   371 0001:0001989C   335 0001:0001989D   373 0001:000198A6
+   374 0001:000198B0   385 0001:00019978   386 0001:000199A4   387 0001:000199AD
+   390 0001:000199EC   392 0001:000199FA   393 0001:00019A01   395 0001:00019A21
+   398 0001:00019A3A   399 0001:00019A58   402 0001:00019AA7   403 0001:00019AC6
+   405 0001:00019AD4   406 0001:00019AF6   408 0001:00019B04   409 0001:00019B1B
+   411 0001:00019B26   412 0001:00019B3D   414 0001:00019B48   415 0001:00019B62
+   418 0001:00019B6D   420 0001:00019B87   422 0001:00019B8D   426 0001:00019BB8
+   427 0001:00019BD8   428 0001:00019BEB   429 0001:00019C23   430 0001:00019C29
+   431 0001:00019C2B   433 0001:00019C33   434 0001:00019C50   435 0001:00019C5E
+   436 0001:00019C5F   431 0001:00019C60   438 0001:00019C68   439 0001:00019C74
+   451 0001:00019C98   453 0001:00019CD0   454 0001:00019CD6   456 0001:00019CE1
+   457 0001:00019CF1   458 0001:00019CF6   459 0001:00019CF8   460 0001:00019CFD
+   461 0001:00019D02   462 0001:00019D06   465 0001:00019D0A   470 0001:00019D1A
+   473 0001:00019D28   478 0001:00019D36   482 0001:00019D46   483 0001:00019D52
+   484 0001:00019D62   491 0001:00019D75   493 0001:00019D91   495 0001:00019D98
+   494 0001:00019D9A   496 0001:00019DC8   499 0001:00019DCD   502 0001:00019DDD
+   505 0001:00019E52   506 0001:00019E56   509 0001:00019E67   511 0001:00019E71
+   512 0001:00019E8C   513 0001:00019EA7   516 0001:00019EE5   517 0001:00019EF8
+   523 0001:00019F18   525 0001:00019F20   526 0001:00019F24   528 0001:00019F3E
+   529 0001:00019F51   531 0001:00019F64   532 0001:00019F73   533 0001:00019F80
+   535 0001:00019F83   538 0001:00019F89   539 0001:00019F8D   541 0001:00019F8F
+   543 0001:00019F94   544 0001:00019F98   546 0001:00019FB2   548 0001:00019FB6
+   549 0001:00019FC2   550 0001:00019FCF   554 0001:00019FE3   555 0001:00019FEF
+   556 0001:00019FFD   558 0001:0001A00C   559 0001:0001A00D   560 0001:0001A011
+   561 0001:0001A017   564 0001:0001A03D   565 0001:0001A043   573 0001:0001A04E
+   574 0001:0001A05B   579 0001:0001A091   580 0001:0001A09F   581 0001:0001A0A4
+   582 0001:0001A0AA   585 0001:0001A0BA   586 0001:0001A0EE   583 0001:0001A0F0
+   588 0001:0001A10F   591 0001:0001A127   593 0001:0001A12B   592 0001:0001A12D
+   595 0001:0001A14C   600 0001:0001A19C   601 0001:0001A1AF   602 0001:0001A204
+   603 0001:0001A217   605 0001:0001A265   611 0001:0001A2B5   612 0001:0001A2B7
+   613 0001:0001A2C7   614 0001:0001A2D7   615 0001:0001A2E7   619 0001:0001A306
+   620 0001:0001A308   621 0001:0001A318   622 0001:0001A328   623 0001:0001A338
+   624 0001:0001A348   628 0001:0001A367   629 0001:0001A369   630 0001:0001A379
+   631 0001:0001A389   632 0001:0001A399   635 0001:0001A3C4   638 0001:0001A40F
+   640 0001:0001A419   643 0001:0001A420   644 0001:0001A439   645 0001:0001A43F
+   647 0001:0001A44F   648 0001:0001A45C   650 0001:0001A479   651 0001:0001A47B
+   653 0001:0001A483   655 0001:0001A485   657 0001:0001A489   658 0001:0001A490
+   659 0001:0001A491   663 0001:0001A495   664 0001:0001A496   666 0001:0001A4A3
+   667 0001:0001A4AF   668 0001:0001A4BE   672 0001:0001A4C4   673 0001:0001A4D6
+   674 0001:0001A4E2   675 0001:0001A4EF   676 0001:0001A4FE   680 0001:0001A502
+   641 0001:0001A518   480 0001:0001A520   685 0001:0001A530   690 0001:0001A587
+   696 0001:0001A59F
+
+Line numbers for bsonUtils(bsonUtils.pas) segment .itext
+
+   698 0002:00000400
+
+Line numbers for MVCBr.MongoModel(MVCBr.MongoModel.pas) segment .text
+
+   283 0001:0001CA54   284 0001:0001CA6A   285 0001:0001CA81   288 0001:0001CAB4
+   289 0001:0001CAD0   290 0001:0001CAEB   293 0001:0001CB20   294 0001:0001CB39
+   295 0001:0001CB52   300 0001:0001CB84   301 0001:0001CBAE   302 0001:0001CBB8
+   306 0001:0001CBDC   307 0001:0001CBE3   310 0001:0001CBE4   311 0001:0001CBED
+   312 0001:0001CBFD   313 0001:0001CC01   314 0001:0001CC0D   317 0001:0001CC14
+   318 0001:0001CC1A   319 0001:0001CC2B   322 0001:0001CC30   323 0001:0001CC42
+   324 0001:0001CC4B   325 0001:0001CC58   326 0001:0001CC65   327 0001:0001CC6C
+   330 0001:0001CCC4   331 0001:0001CCE7   332 0001:0001CCF7   333 0001:0001CD04
+   343 0001:0001CEC4   344 0001:0001CEDA   345 0001:0001CEF9   336 0001:0001CF1C
+   338 0001:0001CF57   340 0001:0001CF5D   341 0001:0001CF75   349 0001:0001CF85
+   351 0001:0001CF8E   352 0001:0001CF99   353 0001:0001CFA7   354 0001:0001CFB5
+   355 0001:0001CFC3   358 0001:0001CFD1   359 0001:0001CFD7   363 0001:0001CFFC
+   364 0001:0001D008   365 0001:0001D020   368 0001:0001D028   369 0001:0001D033
+   371 0001:0001D03A   372 0001:0001D03F   374 0001:0001D044   375 0001:0001D04F
+   379 0001:0001D060   380 0001:0001D06C   381 0001:0001D087   385 0001:0001D090
+   386 0001:0001D09C   387 0001:0001D0B3   391 0001:0001D0BC   392 0001:0001D0C8
+   393 0001:0001D0EC   400 0001:0001D0F4   401 0001:0001D12E   402 0001:0001D13A
+   404 0001:0001D147   405 0001:0001D14F   406 0001:0001D15D   408 0001:0001D170
+   409 0001:0001D18E   410 0001:0001D196   411 0001:0001D1BC   412 0001:0001D1C2
+   413 0001:0001D1CA   414 0001:0001D1D5   406 0001:0001D1D6   415 0001:0001D1D9
+   417 0001:0001D1F4   420 0001:0001D204   424 0001:0001D254   425 0001:0001D272
+   426 0001:0001D2A8   430 0001:0001D2E8   431 0001:0001D30A   432 0001:0001D34D
+   436 0001:0001D3A0   437 0001:0001D3A4   440 0001:0001D3A8   441 0001:0001D3AE
+   442 0001:0001D3B8   450 0001:0001D3BC   453 0001:0001D3EE   454 0001:0001D3F8
+   456 0001:0001D405   461 0001:0001D40F   462 0001:0001D41B   464 0001:0001D428
+   465 0001:0001D430   476 0001:0001D43E   478 0001:0001D459   481 0001:0001D469
+   490 0001:0001D4A4   493 0001:0001D4DA   494 0001:0001D4E4   496 0001:0001D4F8
+   501 0001:0001D501   503 0001:0001D513   506 0001:0001D54C   507 0001:0001D552
+   508 0001:0001D55C   511 0001:0001D560   512 0001:0001D566   513 0001:0001D570
+   517 0001:0001D574   518 0001:0001D577   521 0001:0001D578   522 0001:0001D57E
+   523 0001:0001D588   526 0001:0001D58C   527 0001:0001D5AF   528 0001:0001D5BF
+   529 0001:0001D5CC   533 0001:0001D5F0   534 0001:0001D5FC   535 0001:0001D613
+   539 0001:0001D61C   540 0001:0001D625   541 0001:0001D638   545 0001:0001D63C
+   546 0001:0001D645   547 0001:0001D658   550 0001:0001D65C   551 0001:0001D65F
+   552 0001:0001D66B   556 0001:0001D670   557 0001:0001D699   558 0001:0001D6A7
+   560 0001:0001D6AE   562 0001:0001D6BB
+
+Line numbers for MVCBr.MongoModel(MVCBr.MongoModel.pas) segment .text
+
+   572 0001:0001DCE8   573 0001:0001DCEB   574 0001:0001DD04   567 0001:0001DD08
+   568 0001:0001DD44   569 0001:0001DD56   570 0001:0001DD5F   575 0001:0001DD6F
+   576 0001:0001DD7F   580 0001:0001DDA4   581 0001:0001DDAA   582 0001:0001DDB1
+   585 0001:0001DDB4   586 0001:0001DDB8   587 0001:0001DDBF   588 0001:0001DDC8
+   589 0001:0001DDD3   590 0001:0001DDDA   594 0001:0001DDE0   595 0001:0001DE14
+   596 0001:0001DE30   597 0001:0001DE3D   598 0001:0001DE43   599 0001:0001DE4D
+   602 0001:0001DE84   603 0001:0001DEA7   604 0001:0001DEB7   605 0001:0001DEC4
+   608 0001:0001DEE8   609 0001:0001DEEB   610 0001:0001DEF7   613 0001:0001DEFC
+   614 0001:0001DF05   615 0001:0001DF15   616 0001:0001DF21   625 0001:0001DF28
+   626 0001:0001DF4D   627 0001:0001DF55   628 0001:0001DF5F   629 0001:0001DF77
+   630 0001:0001DF85   631 0001:0001DF94   637 0001:0001DFB1   635 0001:0001DFBE
+   640 0001:0001DFDA   642 0001:0001DFEA   643 0001:0001DFFC   647 0001:0001E02C
+   648 0001:0001E035   649 0001:0001E048   652 0001:0001E04C   653 0001:0001E06A
+   655 0001:0001E06E   656 0001:0001E074   657 0001:0001E085   658 0001:0001E089
+   661 0001:0001E08E   662 0001:0001E09C   664 0001:0001E0A5   665 0001:0001E0B6
+   666 0001:0001E0C8   668 0001:0001E0CE   670 0001:0001E0D8   671 0001:0001E0E6
+   673 0001:0001E0F2   677 0001:0001E11E   681 0001:0001E121   684 0001:0001E14C
+   685 0001:0001E152   686 0001:0001E15C   689 0001:0001E160   690 0001:0001E166
+   691 0001:0001E170   694 0001:0001E174   695 0001:0001E17A   696 0001:0001E184
+   700 0001:0001E188   701 0001:0001E18B   704 0001:0001E18C   705 0001:0001E192
+   706 0001:0001E19C   711 0001:0001E1A0   715 0001:0001E1A4   716 0001:0001E1C0
+   717 0001:0001E1EE   720 0001:0001E214   721 0001:0001E237   722 0001:0001E247
+   723 0001:0001E254   728 0001:0001E278   729 0001:0001E27B   730 0001:0001E297
+   733 0001:0001E29C   734 0001:0001E2C6   735 0001:0001E2D0   738 0001:0001E2F4
+   739 0001:0001E314   740 0001:0001E31E   743 0001:0001E340   744 0001:0001E346
+   745 0001:0001E34F   748 0001:0001E354   749 0001:0001E35D   750 0001:0001E369
+   753 0001:0001E370   754 0001:0001E373   755 0001:0001E37A   758 0001:0001E37C
+   759 0001:0001E39C   760 0001:0001E3A3   761 0001:0001E3AF   764 0001:0001E3D0
+   765 0001:0001E3D6   766 0001:0001E3DF   771 0001:0001E3E4   772 0001:0001E3E7
+   773 0001:0001E403   784 0001:0001E408   785 0001:0001E439   786 0001:0001E448
+   787 0001:0001E456   789 0001:0001E468   790 0001:0001E476   791 0001:0001E490
+   792 0001:0001E4A5   793 0001:0001E4C7   792 0001:0001E4D1   793 0001:0001E4EA
+   795 0001:0001E50F   796 0001:0001E517   787 0001:0001E51B   797 0001:0001E524
+   799 0001:0001E572   801 0001:0001E582   805 0001:0001E5D0   806 0001:0001E60A
+   807 0001:0001E62F   817 0001:0001E678   819 0001:0001E6B6   820 0001:0001E6C5
+   821 0001:0001E6D4   822 0001:0001E6E3   823 0001:0001E6F2   824 0001:0001E700
+   825 0001:0001E708   826 0001:0001E710   827 0001:0001E718   829 0001:0001E73A
+   830 0001:0001E747   832 0001:0001E754   838 0001:0001E7DA   843 0001:0001E83C
+   844 0001:0001E858   846 0001:0001E887   847 0001:0001E895   848 0001:0001E8A7
+   850 0001:0001E8F0   851 0001:0001E91F   853 0001:0001E932   854 0001:0001E940
+   855 0001:0001E981   858 0001:0001E98F   861 0001:0001E9BE   862 0001:0001E9CC
+   866 0001:0001E9F4   867 0001:0001E9FC   868 0001:0001EA04   869 0001:0001EA0C
+   871 0001:0001EA1C   877 0001:0001ECFC   878 0001:0001ED4D   879 0001:0001EDF1
+   883 0001:0001EE8C   884 0001:0001EED2   886 0001:0001EFCC   890 0001:0001F098
+   891 0001:0001F0DA   892 0001:0001F14A   896 0001:0001F1B0   897 0001:0001F1F2
+   898 0001:0001F262   902 0001:0001F2C8   903 0001:0001F30A   905 0001:0001F37A
+   909 0001:0001F3E4   910 0001:0001F426   911 0001:0001F496   915 0001:0001F4FC
+   916 0001:0001F53E   917 0001:0001F5AE   921 0001:0001F618   922 0001:0001F65A
+   924 0001:0001F6CA   928 0001:0001F730   929 0001:0001F76C   930 0001:0001F7E7
+   934 0001:0001F860   935 0001:0001F8A6   937 0001:0001F9A0
+
+Line numbers for MVCBr.MongoModel(MVCBr.MongoModel.pas) segment .itext
+
+   939 0002:00000448
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   147 0001:0001FA78   148 0001:0001FA7B   150 0001:0001FA81   152 0001:0001FA87
+   153 0001:0001FA92   156 0001:0001FA96   157 0001:0001FA99
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   180 0001:0001FA9C   181 0001:0001FA9F
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   138 0001:0001FAA0   139 0001:0001FAA4
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   167 0001:0001FAA8   168 0001:0001FAAE   169 0001:0001FACE
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   111 0001:0001FAD4   112 0001:0001FB22   113 0001:0001FB2B   114 0001:0001FB2F
+   119 0001:0001FB3F   120 0001:0001FB47   121 0001:0001FB4A
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   131 0001:0001FB8C   132 0001:0001FB97   133 0001:0001FB9E   134 0001:0001FBA9
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   184 0001:0001FBB8   185 0001:0001FBC2   187 0001:0001FBC9   189 0001:0001FBD6
+   191 0001:0001FBDD   192 0001:0001FBE0   193 0001:0001FBE3
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   143 0001:0001FBE8   144 0001:0001FBED
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   172 0001:0001FBF0   173 0001:0001FBF3   174 0001:0001FC00   175 0001:0001FC05
+   176 0001:0001FC0A
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   198 0001:0001FC0C
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   125 0001:0001FC10   126 0001:0001FC31   127 0001:0001FC33   128 0001:0001FC3E
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   106 0001:0001FC64   107 0001:0001FC6A   108 0001:0001FC7A
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   147 0001:0001FC80   148 0001:0001FC83   150 0001:0001FC89   152 0001:0001FC8F
+   153 0001:0001FC9A   156 0001:0001FC9E   157 0001:0001FCA1
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   180 0001:0001FCA4   181 0001:0001FCA7
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   138 0001:0001FCA8   139 0001:0001FCAC
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   167 0001:0001FCB0   168 0001:0001FCB6   169 0001:0001FCD6
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   111 0001:0001FF13
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   111 0001:0001FCDC   112 0001:0001FD2A   113 0001:0001FD33   114 0001:0001FD37
+   119 0001:0001FD47   120 0001:0001FD4F   121 0001:0001FD52
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   131 0001:0001FD94   132 0001:0001FD9F   133 0001:0001FDA6   134 0001:0001FDB1
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   184 0001:0001FDC0   185 0001:0001FDCA   187 0001:0001FDD1   189 0001:0001FDDE
+   191 0001:0001FDE5   192 0001:0001FDE8   193 0001:0001FDEB
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   143 0001:0001FDF0   144 0001:0001FDF5
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   172 0001:0001FDF8   173 0001:0001FDFB   174 0001:0001FE08   175 0001:0001FE0D
+   176 0001:0001FE12
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   198 0001:0001FE14
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   125 0001:0001FE18   126 0001:0001FE39   127 0001:0001FE3B   128 0001:0001FE46
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   106 0001:0001FE6C   107 0001:0001FE72   108 0001:0001FE82
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   117 0001:0001FE88   118 0001:0001FE94
+
+Line numbers for MVCBr.MongoModel(MVCBr.Patterns.Adapter.pas) segment .text
+
+   117 0001:0001FE98   118 0001:0001FEA4
+
+Line numbers for MVCBr.FDMongoDB(MVCBr.FDMongoDB.pas) segment .text
+
+   118 0001:00021708   119 0001:0002170B   120 0001:0002172D   126 0001:00021748
+   127 0001:00021765   130 0001:0002181C   131 0001:0002182E   132 0001:00021837
+   133 0001:00021847   136 0001:00021864   137 0001:00021865   138 0001:0002186A
+   143 0001:00021870   144 0001:0002189E   145 0001:000218A4   147 0001:000218B1
+   148 0001:000218B5   149 0001:000218BC   151 0001:000218D3   154 0001:00021929
+   157 0001:00021984   160 0001:000219BA   161 0001:000219C0   167 0001:00021A34
+   168 0001:00021A5E   169 0001:00021A7B   170 0001:00021A82   171 0001:00021A91
+   172 0001:00021A9F   173 0001:00021AA8   174 0001:00021AB6   176 0001:00021ADC
+   174 0001:00021B09   177 0001:00021B22   179 0001:00021B47   182 0001:00021B57
+   185 0001:00021C34   187 0001:00021C51   188 0001:00021C58   189 0001:00021CA9
+   190 0001:00021CAB   194 0001:00021CE8   195 0001:00021CF2   196 0001:00021CFD
+   198 0001:00021D19   199 0001:00021D21   203 0001:00021D28   204 0001:00021D36
+   216 0001:00021D38   217 0001:00021D68   218 0001:00021D70   219 0001:00021D7A
+   220 0001:00021D88   221 0001:00021D94   222 0001:00021DA1   223 0001:00021DA9
+   224 0001:00021DB8   225 0001:00021DC6   226 0001:00021DE4   227 0001:00021DFA
+   228 0001:00021E27   229 0001:00021E35   231 0001:00021E57   229 0001:00021E7E
+   232 0001:00021E97   233 0001:00021EAF   234 0001:00021EBA   236 0001:00021F1A
+   237 0001:00021F28   239 0001:00021F37   240 0001:00021F44   242 0001:00021F72
+   240 0001:00021F94   243 0001:00021FAD   244 0001:00021FC5   247 0001:00021FF3
+   251 0001:00022010   253 0001:00022025   256 0001:00022042   258 0001:00022054
+   263 0001:00022144   264 0001:00022198   265 0001:000221A0   266 0001:000221AA
+   267 0001:000221B8   268 0001:000221C4   269 0001:000221D1   270 0001:000221D9
+   271 0001:000221E7   274 0001:00022221   276 0001:00022233   279 0001:0002227C
+   280 0001:00022285   281 0001:0002228C   282 0001:0002229B   285 0001:000222A0
+   286 0001:000222C5   287 0001:000222CE   289 0001:000222E5   290 0001:000222F3
+   292 0001:00022352   294 0001:00022357   297 0001:000223A8   298 0001:000223AE
+   299 0001:000223BB   303 0001:000223C0   304 0001:000223C6   307 0001:000223C8
+   308 0001:000223CE   309 0001:000223DB   313 0001:000223E0   314 0001:000223E6
+   318 0001:000223E8   320 0001:00022410   321 0001:00022417   323 0001:00022475
+   324 0001:00022477   329 0001:000224B8   330 0001:000224CA   331 0001:000224D3
+   332 0001:000224DA   333 0001:000224E7   334 0001:000224F4   337 0001:0002254C
+   338 0001:00022550   339 0001:00022552   341 0001:00022558   342 0001:00022575
+   343 0001:00022580   344 0001:0002258B   345 0001:00022596   346 0001:000225A1
+   348 0001:000225AC   351 0001:000225B4   352 0001:000225BF   353 0001:000225C7
+   354 0001:000225D2   357 0001:000225E0   358 0001:000225E3   359 0001:000225F5
+   363 0001:000225F8   364 0001:0002261B   365 0001:00022632   368 0001:00022654
+   369 0001:0002265A   370 0001:00022661   371 0001:0002266E   374 0001:00022674
+   375 0001:0002268D   376 0001:00022697   377 0001:000226AB   380 0001:000226D0
+   381 0001:000226E9   382 0001:000226F3   383 0001:00022707   386 0001:0002272C
+   387 0001:00022751   389 0001:0002275B   390 0001:00022773   391 0001:0002278B
+   392 0001:000227A3   393 0001:000227B7   395 0001:000227CF   398 0001:00022838
+   399 0001:00022851   400 0001:0002285B   401 0001:0002286F   404 0001:00022894
+   405 0001:000228AD   406 0001:000228B0   407 0001:000228C4   410 0001:000228E8
+   411 0001:00022901   412 0001:0002290B   413 0001:0002291F
+
+Line numbers for MVCBr.FDMongoDB(MVCBr.FDMongoDB.pas) segment .itext
+
+   415 0002:000004A8
+
+Line numbers for .MVCBrFireDAC(MVCBrFireDAC.dpk) segment .text
+
+    50 0001:00022BAA
+
+Bound resource files
+
+MVCBrFireDAC.res
+MVCBrFireDAC.drf
+
+
+Program entry point at 0002:000004B0

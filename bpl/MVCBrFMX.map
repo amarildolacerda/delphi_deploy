@@ -1,0 +1,2168 @@
+
+ Start         Length     Name                   Class
+ 0001:00401000 00005260H .text                   CODE
+ 0002:00407000 00000650H .itext                  ICODE
+ 0003:00408000 00000098H .data                   DATA
+ 0004:00409000 0000003CH .bss                    BSS
+ 0005:00000000 00000000H .tls                    TLS
+ 0006:00400000 00000000H .pdata                  PDATA
+
+
+Detailed map of segments
+
+ 0001:00000000 00000100 C=CODE     S=.text    G=(none)   M=System   ACBP=A9
+ 0001:00000100 00000CF0 C=CODE     S=.text    G=(none)   M=SysInit  ACBP=A9
+ 0001:00000DF0 0000006C C=CODE     S=.text    G=(none)   M=Winapi.Windows ACBP=A9
+ 0001:00000E5C 00000024 C=CODE     S=.text    G=(none)   M=Winapi.PsAPI ACBP=A9
+ 0001:00000E80 00000008 C=CODE     S=.text    G=(none)   M=System.Character ACBP=A9
+ 0001:00000E88 00000008 C=CODE     S=.text    G=(none)   M=System.Internal.ExcUtils ACBP=A9
+ 0001:00000E90 00000040 C=CODE     S=.text    G=(none)   M=System.SysUtils ACBP=A9
+ 0001:00000ED0 00000008 C=CODE     S=.text    G=(none)   M=System.VarUtils ACBP=A9
+ 0001:00000ED8 00000008 C=CODE     S=.text    G=(none)   M=System.Variants ACBP=A9
+ 0001:00000EE0 00000008 C=CODE     S=.text    G=(none)   M=System.Generics.Collections ACBP=A9
+ 0001:00000EE8 00000010 C=CODE     S=.text    G=(none)   M=System.Rtti ACBP=A9
+ 0001:00000EF8 00000008 C=CODE     S=.text    G=(none)   M=System.TypInfo ACBP=A9
+ 0001:00000F00 00000008 C=CODE     S=.text    G=(none)   M=System.Math ACBP=A9
+ 0001:00000F08 00000010 C=CODE     S=.text    G=(none)   M=System.Generics.Defaults ACBP=A9
+ 0001:00000F18 000000D8 C=CODE     S=.text    G=(none)   M=System.Classes ACBP=A9
+ 0001:00000FF0 00000008 C=CODE     S=.text    G=(none)   M=System.Messaging ACBP=A9
+ 0001:00000FF8 00000008 C=CODE     S=.text    G=(none)   M=System.Actions ACBP=A9
+ 0001:00001000 00000008 C=CODE     S=.text    G=(none)   M=System.Devices ACBP=A9
+ 0001:00001008 00000008 C=CODE     S=.text    G=(none)   M=FMX.DialogService.Sync ACBP=A9
+ 0001:00001010 00000008 C=CODE     S=.text    G=(none)   M=FMX.Dialogs ACBP=A9
+ 0001:00001018 00000008 C=CODE     S=.text    G=(none)   M=FMX.TextLayout ACBP=A9
+ 0001:00001020 00000008 C=CODE     S=.text    G=(none)   M=FMX.Utils ACBP=A9
+ 0001:00001028 00000018 C=CODE     S=.text    G=(none)   M=FMX.Graphics ACBP=A9
+ 0001:00001040 00000008 C=CODE     S=.text    G=(none)   M=FMX.Text ACBP=A9
+ 0001:00001048 00000008 C=CODE     S=.text    G=(none)   M=FMX.BehaviorManager ACBP=A9
+ 0001:00001050 00000008 C=CODE     S=.text    G=(none)   M=FMX.Styles ACBP=A9
+ 0001:00001058 00000010 C=CODE     S=.text    G=(none)   M=FMX.Types3D ACBP=A9
+ 0001:00001068 00000008 C=CODE     S=.text    G=(none)   M=FMX.Filter ACBP=A9
+ 0001:00001070 00000008 C=CODE     S=.text    G=(none)   M=FMX.Filter.Custom ACBP=A9
+ 0001:00001078 00000008 C=CODE     S=.text    G=(none)   M=FMX.Effects ACBP=A9
+ 0001:00001080 00000008 C=CODE     S=.text    G=(none)   M=FMX.MultiResBitmap ACBP=A9
+ 0001:00001088 00000008 C=CODE     S=.text    G=(none)   M=FMX.Ani  ACBP=A9
+ 0001:00001090 00000008 C=CODE     S=.text    G=(none)   M=System.TimeSpan ACBP=A9
+ 0001:00001098 00000010 C=CODE     S=.text    G=(none)   M=System.DateUtils ACBP=A9
+ 0001:000010A8 00000008 C=CODE     S=.text    G=(none)   M=System.IOUtils ACBP=A9
+ 0001:000010B0 00000008 C=CODE     S=.text    G=(none)   M=FMX.ImgList ACBP=A9
+ 0001:000010B8 00000008 C=CODE     S=.text    G=(none)   M=Winapi.D2D1 ACBP=A9
+ 0001:000010C0 00000008 C=CODE     S=.text    G=(none)   M=System.SyncObjs ACBP=A9
+ 0001:000010C8 00000008 C=CODE     S=.text    G=(none)   M=Winapi.UxTheme ACBP=A9
+ 0001:000010D0 00000008 C=CODE     S=.text    G=(none)   M=FMX.DialogService ACBP=A9
+ 0001:000010D8 00000008 C=CODE     S=.text    G=(none)   M=FMX.Menus ACBP=A9
+ 0001:000010E0 00000008 C=CODE     S=.text    G=(none)   M=System.AnsiStrings ACBP=A9
+ 0001:000010E8 00000010 C=CODE     S=.text    G=(none)   M=System.Win.ComObj ACBP=A9
+ 0001:000010F8 00000068 C=CODE     S=.text    G=(none)   M=Winapi.MsCTF ACBP=A9
+ 0001:00001160 00000010 C=CODE     S=.text    G=(none)   M=FMX.Helpers.Win ACBP=A9
+ 0001:00001170 00000008 C=CODE     S=.text    G=(none)   M=FMX.FontGlyphs ACBP=A9
+ 0001:00001178 00000008 C=CODE     S=.text    G=(none)   M=FMX.Objects ACBP=A9
+ 0001:00001180 00000008 C=CODE     S=.text    G=(none)   M=FMX.Gestures.Win ACBP=A9
+ 0001:00001188 00000018 C=CODE     S=.text    G=(none)   M=FMX.Gestures ACBP=A9
+ 0001:000011A0 00000648 C=CODE     S=.text    G=(none)   M=FMX.Controls ACBP=A9
+ 0001:000017E8 00000008 C=CODE     S=.text    G=(none)   M=Winapi.GDIPOBJ ACBP=A9
+ 0001:000017F0 00000008 C=CODE     S=.text    G=(none)   M=FMX.Canvas.GDIP ACBP=A9
+ 0001:000017F8 00000008 C=CODE     S=.text    G=(none)   M=FMX.Printer ACBP=A9
+ 0001:00001800 00000008 C=CODE     S=.text    G=(none)   M=FMX.Presentation.Factory ACBP=A9
+ 0001:00001808 00000008 C=CODE     S=.text    G=(none)   M=FMX.Controls.Win ACBP=A9
+ 0001:00001810 00000008 C=CODE     S=.text    G=(none)   M=FMX.Presentation.Win ACBP=A9
+ 0001:00001818 00000010 C=CODE     S=.text    G=(none)   M=FMX.Presentation.Win.Style ACBP=A9
+ 0001:00001828 00000008 C=CODE     S=.text    G=(none)   M=FMX.Controls.Presentation ACBP=A9
+ 0001:00001830 00000008 C=CODE     S=.text    G=(none)   M=FMX.Styles.Objects ACBP=A9
+ 0001:00001838 00000008 C=CODE     S=.text    G=(none)   M=FMX.Styles.Switch ACBP=A9
+ 0001:00001840 00000008 C=CODE     S=.text    G=(none)   M=FMX.Switch.Style ACBP=A9
+ 0001:00001848 00000008 C=CODE     S=.text    G=(none)   M=FMX.Switch.Win ACBP=A9
+ 0001:00001850 00000008 C=CODE     S=.text    G=(none)   M=FMX.StdCtrls ACBP=A9
+ 0001:00001858 00000008 C=CODE     S=.text    G=(none)   M=FMX.InertialMovement ACBP=A9
+ 0001:00001860 00000018 C=CODE     S=.text    G=(none)   M=FMX.Layouts ACBP=A9
+ 0001:00001878 00000008 C=CODE     S=.text    G=(none)   M=FMX.MagnifierGlass ACBP=A9
+ 0001:00001880 00000008 C=CODE     S=.text    G=(none)   M=FMX.Edit.Style ACBP=A9
+ 0001:00001888 00000008 C=CODE     S=.text    G=(none)   M=FMX.Edit.Win ACBP=A9
+ 0001:00001890 00000008 C=CODE     S=.text    G=(none)   M=FMX.Edit ACBP=A9
+ 0001:00001898 00000008 C=CODE     S=.text    G=(none)   M=FMX.DialogHelper ACBP=A9
+ 0001:000018A0 00000008 C=CODE     S=.text    G=(none)   M=FMX.Dialogs.Win ACBP=A9
+ 0001:000018A8 00000028 C=CODE     S=.text    G=(none)   M=FMX.Canvas.D2D ACBP=A9
+ 0001:000018D0 00000008 C=CODE     S=.text    G=(none)   M=FMX.Canvas.GPU.Helpers ACBP=A9
+ 0001:000018D8 00000008 C=CODE     S=.text    G=(none)   M=FMX.TextLayout.GPU ACBP=A9
+ 0001:000018E0 00000008 C=CODE     S=.text    G=(none)   M=FMX.Canvas.GPU ACBP=A9
+ 0001:000018E8 00000010 C=CODE     S=.text    G=(none)   M=FMX.Context.DX9 ACBP=A9
+ 0001:000018F8 00000010 C=CODE     S=.text    G=(none)   M=FMX.Context.DX11 ACBP=A9
+ 0001:00001908 00000008 C=CODE     S=.text    G=(none)   M=FMX.ListBox ACBP=A9
+ 0001:00001910 00000008 C=CODE     S=.text    G=(none)   M=FMX.DateTimeCtrls.Types ACBP=A9
+ 0001:00001918 00000008 C=CODE     S=.text    G=(none)   M=FMX.DateTimeCtrls ACBP=A9
+ 0001:00001920 00000008 C=CODE     S=.text    G=(none)   M=FMX.Calendar.Style ACBP=A9
+ 0001:00001928 00000008 C=CODE     S=.text    G=(none)   M=FMX.Calendar ACBP=A9
+ 0001:00001930 00000008 C=CODE     S=.text    G=(none)   M=FMX.Pickers ACBP=A9
+ 0001:00001938 00000008 C=CODE     S=.text    G=(none)   M=FMX.ExtCtrls ACBP=A9
+ 0001:00001940 00000008 C=CODE     S=.text    G=(none)   M=System.Win.InternetExplorer ACBP=A9
+ 0001:00001948 00000008 C=CODE     S=.text    G=(none)   M=FMX.WebBrowser ACBP=A9
+ 0001:00001950 00000008 C=CODE     S=.text    G=(none)   M=FMX.Platform.Win ACBP=A9
+ 0001:00001958 00000008 C=CODE     S=.text    G=(none)   M=FMX.Clipboard.Win ACBP=A9
+ 0001:00001960 00000008 C=CODE     S=.text    G=(none)   M=FMX.Platform ACBP=A9
+ 0001:00001968 000000F8 C=CODE     S=.text    G=(none)   M=FMX.Types ACBP=A9
+ 0001:00001A60 00000008 C=CODE     S=.text    G=(none)   M=FMX.Header ACBP=A9
+ 0001:00001A68 00000010 C=CODE     S=.text    G=(none)   M=FMX.Forms ACBP=A9
+ 0001:00001A78 00000008 C=CODE     S=.text    G=(none)   M=System.JSON ACBP=A9
+ 0001:00001A80 00000008 C=CODE     S=.text    G=(none)   M=System.Win.Registry ACBP=A9
+ 0001:00001A88 00000010 C=CODE     S=.text    G=(none)   M=Vcl.Graphics ACBP=A9
+ 0001:00001A98 00000008 C=CODE     S=.text    G=(none)   M=Vcl.ActnList ACBP=A9
+ 0001:00001AA0 00000008 C=CODE     S=.text    G=(none)   M=Vcl.GraphUtil ACBP=A9
+ 0001:00001AA8 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Controls ACBP=A9
+ 0001:00001AB0 00000090 C=CODE     S=.text    G=(none)   M=Vcl.StdCtrls ACBP=A9
+ 0001:00001B40 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Printers ACBP=A9
+ 0001:00001B48 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Clipbrd ACBP=A9
+ 0001:00001B50 000000C8 C=CODE     S=.text    G=(none)   M=Vcl.ComCtrls ACBP=A9
+ 0001:00001C18 00000008 C=CODE     S=.text    G=(none)   M=System.HelpIntfs ACBP=A9
+ 0001:00001C20 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Dialogs ACBP=A9
+ 0001:00001C28 00000028 C=CODE     S=.text    G=(none)   M=Vcl.ExtCtrls ACBP=A9
+ 0001:00001C50 00000010 C=CODE     S=.text    G=(none)   M=Vcl.Themes ACBP=A9
+ 0001:00001C60 00000008 C=CODE     S=.text    G=(none)   M=Vcl.Menus ACBP=A9
+ 0001:00001C68 00000008 C=CODE     S=.text    G=(none)   M=Winapi.FlatSB ACBP=A9
+ 0001:00001C70 00000020 C=CODE     S=.text    G=(none)   M=Vcl.Forms ACBP=A9
+ 0001:00001C90 00000010 C=CODE     S=.text    G=(none)   M=MVCBr.ApplicationController ACBP=A9
+ 0001:00001CA0 00000010 C=CODE     S=.text    G=(none)   M=MVCBr.IoC ACBP=A9
+ 0001:00001CB0 00000008 C=CODE     S=.text    G=(none)   M=MVCBr.Observable ACBP=A9
+ 0001:00001CB8 00000008 C=CODE     S=.text    G=(none)   M=MVCBr.Interf ACBP=A9
+ 0001:00001CC0 00000070 C=CODE     S=.text    G=(none)   M=MVCBr.Component ACBP=A9
+ 0001:00001D30 00000008 C=CODE     S=.text    G=(none)   M=MVCBr.MiddlewareFactory ACBP=A9
+ 0001:00001D38 00000010 C=CODE     S=.text    G=(none)   M=MVCBr.FormView ACBP=A9
+ 0001:00001D48 00000120 C=CODE     S=.text    G=(none)   M=MVCBr.PageView ACBP=A9
+ 0001:00001E68 00000108 C=CODE     S=.text    G=(none)   M=FMX.TabControl ACBP=A9
+ 0001:00001F70 000012A8 C=CODE     S=.text    G=(none)   M=MVCBr.FMX.PageView ACBP=A9
+ 0001:00003218 000014F4 C=CODE     S=.text    G=(none)   M=MVCBr.FMX.LayoutViewManager ACBP=A9
+ 0001:0000470C 00000B54 C=CODE     S=.text    G=(none)   M=.MVCBrFMX ACBP=A9
+ 0002:00000000 00000008 C=ICODE    S=.itext   G=(none)   M=System   ACBP=A9
+ 0002:00000008 00000008 C=ICODE    S=.itext   G=(none)   M=SysInit  ACBP=A9
+ 0002:00000010 00000018 C=ICODE    S=.itext   G=(none)   M=Winapi.Windows ACBP=A9
+ 0002:00000028 00000008 C=ICODE    S=.itext   G=(none)   M=Winapi.PsAPI ACBP=A9
+ 0002:00000030 00000008 C=ICODE    S=.itext   G=(none)   M=System.Character ACBP=A9
+ 0002:00000038 00000008 C=ICODE    S=.itext   G=(none)   M=System.Internal.ExcUtils ACBP=A9
+ 0002:00000040 00000028 C=ICODE    S=.itext   G=(none)   M=System.SysUtils ACBP=A9
+ 0002:00000068 00000008 C=ICODE    S=.itext   G=(none)   M=System.VarUtils ACBP=A9
+ 0002:00000070 00000008 C=ICODE    S=.itext   G=(none)   M=System.Variants ACBP=A9
+ 0002:00000078 00000010 C=ICODE    S=.itext   G=(none)   M=System.Rtti ACBP=A9
+ 0002:00000088 00000008 C=ICODE    S=.itext   G=(none)   M=System.TypInfo ACBP=A9
+ 0002:00000090 00000008 C=ICODE    S=.itext   G=(none)   M=System.Math ACBP=A9
+ 0002:00000098 00000010 C=ICODE    S=.itext   G=(none)   M=System.Generics.Defaults ACBP=A9
+ 0002:000000A8 00000038 C=ICODE    S=.itext   G=(none)   M=System.Classes ACBP=A9
+ 0002:000000E0 00000008 C=ICODE    S=.itext   G=(none)   M=System.Messaging ACBP=A9
+ 0002:000000E8 00000008 C=ICODE    S=.itext   G=(none)   M=System.Actions ACBP=A9
+ 0002:000000F0 00000008 C=ICODE    S=.itext   G=(none)   M=System.Devices ACBP=A9
+ 0002:000000F8 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.DialogService.Sync ACBP=A9
+ 0002:00000100 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Dialogs ACBP=A9
+ 0002:00000108 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.TextLayout ACBP=A9
+ 0002:00000110 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Utils ACBP=A9
+ 0002:00000118 00000018 C=ICODE    S=.itext   G=(none)   M=FMX.Graphics ACBP=A9
+ 0002:00000130 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Text ACBP=A9
+ 0002:00000138 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.BehaviorManager ACBP=A9
+ 0002:00000140 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Styles ACBP=A9
+ 0002:00000148 00000010 C=ICODE    S=.itext   G=(none)   M=FMX.Types3D ACBP=A9
+ 0002:00000158 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Filter ACBP=A9
+ 0002:00000160 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Filter.Custom ACBP=A9
+ 0002:00000168 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Effects ACBP=A9
+ 0002:00000170 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.MultiResBitmap ACBP=A9
+ 0002:00000178 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Ani  ACBP=A9
+ 0002:00000180 00000008 C=ICODE    S=.itext   G=(none)   M=System.TimeSpan ACBP=A9
+ 0002:00000188 00000010 C=ICODE    S=.itext   G=(none)   M=System.DateUtils ACBP=A9
+ 0002:00000198 00000008 C=ICODE    S=.itext   G=(none)   M=System.IOUtils ACBP=A9
+ 0002:000001A0 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.ImgList ACBP=A9
+ 0002:000001A8 00000008 C=ICODE    S=.itext   G=(none)   M=Winapi.D2D1 ACBP=A9
+ 0002:000001B0 00000008 C=ICODE    S=.itext   G=(none)   M=System.SyncObjs ACBP=A9
+ 0002:000001B8 00000008 C=ICODE    S=.itext   G=(none)   M=Winapi.UxTheme ACBP=A9
+ 0002:000001C0 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.DialogService ACBP=A9
+ 0002:000001C8 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Menus ACBP=A9
+ 0002:000001D0 00000008 C=ICODE    S=.itext   G=(none)   M=System.AnsiStrings ACBP=A9
+ 0002:000001D8 00000010 C=ICODE    S=.itext   G=(none)   M=System.Win.ComObj ACBP=A9
+ 0002:000001E8 00000010 C=ICODE    S=.itext   G=(none)   M=Winapi.MsCTF ACBP=A9
+ 0002:000001F8 00000010 C=ICODE    S=.itext   G=(none)   M=FMX.Helpers.Win ACBP=A9
+ 0002:00000208 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.FontGlyphs ACBP=A9
+ 0002:00000210 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Objects ACBP=A9
+ 0002:00000218 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Gestures.Win ACBP=A9
+ 0002:00000220 00000018 C=ICODE    S=.itext   G=(none)   M=FMX.Gestures ACBP=A9
+ 0002:00000238 00000018 C=ICODE    S=.itext   G=(none)   M=FMX.Controls ACBP=A9
+ 0002:00000250 00000008 C=ICODE    S=.itext   G=(none)   M=Winapi.GDIPOBJ ACBP=A9
+ 0002:00000258 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Canvas.GDIP ACBP=A9
+ 0002:00000260 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Printer ACBP=A9
+ 0002:00000268 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Presentation.Factory ACBP=A9
+ 0002:00000270 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Controls.Win ACBP=A9
+ 0002:00000278 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Presentation.Win ACBP=A9
+ 0002:00000280 00000010 C=ICODE    S=.itext   G=(none)   M=FMX.Presentation.Win.Style ACBP=A9
+ 0002:00000290 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Controls.Presentation ACBP=A9
+ 0002:00000298 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Styles.Objects ACBP=A9
+ 0002:000002A0 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Styles.Switch ACBP=A9
+ 0002:000002A8 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Switch.Style ACBP=A9
+ 0002:000002B0 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Switch.Win ACBP=A9
+ 0002:000002B8 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.StdCtrls ACBP=A9
+ 0002:000002C0 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.InertialMovement ACBP=A9
+ 0002:000002C8 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Layouts ACBP=A9
+ 0002:000002D0 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.MagnifierGlass ACBP=A9
+ 0002:000002D8 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Edit.Style ACBP=A9
+ 0002:000002E0 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Edit.Win ACBP=A9
+ 0002:000002E8 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Edit ACBP=A9
+ 0002:000002F0 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.DialogHelper ACBP=A9
+ 0002:000002F8 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Dialogs.Win ACBP=A9
+ 0002:00000300 00000028 C=ICODE    S=.itext   G=(none)   M=FMX.Canvas.D2D ACBP=A9
+ 0002:00000328 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Canvas.GPU.Helpers ACBP=A9
+ 0002:00000330 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.TextLayout.GPU ACBP=A9
+ 0002:00000338 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Canvas.GPU ACBP=A9
+ 0002:00000340 00000010 C=ICODE    S=.itext   G=(none)   M=FMX.Context.DX9 ACBP=A9
+ 0002:00000350 00000010 C=ICODE    S=.itext   G=(none)   M=FMX.Context.DX11 ACBP=A9
+ 0002:00000360 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.ListBox ACBP=A9
+ 0002:00000368 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.DateTimeCtrls.Types ACBP=A9
+ 0002:00000370 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.DateTimeCtrls ACBP=A9
+ 0002:00000378 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Calendar.Style ACBP=A9
+ 0002:00000380 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Calendar ACBP=A9
+ 0002:00000388 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Pickers ACBP=A9
+ 0002:00000390 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.ExtCtrls ACBP=A9
+ 0002:00000398 00000008 C=ICODE    S=.itext   G=(none)   M=System.Win.InternetExplorer ACBP=A9
+ 0002:000003A0 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.WebBrowser ACBP=A9
+ 0002:000003A8 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Platform.Win ACBP=A9
+ 0002:000003B0 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Clipboard.Win ACBP=A9
+ 0002:000003B8 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Platform ACBP=A9
+ 0002:000003C0 00000018 C=ICODE    S=.itext   G=(none)   M=FMX.Types ACBP=A9
+ 0002:000003D8 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Header ACBP=A9
+ 0002:000003E0 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.Forms ACBP=A9
+ 0002:000003E8 00000008 C=ICODE    S=.itext   G=(none)   M=System.JSON ACBP=A9
+ 0002:000003F0 00000008 C=ICODE    S=.itext   G=(none)   M=System.Win.Registry ACBP=A9
+ 0002:000003F8 00000010 C=ICODE    S=.itext   G=(none)   M=Vcl.Graphics ACBP=A9
+ 0002:00000408 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.ActnList ACBP=A9
+ 0002:00000410 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.GraphUtil ACBP=A9
+ 0002:00000418 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Controls ACBP=A9
+ 0002:00000420 00000090 C=ICODE    S=.itext   G=(none)   M=Vcl.StdCtrls ACBP=A9
+ 0002:000004B0 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Printers ACBP=A9
+ 0002:000004B8 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Clipbrd ACBP=A9
+ 0002:000004C0 000000C8 C=ICODE    S=.itext   G=(none)   M=Vcl.ComCtrls ACBP=A9
+ 0002:00000588 00000008 C=ICODE    S=.itext   G=(none)   M=System.HelpIntfs ACBP=A9
+ 0002:00000590 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Dialogs ACBP=A9
+ 0002:00000598 00000028 C=ICODE    S=.itext   G=(none)   M=Vcl.ExtCtrls ACBP=A9
+ 0002:000005C0 00000010 C=ICODE    S=.itext   G=(none)   M=Vcl.Themes ACBP=A9
+ 0002:000005D0 00000008 C=ICODE    S=.itext   G=(none)   M=Vcl.Menus ACBP=A9
+ 0002:000005D8 00000008 C=ICODE    S=.itext   G=(none)   M=Winapi.FlatSB ACBP=A9
+ 0002:000005E0 00000020 C=ICODE    S=.itext   G=(none)   M=Vcl.Forms ACBP=A9
+ 0002:00000600 00000010 C=ICODE    S=.itext   G=(none)   M=MVCBr.ApplicationController ACBP=A9
+ 0002:00000610 00000010 C=ICODE    S=.itext   G=(none)   M=MVCBr.IoC ACBP=A9
+ 0002:00000620 00000008 C=ICODE    S=.itext   G=(none)   M=MVCBr.Observable ACBP=A9
+ 0002:00000628 00000008 C=ICODE    S=.itext   G=(none)   M=MVCBr.MiddlewareFactory ACBP=A9
+ 0002:00000630 00000008 C=ICODE    S=.itext   G=(none)   M=FMX.TabControl ACBP=A9
+ 0002:00000638 00000008 C=ICODE    S=.itext   G=(none)   M=MVCBr.FMX.PageView ACBP=A9
+ 0002:00000640 00000008 C=ICODE    S=.itext   G=(none)   M=MVCBr.FMX.LayoutViewManager ACBP=A9
+ 0002:00000648 00000008 C=ICODE    S=.itext   G=(none)   M=.MVCBrFMX ACBP=A9
+ 0003:00000000 00000088 C=DATA     S=.data    G=DGROUP   M=SysInit  ACBP=A9
+ 0003:00000088 0000000C C=DATA     S=.data    G=DGROUP   M=Winapi.Windows ACBP=A9
+ 0003:00000094 00000004 C=DATA     S=.data    G=DGROUP   M=Winapi.MsCTF ACBP=A9
+ 0004:00000000 00000020 C=BSS      S=.bss     G=DGROUP   M=SysInit  ACBP=A9
+ 0004:00000020 00000008 C=BSS      S=.bss     G=DGROUP   M=Winapi.Windows ACBP=A9
+ 0004:00000028 00000008 C=BSS      S=.bss     G=DGROUP   M=Winapi.PsAPI ACBP=A9
+ 0004:00000030 00000004 C=BSS      S=.bss     G=DGROUP   M=Winapi.MsCTF ACBP=A9
+ 0004:00000034 00000004 C=BSS      S=.bss     G=DGROUP   M=MVCBr.FMX.PageView ACBP=A9
+ 0004:00000038 00000004 C=BSS      S=.bss     G=DGROUP   M=MVCBr.FMX.LayoutViewManager ACBP=A9
+
+
+  Address             Publics by Name
+
+ 0002:00000648       .MVCBrFMX..MVCBrFMX
+ 0001:00005240       .MVCBrFMX.@GetPackageInfoTable
+ 0001:00005248       .MVCBrFMX.@PackageLoad
+ 0001:00005254       .MVCBrFMX.@PackageUnload
+ 0001:00001088       FMX.Ani.Finalization
+ 0002:00000178       FMX.Ani.FMX.Ani
+ 0002:00000138       FMX.BehaviorManager.TBehaviorServices.Create@
+ 0001:00001048       FMX.BehaviorManager.TBehaviorServices.DestroyCurrent@
+ 0001:00001928       FMX.Calendar.Finalization
+ 0002:00000380       FMX.Calendar.FMX.Calendar
+ 0001:00001920       FMX.Calendar.Style.Finalization
+ 0002:00000378       FMX.Calendar.Style.FMX.Calendar.Style
+ 0001:000018C8       FMX.Canvas.D2D.Finalization
+ 0002:00000320       FMX.Canvas.D2D.FMX.Canvas.D2D
+ 0002:00000310       FMX.Canvas.D2D.TCanvasD2D.Create@
+ 0001:000018B0       FMX.Canvas.D2D.TCanvasD2D.Destroy@
+ 0002:00000300       FMX.Canvas.D2D.TCustomBitmapCodecWIC.Create@
+ 0001:000018C0       FMX.Canvas.D2D.TCustomBitmapCodecWIC.DestroySharedResources@
+ 0002:00000308       FMX.Canvas.D2D.TCustomCanvasD2D.Create@
+ 0001:000018A8       FMX.Canvas.D2D.TCustomCanvasD2D.Destroy@
+ 0002:00000318       FMX.Canvas.D2D.TTextLayoutD2D.Create@
+ 0001:000018B8       FMX.Canvas.D2D.TTextLayoutD2D.Destroy@
+ 0001:000017F0       FMX.Canvas.GDIP.Finalization
+ 0002:00000258       FMX.Canvas.GDIP.FMX.Canvas.GDIP
+ 0001:000018E0       FMX.Canvas.GPU.Finalization
+ 0002:00000338       FMX.Canvas.GPU.FMX.Canvas.GPU
+ 0001:000018D0       FMX.Canvas.GPU.Helpers.Finalization
+ 0002:00000328       FMX.Canvas.GPU.Helpers.FMX.Canvas.GPU.Helpers
+ 0001:00001958       FMX.Clipboard.Win.Finalization
+ 0002:000003B0       FMX.Clipboard.Win.FMX.Clipboard.Win
+ 0002:00000350       FMX.Context.DX11.TCustomDX11Context.Create@
+ 0001:000018F8       FMX.Context.DX11.TCustomDX11Context.Destroy@
+ 0002:00000358       FMX.Context.DX11.TDX11Context.Create@
+ 0001:00001900       FMX.Context.DX11.TDX11Context.Destroy@
+ 0002:00000340       FMX.Context.DX9.TCustomDX9Context.Create@
+ 0001:000018E8       FMX.Context.DX9.TCustomDX9Context.Destroy@
+ 0002:00000348       FMX.Context.DX9.TDX9Context.Create@
+ 0001:000018F0       FMX.Context.DX9.TDX9Context.Destroy@
+ 0001:000017E0       FMX.Controls.Finalization
+ 0002:00000248       FMX.Controls.FMX.Controls
+ 0001:00001240       FMX.Controls.TControl.AbsoluteToLocal
+ 0001:00001230       FMX.Controls.TControl.AbsoluteToLocalVector
+ 0001:00001228       FMX.Controls.TControl.ActionChange
+ 0001:000013D0       FMX.Controls.TControl.AfterDialogKey
+ 0001:000012E8       FMX.Controls.TControl.AfterPaint
+ 0001:000012F0       FMX.Controls.TControl.AncestorParentChanged
+ 0001:000012F8       FMX.Controls.TControl.AncestorVisibleChanged
+ 0001:000012C8       FMX.Controls.TControl.ApplyTriggerEffect
+ 0001:00001488       FMX.Controls.TControl.BeginAutoDrag
+ 0001:00001390       FMX.Controls.TControl.BeginUpdate
+ 0001:00001320       FMX.Controls.TControl.CanRepaint
+ 0001:00001290       FMX.Controls.TControl.ChangeChildren
+ 0001:00001298       FMX.Controls.TControl.ChangeOrder
+ 0001:00001468       FMX.Controls.TControl.Click
+ 0001:00001470       FMX.Controls.TControl.ClipChildrenChanged
+ 0001:00001478       FMX.Controls.TControl.CMGesture
+ 0002:00000240       FMX.Controls.TControl.Create@
+ 0001:00001480       FMX.Controls.TControl.DblClick
+ 0001:000011C8       FMX.Controls.TControl.DefineProperties
+ 0001:000011B8       FMX.Controls.TControl.Destroy
+ 0001:00001268       FMX.Controls.TControl.Destroy@
+ 0001:000013C8       FMX.Controls.TControl.DialogKey
+ 0001:000013D8       FMX.Controls.TControl.Disappear
+ 0001:00001440       FMX.Controls.TControl.DoAbsoluteChanged
+ 0001:00001448       FMX.Controls.TControl.DoActivate
+ 0001:000011D8       FMX.Controls.TControl.DoAddObject
+ 0001:000013A0       FMX.Controls.TControl.DoBeginUpdate
+ 0001:00001450       FMX.Controls.TControl.DoDeactivate
+ 0001:000011A8       FMX.Controls.TControl.DoDeleteChildren
+ 0001:000013A8       FMX.Controls.TControl.DoEndUpdate
+ 0001:00001418       FMX.Controls.TControl.DoEnter
+ 0001:00001428       FMX.Controls.TControl.DoExit
+ 0001:00001430       FMX.Controls.TControl.DoGesture
+ 0001:000011F0       FMX.Controls.TControl.DoGetUpdateRect
+ 0001:00001438       FMX.Controls.TControl.DoInsertObject
+ 0001:000013E0       FMX.Controls.TControl.DoMatrixChanged
+ 0001:000013E8       FMX.Controls.TControl.DoMouseEnter
+ 0001:000013F0       FMX.Controls.TControl.DoMouseLeave
+ 0001:000012E0       FMX.Controls.TControl.DoPaint
+ 0001:000013B0       FMX.Controls.TControl.DoRealign
+ 0001:000011E0       FMX.Controls.TControl.DoRemoveObject
+ 0001:00001588       FMX.Controls.TControl.DoSetHeight
+ 0001:00001590       FMX.Controls.TControl.DoSetSize
+ 0001:00001580       FMX.Controls.TControl.DoSetWidth
+ 0001:000014D0       FMX.Controls.TControl.DragDrop
+ 0001:000014D8       FMX.Controls.TControl.DragEnd
+ 0001:000014B8       FMX.Controls.TControl.DragEnter
+ 0001:000014C0       FMX.Controls.TControl.DragLeave
+ 0001:000014C8       FMX.Controls.TControl.DragOver
+ 0001:000014E8       FMX.Controls.TControl.EnabledChanged
+ 0001:000014F0       FMX.Controls.TControl.EnabledStored
+ 0001:00001398       FMX.Controls.TControl.EndUpdate
+ 0001:00001408       FMX.Controls.TControl.EnterChildren
+ 0001:00001410       FMX.Controls.TControl.ExitChildren
+ 0001:000012A0       FMX.Controls.TControl.FillTextFlags
+ 0001:000012A8       FMX.Controls.TControl.FindTarget
+ 0001:00001508       FMX.Controls.TControl.GetAbsoluteEnabled
+ 0001:00001218       FMX.Controls.TControl.GetAbsoluteMatrix
+ 0001:00001250       FMX.Controls.TControl.GetAbsoluteOpacity
+ 0001:00001358       FMX.Controls.TControl.GetAbsoluteRect
+ 0001:00001208       FMX.Controls.TControl.GetAbsoluteScale
+ 0001:00001628       FMX.Controls.TControl.GetActionLinkClass
+ 0001:00001630       FMX.Controls.TControl.GetAdjustSizeValue
+ 0001:00001638       FMX.Controls.TControl.GetAdjustType
+ 0001:00001380       FMX.Controls.TControl.GetBoundsRect
+ 0001:000013F8       FMX.Controls.TControl.GetCanFocus
+ 0001:00001400       FMX.Controls.TControl.GetCanParentFocus
+ 0001:00001210       FMX.Controls.TControl.GetChildrenMatrix
+ 0001:00001200       FMX.Controls.TControl.GetChildrenRect
+ 0001:00001360       FMX.Controls.TControl.GetClipRect
+ 0001:000014F8       FMX.Controls.TControl.GetDefaultSize
+ 0001:00001500       FMX.Controls.TControl.GetDefaultTouchTargetExpansion
+ 0001:00001368       FMX.Controls.TControl.GetDragMode
+ 0001:00001600       FMX.Controls.TControl.GetEffectsRect
+ 0001:00001338       FMX.Controls.TControl.GetFirstControlWithGesture
+ 0001:00001340       FMX.Controls.TControl.GetFirstVisibleObjectIndex
+ 0001:00001608       FMX.Controls.TControl.GetHeight
+ 0001:00001618       FMX.Controls.TControl.GetHintObject
+ 0001:00001610       FMX.Controls.TControl.GetHintString
+ 0001:00001348       FMX.Controls.TControl.GetLastVisibleObjectIndex
+ 0001:00001350       FMX.Controls.TControl.GetLeft
+ 0001:00001378       FMX.Controls.TControl.GetLocalRect
+ 0001:00001370       FMX.Controls.TControl.GetParentedRect
+ 0001:00001310       FMX.Controls.TControl.GetParentedVisible
+ 0001:000015F0       FMX.Controls.TControl.GetTabList
+ 0001:000015E8       FMX.Controls.TControl.GetTabListClass
+ 0001:000015F8       FMX.Controls.TControl.GetTabStopController
+ 0001:000015E0       FMX.Controls.TControl.GetTop
+ 0001:000011F8       FMX.Controls.TControl.GetWidth
+ 0001:00001460       FMX.Controls.TControl.HandleSizeChanged
+ 0001:00001620       FMX.Controls.TControl.HasHint
+ 0001:00001558       FMX.Controls.TControl.Hide
+ 0001:00001560       FMX.Controls.TControl.HitTestChanged
+ 0001:00001318       FMX.Controls.TControl.IsControlRectEmpty
+ 0001:000015C0       FMX.Controls.TControl.IsHeightStored
+ 0001:000015B8       FMX.Controls.TControl.IsPositionStored
+ 0001:000015D0       FMX.Controls.TControl.IsSizeStored
+ 0001:000015B0       FMX.Controls.TControl.IsUpdating
+ 0001:000015C8       FMX.Controls.TControl.IsWidthStored
+ 0001:000013B8       FMX.Controls.TControl.KeyDown
+ 0001:000013C0       FMX.Controls.TControl.KeyUp
+ 0001:000011C0       FMX.Controls.TControl.Loaded
+ 0001:00001248       FMX.Controls.TControl.LocalToAbsolute
+ 0001:00001238       FMX.Controls.TControl.LocalToAbsoluteVector
+ 0001:00001288       FMX.Controls.TControl.LocalToScreen
+ 0001:00001490       FMX.Controls.TControl.MouseClick
+ 0001:00001498       FMX.Controls.TControl.MouseDown
+ 0001:000014A0       FMX.Controls.TControl.MouseMove
+ 0001:000014A8       FMX.Controls.TControl.MouseUp
+ 0001:000014B0       FMX.Controls.TControl.MouseWheel
+ 0001:00001328       FMX.Controls.TControl.Move
+ 0001:000011D0       FMX.Controls.TControl.Notification
+ 0001:000012B8       FMX.Controls.TControl.ObjectAtPoint
+ 0001:000012D8       FMX.Controls.TControl.PaddingChanged
+ 0001:00001308       FMX.Controls.TControl.PaintChildren
+ 0001:000012D0       FMX.Controls.TControl.Painting
+ 0001:000012C0       FMX.Controls.TControl.ParentChanged
+ 0001:00001270       FMX.Controls.TControl.PointInObject
+ 0001:00001278       FMX.Controls.TControl.PointInObjectLocal
+ 0001:00001300       FMX.Controls.TControl.PrepareForPaint
+ 0001:00001220       FMX.Controls.TControl.RecalcAbsolute
+ 0001:00001510       FMX.Controls.TControl.RecalcEnabled
+ 0001:00001640       FMX.Controls.TControl.RecalcHasClipParent
+ 0001:00001648       FMX.Controls.TControl.RecalcHasEffect
+ 0001:00001258       FMX.Controls.TControl.RecalcOpacity
+ 0001:00001260       FMX.Controls.TControl.RecalcSize
+ 0001:000011E8       FMX.Controls.TControl.RecalcUpdateRect
+ 0001:00001330       FMX.Controls.TControl.Resize
+ 0001:00001280       FMX.Controls.TControl.ScreenToLocal
+ 0001:00001520       FMX.Controls.TControl.SetAlign
+ 0001:00001528       FMX.Controls.TControl.SetAnchors
+ 0001:00001598       FMX.Controls.TControl.SetBounds
+ 0001:00001388       FMX.Controls.TControl.SetBoundsRect
+ 0001:000015D8       FMX.Controls.TControl.SetDragMode
+ 0001:000014E0       FMX.Controls.TControl.SetEnabled
+ 0001:000015A0       FMX.Controls.TControl.SetHeight
+ 0001:00001518       FMX.Controls.TControl.SetHint
+ 0001:00001420       FMX.Controls.TControl.SetNewScene
+ 0001:00001548       FMX.Controls.TControl.SetSize
+ 0001:00001550       FMX.Controls.TControl.SetSize
+ 0001:00001530       FMX.Controls.TControl.SetVisible
+ 0001:000015A8       FMX.Controls.TControl.SetWidth
+ 0001:000012B0       FMX.Controls.TControl.ShouldTestMouseHits
+ 0001:00001568       FMX.Controls.TControl.Show
+ 0001:00001458       FMX.Controls.TControl.ShowContextMenu
+ 0001:000011B0       FMX.Controls.TControl.ShowInDesigner
+ 0001:00001650       FMX.Controls.TControl.StartTriggerAnimation
+ 0001:00001658       FMX.Controls.TControl.StartTriggerAnimationWait
+ 0001:00001570       FMX.Controls.TControl.SupportsPaintStage
+ 0001:00001578       FMX.Controls.TControl.Tap
+ 0001:00001538       FMX.Controls.TControl.VisibleChanged
+ 0001:00001540       FMX.Controls.TControl.VisibleStored
+ 0002:00000238       FMX.Controls.THint.Create@
+ 0001:000011A0       FMX.Controls.THint.Destroy@
+ 0001:000016E8       FMX.Controls.TStyledControl.AdjustFixedSize
+ 0001:000016D8       FMX.Controls.TStyledControl.AdjustSize
+ 0001:000016D0       FMX.Controls.TStyledControl.ApplyStyleLookup
+ 0001:00001660       FMX.Controls.TStyledControl.BeforeDestruction
+ 0001:000016E0       FMX.Controls.TStyledControl.ChooseAdjustType
+ 0001:00001668       FMX.Controls.TStyledControl.Disappear
+ 0001:000016C0       FMX.Controls.TStyledControl.DoApplyStyleLookup
+ 0001:000016C8       FMX.Controls.TStyledControl.DoDeleteChildren
+ 0001:00001710       FMX.Controls.TStyledControl.DoEnter
+ 0001:000016A8       FMX.Controls.TStyledControl.FindStyleResource
+ 0001:00001738       FMX.Controls.TStyledControl.GetAdjustSizeValue
+ 0001:00001740       FMX.Controls.TStyledControl.GetAdjustType
+ 0001:00001748       FMX.Controls.TStyledControl.GetBackIndex
+ 0001:00001700       FMX.Controls.TStyledControl.GetParentClassStyleLookupName
+ 0001:00001708       FMX.Controls.TStyledControl.GetResourceLink
+ 0001:000016F8       FMX.Controls.TStyledControl.GetStyleContext
+ 0001:000016B8       FMX.Controls.TStyledControl.GetStyleObject
+ 0001:000016B0       FMX.Controls.TStyledControl.GetStyleObject
+ 0001:000016F0       FMX.Controls.TStyledControl.Inflate
+ 0001:00001698       FMX.Controls.TStyledControl.NeedStyleLookup
+ 0001:00001670       FMX.Controls.TStyledControl.Notification
+ 0001:00001680       FMX.Controls.TStyledControl.PrepareForPaint
+ 0001:00001688       FMX.Controls.TStyledControl.RecalcSize
+ 0001:00001690       FMX.Controls.TStyledControl.RequestStyleData
+ 0001:000016A0       FMX.Controls.TStyledControl.SearchInto
+ 0001:00001750       FMX.Controls.TStyledControl.SetAdjustSizeValue
+ 0001:00001758       FMX.Controls.TStyledControl.SetAdjustType
+ 0001:00001678       FMX.Controls.TStyledControl.SetNewScene
+ 0001:00001718       FMX.Controls.TStyledControl.StartTriggerAnimation
+ 0001:00001720       FMX.Controls.TStyledControl.StartTriggerAnimationWait
+ 0001:00001728       FMX.Controls.TStyledControl.StyleDataChanged
+ 0001:00001730       FMX.Controls.TStyledControl.StyleLookupChanged
+ 0001:00001770       FMX.Controls.TTextControl.ActionChange
+ 0001:00001760       FMX.Controls.TTextControl.AfterConstruction
+ 0001:00001780       FMX.Controls.TTextControl.CanTriggerAcceleratorKey
+ 0001:00001788       FMX.Controls.TTextControl.DoEndUpdate
+ 0001:00001790       FMX.Controls.TTextControl.DoFilterControlText
+ 0001:00001798       FMX.Controls.TTextControl.DoRootChanging
+ 0001:000017A0       FMX.Controls.TTextControl.DoStyleChanged
+ 0001:00001778       FMX.Controls.TTextControl.DoTextChanged
+ 0001:000017B8       FMX.Controls.TTextControl.GetData
+ 0001:000017C0       FMX.Controls.TTextControl.SetData
+ 0001:00001768       FMX.Controls.TTextControl.SetName
+ 0001:000017B0       FMX.Controls.TTextControl.SetStyledSettings
+ 0001:000017A8       FMX.Controls.TTextControl.SetTextInternal
+ 0001:000017D8       FMX.Controls.TTextControl.SetTextSettings
+ 0001:000017C8       FMX.Controls.TTextControl.StyledSettingsStored
+ 0001:000017D0       FMX.Controls.TTextControl.ToString
+ 0001:00001828       FMX.Controls.Presentation.Finalization
+ 0002:00000290       FMX.Controls.Presentation.FMX.Controls.Presentation
+ 0001:00001808       FMX.Controls.Win.Finalization
+ 0002:00000270       FMX.Controls.Win.FMX.Controls.Win
+ 0001:00001918       FMX.DateTimeCtrls.Finalization
+ 0002:00000370       FMX.DateTimeCtrls.FMX.DateTimeCtrls
+ 0001:00001910       FMX.DateTimeCtrls.Types.Finalization
+ 0002:00000368       FMX.DateTimeCtrls.Types.FMX.DateTimeCtrls.Types
+ 0001:00001898       FMX.DialogHelper.Finalization
+ 0002:000002F0       FMX.DialogHelper.FMX.DialogHelper
+ 0001:00001010       FMX.Dialogs.Finalization
+ 0002:00000100       FMX.Dialogs.FMX.Dialogs
+ 0001:000018A0       FMX.Dialogs.Win.Finalization
+ 0002:000002F8       FMX.Dialogs.Win.FMX.Dialogs.Win
+ 0002:000001C0       FMX.DialogService.TDialogService.ClassCreate@
+ 0001:000010D0       FMX.DialogService.TDialogService.Destroy@
+ 0002:000000F8       FMX.DialogService.Sync.TDialogServiceSync.Create@
+ 0001:00001008       FMX.DialogService.Sync.TDialogServiceSync.Destroy@
+ 0001:00001890       FMX.Edit.Finalization
+ 0002:000002E8       FMX.Edit.FMX.Edit
+ 0001:00001880       FMX.Edit.Style.Finalization
+ 0002:000002D8       FMX.Edit.Style.FMX.Edit.Style
+ 0001:00001888       FMX.Edit.Win.Finalization
+ 0002:000002E0       FMX.Edit.Win.FMX.Edit.Win
+ 0001:00001078       FMX.Effects.Finalization
+ 0002:00000168       FMX.Effects.FMX.Effects
+ 0001:00001938       FMX.ExtCtrls.Finalization
+ 0002:00000390       FMX.ExtCtrls.FMX.ExtCtrls
+ 0001:00001068       FMX.Filter.Finalization
+ 0002:00000158       FMX.Filter.FMX.Filter
+ 0001:00001070       FMX.Filter.Custom.Finalization
+ 0002:00000160       FMX.Filter.Custom.FMX.Filter.Custom
+ 0001:00001170       FMX.FontGlyphs.Finalization
+ 0002:00000208       FMX.FontGlyphs.FMX.FontGlyphs
+ 0001:00001A70       FMX.Forms.Finalization
+ 0002:000003E0       FMX.Forms.FMX.Forms
+ 0001:00001A68       FMX.Forms.TCommonCustomForm.SetBorderStyle
+ 0001:00001198       FMX.Gestures.Finalization
+ 0002:00000230       FMX.Gestures.FMX.Gestures
+ 0002:00000228       FMX.Gestures.TGestureEngine.Create@
+ 0001:00001188       FMX.Gestures.TGestureEngine.Destroy@
+ 0002:00000220       FMX.Gestures.TGestureManager.Create@
+ 0001:00001190       FMX.Gestures.TGestureManager.Destroy@
+ 0002:00000218       FMX.Gestures.Win.TPlatformGestureEngine.Create@
+ 0001:00001180       FMX.Gestures.Win.TPlatformGestureEngine.Destroy@
+ 0001:00001038       FMX.Graphics.Finalization
+ 0002:00000128       FMX.Graphics.FMX.Graphics
+ 0002:00000120       FMX.Graphics.TFont.Create@
+ 0001:00001030       FMX.Graphics.TFont.Destroy@
+ 0002:00000118       FMX.Graphics.TStrokeBrush.Create@
+ 0001:00001028       FMX.Graphics.TStrokeBrush.Destroy@
+ 0001:00001A60       FMX.Header.Finalization
+ 0002:000003D8       FMX.Header.FMX.Header
+ 0001:00001168       FMX.Helpers.Win.Finalization
+ 0002:00000200       FMX.Helpers.Win.FMX.Helpers.Win
+ 0002:000001F8       FMX.Helpers.Win.TImeModeHelper.Create@
+ 0001:00001160       FMX.Helpers.Win.TImeModeHelper.Destroy@
+ 0001:000010B0       FMX.ImgList.Finalization
+ 0002:000001A0       FMX.ImgList.FMX.ImgList
+ 0001:00001858       FMX.InertialMovement.Finalization
+ 0002:000002C0       FMX.InertialMovement.FMX.InertialMovement
+ 0001:00001870       FMX.Layouts.Finalization
+ 0002:000002C8       FMX.Layouts.FMX.Layouts
+ 0001:00001860       FMX.Layouts.TLayout.Create
+ 0001:00001868       FMX.Layouts.TLayout.Paint
+ 0001:00001908       FMX.ListBox.Finalization
+ 0002:00000360       FMX.ListBox.FMX.ListBox
+ 0001:00001878       FMX.MagnifierGlass.Finalization
+ 0002:000002D0       FMX.MagnifierGlass.FMX.MagnifierGlass
+ 0001:000010D8       FMX.Menus.Finalization
+ 0002:000001C8       FMX.Menus.FMX.Menus
+ 0001:00001080       FMX.MultiResBitmap.Finalization
+ 0002:00000170       FMX.MultiResBitmap.FMX.MultiResBitmap
+ 0001:00001178       FMX.Objects.Finalization
+ 0002:00000210       FMX.Objects.FMX.Objects
+ 0001:00001930       FMX.Pickers.Finalization
+ 0002:00000388       FMX.Pickers.FMX.Pickers
+ 0001:00001960       FMX.Platform.Finalization
+ 0002:000003B8       FMX.Platform.FMX.Platform
+ 0001:00001950       FMX.Platform.Win.Finalization
+ 0002:000003A8       FMX.Platform.Win.FMX.Platform.Win
+ 0002:00000268       FMX.Presentation.Factory.TPresentationProxyFactory.Create@
+ 0001:00001800       FMX.Presentation.Factory.TPresentationProxyFactory.DestroyDefault@
+ 0002:00000278       FMX.Presentation.Win.TWinView.Create@
+ 0001:00001810       FMX.Presentation.Win.TWinView.DestroyClass@
+ 0001:00001820       FMX.Presentation.Win.Style.Finalization
+ 0002:00000288       FMX.Presentation.Win.Style.FMX.Presentation.Win.Style
+ 0002:00000280       FMX.Presentation.Win.Style.TWinStyledPresentation.Create@
+ 0001:00001818       FMX.Presentation.Win.Style.TWinStyledPresentation.Destroy@
+ 0001:000017F8       FMX.Printer.Finalization
+ 0002:00000260       FMX.Printer.FMX.Printer
+ 0001:00001850       FMX.StdCtrls.Finalization
+ 0002:000002B8       FMX.StdCtrls.FMX.StdCtrls
+ 0001:00001050       FMX.Styles.Finalization
+ 0002:00000140       FMX.Styles.FMX.Styles
+ 0001:00001830       FMX.Styles.Objects.Finalization
+ 0002:00000298       FMX.Styles.Objects.FMX.Styles.Objects
+ 0001:00001838       FMX.Styles.Switch.Finalization
+ 0002:000002A0       FMX.Styles.Switch.FMX.Styles.Switch
+ 0001:00001840       FMX.Switch.Style.Finalization
+ 0002:000002A8       FMX.Switch.Style.FMX.Switch.Style
+ 0001:00001848       FMX.Switch.Win.Finalization
+ 0002:000002B0       FMX.Switch.Win.FMX.Switch.Win
+ 0001:00001F68       FMX.TabControl.Finalization
+ 0002:00000630       FMX.TabControl.FMX.TabControl
+ 0001:00001F60       FMX.TabControl.TTabControl.SetActiveTab
+ 0001:00001F08       FMX.TabControl.TTabItem.AfterPaint
+ 0001:00001E88       FMX.TabControl.TTabItem.ApplyStyle
+ 0001:00001ED0       FMX.TabControl.TTabItem.CMGesture
+ 0001:00001E68       FMX.TabControl.TTabItem.Create
+ 0001:00001EC0       FMX.TabControl.TTabItem.DblClick
+ 0001:00001E78       FMX.TabControl.TTabItem.DefineProperties
+ 0001:00001E70       FMX.TabControl.TTabItem.Destroy
+ 0001:00001E80       FMX.TabControl.TTabItem.DoAddObject
+ 0001:00001EA8       FMX.TabControl.TTabItem.DoChanged
+ 0001:00001F00       FMX.TabControl.TTabItem.DoPaint
+ 0001:00001EE0       FMX.TabControl.TTabItem.DoSetSize
+ 0001:00001E90       FMX.TabControl.TTabItem.FindTextObject
+ 0001:00001E98       FMX.TabControl.TTabItem.FreeStyle
+ 0001:00001F40       FMX.TabControl.TTabItem.GetDefaultStyleLookupName
+ 0001:00001F48       FMX.TabControl.TTabItem.GetTabList
+ 0001:00001F50       FMX.TabControl.TTabItem.GetTextSettingsClass
+ 0001:00001F58       FMX.TabControl.TTabItem.Hide
+ 0001:00001F30       FMX.TabControl.TTabItem.ImageIndexStored
+ 0001:00001F38       FMX.TabControl.TTabItem.ImagesChanged
+ 0001:00001ED8       FMX.TabControl.TTabItem.KeyDown
+ 0001:00001EA0       FMX.TabControl.TTabItem.Loaded
+ 0001:00001EB8       FMX.TabControl.TTabItem.MouseClick
+ 0001:00001EB0       FMX.TabControl.TTabItem.MouseDown
+ 0001:00001EC8       FMX.TabControl.TTabItem.MouseUp
+ 0001:00001EF8       FMX.TabControl.TTabItem.Paint
+ 0001:00001EE8       FMX.TabControl.TTabItem.PaintChildren
+ 0001:00001EF0       FMX.TabControl.TTabItem.Painting
+ 0001:00001F10       FMX.TabControl.TTabItem.ParentChanged
+ 0001:00001F18       FMX.TabControl.TTabItem.SetText
+ 0001:00001F20       FMX.TabControl.TTabItem.Show
+ 0001:00001F28       FMX.TabControl.TTabItem.TriggerAcceleratorKey
+ 0002:00000130       FMX.Text.TTextWordWrappingImpl.Create@
+ 0001:00001040       FMX.Text.TTextWordWrappingImpl.Destroy@
+ 0001:00001018       FMX.TextLayout.Finalization
+ 0002:00000108       FMX.TextLayout.FMX.TextLayout
+ 0001:000018D8       FMX.TextLayout.GPU.Finalization
+ 0002:00000330       FMX.TextLayout.GPU.FMX.TextLayout.GPU
+ 0001:00001A58       FMX.Types.Finalization
+ 0002:000003D0       FMX.Types.FMX.Types
+ 0002:000003C0       FMX.Types.Log.Create@
+ 0001:00001968       FMX.Types.Log.Destroy@
+ 0001:00001A20       FMX.Types.TFmxObject.AddObject
+ 0001:00001A28       FMX.Types.TFmxObject.AddToResourcePool
+ 0001:00001978       FMX.Types.TFmxObject.BeforeDestruction
+ 0001:00001A48       FMX.Types.TFmxObject.BringToFront
+ 0001:000019A8       FMX.Types.TFmxObject.ContainsObject
+ 0002:000003C8       FMX.Types.TFmxObject.Create@
+ 0001:00001A18       FMX.Types.TFmxObject.CreateChildrenList
+ 0001:00001970       FMX.Types.TFmxObject.Destroy@
+ 0001:000019F0       FMX.Types.TFmxObject.DoActionChange
+ 0001:000019F8       FMX.Types.TFmxObject.DoActionClientChanged
+ 0001:000019B8       FMX.Types.TFmxObject.DoRootChanged
+ 0001:000019C0       FMX.Types.TFmxObject.DoRootChanging
+ 0001:00001A40       FMX.Types.TFmxObject.Exchange
+ 0001:00001A10       FMX.Types.TFmxObject.FindStyleResource
+ 0001:00001998       FMX.Types.TFmxObject.FreeNotification
+ 0001:00001A00       FMX.Types.TFmxObject.GetBackIndex
+ 0001:000019D0       FMX.Types.TFmxObject.GetChildrenCount
+ 0001:000019D8       FMX.Types.TFmxObject.GetData
+ 0001:000019E8       FMX.Types.TFmxObject.InitiateAction
+ 0001:000019A0       FMX.Types.TFmxObject.IsChild
+ 0001:00001988       FMX.Types.TFmxObject.ItemClass
+ 0001:00001980       FMX.Types.TFmxObject.Release
+ 0001:00001A30       FMX.Types.TFmxObject.RemoveFromResourcePool
+ 0001:00001990       FMX.Types.TFmxObject.RemoveObject
+ 0001:00001A08       FMX.Types.TFmxObject.SearchInto
+ 0001:00001A50       FMX.Types.TFmxObject.SendToBack
+ 0001:000019E0       FMX.Types.TFmxObject.SetData
+ 0001:000019C8       FMX.Types.TFmxObject.SetParent
+ 0001:00001A38       FMX.Types.TFmxObject.Sort
+ 0001:000019B0       FMX.Types.TFmxObject.SupportsPlatformService
+ 0001:00001060       FMX.Types3D.Finalization
+ 0002:00000150       FMX.Types3D.FMX.Types3D
+ 0002:00000148       FMX.Types3D.TContext3D.Create@
+ 0001:00001058       FMX.Types3D.TContext3D.Destroy@
+ 0001:00001020       FMX.Utils.Finalization
+ 0002:00000110       FMX.Utils.FMX.Utils
+ 0001:00001948       FMX.WebBrowser.Finalization
+ 0002:000003A0       FMX.WebBrowser.FMX.WebBrowser
+ 0001:00001C98       MVCBr.ApplicationController.Finalization
+ 0002:00000608       MVCBr.ApplicationController.MVCBr.ApplicationController
+ 0002:00000600       MVCBr.ApplicationController.TApplicationController.Create@
+ 0001:00001C90       MVCBr.ApplicationController.TApplicationController.Destroy@
+ 0001:00001CC0       MVCBr.Component.TComponentFactory.AfterInit
+ 0001:00001CC8       MVCBr.Component.TComponentFactory.ApplicationController
+ 0001:00001CD0       MVCBr.Component.TComponentFactory.ApplicationControllerInternal
+ 0001:00001CD8       MVCBr.Component.TComponentFactory.Controller
+ 0001:00001CE0       MVCBr.Component.TComponentFactory.Create
+ 0001:00001CE8       MVCBr.Component.TComponentFactory.GetController
+ 0001:00001CF0       MVCBr.Component.TComponentFactory.GetID
+ 0001:00001CF8       MVCBr.Component.TComponentFactory.ID
+ 0001:00001D00       MVCBr.Component.TComponentFactory.Release
+ 0001:00001D08       MVCBr.Component.TComponentFactory.ResolveController
+ 0001:00001D10       MVCBr.Component.TComponentFactory.SetController
+ 0001:00001D18       MVCBr.Component.TComponentFactory.This
+ 0001:00001D20       MVCBr.Component.TComponentFactory.Update
+ 0001:00001D28       MVCBr.Component.TComponentFactory.Update
+ 0004:00000038       MVCBr.FMX.LayoutViewManager..3
+ 0001:00003970       MVCBr.FMX.LayoutViewManager..TFMXLayoutViewManager
+ 0001:00003298       MVCBr.FMX.LayoutViewManager..TLayoutTabItem
+ 0001:00004678       MVCBr.FMX.LayoutViewManager.Finalization
+ 0002:00000640       MVCBr.FMX.LayoutViewManager.MVCBr.FMX.LayoutViewManager
+ 0001:00003EC4       MVCBr.FMX.LayoutViewManager.register
+ 0001:00003F48       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.AddView
+ 0001:00003EF8       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.AddView
+ 0001:00003F50       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.Create
+ 0001:00003F88       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.Destroy
+ 0001:00003FDC       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.DoPageChange
+ 0001:00003FAC       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.DoQueryClose
+ 0001:00003FF0       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.GetActiveTab
+ 0001:00004074       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.GetLayoutContainer
+ 0001:0000406C       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.GetPageContainerClass
+ 0001:00004128       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.GetPageTabClass
+ 0001:00004130       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.Init
+ 0001:0000440C       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.New
+ 0001:0000448C       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.NewTab
+ 0001:00004540       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.SetAfterCreate
+ 0001:0000455C       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.SetAfterTabCreate
+ 0001:00004584       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.SetLayoutContainer
+ 0001:00004570       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.SetOnQueryClose
+ 0001:00004588       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.Update
+ 0001:00004088       MVCBr.FMX.LayoutViewManager.TLayoutTabItem.CanClose
+ 0001:000045A0       MVCBr.FMX.LayoutViewManager.TLayoutTabItem.Create
+ 0001:00004638       MVCBr.FMX.LayoutViewManager.TLayoutTabItem.Destroy
+ 0001:000046F0       MVCBr.FMX.LayoutViewManager.{System.Generics.Collections}TList<MVCBr.PageView.TPageView>.GetItem
+ 0001:00004680       MVCBr.FMX.LayoutViewManager.{System.ThreadSafe}TThreadSafeObjectList<MVCBr.PageView.TPageView>.Getitems
+ 0001:000046D4       MVCBr.FMX.LayoutViewManager.{System.ThreadSafe}TThreadSafeObjectList<MVCBr.PageView.TPageView>.LockList
+ 0001:000046E4       MVCBr.FMX.LayoutViewManager.{System.ThreadSafe}TThreadSafeObjectList<MVCBr.PageView.TPageView>.UnlockList
+ 0004:00000034       MVCBr.FMX.PageView..2
+ 0001:00002208       MVCBr.FMX.PageView..TFMXPageViewManager
+ 0001:000027B0       MVCBr.FMX.PageView..TTabItemView
+ 0001:00003210       MVCBr.FMX.PageView.Finalization
+ 0002:00000638       MVCBr.FMX.PageView.MVCBr.FMX.PageView
+ 0001:000026C0       MVCBr.FMX.PageView.register
+ 0001:00002744       MVCBr.FMX.PageView.TFMXPageViewManager.AddView
+ 0001:000026F4       MVCBr.FMX.PageView.TFMXPageViewManager.AddView
+ 0001:0000277C       MVCBr.FMX.PageView.TFMXPageViewManager.DoPageChange
+ 0001:0000274C       MVCBr.FMX.PageView.TFMXPageViewManager.DoQueryClose
+ 0001:000027A4       MVCBr.FMX.PageView.TFMXPageViewManager.GetPageContainerClass
+ 0001:00002E54       MVCBr.FMX.PageView.TFMXPageViewManager.GetPageTabClass
+ 0001:000027AC       MVCBr.FMX.PageView.TFMXPageViewManager.GetTabControl
+ 0001:00002E5C       MVCBr.FMX.PageView.TFMXPageViewManager.Init
+ 0001:00003020       MVCBr.FMX.PageView.TFMXPageViewManager.New
+ 0001:000030A0       MVCBr.FMX.PageView.TFMXPageViewManager.NewTab
+ 0001:00003168       MVCBr.FMX.PageView.TFMXPageViewManager.Notification
+ 0001:00003148       MVCBr.FMX.PageView.TFMXPageViewManager.SetActivePage
+ 0001:00003170       MVCBr.FMX.PageView.TFMXPageViewManager.SetAfterCreate
+ 0001:0000318C       MVCBr.FMX.PageView.TFMXPageViewManager.SetAfterTabCreate
+ 0001:000031A0       MVCBr.FMX.PageView.TFMXPageViewManager.SetOnQueryClose
+ 0001:000031B4       MVCBr.FMX.PageView.TFMXPageViewManager.SetTabControl
+ 0001:000031E8       MVCBr.FMX.PageView.TFMXPageViewManager.Update
+ 0001:00002CDC       MVCBr.FMX.PageView.TTabItemView.CanClose
+ 0001:00002D7C       MVCBr.FMX.PageView.TTabItemView.Create
+ 0001:00002DF4       MVCBr.FMX.PageView.TTabItemView.Destroy
+ 0001:00002E4C       MVCBr.FMX.PageView.TTabItemView.SetPageView
+ 0001:00001D38       MVCBr.FormView.TCustomFormFactory.SetShowModal
+ 0001:00001D40       MVCBr.FormView.TViewFactoryAdapter.Form
+ 0001:00001CB8       MVCBr.Interf.TControllerAbstract.RevokeInstance
+ 0001:00001CA8       MVCBr.IoC.Finalization
+ 0002:00000618       MVCBr.IoC.MVCBr.IoC
+ 0002:00000610       MVCBr.IoC.TClassActivator.Create@
+ 0001:00001CA0       MVCBr.IoC.TClassActivator.Destroy@
+ 0001:00001D30       MVCBr.MiddlewareFactory.Finalization
+ 0002:00000628       MVCBr.MiddlewareFactory.MVCBr.MiddlewareFactory
+ 0001:00001CB0       MVCBr.Observable.Finalization
+ 0002:00000620       MVCBr.Observable.MVCBr.Observable
+ 0001:00001D80       MVCBr.PageView.TCustomPageViewFactory.ActivePage
+ 0001:00001D88       MVCBr.PageView.TCustomPageViewFactory.AddForm
+ 0001:00001D98       MVCBr.PageView.TCustomPageViewFactory.AddView
+ 0001:00001D90       MVCBr.PageView.TCustomPageViewFactory.AddView
+ 0001:00001DA0       MVCBr.PageView.TCustomPageViewFactory.AddView
+ 0001:00001D78       MVCBr.PageView.TCustomPageViewFactory.AddView
+ 0001:00001DA8       MVCBr.PageView.TCustomPageViewFactory.AfterConstruction
+ 0001:00001DC0       MVCBr.PageView.TCustomPageViewFactory.Count
+ 0001:00001DC8       MVCBr.PageView.TCustomPageViewFactory.Destroy
+ 0001:00001DB0       MVCBr.PageView.TCustomPageViewFactory.DoQueryClose
+ 0001:00001DB8       MVCBr.PageView.TCustomPageViewFactory.DoViewCreate
+ 0001:00001DE0       MVCBr.PageView.TCustomPageViewFactory.FindView
+ 0001:00001DD8       MVCBr.PageView.TCustomPageViewFactory.FindView
+ 0001:00001DE8       MVCBr.PageView.TCustomPageViewFactory.FindViewByClassName
+ 0001:00001DF0       MVCBr.PageView.TCustomPageViewFactory.FindViewByID
+ 0001:00001DF8       MVCBr.PageView.TCustomPageViewFactory.GetItems
+ 0001:00001E00       MVCBr.PageView.TCustomPageViewFactory.GetPageContainer
+ 0001:00001E08       MVCBr.PageView.TCustomPageViewFactory.GetPageViewClass
+ 0001:00001DD0       MVCBr.PageView.TCustomPageViewFactory.IndexOf
+ 0001:00001E10       MVCBr.PageView.TCustomPageViewFactory.NewItem
+ 0001:00001E18       MVCBr.PageView.TCustomPageViewFactory.Notification
+ 0001:00001E28       MVCBr.PageView.TCustomPageViewFactory.Remove
+ 0001:00001E20       MVCBr.PageView.TCustomPageViewFactory.Remove
+ 0001:00001E30       MVCBr.PageView.TCustomPageViewFactory.SetActivePage
+ 0001:00001E38       MVCBr.PageView.TCustomPageViewFactory.SetActivePageIndex
+ 0001:00001E40       MVCBr.PageView.TCustomPageViewFactory.SetAfterViewCreate
+ 0001:00001E48       MVCBr.PageView.TCustomPageViewFactory.SetItems
+ 0001:00001E50       MVCBr.PageView.TCustomPageViewFactory.SetPageContainer
+ 0001:00001E58       MVCBr.PageView.TCustomPageViewFactory.ViewEvent
+ 0001:00001E60       MVCBr.PageView.TCustomPageViewFactory.ViewEvent
+ 0001:00001D48       MVCBr.PageView.TPageView.GetOwner
+ 0001:00001D50       MVCBr.PageView.TPageView.GetTab
+ 0001:00001D58       MVCBr.PageView.TPageView.GetText
+ 0001:00001D60       MVCBr.PageView.TPageView.GetView
+ 0001:00001D68       MVCBr.PageView.TPageView.SetText
+ 0001:00001D70       MVCBr.PageView.TPageView.This
+ 0001:00000CC8       SysInit...
+ 0003:00000034       SysInit...
+ 0001:00000DD0       SysInit...
+ 0001:00000DC0       SysInit...
+ 0001:00000CD8       SysInit...
+ 0001:00000D9C       SysInit...
+ 0001:00000CE8       SysInit...
+ 0001:00000D74       SysInit...
+ 0001:00000CF8       SysInit...
+ 0001:00000D08       SysInit...
+ 0001:00000D18       SysInit...
+ 0001:00000D2C       SysInit...
+ 0001:00000D5C       SysInit...
+ 0004:00000018       SysInit..1
+ 0001:0000079C       SysInit.@InitPkg
+ 0001:00000800       SysInit.@PackageLoad
+ 0001:0000080C       SysInit.@PackageUnload
+ 0001:0000027C       SysInit.@_dbkDummyProc
+ 0001:00000280       SysInit.@_dbkFCallArgs
+ 0001:00000670       SysInit.@_dbk_fcall_wrapper
+ 0001:00000818       SysInit.@_delayLoadHelper2
+ 0001:00000AF8       SysInit.@_FUnloadDelayLoadedDLL2
+ 0001:00000C08       SysInit.@_HrLoadAllImportsForDll
+ 0004:00000014       SysInit.@_pfnDliFailureHook2
+ 0004:00000010       SysInit.@_pfnDliNotifyHook2
+ 0001:0000016C       SysInit.AllocTlsBuffer
+ 0004:0000000C       SysInit.dbkFCallWrapperAddr
+ 0001:00000228       SysInit.ExitProcessTLS
+ 0001:000001F0       SysInit.ExitThreadTLS
+ 0001:00000DE0       SysInit.Finalization
+ 0001:00000114       SysInit.FreeLibrary
+ 0001:0000014C       SysInit.GetLastError
+ 0001:00000164       SysInit.GetProcAddress
+ 0001:00000178       SysInit.GetTlsSize
+ 0004:00000004       SysInit.HInstance
+ 0001:0000024C       SysInit.InitializeModule
+ 0001:000001C4       SysInit.InitProcessTLS
+ 0001:00000180       SysInit.InitThreadTLS
+ 0001:00000100       SysInit.InterlockedExchange
+ 0001:00000154       SysInit.LoadLibraryA
+ 0001:0000011C       SysInit.LocalAlloc
+ 0001:00000124       SysInit.LocalFree
+ 0003:00000008       SysInit.Module
+ 0004:00000000       SysInit.ModuleIsLib
+ 0004:00000001       SysInit.ModuleIsPackage
+ 0003:00000004       SysInit.PtrToNil
+ 0001:0000015C       SysInit.RaiseException
+ 0001:00000CC0       SysInit.ShutdownDelayHelp2
+ 0002:00000008       SysInit.SysInit
+ 0001:0000012C       SysInit.TlsAlloc
+ 0004:0000001C       SysInit.tlsBuffer
+ 0001:00000134       SysInit.TlsFree
+ 0001:0000013C       SysInit.TlsGetValue
+ 0003:00000000       SysInit.TlsIndex
+ 0005:00000000       SysInit.TlsLast
+ 0003:00000024       SysInit.TlsProc
+ 0001:00000144       SysInit.TlsSetValue
+ 0001:00000258       SysInit.UninitializeModule
+ 0004:FFFF7000       SysInit.__ImageBase
+ 0001:00000060       System.@AfterConstruction
+ 0001:00000020       System.@AsClass
+ 0001:00000068       System.@BeforeDestruction
+ 0001:00000050       System.@ClassCreate
+ 0001:00000058       System.@ClassDestroy
+ 0001:00000090       System.@DoneExcept
+ 0001:00000080       System.@HandleAnyException
+ 0001:00000088       System.@HandleFinally
+ 0001:000000F0       System.@IntfAddRef
+ 0001:000000E8       System.@IntfCast
+ 0001:000000D8       System.@IntfClear
+ 0001:000000E0       System.@IntfCopy
+ 0001:00000098       System.@PackageLoad
+ 0001:000000A0       System.@PackageUnload
+ 0001:000000A8       System.@RunError
+ 0001:000000B8       System.@UStrAddRef
+ 0001:000000C0       System.@UStrAsg
+ 0001:000000B0       System.@UStrClr
+ 0001:000000F8       System.Finalization
+ 0001:000000C8       System.RegisterModule
+ 0002:00000000       System.System
+ 0001:00000070       System.TMonitor.Enter
+ 0001:00000078       System.TMonitor.Exit
+ 0001:00000040       System.TObject.AfterConstruction
+ 0001:00000038       System.TObject.DefaultHandler
+ 0001:00000048       System.TObject.Dispatch
+ 0001:00000010       System.TObject.Equals
+ 0001:00000008       System.TObject.FreeInstance
+ 0001:00000018       System.TObject.GetHashCode
+ 0001:00000028       System.TObject.InheritsFrom
+ 0001:00000000       System.TObject.NewInstance
+ 0001:00000030       System.TObject.ToString
+ 0001:000000D0       System.UnregisterModule
+ 0001:00000FF8       System.Actions.Finalization
+ 0002:000000E8       System.Actions.System.Actions
+ 0001:000010E0       System.AnsiStrings.Finalization
+ 0002:000001D0       System.AnsiStrings.System.AnsiStrings
+ 0001:00000E80       System.Character.Finalization
+ 0002:00000030       System.Character.System.Character
+ 0001:00000FE8       System.Classes.Finalization
+ 0001:00000F20       System.Classes.RegisterComponents
+ 0002:000000D8       System.Classes.System.Classes
+ 0002:000000D0       System.Classes.TBaseAsyncResult.Create@
+ 0001:00000FE0       System.Classes.TBaseAsyncResult.Destroy@
+ 0002:000000B0       System.Classes.TBinaryWriter.Create@
+ 0001:00000FC8       System.Classes.TBinaryWriter.Destroy@
+ 0001:00000F40       System.Classes.TComponent.AsyncSchedule
+ 0001:00000F48       System.Classes.TComponent.BeforeDestruction
+ 0001:00000F90       System.Classes.TComponent.CanObserve
+ 0002:000000C0       System.Classes.TComponent.Create@
+ 0001:00000F50       System.Classes.TComponent.DefineProperties
+ 0001:00000F18       System.Classes.TComponent.Destroy@
+ 0001:00000F80       System.Classes.TComponent.GetObservers
+ 0001:00000F58       System.Classes.TComponent.Loaded
+ 0001:00000F98       System.Classes.TComponent.ObserverAdded
+ 0001:00000FB0       System.Classes.TComponent.QueryInterface
+ 0001:00000F60       System.Classes.TComponent.ReadState
+ 0001:00000FA0       System.Classes.TComponent.SafeCallException
+ 0001:00000F78       System.Classes.TComponent.SetName
+ 0001:00000F88       System.Classes.TComponent.UpdateAction
+ 0001:00000FA8       System.Classes.TComponent.UpdateRegistry
+ 0001:00000F70       System.Classes.TComponent.ValidateRename
+ 0001:00000F68       System.Classes.TComponent.WriteState
+ 0001:00000FB8       System.Classes.TComponent._AddRef
+ 0001:00000FC0       System.Classes.TComponent._Release
+ 0002:000000C8       System.Classes.TLoginCredentialService.Create@
+ 0001:00000FD0       System.Classes.TLoginCredentialService.Destroy@
+ 0002:000000A8       System.Classes.TObserverMapping.Create@
+ 0001:00000FD8       System.Classes.TObserverMapping.Destroy@
+ 0001:00000F28       System.Classes.TPersistent.Assign
+ 0001:00000F30       System.Classes.TPersistent.AssignTo
+ 0002:000000B8       System.Classes.TThread.Create@
+ 0001:00000F38       System.Classes.TThread.Destroy@
+ 0001:000010A0       System.DateUtils.Finalization
+ 0002:00000190       System.DateUtils.System.DateUtils
+ 0002:00000188       System.DateUtils.TTimeZone.Create@
+ 0001:00001098       System.DateUtils.TTimeZone.Destroy@
+ 0002:000000F0       System.Devices.TDeviceInfo.Create@
+ 0001:00001000       System.Devices.TDeviceInfo.Destroy@
+ 0001:00000EE0       System.Generics.Collections.TListHelper.CheckItemRange
+ 0002:000000A0       System.Generics.Defaults.TIStringComparer.Create@
+ 0001:00000F10       System.Generics.Defaults.TIStringComparer.Destroy@
+ 0002:00000098       System.Generics.Defaults.TStringComparer.Create@
+ 0001:00000F08       System.Generics.Defaults.TStringComparer.Destroy@
+ 0001:00001C18       System.HelpIntfs.Finalization
+ 0002:00000588       System.HelpIntfs.System.HelpIntfs
+ 0001:00000E88       System.Internal.ExcUtils.Finalization
+ 0002:00000038       System.Internal.ExcUtils.System.Internal.ExcUtils
+ 0002:00000198       System.IOUtils.TPath.Create@
+ 0001:000010A8       System.IOUtils.TPath.Destroy@
+ 0001:00001A78       System.JSON.Finalization
+ 0002:000003E8       System.JSON.System.JSON
+ 0001:00000F00       System.Math.Finalization
+ 0002:00000090       System.Math.System.Math
+ 0002:000000E0       System.Messaging.TMessageManager.Create@
+ 0001:00000FF0       System.Messaging.TMessageManager.UnInitialize@
+ 0001:00000EF0       System.Rtti.Finalization
+ 0002:00000080       System.Rtti.System.Rtti
+ 0002:00000078       System.Rtti.TRttiContext.Create@
+ 0001:00000EE8       System.Rtti.TRttiContext.Destroy@
+ 0001:000010C0       System.SyncObjs.Finalization
+ 0002:000001B0       System.SyncObjs.System.SyncObjs
+ 0001:00000E98       System.SysUtils.Abort
+ 0002:00000050       System.SysUtils.Exception.Create@
+ 0001:00000EA0       System.SysUtils.Exception.Destroy@
+ 0001:00000EC8       System.SysUtils.Finalization
+ 0001:00000EB8       System.SysUtils.SafeLoadLibrary
+ 0001:00000EA8       System.SysUtils.Supports
+ 0002:00000060       System.SysUtils.System.SysUtils
+ 0002:00000048       System.SysUtils.TEncoding.Create@
+ 0001:00000EC0       System.SysUtils.TEncoding.Destroy@
+ 0002:00000040       System.SysUtils.TLanguages.Create@
+ 0001:00000EB0       System.SysUtils.TLanguages.Destroy@
+ 0002:00000058       System.SysUtils.TOSVersion.Create@
+ 0001:00000E90       System.SysUtils.TOSVersion.Destroy@
+ 0002:00000180       System.TimeSpan.TTimeSpan.Create@
+ 0001:00001090       System.TimeSpan.TTimeSpan.Destroy@
+ 0001:00000EF8       System.TypInfo.Finalization
+ 0002:00000088       System.TypInfo.System.TypInfo
+ 0001:00000ED8       System.Variants.Finalization
+ 0002:00000070       System.Variants.System.Variants
+ 0001:00000ED0       System.VarUtils.Finalization
+ 0002:00000068       System.VarUtils.System.VarUtils
+ 0001:000010F0       System.Win.ComObj.Finalization
+ 0002:000001E0       System.Win.ComObj.System.Win.ComObj
+ 0002:000001D8       System.Win.ComObj.TComServerObject.Create@
+ 0001:000010E8       System.Win.ComObj.TComServerObject.Destroy@
+ 0001:00001940       System.Win.InternetExplorer.Finalization
+ 0002:00000398       System.Win.InternetExplorer.System.Win.InternetExplorer
+ 0002:000003F0       System.Win.Registry.TRegistry.Create@
+ 0001:00001A80       System.Win.Registry.TRegistry.Destroy@
+ 0001:00001A98       Vcl.ActnList.Finalization
+ 0002:00000408       Vcl.ActnList.Vcl.ActnList
+ 0001:00001B48       Vcl.Clipbrd.Finalization
+ 0002:000004B8       Vcl.Clipbrd.Vcl.Clipbrd
+ 0001:00001C10       Vcl.ComCtrls.Finalization
+ 0002:00000568       Vcl.ComCtrls.TComboBoxEx.Create@
+ 0001:00001BF8       Vcl.ComCtrls.TComboBoxEx.Destroy@
+ 0002:00000548       Vcl.ComCtrls.TCoolBar.Create@
+ 0001:00001BD8       Vcl.ComCtrls.TCoolBar.Destroy@
+ 0002:00000560       Vcl.ComCtrls.TCustomComboBoxEx.Create@
+ 0001:00001BF0       Vcl.ComCtrls.TCustomComboBoxEx.Destroy@
+ 0002:000004D8       Vcl.ComCtrls.TCustomHeaderControl.Create@
+ 0001:00001B68       Vcl.ComCtrls.TCustomHeaderControl.Destroy@
+ 0002:00000520       Vcl.ComCtrls.TCustomHotKey.Create@
+ 0001:00001BB0       Vcl.ComCtrls.TCustomHotKey.Destroy@
+ 0002:00000530       Vcl.ComCtrls.TCustomListView.Create@
+ 0001:00001BC0       Vcl.ComCtrls.TCustomListView.Destroy@
+ 0002:00000500       Vcl.ComCtrls.TCustomRichEdit.Create@
+ 0001:00001B90       Vcl.ComCtrls.TCustomRichEdit.Destroy@
+ 0002:000004D0       Vcl.ComCtrls.TCustomStatusBar.Create@
+ 0001:00001B60       Vcl.ComCtrls.TCustomStatusBar.Destroy@
+ 0002:000004C0       Vcl.ComCtrls.TCustomTabControl.Create@
+ 0001:00001B50       Vcl.ComCtrls.TCustomTabControl.Destroy@
+ 0002:000004E0       Vcl.ComCtrls.TCustomTreeView.Create@
+ 0001:00001B70       Vcl.ComCtrls.TCustomTreeView.Destroy@
+ 0002:00000510       Vcl.ComCtrls.TCustomUpDown.Create@
+ 0001:00001BA0       Vcl.ComCtrls.TCustomUpDown.Destroy@
+ 0002:00000550       Vcl.ComCtrls.TDateTimePicker.Create@
+ 0001:00001BE0       Vcl.ComCtrls.TDateTimePicker.Destroy@
+ 0002:00000578       Vcl.ComCtrls.THeaderControl.Create@
+ 0001:00001C08       Vcl.ComCtrls.THeaderControl.Destroy@
+ 0002:00000528       Vcl.ComCtrls.THotKey.Create@
+ 0001:00001BB8       Vcl.ComCtrls.THotKey.Destroy@
+ 0002:00000538       Vcl.ComCtrls.TListView.Create@
+ 0001:00001BC8       Vcl.ComCtrls.TListView.Destroy@
+ 0002:00000558       Vcl.ComCtrls.TPageScroller.Create@
+ 0001:00001BE8       Vcl.ComCtrls.TPageScroller.Destroy@
+ 0002:000004F8       Vcl.ComCtrls.TProgressBar.Create@
+ 0001:00001B88       Vcl.ComCtrls.TProgressBar.Destroy@
+ 0002:00000508       Vcl.ComCtrls.TRichEdit.Create@
+ 0001:00001B98       Vcl.ComCtrls.TRichEdit.Destroy@
+ 0002:00000570       Vcl.ComCtrls.TStatusBar.Create@
+ 0001:00001C00       Vcl.ComCtrls.TStatusBar.Destroy@
+ 0002:000004C8       Vcl.ComCtrls.TTabControl.Create@
+ 0001:00001B58       Vcl.ComCtrls.TTabControl.Destroy@
+ 0002:00000540       Vcl.ComCtrls.TToolBar.Create@
+ 0001:00001BD0       Vcl.ComCtrls.TToolBar.Destroy@
+ 0002:000004F0       Vcl.ComCtrls.TTrackBar.Create@
+ 0001:00001B80       Vcl.ComCtrls.TTrackBar.Destroy@
+ 0002:000004E8       Vcl.ComCtrls.TTreeView.Create@
+ 0001:00001B78       Vcl.ComCtrls.TTreeView.Destroy@
+ 0002:00000518       Vcl.ComCtrls.TUpDown.Create@
+ 0001:00001BA8       Vcl.ComCtrls.TUpDown.Destroy@
+ 0002:00000580       Vcl.ComCtrls.Vcl.ComCtrls
+ 0001:00001AA8       Vcl.Controls.Finalization
+ 0002:00000418       Vcl.Controls.Vcl.Controls
+ 0001:00001C20       Vcl.Dialogs.Finalization
+ 0002:00000590       Vcl.Dialogs.Vcl.Dialogs
+ 0001:00001C48       Vcl.ExtCtrls.Finalization
+ 0002:000005A0       Vcl.ExtCtrls.TCategoryPanelGroup.Create@
+ 0001:00001C30       Vcl.ExtCtrls.TCategoryPanelGroup.Destroy@
+ 0002:00000598       Vcl.ExtCtrls.TCustomCategoryPanelGroup.Create@
+ 0001:00001C28       Vcl.ExtCtrls.TCustomCategoryPanelGroup.Destroy@
+ 0002:000005A8       Vcl.ExtCtrls.TCustomLinkLabel.Create@
+ 0001:00001C38       Vcl.ExtCtrls.TCustomLinkLabel.Destroy@
+ 0002:000005B0       Vcl.ExtCtrls.TLinkLabel.Create@
+ 0001:00001C40       Vcl.ExtCtrls.TLinkLabel.Destroy@
+ 0002:000005B8       Vcl.ExtCtrls.Vcl.ExtCtrls
+ 0001:00001C88       Vcl.Forms.Finalization
+ 0002:000005E8       Vcl.Forms.TCustomForm.Create@
+ 0001:00001C78       Vcl.Forms.TCustomForm.Destroy@
+ 0002:000005F0       Vcl.Forms.TForm.Create@
+ 0001:00001C80       Vcl.Forms.TForm.Destroy@
+ 0002:000005E0       Vcl.Forms.TScrollBox.Create@
+ 0001:00001C70       Vcl.Forms.TScrollBox.Destroy@
+ 0002:000005F8       Vcl.Forms.Vcl.Forms
+ 0001:00001A90       Vcl.Graphics.Finalization
+ 0002:000003F8       Vcl.Graphics.TWICImage.Create@
+ 0001:00001A88       Vcl.Graphics.TWICImage.Destroy@
+ 0002:00000400       Vcl.Graphics.Vcl.Graphics
+ 0001:00001AA0       Vcl.GraphUtil.Finalization
+ 0002:00000410       Vcl.GraphUtil.Vcl.GraphUtil
+ 0001:00001C60       Vcl.Menus.Finalization
+ 0002:000005D0       Vcl.Menus.Vcl.Menus
+ 0001:00001B40       Vcl.Printers.Finalization
+ 0002:000004B0       Vcl.Printers.Vcl.Printers
+ 0002:00000490       Vcl.StdCtrls.TButton.Create@
+ 0001:00001B20       Vcl.StdCtrls.TButton.Destroy@
+ 0002:00000498       Vcl.StdCtrls.TCheckBox.Create@
+ 0001:00001B28       Vcl.StdCtrls.TCheckBox.Destroy@
+ 0002:00000488       Vcl.StdCtrls.TComboBox.Create@
+ 0001:00001B18       Vcl.StdCtrls.TComboBox.Destroy@
+ 0002:00000440       Vcl.StdCtrls.TCustomButton.Create@
+ 0001:00001AD0       Vcl.StdCtrls.TCustomButton.Destroy@
+ 0002:00000448       Vcl.StdCtrls.TCustomCheckBox.Create@
+ 0001:00001AD8       Vcl.StdCtrls.TCustomCheckBox.Destroy@
+ 0002:00000438       Vcl.StdCtrls.TCustomComboBox.Create@
+ 0001:00001AC8       Vcl.StdCtrls.TCustomComboBox.Destroy@
+ 0002:00000428       Vcl.StdCtrls.TCustomEdit.Create@
+ 0001:00001AB8       Vcl.StdCtrls.TCustomEdit.Destroy@
+ 0002:00000420       Vcl.StdCtrls.TCustomGroupBox.Create@
+ 0001:00001AB0       Vcl.StdCtrls.TCustomGroupBox.Destroy@
+ 0002:00000458       Vcl.StdCtrls.TCustomListBox.Create@
+ 0001:00001AE8       Vcl.StdCtrls.TCustomListBox.Destroy@
+ 0002:00000430       Vcl.StdCtrls.TCustomMemo.Create@
+ 0001:00001AC0       Vcl.StdCtrls.TCustomMemo.Destroy@
+ 0002:00000468       Vcl.StdCtrls.TCustomStaticText.Create@
+ 0001:00001AF8       Vcl.StdCtrls.TCustomStaticText.Destroy@
+ 0002:00000478       Vcl.StdCtrls.TEdit.Create@
+ 0001:00001B08       Vcl.StdCtrls.TEdit.Destroy@
+ 0002:00000470       Vcl.StdCtrls.TGroupBox.Create@
+ 0001:00001B00       Vcl.StdCtrls.TGroupBox.Destroy@
+ 0002:000004A0       Vcl.StdCtrls.TListBox.Create@
+ 0001:00001B30       Vcl.StdCtrls.TListBox.Destroy@
+ 0002:00000480       Vcl.StdCtrls.TMemo.Create@
+ 0001:00001B10       Vcl.StdCtrls.TMemo.Destroy@
+ 0002:00000450       Vcl.StdCtrls.TRadioButton.Create@
+ 0001:00001AE0       Vcl.StdCtrls.TRadioButton.Destroy@
+ 0002:00000460       Vcl.StdCtrls.TScrollBar.Create@
+ 0001:00001AF0       Vcl.StdCtrls.TScrollBar.Destroy@
+ 0002:000004A8       Vcl.StdCtrls.TStaticText.Create@
+ 0001:00001B38       Vcl.StdCtrls.TStaticText.Destroy@
+ 0002:000005C8       Vcl.Themes.TCustomStyleEngine.Create@
+ 0001:00001C58       Vcl.Themes.TCustomStyleEngine.Destroy@
+ 0002:000005C0       Vcl.Themes.TStyleManager.Create@
+ 0001:00001C50       Vcl.Themes.TStyleManager.Destroy@
+ 0001:000010B8       Winapi.D2D1.Finalization
+ 0002:000001A8       Winapi.D2D1.Winapi.D2D1
+ 0001:00001C68       Winapi.FlatSB.Finalization
+ 0002:000005D8       Winapi.FlatSB.Winapi.FlatSB
+ 0001:000017E8       Winapi.GDIPOBJ.Finalization
+ 0002:00000250       Winapi.GDIPOBJ.Winapi.GDIPOBJ
+ 0004:00000030       Winapi.MsCTF..1
+ 0001:00001138       Winapi.MsCTF.DoneMSCTF
+ 0001:00001150       Winapi.MsCTF.Finalization
+ 0001:000010F8       Winapi.MsCTF.InitMSCTF
+ 0003:00000094       Winapi.MsCTF.MsCTFHandle
+ 0002:000001E8       Winapi.MsCTF.Winapi.MsCTF
+ 0004:00000028       Winapi.PsAPI..1
+ 0001:00000E5C       Winapi.PsAPI.Finalization
+ 0004:0000002C       Winapi.PsAPI.hPSAPI
+ 0002:00000028       Winapi.PsAPI.Winapi.PsAPI
+ 0001:000010C8       Winapi.UxTheme.Finalization
+ 0002:000001B8       Winapi.UxTheme.Winapi.UxTheme
+ 0004:00000020       Winapi.Windows..2
+ 0001:00000E3C       Winapi.Windows.Finalization
+ 0001:00000DF0       Winapi.Windows.FreeLibrary
+ 0001:00000DF8       Winapi.Windows.GetVersionEx
+ 0004:00000024       Winapi.Windows.HtmlHelpModule
+ 0001:00000E00       Winapi.Windows.InitVersionInfo
+ 0003:00000088       Winapi.Windows.Win32MajorVersion
+ 0003:0000008C       Winapi.Windows.Win32MinorVersion
+ 0003:00000090       Winapi.Windows.Win32Platform
+ 0002:00000010       Winapi.Windows.Winapi.Windows
+
+
+  Address             Publics by Value
+
+ 0001:00000000       System.TObject.NewInstance
+ 0001:00000008       System.TObject.FreeInstance
+ 0001:00000010       System.TObject.Equals
+ 0001:00000018       System.TObject.GetHashCode
+ 0001:00000020       System.@AsClass
+ 0001:00000028       System.TObject.InheritsFrom
+ 0001:00000030       System.TObject.ToString
+ 0001:00000038       System.TObject.DefaultHandler
+ 0001:00000040       System.TObject.AfterConstruction
+ 0001:00000048       System.TObject.Dispatch
+ 0001:00000050       System.@ClassCreate
+ 0001:00000058       System.@ClassDestroy
+ 0001:00000060       System.@AfterConstruction
+ 0001:00000068       System.@BeforeDestruction
+ 0001:00000070       System.TMonitor.Enter
+ 0001:00000078       System.TMonitor.Exit
+ 0001:00000080       System.@HandleAnyException
+ 0001:00000088       System.@HandleFinally
+ 0001:00000090       System.@DoneExcept
+ 0001:00000098       System.@PackageLoad
+ 0001:000000A0       System.@PackageUnload
+ 0001:000000A8       System.@RunError
+ 0001:000000B0       System.@UStrClr
+ 0001:000000B8       System.@UStrAddRef
+ 0001:000000C0       System.@UStrAsg
+ 0001:000000C8       System.RegisterModule
+ 0001:000000D0       System.UnregisterModule
+ 0001:000000D8       System.@IntfClear
+ 0001:000000E0       System.@IntfCopy
+ 0001:000000E8       System.@IntfCast
+ 0001:000000F0       System.@IntfAddRef
+ 0001:000000F8       System.Finalization
+ 0001:00000100       SysInit.InterlockedExchange
+ 0001:00000114       SysInit.FreeLibrary
+ 0001:0000011C       SysInit.LocalAlloc
+ 0001:00000124       SysInit.LocalFree
+ 0001:0000012C       SysInit.TlsAlloc
+ 0001:00000134       SysInit.TlsFree
+ 0001:0000013C       SysInit.TlsGetValue
+ 0001:00000144       SysInit.TlsSetValue
+ 0001:0000014C       SysInit.GetLastError
+ 0001:00000154       SysInit.LoadLibraryA
+ 0001:0000015C       SysInit.RaiseException
+ 0001:00000164       SysInit.GetProcAddress
+ 0001:0000016C       SysInit.AllocTlsBuffer
+ 0001:00000178       SysInit.GetTlsSize
+ 0001:00000180       SysInit.InitThreadTLS
+ 0001:000001C4       SysInit.InitProcessTLS
+ 0001:000001F0       SysInit.ExitThreadTLS
+ 0001:00000228       SysInit.ExitProcessTLS
+ 0001:0000024C       SysInit.InitializeModule
+ 0001:00000258       SysInit.UninitializeModule
+ 0001:0000027C       SysInit.@_dbkDummyProc
+ 0001:00000280       SysInit.@_dbkFCallArgs
+ 0001:00000670       SysInit.@_dbk_fcall_wrapper
+ 0001:0000079C       SysInit.@InitPkg
+ 0001:00000800       SysInit.@PackageLoad
+ 0001:0000080C       SysInit.@PackageUnload
+ 0001:00000818       SysInit.@_delayLoadHelper2
+ 0001:00000AF8       SysInit.@_FUnloadDelayLoadedDLL2
+ 0001:00000C08       SysInit.@_HrLoadAllImportsForDll
+ 0001:00000CC0       SysInit.ShutdownDelayHelp2
+ 0001:00000CC8       SysInit...
+ 0001:00000CD8       SysInit...
+ 0001:00000CE8       SysInit...
+ 0001:00000CF8       SysInit...
+ 0001:00000D08       SysInit...
+ 0001:00000D18       SysInit...
+ 0001:00000D2C       SysInit...
+ 0001:00000D5C       SysInit...
+ 0001:00000D74       SysInit...
+ 0001:00000D9C       SysInit...
+ 0001:00000DC0       SysInit...
+ 0001:00000DD0       SysInit...
+ 0001:00000DE0       SysInit.Finalization
+ 0001:00000DF0       Winapi.Windows.FreeLibrary
+ 0001:00000DF8       Winapi.Windows.GetVersionEx
+ 0001:00000E00       Winapi.Windows.InitVersionInfo
+ 0001:00000E3C       Winapi.Windows.Finalization
+ 0001:00000E5C       Winapi.PsAPI.Finalization
+ 0001:00000E80       System.Character.Finalization
+ 0001:00000E88       System.Internal.ExcUtils.Finalization
+ 0001:00000E90       System.SysUtils.TOSVersion.Destroy@
+ 0001:00000E98       System.SysUtils.Abort
+ 0001:00000EA0       System.SysUtils.Exception.Destroy@
+ 0001:00000EA8       System.SysUtils.Supports
+ 0001:00000EB0       System.SysUtils.TLanguages.Destroy@
+ 0001:00000EB8       System.SysUtils.SafeLoadLibrary
+ 0001:00000EC0       System.SysUtils.TEncoding.Destroy@
+ 0001:00000EC8       System.SysUtils.Finalization
+ 0001:00000ED0       System.VarUtils.Finalization
+ 0001:00000ED8       System.Variants.Finalization
+ 0001:00000EE0       System.Generics.Collections.TListHelper.CheckItemRange
+ 0001:00000EE8       System.Rtti.TRttiContext.Destroy@
+ 0001:00000EF0       System.Rtti.Finalization
+ 0001:00000EF8       System.TypInfo.Finalization
+ 0001:00000F00       System.Math.Finalization
+ 0001:00000F08       System.Generics.Defaults.TStringComparer.Destroy@
+ 0001:00000F10       System.Generics.Defaults.TIStringComparer.Destroy@
+ 0001:00000F18       System.Classes.TComponent.Destroy@
+ 0001:00000F20       System.Classes.RegisterComponents
+ 0001:00000F28       System.Classes.TPersistent.Assign
+ 0001:00000F30       System.Classes.TPersistent.AssignTo
+ 0001:00000F38       System.Classes.TThread.Destroy@
+ 0001:00000F40       System.Classes.TComponent.AsyncSchedule
+ 0001:00000F48       System.Classes.TComponent.BeforeDestruction
+ 0001:00000F50       System.Classes.TComponent.DefineProperties
+ 0001:00000F58       System.Classes.TComponent.Loaded
+ 0001:00000F60       System.Classes.TComponent.ReadState
+ 0001:00000F68       System.Classes.TComponent.WriteState
+ 0001:00000F70       System.Classes.TComponent.ValidateRename
+ 0001:00000F78       System.Classes.TComponent.SetName
+ 0001:00000F80       System.Classes.TComponent.GetObservers
+ 0001:00000F88       System.Classes.TComponent.UpdateAction
+ 0001:00000F90       System.Classes.TComponent.CanObserve
+ 0001:00000F98       System.Classes.TComponent.ObserverAdded
+ 0001:00000FA0       System.Classes.TComponent.SafeCallException
+ 0001:00000FA8       System.Classes.TComponent.UpdateRegistry
+ 0001:00000FB0       System.Classes.TComponent.QueryInterface
+ 0001:00000FB8       System.Classes.TComponent._AddRef
+ 0001:00000FC0       System.Classes.TComponent._Release
+ 0001:00000FC8       System.Classes.TBinaryWriter.Destroy@
+ 0001:00000FD0       System.Classes.TLoginCredentialService.Destroy@
+ 0001:00000FD8       System.Classes.TObserverMapping.Destroy@
+ 0001:00000FE0       System.Classes.TBaseAsyncResult.Destroy@
+ 0001:00000FE8       System.Classes.Finalization
+ 0001:00000FF0       System.Messaging.TMessageManager.UnInitialize@
+ 0001:00000FF8       System.Actions.Finalization
+ 0001:00001000       System.Devices.TDeviceInfo.Destroy@
+ 0001:00001008       FMX.DialogService.Sync.TDialogServiceSync.Destroy@
+ 0001:00001010       FMX.Dialogs.Finalization
+ 0001:00001018       FMX.TextLayout.Finalization
+ 0001:00001020       FMX.Utils.Finalization
+ 0001:00001028       FMX.Graphics.TStrokeBrush.Destroy@
+ 0001:00001030       FMX.Graphics.TFont.Destroy@
+ 0001:00001038       FMX.Graphics.Finalization
+ 0001:00001040       FMX.Text.TTextWordWrappingImpl.Destroy@
+ 0001:00001048       FMX.BehaviorManager.TBehaviorServices.DestroyCurrent@
+ 0001:00001050       FMX.Styles.Finalization
+ 0001:00001058       FMX.Types3D.TContext3D.Destroy@
+ 0001:00001060       FMX.Types3D.Finalization
+ 0001:00001068       FMX.Filter.Finalization
+ 0001:00001070       FMX.Filter.Custom.Finalization
+ 0001:00001078       FMX.Effects.Finalization
+ 0001:00001080       FMX.MultiResBitmap.Finalization
+ 0001:00001088       FMX.Ani.Finalization
+ 0001:00001090       System.TimeSpan.TTimeSpan.Destroy@
+ 0001:00001098       System.DateUtils.TTimeZone.Destroy@
+ 0001:000010A0       System.DateUtils.Finalization
+ 0001:000010A8       System.IOUtils.TPath.Destroy@
+ 0001:000010B0       FMX.ImgList.Finalization
+ 0001:000010B8       Winapi.D2D1.Finalization
+ 0001:000010C0       System.SyncObjs.Finalization
+ 0001:000010C8       Winapi.UxTheme.Finalization
+ 0001:000010D0       FMX.DialogService.TDialogService.Destroy@
+ 0001:000010D8       FMX.Menus.Finalization
+ 0001:000010E0       System.AnsiStrings.Finalization
+ 0001:000010E8       System.Win.ComObj.TComServerObject.Destroy@
+ 0001:000010F0       System.Win.ComObj.Finalization
+ 0001:000010F8       Winapi.MsCTF.InitMSCTF
+ 0001:00001138       Winapi.MsCTF.DoneMSCTF
+ 0001:00001150       Winapi.MsCTF.Finalization
+ 0001:00001160       FMX.Helpers.Win.TImeModeHelper.Destroy@
+ 0001:00001168       FMX.Helpers.Win.Finalization
+ 0001:00001170       FMX.FontGlyphs.Finalization
+ 0001:00001178       FMX.Objects.Finalization
+ 0001:00001180       FMX.Gestures.Win.TPlatformGestureEngine.Destroy@
+ 0001:00001188       FMX.Gestures.TGestureEngine.Destroy@
+ 0001:00001190       FMX.Gestures.TGestureManager.Destroy@
+ 0001:00001198       FMX.Gestures.Finalization
+ 0001:000011A0       FMX.Controls.THint.Destroy@
+ 0001:000011A8       FMX.Controls.TControl.DoDeleteChildren
+ 0001:000011B0       FMX.Controls.TControl.ShowInDesigner
+ 0001:000011B8       FMX.Controls.TControl.Destroy
+ 0001:000011C0       FMX.Controls.TControl.Loaded
+ 0001:000011C8       FMX.Controls.TControl.DefineProperties
+ 0001:000011D0       FMX.Controls.TControl.Notification
+ 0001:000011D8       FMX.Controls.TControl.DoAddObject
+ 0001:000011E0       FMX.Controls.TControl.DoRemoveObject
+ 0001:000011E8       FMX.Controls.TControl.RecalcUpdateRect
+ 0001:000011F0       FMX.Controls.TControl.DoGetUpdateRect
+ 0001:000011F8       FMX.Controls.TControl.GetWidth
+ 0001:00001200       FMX.Controls.TControl.GetChildrenRect
+ 0001:00001208       FMX.Controls.TControl.GetAbsoluteScale
+ 0001:00001210       FMX.Controls.TControl.GetChildrenMatrix
+ 0001:00001218       FMX.Controls.TControl.GetAbsoluteMatrix
+ 0001:00001220       FMX.Controls.TControl.RecalcAbsolute
+ 0001:00001228       FMX.Controls.TControl.ActionChange
+ 0001:00001230       FMX.Controls.TControl.AbsoluteToLocalVector
+ 0001:00001238       FMX.Controls.TControl.LocalToAbsoluteVector
+ 0001:00001240       FMX.Controls.TControl.AbsoluteToLocal
+ 0001:00001248       FMX.Controls.TControl.LocalToAbsolute
+ 0001:00001250       FMX.Controls.TControl.GetAbsoluteOpacity
+ 0001:00001258       FMX.Controls.TControl.RecalcOpacity
+ 0001:00001260       FMX.Controls.TControl.RecalcSize
+ 0001:00001268       FMX.Controls.TControl.Destroy@
+ 0001:00001270       FMX.Controls.TControl.PointInObject
+ 0001:00001278       FMX.Controls.TControl.PointInObjectLocal
+ 0001:00001280       FMX.Controls.TControl.ScreenToLocal
+ 0001:00001288       FMX.Controls.TControl.LocalToScreen
+ 0001:00001290       FMX.Controls.TControl.ChangeChildren
+ 0001:00001298       FMX.Controls.TControl.ChangeOrder
+ 0001:000012A0       FMX.Controls.TControl.FillTextFlags
+ 0001:000012A8       FMX.Controls.TControl.FindTarget
+ 0001:000012B0       FMX.Controls.TControl.ShouldTestMouseHits
+ 0001:000012B8       FMX.Controls.TControl.ObjectAtPoint
+ 0001:000012C0       FMX.Controls.TControl.ParentChanged
+ 0001:000012C8       FMX.Controls.TControl.ApplyTriggerEffect
+ 0001:000012D0       FMX.Controls.TControl.Painting
+ 0001:000012D8       FMX.Controls.TControl.PaddingChanged
+ 0001:000012E0       FMX.Controls.TControl.DoPaint
+ 0001:000012E8       FMX.Controls.TControl.AfterPaint
+ 0001:000012F0       FMX.Controls.TControl.AncestorParentChanged
+ 0001:000012F8       FMX.Controls.TControl.AncestorVisibleChanged
+ 0001:00001300       FMX.Controls.TControl.PrepareForPaint
+ 0001:00001308       FMX.Controls.TControl.PaintChildren
+ 0001:00001310       FMX.Controls.TControl.GetParentedVisible
+ 0001:00001318       FMX.Controls.TControl.IsControlRectEmpty
+ 0001:00001320       FMX.Controls.TControl.CanRepaint
+ 0001:00001328       FMX.Controls.TControl.Move
+ 0001:00001330       FMX.Controls.TControl.Resize
+ 0001:00001338       FMX.Controls.TControl.GetFirstControlWithGesture
+ 0001:00001340       FMX.Controls.TControl.GetFirstVisibleObjectIndex
+ 0001:00001348       FMX.Controls.TControl.GetLastVisibleObjectIndex
+ 0001:00001350       FMX.Controls.TControl.GetLeft
+ 0001:00001358       FMX.Controls.TControl.GetAbsoluteRect
+ 0001:00001360       FMX.Controls.TControl.GetClipRect
+ 0001:00001368       FMX.Controls.TControl.GetDragMode
+ 0001:00001370       FMX.Controls.TControl.GetParentedRect
+ 0001:00001378       FMX.Controls.TControl.GetLocalRect
+ 0001:00001380       FMX.Controls.TControl.GetBoundsRect
+ 0001:00001388       FMX.Controls.TControl.SetBoundsRect
+ 0001:00001390       FMX.Controls.TControl.BeginUpdate
+ 0001:00001398       FMX.Controls.TControl.EndUpdate
+ 0001:000013A0       FMX.Controls.TControl.DoBeginUpdate
+ 0001:000013A8       FMX.Controls.TControl.DoEndUpdate
+ 0001:000013B0       FMX.Controls.TControl.DoRealign
+ 0001:000013B8       FMX.Controls.TControl.KeyDown
+ 0001:000013C0       FMX.Controls.TControl.KeyUp
+ 0001:000013C8       FMX.Controls.TControl.DialogKey
+ 0001:000013D0       FMX.Controls.TControl.AfterDialogKey
+ 0001:000013D8       FMX.Controls.TControl.Disappear
+ 0001:000013E0       FMX.Controls.TControl.DoMatrixChanged
+ 0001:000013E8       FMX.Controls.TControl.DoMouseEnter
+ 0001:000013F0       FMX.Controls.TControl.DoMouseLeave
+ 0001:000013F8       FMX.Controls.TControl.GetCanFocus
+ 0001:00001400       FMX.Controls.TControl.GetCanParentFocus
+ 0001:00001408       FMX.Controls.TControl.EnterChildren
+ 0001:00001410       FMX.Controls.TControl.ExitChildren
+ 0001:00001418       FMX.Controls.TControl.DoEnter
+ 0001:00001420       FMX.Controls.TControl.SetNewScene
+ 0001:00001428       FMX.Controls.TControl.DoExit
+ 0001:00001430       FMX.Controls.TControl.DoGesture
+ 0001:00001438       FMX.Controls.TControl.DoInsertObject
+ 0001:00001440       FMX.Controls.TControl.DoAbsoluteChanged
+ 0001:00001448       FMX.Controls.TControl.DoActivate
+ 0001:00001450       FMX.Controls.TControl.DoDeactivate
+ 0001:00001458       FMX.Controls.TControl.ShowContextMenu
+ 0001:00001460       FMX.Controls.TControl.HandleSizeChanged
+ 0001:00001468       FMX.Controls.TControl.Click
+ 0001:00001470       FMX.Controls.TControl.ClipChildrenChanged
+ 0001:00001478       FMX.Controls.TControl.CMGesture
+ 0001:00001480       FMX.Controls.TControl.DblClick
+ 0001:00001488       FMX.Controls.TControl.BeginAutoDrag
+ 0001:00001490       FMX.Controls.TControl.MouseClick
+ 0001:00001498       FMX.Controls.TControl.MouseDown
+ 0001:000014A0       FMX.Controls.TControl.MouseMove
+ 0001:000014A8       FMX.Controls.TControl.MouseUp
+ 0001:000014B0       FMX.Controls.TControl.MouseWheel
+ 0001:000014B8       FMX.Controls.TControl.DragEnter
+ 0001:000014C0       FMX.Controls.TControl.DragLeave
+ 0001:000014C8       FMX.Controls.TControl.DragOver
+ 0001:000014D0       FMX.Controls.TControl.DragDrop
+ 0001:000014D8       FMX.Controls.TControl.DragEnd
+ 0001:000014E0       FMX.Controls.TControl.SetEnabled
+ 0001:000014E8       FMX.Controls.TControl.EnabledChanged
+ 0001:000014F0       FMX.Controls.TControl.EnabledStored
+ 0001:000014F8       FMX.Controls.TControl.GetDefaultSize
+ 0001:00001500       FMX.Controls.TControl.GetDefaultTouchTargetExpansion
+ 0001:00001508       FMX.Controls.TControl.GetAbsoluteEnabled
+ 0001:00001510       FMX.Controls.TControl.RecalcEnabled
+ 0001:00001518       FMX.Controls.TControl.SetHint
+ 0001:00001520       FMX.Controls.TControl.SetAlign
+ 0001:00001528       FMX.Controls.TControl.SetAnchors
+ 0001:00001530       FMX.Controls.TControl.SetVisible
+ 0001:00001538       FMX.Controls.TControl.VisibleChanged
+ 0001:00001540       FMX.Controls.TControl.VisibleStored
+ 0001:00001548       FMX.Controls.TControl.SetSize
+ 0001:00001550       FMX.Controls.TControl.SetSize
+ 0001:00001558       FMX.Controls.TControl.Hide
+ 0001:00001560       FMX.Controls.TControl.HitTestChanged
+ 0001:00001568       FMX.Controls.TControl.Show
+ 0001:00001570       FMX.Controls.TControl.SupportsPaintStage
+ 0001:00001578       FMX.Controls.TControl.Tap
+ 0001:00001580       FMX.Controls.TControl.DoSetWidth
+ 0001:00001588       FMX.Controls.TControl.DoSetHeight
+ 0001:00001590       FMX.Controls.TControl.DoSetSize
+ 0001:00001598       FMX.Controls.TControl.SetBounds
+ 0001:000015A0       FMX.Controls.TControl.SetHeight
+ 0001:000015A8       FMX.Controls.TControl.SetWidth
+ 0001:000015B0       FMX.Controls.TControl.IsUpdating
+ 0001:000015B8       FMX.Controls.TControl.IsPositionStored
+ 0001:000015C0       FMX.Controls.TControl.IsHeightStored
+ 0001:000015C8       FMX.Controls.TControl.IsWidthStored
+ 0001:000015D0       FMX.Controls.TControl.IsSizeStored
+ 0001:000015D8       FMX.Controls.TControl.SetDragMode
+ 0001:000015E0       FMX.Controls.TControl.GetTop
+ 0001:000015E8       FMX.Controls.TControl.GetTabListClass
+ 0001:000015F0       FMX.Controls.TControl.GetTabList
+ 0001:000015F8       FMX.Controls.TControl.GetTabStopController
+ 0001:00001600       FMX.Controls.TControl.GetEffectsRect
+ 0001:00001608       FMX.Controls.TControl.GetHeight
+ 0001:00001610       FMX.Controls.TControl.GetHintString
+ 0001:00001618       FMX.Controls.TControl.GetHintObject
+ 0001:00001620       FMX.Controls.TControl.HasHint
+ 0001:00001628       FMX.Controls.TControl.GetActionLinkClass
+ 0001:00001630       FMX.Controls.TControl.GetAdjustSizeValue
+ 0001:00001638       FMX.Controls.TControl.GetAdjustType
+ 0001:00001640       FMX.Controls.TControl.RecalcHasClipParent
+ 0001:00001648       FMX.Controls.TControl.RecalcHasEffect
+ 0001:00001650       FMX.Controls.TControl.StartTriggerAnimation
+ 0001:00001658       FMX.Controls.TControl.StartTriggerAnimationWait
+ 0001:00001660       FMX.Controls.TStyledControl.BeforeDestruction
+ 0001:00001668       FMX.Controls.TStyledControl.Disappear
+ 0001:00001670       FMX.Controls.TStyledControl.Notification
+ 0001:00001678       FMX.Controls.TStyledControl.SetNewScene
+ 0001:00001680       FMX.Controls.TStyledControl.PrepareForPaint
+ 0001:00001688       FMX.Controls.TStyledControl.RecalcSize
+ 0001:00001690       FMX.Controls.TStyledControl.RequestStyleData
+ 0001:00001698       FMX.Controls.TStyledControl.NeedStyleLookup
+ 0001:000016A0       FMX.Controls.TStyledControl.SearchInto
+ 0001:000016A8       FMX.Controls.TStyledControl.FindStyleResource
+ 0001:000016B0       FMX.Controls.TStyledControl.GetStyleObject
+ 0001:000016B8       FMX.Controls.TStyledControl.GetStyleObject
+ 0001:000016C0       FMX.Controls.TStyledControl.DoApplyStyleLookup
+ 0001:000016C8       FMX.Controls.TStyledControl.DoDeleteChildren
+ 0001:000016D0       FMX.Controls.TStyledControl.ApplyStyleLookup
+ 0001:000016D8       FMX.Controls.TStyledControl.AdjustSize
+ 0001:000016E0       FMX.Controls.TStyledControl.ChooseAdjustType
+ 0001:000016E8       FMX.Controls.TStyledControl.AdjustFixedSize
+ 0001:000016F0       FMX.Controls.TStyledControl.Inflate
+ 0001:000016F8       FMX.Controls.TStyledControl.GetStyleContext
+ 0001:00001700       FMX.Controls.TStyledControl.GetParentClassStyleLookupName
+ 0001:00001708       FMX.Controls.TStyledControl.GetResourceLink
+ 0001:00001710       FMX.Controls.TStyledControl.DoEnter
+ 0001:00001718       FMX.Controls.TStyledControl.StartTriggerAnimation
+ 0001:00001720       FMX.Controls.TStyledControl.StartTriggerAnimationWait
+ 0001:00001728       FMX.Controls.TStyledControl.StyleDataChanged
+ 0001:00001730       FMX.Controls.TStyledControl.StyleLookupChanged
+ 0001:00001738       FMX.Controls.TStyledControl.GetAdjustSizeValue
+ 0001:00001740       FMX.Controls.TStyledControl.GetAdjustType
+ 0001:00001748       FMX.Controls.TStyledControl.GetBackIndex
+ 0001:00001750       FMX.Controls.TStyledControl.SetAdjustSizeValue
+ 0001:00001758       FMX.Controls.TStyledControl.SetAdjustType
+ 0001:00001760       FMX.Controls.TTextControl.AfterConstruction
+ 0001:00001768       FMX.Controls.TTextControl.SetName
+ 0001:00001770       FMX.Controls.TTextControl.ActionChange
+ 0001:00001778       FMX.Controls.TTextControl.DoTextChanged
+ 0001:00001780       FMX.Controls.TTextControl.CanTriggerAcceleratorKey
+ 0001:00001788       FMX.Controls.TTextControl.DoEndUpdate
+ 0001:00001790       FMX.Controls.TTextControl.DoFilterControlText
+ 0001:00001798       FMX.Controls.TTextControl.DoRootChanging
+ 0001:000017A0       FMX.Controls.TTextControl.DoStyleChanged
+ 0001:000017A8       FMX.Controls.TTextControl.SetTextInternal
+ 0001:000017B0       FMX.Controls.TTextControl.SetStyledSettings
+ 0001:000017B8       FMX.Controls.TTextControl.GetData
+ 0001:000017C0       FMX.Controls.TTextControl.SetData
+ 0001:000017C8       FMX.Controls.TTextControl.StyledSettingsStored
+ 0001:000017D0       FMX.Controls.TTextControl.ToString
+ 0001:000017D8       FMX.Controls.TTextControl.SetTextSettings
+ 0001:000017E0       FMX.Controls.Finalization
+ 0001:000017E8       Winapi.GDIPOBJ.Finalization
+ 0001:000017F0       FMX.Canvas.GDIP.Finalization
+ 0001:000017F8       FMX.Printer.Finalization
+ 0001:00001800       FMX.Presentation.Factory.TPresentationProxyFactory.DestroyDefault@
+ 0001:00001808       FMX.Controls.Win.Finalization
+ 0001:00001810       FMX.Presentation.Win.TWinView.DestroyClass@
+ 0001:00001818       FMX.Presentation.Win.Style.TWinStyledPresentation.Destroy@
+ 0001:00001820       FMX.Presentation.Win.Style.Finalization
+ 0001:00001828       FMX.Controls.Presentation.Finalization
+ 0001:00001830       FMX.Styles.Objects.Finalization
+ 0001:00001838       FMX.Styles.Switch.Finalization
+ 0001:00001840       FMX.Switch.Style.Finalization
+ 0001:00001848       FMX.Switch.Win.Finalization
+ 0001:00001850       FMX.StdCtrls.Finalization
+ 0001:00001858       FMX.InertialMovement.Finalization
+ 0001:00001860       FMX.Layouts.TLayout.Create
+ 0001:00001868       FMX.Layouts.TLayout.Paint
+ 0001:00001870       FMX.Layouts.Finalization
+ 0001:00001878       FMX.MagnifierGlass.Finalization
+ 0001:00001880       FMX.Edit.Style.Finalization
+ 0001:00001888       FMX.Edit.Win.Finalization
+ 0001:00001890       FMX.Edit.Finalization
+ 0001:00001898       FMX.DialogHelper.Finalization
+ 0001:000018A0       FMX.Dialogs.Win.Finalization
+ 0001:000018A8       FMX.Canvas.D2D.TCustomCanvasD2D.Destroy@
+ 0001:000018B0       FMX.Canvas.D2D.TCanvasD2D.Destroy@
+ 0001:000018B8       FMX.Canvas.D2D.TTextLayoutD2D.Destroy@
+ 0001:000018C0       FMX.Canvas.D2D.TCustomBitmapCodecWIC.DestroySharedResources@
+ 0001:000018C8       FMX.Canvas.D2D.Finalization
+ 0001:000018D0       FMX.Canvas.GPU.Helpers.Finalization
+ 0001:000018D8       FMX.TextLayout.GPU.Finalization
+ 0001:000018E0       FMX.Canvas.GPU.Finalization
+ 0001:000018E8       FMX.Context.DX9.TCustomDX9Context.Destroy@
+ 0001:000018F0       FMX.Context.DX9.TDX9Context.Destroy@
+ 0001:000018F8       FMX.Context.DX11.TCustomDX11Context.Destroy@
+ 0001:00001900       FMX.Context.DX11.TDX11Context.Destroy@
+ 0001:00001908       FMX.ListBox.Finalization
+ 0001:00001910       FMX.DateTimeCtrls.Types.Finalization
+ 0001:00001918       FMX.DateTimeCtrls.Finalization
+ 0001:00001920       FMX.Calendar.Style.Finalization
+ 0001:00001928       FMX.Calendar.Finalization
+ 0001:00001930       FMX.Pickers.Finalization
+ 0001:00001938       FMX.ExtCtrls.Finalization
+ 0001:00001940       System.Win.InternetExplorer.Finalization
+ 0001:00001948       FMX.WebBrowser.Finalization
+ 0001:00001950       FMX.Platform.Win.Finalization
+ 0001:00001958       FMX.Clipboard.Win.Finalization
+ 0001:00001960       FMX.Platform.Finalization
+ 0001:00001968       FMX.Types.Log.Destroy@
+ 0001:00001970       FMX.Types.TFmxObject.Destroy@
+ 0001:00001978       FMX.Types.TFmxObject.BeforeDestruction
+ 0001:00001980       FMX.Types.TFmxObject.Release
+ 0001:00001988       FMX.Types.TFmxObject.ItemClass
+ 0001:00001990       FMX.Types.TFmxObject.RemoveObject
+ 0001:00001998       FMX.Types.TFmxObject.FreeNotification
+ 0001:000019A0       FMX.Types.TFmxObject.IsChild
+ 0001:000019A8       FMX.Types.TFmxObject.ContainsObject
+ 0001:000019B0       FMX.Types.TFmxObject.SupportsPlatformService
+ 0001:000019B8       FMX.Types.TFmxObject.DoRootChanged
+ 0001:000019C0       FMX.Types.TFmxObject.DoRootChanging
+ 0001:000019C8       FMX.Types.TFmxObject.SetParent
+ 0001:000019D0       FMX.Types.TFmxObject.GetChildrenCount
+ 0001:000019D8       FMX.Types.TFmxObject.GetData
+ 0001:000019E0       FMX.Types.TFmxObject.SetData
+ 0001:000019E8       FMX.Types.TFmxObject.InitiateAction
+ 0001:000019F0       FMX.Types.TFmxObject.DoActionChange
+ 0001:000019F8       FMX.Types.TFmxObject.DoActionClientChanged
+ 0001:00001A00       FMX.Types.TFmxObject.GetBackIndex
+ 0001:00001A08       FMX.Types.TFmxObject.SearchInto
+ 0001:00001A10       FMX.Types.TFmxObject.FindStyleResource
+ 0001:00001A18       FMX.Types.TFmxObject.CreateChildrenList
+ 0001:00001A20       FMX.Types.TFmxObject.AddObject
+ 0001:00001A28       FMX.Types.TFmxObject.AddToResourcePool
+ 0001:00001A30       FMX.Types.TFmxObject.RemoveFromResourcePool
+ 0001:00001A38       FMX.Types.TFmxObject.Sort
+ 0001:00001A40       FMX.Types.TFmxObject.Exchange
+ 0001:00001A48       FMX.Types.TFmxObject.BringToFront
+ 0001:00001A50       FMX.Types.TFmxObject.SendToBack
+ 0001:00001A58       FMX.Types.Finalization
+ 0001:00001A60       FMX.Header.Finalization
+ 0001:00001A68       FMX.Forms.TCommonCustomForm.SetBorderStyle
+ 0001:00001A70       FMX.Forms.Finalization
+ 0001:00001A78       System.JSON.Finalization
+ 0001:00001A80       System.Win.Registry.TRegistry.Destroy@
+ 0001:00001A88       Vcl.Graphics.TWICImage.Destroy@
+ 0001:00001A90       Vcl.Graphics.Finalization
+ 0001:00001A98       Vcl.ActnList.Finalization
+ 0001:00001AA0       Vcl.GraphUtil.Finalization
+ 0001:00001AA8       Vcl.Controls.Finalization
+ 0001:00001AB0       Vcl.StdCtrls.TCustomGroupBox.Destroy@
+ 0001:00001AB8       Vcl.StdCtrls.TCustomEdit.Destroy@
+ 0001:00001AC0       Vcl.StdCtrls.TCustomMemo.Destroy@
+ 0001:00001AC8       Vcl.StdCtrls.TCustomComboBox.Destroy@
+ 0001:00001AD0       Vcl.StdCtrls.TCustomButton.Destroy@
+ 0001:00001AD8       Vcl.StdCtrls.TCustomCheckBox.Destroy@
+ 0001:00001AE0       Vcl.StdCtrls.TRadioButton.Destroy@
+ 0001:00001AE8       Vcl.StdCtrls.TCustomListBox.Destroy@
+ 0001:00001AF0       Vcl.StdCtrls.TScrollBar.Destroy@
+ 0001:00001AF8       Vcl.StdCtrls.TCustomStaticText.Destroy@
+ 0001:00001B00       Vcl.StdCtrls.TGroupBox.Destroy@
+ 0001:00001B08       Vcl.StdCtrls.TEdit.Destroy@
+ 0001:00001B10       Vcl.StdCtrls.TMemo.Destroy@
+ 0001:00001B18       Vcl.StdCtrls.TComboBox.Destroy@
+ 0001:00001B20       Vcl.StdCtrls.TButton.Destroy@
+ 0001:00001B28       Vcl.StdCtrls.TCheckBox.Destroy@
+ 0001:00001B30       Vcl.StdCtrls.TListBox.Destroy@
+ 0001:00001B38       Vcl.StdCtrls.TStaticText.Destroy@
+ 0001:00001B40       Vcl.Printers.Finalization
+ 0001:00001B48       Vcl.Clipbrd.Finalization
+ 0001:00001B50       Vcl.ComCtrls.TCustomTabControl.Destroy@
+ 0001:00001B58       Vcl.ComCtrls.TTabControl.Destroy@
+ 0001:00001B60       Vcl.ComCtrls.TCustomStatusBar.Destroy@
+ 0001:00001B68       Vcl.ComCtrls.TCustomHeaderControl.Destroy@
+ 0001:00001B70       Vcl.ComCtrls.TCustomTreeView.Destroy@
+ 0001:00001B78       Vcl.ComCtrls.TTreeView.Destroy@
+ 0001:00001B80       Vcl.ComCtrls.TTrackBar.Destroy@
+ 0001:00001B88       Vcl.ComCtrls.TProgressBar.Destroy@
+ 0001:00001B90       Vcl.ComCtrls.TCustomRichEdit.Destroy@
+ 0001:00001B98       Vcl.ComCtrls.TRichEdit.Destroy@
+ 0001:00001BA0       Vcl.ComCtrls.TCustomUpDown.Destroy@
+ 0001:00001BA8       Vcl.ComCtrls.TUpDown.Destroy@
+ 0001:00001BB0       Vcl.ComCtrls.TCustomHotKey.Destroy@
+ 0001:00001BB8       Vcl.ComCtrls.THotKey.Destroy@
+ 0001:00001BC0       Vcl.ComCtrls.TCustomListView.Destroy@
+ 0001:00001BC8       Vcl.ComCtrls.TListView.Destroy@
+ 0001:00001BD0       Vcl.ComCtrls.TToolBar.Destroy@
+ 0001:00001BD8       Vcl.ComCtrls.TCoolBar.Destroy@
+ 0001:00001BE0       Vcl.ComCtrls.TDateTimePicker.Destroy@
+ 0001:00001BE8       Vcl.ComCtrls.TPageScroller.Destroy@
+ 0001:00001BF0       Vcl.ComCtrls.TCustomComboBoxEx.Destroy@
+ 0001:00001BF8       Vcl.ComCtrls.TComboBoxEx.Destroy@
+ 0001:00001C00       Vcl.ComCtrls.TStatusBar.Destroy@
+ 0001:00001C08       Vcl.ComCtrls.THeaderControl.Destroy@
+ 0001:00001C10       Vcl.ComCtrls.Finalization
+ 0001:00001C18       System.HelpIntfs.Finalization
+ 0001:00001C20       Vcl.Dialogs.Finalization
+ 0001:00001C28       Vcl.ExtCtrls.TCustomCategoryPanelGroup.Destroy@
+ 0001:00001C30       Vcl.ExtCtrls.TCategoryPanelGroup.Destroy@
+ 0001:00001C38       Vcl.ExtCtrls.TCustomLinkLabel.Destroy@
+ 0001:00001C40       Vcl.ExtCtrls.TLinkLabel.Destroy@
+ 0001:00001C48       Vcl.ExtCtrls.Finalization
+ 0001:00001C50       Vcl.Themes.TStyleManager.Destroy@
+ 0001:00001C58       Vcl.Themes.TCustomStyleEngine.Destroy@
+ 0001:00001C60       Vcl.Menus.Finalization
+ 0001:00001C68       Winapi.FlatSB.Finalization
+ 0001:00001C70       Vcl.Forms.TScrollBox.Destroy@
+ 0001:00001C78       Vcl.Forms.TCustomForm.Destroy@
+ 0001:00001C80       Vcl.Forms.TForm.Destroy@
+ 0001:00001C88       Vcl.Forms.Finalization
+ 0001:00001C90       MVCBr.ApplicationController.TApplicationController.Destroy@
+ 0001:00001C98       MVCBr.ApplicationController.Finalization
+ 0001:00001CA0       MVCBr.IoC.TClassActivator.Destroy@
+ 0001:00001CA8       MVCBr.IoC.Finalization
+ 0001:00001CB0       MVCBr.Observable.Finalization
+ 0001:00001CB8       MVCBr.Interf.TControllerAbstract.RevokeInstance
+ 0001:00001CC0       MVCBr.Component.TComponentFactory.AfterInit
+ 0001:00001CC8       MVCBr.Component.TComponentFactory.ApplicationController
+ 0001:00001CD0       MVCBr.Component.TComponentFactory.ApplicationControllerInternal
+ 0001:00001CD8       MVCBr.Component.TComponentFactory.Controller
+ 0001:00001CE0       MVCBr.Component.TComponentFactory.Create
+ 0001:00001CE8       MVCBr.Component.TComponentFactory.GetController
+ 0001:00001CF0       MVCBr.Component.TComponentFactory.GetID
+ 0001:00001CF8       MVCBr.Component.TComponentFactory.ID
+ 0001:00001D00       MVCBr.Component.TComponentFactory.Release
+ 0001:00001D08       MVCBr.Component.TComponentFactory.ResolveController
+ 0001:00001D10       MVCBr.Component.TComponentFactory.SetController
+ 0001:00001D18       MVCBr.Component.TComponentFactory.This
+ 0001:00001D20       MVCBr.Component.TComponentFactory.Update
+ 0001:00001D28       MVCBr.Component.TComponentFactory.Update
+ 0001:00001D30       MVCBr.MiddlewareFactory.Finalization
+ 0001:00001D38       MVCBr.FormView.TCustomFormFactory.SetShowModal
+ 0001:00001D40       MVCBr.FormView.TViewFactoryAdapter.Form
+ 0001:00001D48       MVCBr.PageView.TPageView.GetOwner
+ 0001:00001D50       MVCBr.PageView.TPageView.GetTab
+ 0001:00001D58       MVCBr.PageView.TPageView.GetText
+ 0001:00001D60       MVCBr.PageView.TPageView.GetView
+ 0001:00001D68       MVCBr.PageView.TPageView.SetText
+ 0001:00001D70       MVCBr.PageView.TPageView.This
+ 0001:00001D78       MVCBr.PageView.TCustomPageViewFactory.AddView
+ 0001:00001D80       MVCBr.PageView.TCustomPageViewFactory.ActivePage
+ 0001:00001D88       MVCBr.PageView.TCustomPageViewFactory.AddForm
+ 0001:00001D90       MVCBr.PageView.TCustomPageViewFactory.AddView
+ 0001:00001D98       MVCBr.PageView.TCustomPageViewFactory.AddView
+ 0001:00001DA0       MVCBr.PageView.TCustomPageViewFactory.AddView
+ 0001:00001DA8       MVCBr.PageView.TCustomPageViewFactory.AfterConstruction
+ 0001:00001DB0       MVCBr.PageView.TCustomPageViewFactory.DoQueryClose
+ 0001:00001DB8       MVCBr.PageView.TCustomPageViewFactory.DoViewCreate
+ 0001:00001DC0       MVCBr.PageView.TCustomPageViewFactory.Count
+ 0001:00001DC8       MVCBr.PageView.TCustomPageViewFactory.Destroy
+ 0001:00001DD0       MVCBr.PageView.TCustomPageViewFactory.IndexOf
+ 0001:00001DD8       MVCBr.PageView.TCustomPageViewFactory.FindView
+ 0001:00001DE0       MVCBr.PageView.TCustomPageViewFactory.FindView
+ 0001:00001DE8       MVCBr.PageView.TCustomPageViewFactory.FindViewByClassName
+ 0001:00001DF0       MVCBr.PageView.TCustomPageViewFactory.FindViewByID
+ 0001:00001DF8       MVCBr.PageView.TCustomPageViewFactory.GetItems
+ 0001:00001E00       MVCBr.PageView.TCustomPageViewFactory.GetPageContainer
+ 0001:00001E08       MVCBr.PageView.TCustomPageViewFactory.GetPageViewClass
+ 0001:00001E10       MVCBr.PageView.TCustomPageViewFactory.NewItem
+ 0001:00001E18       MVCBr.PageView.TCustomPageViewFactory.Notification
+ 0001:00001E20       MVCBr.PageView.TCustomPageViewFactory.Remove
+ 0001:00001E28       MVCBr.PageView.TCustomPageViewFactory.Remove
+ 0001:00001E30       MVCBr.PageView.TCustomPageViewFactory.SetActivePage
+ 0001:00001E38       MVCBr.PageView.TCustomPageViewFactory.SetActivePageIndex
+ 0001:00001E40       MVCBr.PageView.TCustomPageViewFactory.SetAfterViewCreate
+ 0001:00001E48       MVCBr.PageView.TCustomPageViewFactory.SetItems
+ 0001:00001E50       MVCBr.PageView.TCustomPageViewFactory.SetPageContainer
+ 0001:00001E58       MVCBr.PageView.TCustomPageViewFactory.ViewEvent
+ 0001:00001E60       MVCBr.PageView.TCustomPageViewFactory.ViewEvent
+ 0001:00001E68       FMX.TabControl.TTabItem.Create
+ 0001:00001E70       FMX.TabControl.TTabItem.Destroy
+ 0001:00001E78       FMX.TabControl.TTabItem.DefineProperties
+ 0001:00001E80       FMX.TabControl.TTabItem.DoAddObject
+ 0001:00001E88       FMX.TabControl.TTabItem.ApplyStyle
+ 0001:00001E90       FMX.TabControl.TTabItem.FindTextObject
+ 0001:00001E98       FMX.TabControl.TTabItem.FreeStyle
+ 0001:00001EA0       FMX.TabControl.TTabItem.Loaded
+ 0001:00001EA8       FMX.TabControl.TTabItem.DoChanged
+ 0001:00001EB0       FMX.TabControl.TTabItem.MouseDown
+ 0001:00001EB8       FMX.TabControl.TTabItem.MouseClick
+ 0001:00001EC0       FMX.TabControl.TTabItem.DblClick
+ 0001:00001EC8       FMX.TabControl.TTabItem.MouseUp
+ 0001:00001ED0       FMX.TabControl.TTabItem.CMGesture
+ 0001:00001ED8       FMX.TabControl.TTabItem.KeyDown
+ 0001:00001EE0       FMX.TabControl.TTabItem.DoSetSize
+ 0001:00001EE8       FMX.TabControl.TTabItem.PaintChildren
+ 0001:00001EF0       FMX.TabControl.TTabItem.Painting
+ 0001:00001EF8       FMX.TabControl.TTabItem.Paint
+ 0001:00001F00       FMX.TabControl.TTabItem.DoPaint
+ 0001:00001F08       FMX.TabControl.TTabItem.AfterPaint
+ 0001:00001F10       FMX.TabControl.TTabItem.ParentChanged
+ 0001:00001F18       FMX.TabControl.TTabItem.SetText
+ 0001:00001F20       FMX.TabControl.TTabItem.Show
+ 0001:00001F28       FMX.TabControl.TTabItem.TriggerAcceleratorKey
+ 0001:00001F30       FMX.TabControl.TTabItem.ImageIndexStored
+ 0001:00001F38       FMX.TabControl.TTabItem.ImagesChanged
+ 0001:00001F40       FMX.TabControl.TTabItem.GetDefaultStyleLookupName
+ 0001:00001F48       FMX.TabControl.TTabItem.GetTabList
+ 0001:00001F50       FMX.TabControl.TTabItem.GetTextSettingsClass
+ 0001:00001F58       FMX.TabControl.TTabItem.Hide
+ 0001:00001F60       FMX.TabControl.TTabControl.SetActiveTab
+ 0001:00001F68       FMX.TabControl.Finalization
+ 0001:00002208       MVCBr.FMX.PageView..TFMXPageViewManager
+ 0001:000026C0       MVCBr.FMX.PageView.register
+ 0001:000026F4       MVCBr.FMX.PageView.TFMXPageViewManager.AddView
+ 0001:00002744       MVCBr.FMX.PageView.TFMXPageViewManager.AddView
+ 0001:0000274C       MVCBr.FMX.PageView.TFMXPageViewManager.DoQueryClose
+ 0001:0000277C       MVCBr.FMX.PageView.TFMXPageViewManager.DoPageChange
+ 0001:000027A4       MVCBr.FMX.PageView.TFMXPageViewManager.GetPageContainerClass
+ 0001:000027AC       MVCBr.FMX.PageView.TFMXPageViewManager.GetTabControl
+ 0001:000027B0       MVCBr.FMX.PageView..TTabItemView
+ 0001:00002CDC       MVCBr.FMX.PageView.TTabItemView.CanClose
+ 0001:00002D7C       MVCBr.FMX.PageView.TTabItemView.Create
+ 0001:00002DF4       MVCBr.FMX.PageView.TTabItemView.Destroy
+ 0001:00002E4C       MVCBr.FMX.PageView.TTabItemView.SetPageView
+ 0001:00002E54       MVCBr.FMX.PageView.TFMXPageViewManager.GetPageTabClass
+ 0001:00002E5C       MVCBr.FMX.PageView.TFMXPageViewManager.Init
+ 0001:00003020       MVCBr.FMX.PageView.TFMXPageViewManager.New
+ 0001:000030A0       MVCBr.FMX.PageView.TFMXPageViewManager.NewTab
+ 0001:00003148       MVCBr.FMX.PageView.TFMXPageViewManager.SetActivePage
+ 0001:00003168       MVCBr.FMX.PageView.TFMXPageViewManager.Notification
+ 0001:00003170       MVCBr.FMX.PageView.TFMXPageViewManager.SetAfterCreate
+ 0001:0000318C       MVCBr.FMX.PageView.TFMXPageViewManager.SetAfterTabCreate
+ 0001:000031A0       MVCBr.FMX.PageView.TFMXPageViewManager.SetOnQueryClose
+ 0001:000031B4       MVCBr.FMX.PageView.TFMXPageViewManager.SetTabControl
+ 0001:000031E8       MVCBr.FMX.PageView.TFMXPageViewManager.Update
+ 0001:00003210       MVCBr.FMX.PageView.Finalization
+ 0001:00003298       MVCBr.FMX.LayoutViewManager..TLayoutTabItem
+ 0001:00003970       MVCBr.FMX.LayoutViewManager..TFMXLayoutViewManager
+ 0001:00003EC4       MVCBr.FMX.LayoutViewManager.register
+ 0001:00003EF8       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.AddView
+ 0001:00003F48       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.AddView
+ 0001:00003F50       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.Create
+ 0001:00003F88       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.Destroy
+ 0001:00003FAC       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.DoQueryClose
+ 0001:00003FDC       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.DoPageChange
+ 0001:00003FF0       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.GetActiveTab
+ 0001:0000406C       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.GetPageContainerClass
+ 0001:00004074       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.GetLayoutContainer
+ 0001:00004088       MVCBr.FMX.LayoutViewManager.TLayoutTabItem.CanClose
+ 0001:00004128       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.GetPageTabClass
+ 0001:00004130       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.Init
+ 0001:0000440C       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.New
+ 0001:0000448C       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.NewTab
+ 0001:00004540       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.SetAfterCreate
+ 0001:0000455C       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.SetAfterTabCreate
+ 0001:00004570       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.SetOnQueryClose
+ 0001:00004584       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.SetLayoutContainer
+ 0001:00004588       MVCBr.FMX.LayoutViewManager.TFMXLayoutViewManager.Update
+ 0001:000045A0       MVCBr.FMX.LayoutViewManager.TLayoutTabItem.Create
+ 0001:00004638       MVCBr.FMX.LayoutViewManager.TLayoutTabItem.Destroy
+ 0001:00004678       MVCBr.FMX.LayoutViewManager.Finalization
+ 0001:00004680       MVCBr.FMX.LayoutViewManager.{System.ThreadSafe}TThreadSafeObjectList<MVCBr.PageView.TPageView>.Getitems
+ 0001:000046D4       MVCBr.FMX.LayoutViewManager.{System.ThreadSafe}TThreadSafeObjectList<MVCBr.PageView.TPageView>.LockList
+ 0001:000046E4       MVCBr.FMX.LayoutViewManager.{System.ThreadSafe}TThreadSafeObjectList<MVCBr.PageView.TPageView>.UnlockList
+ 0001:000046F0       MVCBr.FMX.LayoutViewManager.{System.Generics.Collections}TList<MVCBr.PageView.TPageView>.GetItem
+ 0001:00005240       .MVCBrFMX.@GetPackageInfoTable
+ 0001:00005248       .MVCBrFMX.@PackageLoad
+ 0001:00005254       .MVCBrFMX.@PackageUnload
+ 0002:00000000       System.System
+ 0002:00000008       SysInit.SysInit
+ 0002:00000010       Winapi.Windows.Winapi.Windows
+ 0002:00000028       Winapi.PsAPI.Winapi.PsAPI
+ 0002:00000030       System.Character.System.Character
+ 0002:00000038       System.Internal.ExcUtils.System.Internal.ExcUtils
+ 0002:00000040       System.SysUtils.TLanguages.Create@
+ 0002:00000048       System.SysUtils.TEncoding.Create@
+ 0002:00000050       System.SysUtils.Exception.Create@
+ 0002:00000058       System.SysUtils.TOSVersion.Create@
+ 0002:00000060       System.SysUtils.System.SysUtils
+ 0002:00000068       System.VarUtils.System.VarUtils
+ 0002:00000070       System.Variants.System.Variants
+ 0002:00000078       System.Rtti.TRttiContext.Create@
+ 0002:00000080       System.Rtti.System.Rtti
+ 0002:00000088       System.TypInfo.System.TypInfo
+ 0002:00000090       System.Math.System.Math
+ 0002:00000098       System.Generics.Defaults.TStringComparer.Create@
+ 0002:000000A0       System.Generics.Defaults.TIStringComparer.Create@
+ 0002:000000A8       System.Classes.TObserverMapping.Create@
+ 0002:000000B0       System.Classes.TBinaryWriter.Create@
+ 0002:000000B8       System.Classes.TThread.Create@
+ 0002:000000C0       System.Classes.TComponent.Create@
+ 0002:000000C8       System.Classes.TLoginCredentialService.Create@
+ 0002:000000D0       System.Classes.TBaseAsyncResult.Create@
+ 0002:000000D8       System.Classes.System.Classes
+ 0002:000000E0       System.Messaging.TMessageManager.Create@
+ 0002:000000E8       System.Actions.System.Actions
+ 0002:000000F0       System.Devices.TDeviceInfo.Create@
+ 0002:000000F8       FMX.DialogService.Sync.TDialogServiceSync.Create@
+ 0002:00000100       FMX.Dialogs.FMX.Dialogs
+ 0002:00000108       FMX.TextLayout.FMX.TextLayout
+ 0002:00000110       FMX.Utils.FMX.Utils
+ 0002:00000118       FMX.Graphics.TStrokeBrush.Create@
+ 0002:00000120       FMX.Graphics.TFont.Create@
+ 0002:00000128       FMX.Graphics.FMX.Graphics
+ 0002:00000130       FMX.Text.TTextWordWrappingImpl.Create@
+ 0002:00000138       FMX.BehaviorManager.TBehaviorServices.Create@
+ 0002:00000140       FMX.Styles.FMX.Styles
+ 0002:00000148       FMX.Types3D.TContext3D.Create@
+ 0002:00000150       FMX.Types3D.FMX.Types3D
+ 0002:00000158       FMX.Filter.FMX.Filter
+ 0002:00000160       FMX.Filter.Custom.FMX.Filter.Custom
+ 0002:00000168       FMX.Effects.FMX.Effects
+ 0002:00000170       FMX.MultiResBitmap.FMX.MultiResBitmap
+ 0002:00000178       FMX.Ani.FMX.Ani
+ 0002:00000180       System.TimeSpan.TTimeSpan.Create@
+ 0002:00000188       System.DateUtils.TTimeZone.Create@
+ 0002:00000190       System.DateUtils.System.DateUtils
+ 0002:00000198       System.IOUtils.TPath.Create@
+ 0002:000001A0       FMX.ImgList.FMX.ImgList
+ 0002:000001A8       Winapi.D2D1.Winapi.D2D1
+ 0002:000001B0       System.SyncObjs.System.SyncObjs
+ 0002:000001B8       Winapi.UxTheme.Winapi.UxTheme
+ 0002:000001C0       FMX.DialogService.TDialogService.ClassCreate@
+ 0002:000001C8       FMX.Menus.FMX.Menus
+ 0002:000001D0       System.AnsiStrings.System.AnsiStrings
+ 0002:000001D8       System.Win.ComObj.TComServerObject.Create@
+ 0002:000001E0       System.Win.ComObj.System.Win.ComObj
+ 0002:000001E8       Winapi.MsCTF.Winapi.MsCTF
+ 0002:000001F8       FMX.Helpers.Win.TImeModeHelper.Create@
+ 0002:00000200       FMX.Helpers.Win.FMX.Helpers.Win
+ 0002:00000208       FMX.FontGlyphs.FMX.FontGlyphs
+ 0002:00000210       FMX.Objects.FMX.Objects
+ 0002:00000218       FMX.Gestures.Win.TPlatformGestureEngine.Create@
+ 0002:00000220       FMX.Gestures.TGestureManager.Create@
+ 0002:00000228       FMX.Gestures.TGestureEngine.Create@
+ 0002:00000230       FMX.Gestures.FMX.Gestures
+ 0002:00000238       FMX.Controls.THint.Create@
+ 0002:00000240       FMX.Controls.TControl.Create@
+ 0002:00000248       FMX.Controls.FMX.Controls
+ 0002:00000250       Winapi.GDIPOBJ.Winapi.GDIPOBJ
+ 0002:00000258       FMX.Canvas.GDIP.FMX.Canvas.GDIP
+ 0002:00000260       FMX.Printer.FMX.Printer
+ 0002:00000268       FMX.Presentation.Factory.TPresentationProxyFactory.Create@
+ 0002:00000270       FMX.Controls.Win.FMX.Controls.Win
+ 0002:00000278       FMX.Presentation.Win.TWinView.Create@
+ 0002:00000280       FMX.Presentation.Win.Style.TWinStyledPresentation.Create@
+ 0002:00000288       FMX.Presentation.Win.Style.FMX.Presentation.Win.Style
+ 0002:00000290       FMX.Controls.Presentation.FMX.Controls.Presentation
+ 0002:00000298       FMX.Styles.Objects.FMX.Styles.Objects
+ 0002:000002A0       FMX.Styles.Switch.FMX.Styles.Switch
+ 0002:000002A8       FMX.Switch.Style.FMX.Switch.Style
+ 0002:000002B0       FMX.Switch.Win.FMX.Switch.Win
+ 0002:000002B8       FMX.StdCtrls.FMX.StdCtrls
+ 0002:000002C0       FMX.InertialMovement.FMX.InertialMovement
+ 0002:000002C8       FMX.Layouts.FMX.Layouts
+ 0002:000002D0       FMX.MagnifierGlass.FMX.MagnifierGlass
+ 0002:000002D8       FMX.Edit.Style.FMX.Edit.Style
+ 0002:000002E0       FMX.Edit.Win.FMX.Edit.Win
+ 0002:000002E8       FMX.Edit.FMX.Edit
+ 0002:000002F0       FMX.DialogHelper.FMX.DialogHelper
+ 0002:000002F8       FMX.Dialogs.Win.FMX.Dialogs.Win
+ 0002:00000300       FMX.Canvas.D2D.TCustomBitmapCodecWIC.Create@
+ 0002:00000308       FMX.Canvas.D2D.TCustomCanvasD2D.Create@
+ 0002:00000310       FMX.Canvas.D2D.TCanvasD2D.Create@
+ 0002:00000318       FMX.Canvas.D2D.TTextLayoutD2D.Create@
+ 0002:00000320       FMX.Canvas.D2D.FMX.Canvas.D2D
+ 0002:00000328       FMX.Canvas.GPU.Helpers.FMX.Canvas.GPU.Helpers
+ 0002:00000330       FMX.TextLayout.GPU.FMX.TextLayout.GPU
+ 0002:00000338       FMX.Canvas.GPU.FMX.Canvas.GPU
+ 0002:00000340       FMX.Context.DX9.TCustomDX9Context.Create@
+ 0002:00000348       FMX.Context.DX9.TDX9Context.Create@
+ 0002:00000350       FMX.Context.DX11.TCustomDX11Context.Create@
+ 0002:00000358       FMX.Context.DX11.TDX11Context.Create@
+ 0002:00000360       FMX.ListBox.FMX.ListBox
+ 0002:00000368       FMX.DateTimeCtrls.Types.FMX.DateTimeCtrls.Types
+ 0002:00000370       FMX.DateTimeCtrls.FMX.DateTimeCtrls
+ 0002:00000378       FMX.Calendar.Style.FMX.Calendar.Style
+ 0002:00000380       FMX.Calendar.FMX.Calendar
+ 0002:00000388       FMX.Pickers.FMX.Pickers
+ 0002:00000390       FMX.ExtCtrls.FMX.ExtCtrls
+ 0002:00000398       System.Win.InternetExplorer.System.Win.InternetExplorer
+ 0002:000003A0       FMX.WebBrowser.FMX.WebBrowser
+ 0002:000003A8       FMX.Platform.Win.FMX.Platform.Win
+ 0002:000003B0       FMX.Clipboard.Win.FMX.Clipboard.Win
+ 0002:000003B8       FMX.Platform.FMX.Platform
+ 0002:000003C0       FMX.Types.Log.Create@
+ 0002:000003C8       FMX.Types.TFmxObject.Create@
+ 0002:000003D0       FMX.Types.FMX.Types
+ 0002:000003D8       FMX.Header.FMX.Header
+ 0002:000003E0       FMX.Forms.FMX.Forms
+ 0002:000003E8       System.JSON.System.JSON
+ 0002:000003F0       System.Win.Registry.TRegistry.Create@
+ 0002:000003F8       Vcl.Graphics.TWICImage.Create@
+ 0002:00000400       Vcl.Graphics.Vcl.Graphics
+ 0002:00000408       Vcl.ActnList.Vcl.ActnList
+ 0002:00000410       Vcl.GraphUtil.Vcl.GraphUtil
+ 0002:00000418       Vcl.Controls.Vcl.Controls
+ 0002:00000420       Vcl.StdCtrls.TCustomGroupBox.Create@
+ 0002:00000428       Vcl.StdCtrls.TCustomEdit.Create@
+ 0002:00000430       Vcl.StdCtrls.TCustomMemo.Create@
+ 0002:00000438       Vcl.StdCtrls.TCustomComboBox.Create@
+ 0002:00000440       Vcl.StdCtrls.TCustomButton.Create@
+ 0002:00000448       Vcl.StdCtrls.TCustomCheckBox.Create@
+ 0002:00000450       Vcl.StdCtrls.TRadioButton.Create@
+ 0002:00000458       Vcl.StdCtrls.TCustomListBox.Create@
+ 0002:00000460       Vcl.StdCtrls.TScrollBar.Create@
+ 0002:00000468       Vcl.StdCtrls.TCustomStaticText.Create@
+ 0002:00000470       Vcl.StdCtrls.TGroupBox.Create@
+ 0002:00000478       Vcl.StdCtrls.TEdit.Create@
+ 0002:00000480       Vcl.StdCtrls.TMemo.Create@
+ 0002:00000488       Vcl.StdCtrls.TComboBox.Create@
+ 0002:00000490       Vcl.StdCtrls.TButton.Create@
+ 0002:00000498       Vcl.StdCtrls.TCheckBox.Create@
+ 0002:000004A0       Vcl.StdCtrls.TListBox.Create@
+ 0002:000004A8       Vcl.StdCtrls.TStaticText.Create@
+ 0002:000004B0       Vcl.Printers.Vcl.Printers
+ 0002:000004B8       Vcl.Clipbrd.Vcl.Clipbrd
+ 0002:000004C0       Vcl.ComCtrls.TCustomTabControl.Create@
+ 0002:000004C8       Vcl.ComCtrls.TTabControl.Create@
+ 0002:000004D0       Vcl.ComCtrls.TCustomStatusBar.Create@
+ 0002:000004D8       Vcl.ComCtrls.TCustomHeaderControl.Create@
+ 0002:000004E0       Vcl.ComCtrls.TCustomTreeView.Create@
+ 0002:000004E8       Vcl.ComCtrls.TTreeView.Create@
+ 0002:000004F0       Vcl.ComCtrls.TTrackBar.Create@
+ 0002:000004F8       Vcl.ComCtrls.TProgressBar.Create@
+ 0002:00000500       Vcl.ComCtrls.TCustomRichEdit.Create@
+ 0002:00000508       Vcl.ComCtrls.TRichEdit.Create@
+ 0002:00000510       Vcl.ComCtrls.TCustomUpDown.Create@
+ 0002:00000518       Vcl.ComCtrls.TUpDown.Create@
+ 0002:00000520       Vcl.ComCtrls.TCustomHotKey.Create@
+ 0002:00000528       Vcl.ComCtrls.THotKey.Create@
+ 0002:00000530       Vcl.ComCtrls.TCustomListView.Create@
+ 0002:00000538       Vcl.ComCtrls.TListView.Create@
+ 0002:00000540       Vcl.ComCtrls.TToolBar.Create@
+ 0002:00000548       Vcl.ComCtrls.TCoolBar.Create@
+ 0002:00000550       Vcl.ComCtrls.TDateTimePicker.Create@
+ 0002:00000558       Vcl.ComCtrls.TPageScroller.Create@
+ 0002:00000560       Vcl.ComCtrls.TCustomComboBoxEx.Create@
+ 0002:00000568       Vcl.ComCtrls.TComboBoxEx.Create@
+ 0002:00000570       Vcl.ComCtrls.TStatusBar.Create@
+ 0002:00000578       Vcl.ComCtrls.THeaderControl.Create@
+ 0002:00000580       Vcl.ComCtrls.Vcl.ComCtrls
+ 0002:00000588       System.HelpIntfs.System.HelpIntfs
+ 0002:00000590       Vcl.Dialogs.Vcl.Dialogs
+ 0002:00000598       Vcl.ExtCtrls.TCustomCategoryPanelGroup.Create@
+ 0002:000005A0       Vcl.ExtCtrls.TCategoryPanelGroup.Create@
+ 0002:000005A8       Vcl.ExtCtrls.TCustomLinkLabel.Create@
+ 0002:000005B0       Vcl.ExtCtrls.TLinkLabel.Create@
+ 0002:000005B8       Vcl.ExtCtrls.Vcl.ExtCtrls
+ 0002:000005C0       Vcl.Themes.TStyleManager.Create@
+ 0002:000005C8       Vcl.Themes.TCustomStyleEngine.Create@
+ 0002:000005D0       Vcl.Menus.Vcl.Menus
+ 0002:000005D8       Winapi.FlatSB.Winapi.FlatSB
+ 0002:000005E0       Vcl.Forms.TScrollBox.Create@
+ 0002:000005E8       Vcl.Forms.TCustomForm.Create@
+ 0002:000005F0       Vcl.Forms.TForm.Create@
+ 0002:000005F8       Vcl.Forms.Vcl.Forms
+ 0002:00000600       MVCBr.ApplicationController.TApplicationController.Create@
+ 0002:00000608       MVCBr.ApplicationController.MVCBr.ApplicationController
+ 0002:00000610       MVCBr.IoC.TClassActivator.Create@
+ 0002:00000618       MVCBr.IoC.MVCBr.IoC
+ 0002:00000620       MVCBr.Observable.MVCBr.Observable
+ 0002:00000628       MVCBr.MiddlewareFactory.MVCBr.MiddlewareFactory
+ 0002:00000630       FMX.TabControl.FMX.TabControl
+ 0002:00000638       MVCBr.FMX.PageView.MVCBr.FMX.PageView
+ 0002:00000640       MVCBr.FMX.LayoutViewManager.MVCBr.FMX.LayoutViewManager
+ 0002:00000648       .MVCBrFMX..MVCBrFMX
+ 0003:00000000       SysInit.TlsIndex
+ 0003:00000004       SysInit.PtrToNil
+ 0003:00000008       SysInit.Module
+ 0003:00000024       SysInit.TlsProc
+ 0003:00000034       SysInit...
+ 0003:00000088       Winapi.Windows.Win32MajorVersion
+ 0003:0000008C       Winapi.Windows.Win32MinorVersion
+ 0003:00000090       Winapi.Windows.Win32Platform
+ 0003:00000094       Winapi.MsCTF.MsCTFHandle
+ 0004:FFFF7000       SysInit.__ImageBase
+ 0004:00000000       SysInit.ModuleIsLib
+ 0004:00000001       SysInit.ModuleIsPackage
+ 0004:00000004       SysInit.HInstance
+ 0004:0000000C       SysInit.dbkFCallWrapperAddr
+ 0004:00000010       SysInit.@_pfnDliNotifyHook2
+ 0004:00000014       SysInit.@_pfnDliFailureHook2
+ 0004:00000018       SysInit..1
+ 0004:0000001C       SysInit.tlsBuffer
+ 0004:00000020       Winapi.Windows..2
+ 0004:00000024       Winapi.Windows.HtmlHelpModule
+ 0004:00000028       Winapi.PsAPI..1
+ 0004:0000002C       Winapi.PsAPI.hPSAPI
+ 0004:00000030       Winapi.MsCTF..1
+ 0004:00000034       MVCBr.FMX.PageView..2
+ 0004:00000038       MVCBr.FMX.LayoutViewManager..3
+ 0005:00000000       SysInit.TlsLast
+
+
+Line numbers for MVCBr.FMX.PageView(MVCBr.FMX.PageView.pas) segment .text
+
+    61 0001:000026C0    62 0001:000026C1    63 0001:000026D7    68 0001:000026F4
+    69 0001:00002714    70 0001:00002720    74 0001:00002744    75 0001:00002749
+    79 0001:0000274C    80 0001:00002755    81 0001:00002760    82 0001:00002767
+    83 0001:00002778    86 0001:0000277C    87 0001:0000277F    88 0001:00002786
+    89 0001:0000278C    90 0001:00002793    91 0001:000027A0    95 0001:000027A4
+    96 0001:000027A9   100 0001:000027AC   101 0001:000027AF   120 0001:00002CDC
+   121 0001:00002CE3   122 0001:00002CF3   123 0001:00002CFE   125 0001:00002D15
+   126 0001:00002D1A   127 0001:00002D24   129 0001:00002D34   130 0001:00002D3F
+   131 0001:00002D43   132 0001:00002D4D   133 0001:00002D5F   136 0001:00002D64
+   139 0001:00002D77   142 0001:00002D7C   143 0001:00002D93   144 0001:00002D9C
+   145 0001:00002DA4   146 0001:00002DBA   147 0001:00002DC3   148 0001:00002DD6
+   153 0001:00002DF4   154 0001:00002E00   155 0001:00002E04   156 0001:00002E0D
+   157 0001:00002E13   158 0001:00002E18   160 0001:00002E22   161 0001:00002E26
+   163 0001:00002E2F   164 0001:00002E3A   168 0001:00002E4C   169 0001:00002E52
+   173 0001:00002E54   174 0001:00002E59   182 0001:00002E5C   183 0001:00002E7A
+   184 0001:00002E82   186 0001:00002E96   188 0001:00002EAE   189 0001:00002EBC
+   192 0001:00002ED0   195 0001:00002ED9   197 0001:00002EF4   196 0001:00002F17
+   198 0001:00002F22   199 0001:00002F2B   200 0001:00002F53   202 0001:00002F6B
+   203 0001:00002F79   204 0001:00002F9A   205 0001:00002FA1   206 0001:00002FAB
+   209 0001:00002FBE   210 0001:00002FCB   213 0001:00002FE3   216 0001:00003020
+   217 0001:00003047   218 0001:00003068   219 0001:00003075   225 0001:000030A0
+   226 0001:000030C6   227 0001:000030E5   228 0001:000030EF   229 0001:000030F8
+   230 0001:00003105   231 0001:0000310F   232 0001:00003112   233 0001:00003119
+   234 0001:00003121   237 0001:00003148   238 0001:0000314E   239 0001:00003157
+   240 0001:0000315E   241 0001:00003165   246 0001:00003168   247 0001:0000316D
+   250 0001:00003170   251 0001:00003173   252 0001:00003185   255 0001:0000318C
+   256 0001:0000318F   257 0001:0000319B   261 0001:000031A0   262 0001:000031A3
+   263 0001:000031AF   267 0001:000031B4   269 0001:000031B8   270 0001:000031CA
+   274 0001:000031DC   276 0001:000031E4   278 0001:000031E7   283 0001:000031E8
+   284 0001:000031EB   285 0001:000031FB   286 0001:00003205   287 0001:0000320E
+
+Line numbers for MVCBr.FMX.PageView(MVCBr.FMX.PageView.pas) segment .itext
+
+   289 0002:00000638
+
+Line numbers for MVCBr.FMX.LayoutViewManager(MVCBr.FMX.LayoutViewManager.pas) segment .text
+
+    88 0001:00003EC4    89 0001:00003EC5    90 0001:00003EDB    95 0001:00003EF8
+    96 0001:00003F18    97 0001:00003F24   101 0001:00003F48   102 0001:00003F4D
+   105 0001:00003F50   106 0001:00003F62   107 0001:00003F6B   112 0001:00003F88
+   120 0001:00003F93   121 0001:00003F9E   125 0001:00003FAC   126 0001:00003FB5
+   127 0001:00003FC0   128 0001:00003FC7   129 0001:00003FD8   132 0001:00003FDC
+   133 0001:00003FDD   134 0001:00003FE4   135 0001:00003FEC   138 0001:00003FF0
+   139 0001:00004006
+
+Line numbers for MVCBr.FMX.LayoutViewManager(MVCBr.FMX.LayoutViewManager.pas) segment .text
+
+   140 0001:00004036   144 0001:0000406C   145 0001:00004071   148 0001:00004074
+   149 0001:00004077   150 0001:00004085   156 0001:00004088   157 0001:0000408F
+   158 0001:0000409F   159 0001:000040AA   161 0001:000040C1   162 0001:000040C6
+   163 0001:000040D0   165 0001:000040E0   166 0001:000040EB   167 0001:000040EF
+   168 0001:000040F9   169 0001:0000410B   172 0001:00004110   175 0001:00004123
+   179 0001:00004128   180 0001:0000412D   191 0001:00004130   192 0001:00004153
+   193 0001:0000415B   195 0001:0000416F   197 0001:00004187   198 0001:00004196
+   201 0001:000041AD   204 0001:000041B7   207 0001:000041F3   208 0001:000041FD
+   211 0001:00004204   213 0001:0000423D   215 0001:00004242   209 0001:00004251
+   217 0001:00004262   218 0001:00004270   219 0001:0000427D   220 0001:0000428E
+   222 0001:00004294   226 0001:000042AA   227 0001:000042B8   232 0001:000042D2
+   231 0001:000042E0   234 0001:000042F2   233 0001:00004318   236 0001:00004324
+   237 0001:00004344   238 0001:0000434E   239 0001:00004378   241 0001:00004390
+   242 0001:0000439D   244 0001:000043AE   245 0001:000043B8   250 0001:000043CD
+   253 0001:0000440C   254 0001:00004433   255 0001:00004454   256 0001:00004461
+   262 0001:0000448C   264 0001:000044B2   265 0001:000044C2   266 0001:000044CF
+   267 0001:000044DF   268 0001:000044E5   269 0001:000044F3   270 0001:00004505
+   271 0001:00004508   272 0001:0000450F   273 0001:00004517   276 0001:00004540
+   277 0001:00004543   278 0001:00004555   281 0001:0000455C   282 0001:0000455F
+   283 0001:0000456B   287 0001:00004570   288 0001:00004573   289 0001:0000457F
+   293 0001:00004584   294 0001:00004587   299 0001:00004588   300 0001:0000458B
+   301 0001:00004595   302 0001:0000459E   307 0001:000045A0   308 0001:000045B5
+   309 0001:000045C0   310 0001:000045D4   312 0001:000045E9   314 0001:000045F6
+   315 0001:00004607   317 0001:0000461A   323 0001:00004638   324 0001:00004644
+   325 0001:00004648   326 0001:00004651   327 0001:00004657   333 0001:0000465C
+   334 0001:00004667
+
+Line numbers for MVCBr.FMX.LayoutViewManager(MVCBr.FMX.LayoutViewManager.pas) segment .itext
+
+   336 0002:00000640
+
+Line numbers for MVCBr.FMX.LayoutViewManager(System.ThreadSafe.pas) segment .text
+
+   800 0001:00004680   801 0001:0000468C   802 0001:00004694   803 0001:000046A2
+   805 0001:000046B9   807 0001:000046C9
+
+Line numbers for MVCBr.FMX.LayoutViewManager(System.ThreadSafe.pas) segment .text
+
+   820 0001:000046D4   821 0001:000046D7   822 0001:000046DF   823 0001:000046E2
+
+Line numbers for MVCBr.FMX.LayoutViewManager(System.ThreadSafe.pas) segment .text
+
+   915 0001:000046E4   916 0001:000046EC
+
+Line numbers for MVCBr.FMX.LayoutViewManager(System.Generics.Defaults.pas) segment .text
+
+    43 0001:00004700
+
+Line numbers for MVCBr.FMX.LayoutViewManager(System.Generics.Collections.pas) segment .text
+
+  4111 0001:0000470D
+
+Line numbers for .MVCBrFMX(MVCBrFMX.dpk) segment .text
+
+    43 0001:0000470B
+
+Bound resource files
+
+MVCBrFMX.res
+MVCBrFMX.drf
+
+
+Program entry point at 0002:00000648
