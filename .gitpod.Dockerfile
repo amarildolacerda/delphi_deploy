@@ -6,7 +6,7 @@ USER gitpod
 # Source: https://docs.microsoft.com/dotnet/core/install/linux-scripted-manual#scripted-install
 RUN mkdir -p /home/gitpod/dotnet && curl -fsSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel Current --install-dir /home/gitpod/dotnet
 RUN sudo apt update
-RUN sudo apt install wine
+RUN sudo apt install wine32
 
 
 
