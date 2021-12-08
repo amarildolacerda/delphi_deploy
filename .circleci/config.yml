@@ -17,11 +17,12 @@ jobs:
           name: "compilar example"
           shell: cmd.exe
           command: |
-              copy .\cmp\*.cfg .\example\bin\*.*
               cd example
               ..\cmp\dcc32 project1 -E"bin">log.txt
-              dir *.*>.\bin\dir.txt
+              dir *.*>dir.txt
+              copy *.cfg .\bin\*.*
               copy *.txt .\bin\*.*
+
       - store_artifacts:
           path: ./example/bin
           destination: artifact-file 
