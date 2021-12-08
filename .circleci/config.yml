@@ -18,8 +18,8 @@ jobs:
           shell: cmd.exe
           command: |
               cd example
-              ..\dcc32 project1 -E"bin">bin/log.txt
-              dir *.* /s >bin/dir.txt
+              ..\dcc32 project1 -E"bin">bin\log.txt
+              dir *.* /s >bin\dir.txt
       - store_artifacts:
           path: ./example/bin
           destination: artifact-file 
