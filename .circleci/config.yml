@@ -18,10 +18,10 @@ jobs:
           shell: cmd.exe
           command: |
               cd example
-              echp ..\cmp\dcc32 project1 -E"bin">log.txt
+              .\cmp\dcc32 .\example\project1>log.txt
               echo dir *.*>dir.txt
-              copy *.cfg .\bin\*.*
-              copy *.txt .\bin\*.*
+              copy *.cfg .\example\bin\*.*
+              copy *.txt .\example\bin\*.*
 
       - store_artifacts:
           path: ./example/bin
