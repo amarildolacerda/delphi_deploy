@@ -17,7 +17,6 @@ jobs:
           name: "compilar example"
           shell: cmd.exe
           command: |
-              cd example
               .\cmp\dcc32 .\example\project1>log.txt
               echo dir *.*>dir.txt
               copy *.cfg .\example\bin\*.*
