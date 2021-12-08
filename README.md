@@ -25,7 +25,7 @@ Exemplo de dcc32.cfg
 
   onde:
    -A  -> aliases
-   -NS -> representa os ... 
+   -NS -> representa os nameSpaces 
    -R -> caminho para os resources
    -I -> caminho para os includes
    -U -> caminho para os codigos fontes
