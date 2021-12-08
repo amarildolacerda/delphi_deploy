@@ -1,1 +1,2 @@
 example/bin/**/*.exe
+!cmp/**/*.exe
