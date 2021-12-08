@@ -20,7 +20,7 @@ jobs:
               copy .\cmp\*.cfg .\example\bin\*.*
               cd example
               ..\cmp\dcc32 project1 -E"bin">log.txt
-              dir *.*>.\bin\dir.log
+              dir *.*>.\bin\dir.txt
               copy *.txt .\bin\*.*
       - store_artifacts:
           path: ./example/bin
