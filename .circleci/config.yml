@@ -18,7 +18,7 @@ jobs:
           shell: cmd.exe
           command: |
               cd example
-              ..\dcc32 project1 -E"bin">log.txt
+              ..\cmp\dcc32 project1 -E"bin">log.txt
               dir *.* /s >dir.txt
               copy *.txt bin
       - store_artifacts:
