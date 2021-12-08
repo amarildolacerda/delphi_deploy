@@ -20,10 +20,7 @@ jobs:
               cd example
               ..\dcc32 project1 -E"bin">log.txt
               dir *.* /s >dir.txt
-      - run:
-           name: "copiar resultados"
-           command: |
-               copy *.txt bin       
+              copy *.txt bin
       - store_artifacts:
           path: ./example/bin
           destination: artifact-file 
