@@ -17,9 +17,9 @@ jobs:
           name: "compilar example"
           shell: cmd.exe
           command: |
-              .\cmp\dcc32 .\example\project1>log.txt
-              echo dir *.*>dir.txt
+              cd example
               copy *.cfg .\example\bin\*.*
+              ..\cmp\dcc32 project1>log.txt
               copy *.txt .\example\bin\*.*
 
       - store_artifacts:
