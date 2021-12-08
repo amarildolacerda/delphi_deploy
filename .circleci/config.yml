@@ -18,7 +18,8 @@ jobs:
           shell: cmd.exe
           command: |
               cd example
-              compilar.bat
+              ..\dcc32 project1 -E"bin"
+              dir bin/*.*
       - store_artifacts:
           path: ./example/bin
           destination: artifact-file 
