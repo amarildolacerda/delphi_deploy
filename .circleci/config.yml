@@ -23,7 +23,7 @@ jobs:
       - run:
            name: "copiar resultados"
            command: |
-               copy ./example/*.txt ./example/bin       
+               copy .\example\*.txt .\example\bin       
       - store_artifacts:
           path: ./example/bin
           destination: artifact-file 
