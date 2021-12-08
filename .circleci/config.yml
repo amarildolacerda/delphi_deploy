@@ -18,8 +18,8 @@ jobs:
           shell: cmd.exe
           command: |
               cd example
-              ..\cmp\dcc32 project1 -E"bin">log.txt
-              dir *.*>dir.txt
+              echp ..\cmp\dcc32 project1 -E"bin">log.txt
+              echo dir *.*>dir.txt
               copy *.cfg .\bin\*.*
               copy *.txt .\bin\*.*
 
