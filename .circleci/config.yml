@@ -19,4 +19,6 @@ jobs:
           command: |
               cd exemple
               compilar.bat
-       
+      - store_artifacts:
+          path: ./exemple
+          destination: artifact-file 
