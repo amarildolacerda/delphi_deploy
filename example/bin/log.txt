@@ -1,0 +1,4 @@
+Embarcadero Delphi for Win32 compiler version 32.0
+Copyright (c) 1983,2017 Embarcadero Technologies, Inc.
+project1.dpr(1) project1.dpr(1) project1.dpr(5) project1.dpr(5) project1.dpr(5) project1.dpr(5) project1.dpr(5) project1.dpr(5) project1.dpr(5) project1.dpr(5) project1.dpr(5) project1.dpr(5) project1.dpr(5) project1.dpr(5) project1.dpr(5) project1.dpr(16) 
+17 lines, 0.97 seconds, 114660 bytes code, 28604 bytes data.
