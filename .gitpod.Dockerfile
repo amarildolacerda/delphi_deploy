@@ -43,7 +43,7 @@ ENV GEM_HOME=/workspace/.rvm
 # RUN curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 
 # Install custom tools, runtime, etc.
-RUN sudo dpkg --add-architecture i386  
+#RUN sudo dpkg --add-architecture i386  
 RUN sudo apt-get update  
 RUN apt-get install -y \
       wine \
