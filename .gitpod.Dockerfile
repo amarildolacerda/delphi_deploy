@@ -43,16 +43,16 @@ ENV GEM_HOME=/workspace/.rvm
 RUN curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 
 # Install custom tools, runtime, etc.
-RUN dpkg --add-architecture i386 && apt-get update  
-RUN apt-get install -y \
-      wine \
-      wine32 \
-      wine64 \
-      libwine \
-      libwine:i386 \
-      fonts-wine
+#RUN dpkg --add-architecture i386 && apt-get update  
+#RUN apt-get install -y \
+#      wine \
+#      wine32 \
+#      wine64 \
+#      libwine \
+#      libwine:i386 \
+#      fonts-wine
 # finaliza
-RUN apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
+#RUN apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
 
 # Expose the PostgreSQL port
 # EXPOSE 5432
