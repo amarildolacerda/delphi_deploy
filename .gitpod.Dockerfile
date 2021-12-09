@@ -40,10 +40,11 @@ RUN bash -lc "rvm get stable --auto-dotfiles"
 ENV GEM_HOME=/workspace/.rvm
 
 ### Install Heroku CLI
-RUN curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+# RUN curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 
 # Install custom tools, runtime, etc.
-#RUN dpkg --add-architecture i386 && apt-get update  
+RUN sudo dpkg --add-architecture i386  
+RUN sudo apt-get update  
 RUN apt-get install -y \
       wine \
       wine32 \
