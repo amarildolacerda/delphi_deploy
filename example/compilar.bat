@@ -1,1 +1,1 @@
-..\cmp\dcc32 project1 -E"bin"
+..\cmp\dcc32 project1
