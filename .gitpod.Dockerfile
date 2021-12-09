@@ -1,6 +1,6 @@
 
 
-FROM debian:10
+FROM i386:debian
 
 # so I can install package without updating sources.list again
 RUN printf "deb http://deb.debian.org/debian buster main contrib non-free\ndeb http://security.debian.org/debian-security buster/updates main\ndeb http://deb.debian.org/debian buster-updates main"  > /etc/apt/sources.list
